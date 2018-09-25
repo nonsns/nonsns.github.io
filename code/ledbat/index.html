@@ -1,0 +1,898 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>LEDBAT</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <h2 id="ledbat">LEDBAT</h2>
+
+<div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> Still to migrate the page; below the Pmwiki code. This transistion is killing me... </p>
+		</div>
+
+<!--
+<script type="text/javascript">
+var sc_project=5933500;
+var sc_invisible=1;
+var sc_security="a35fc10e";
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="godaddy statistics"
+href="http://www.statcounter.com/godaddy_website_tonight/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/5933500/0/a35fc10e/1/" alt="godaddy
+statistics" ></a></div></noscript>
+-->
+
+<pre>
+
+!Ledbat
+-&gt;
+*[[#intro |Introduction]]
+*[[#hotwos | How to...]]
+**[[#howtorun | How to setup the LEDBAT module for ns2]]
+**[[#howtokernel | How to setup the LEDBAT module for the linux kernel]]
+**[[#ledbatparam | How to configure LEDBAT parameters]]
+*[[#faq | FAQ]]
+(:if false:) 
+*[[#other | Other LEDBAT implementations ]]
+(:if:)
+*[[#publications | Publications ]]
+*[[#contacts | Contacts]]
+-&lt;
+
+
+
+
+[[#intro]]
+!Introduction
+
+Welcome to our Low Extra Delay Background Transport (LEDBAT) page. LEDBAT is a new experimental congestion control protocol, designed for data transfers with lower than Best Effort priority that is standardized at the [[ https://datatracker.ietf.org/wg/ledbat/charter | IETF ]].  
+LEDBAT aims at providing a lower-than-best-effort service, yielding to elastic TCP traffic while at the same time efficiently exploiting the available bandwidth. Moreover it tries to introduce just a limited amount of additional delay on the forward path, in order to prevent self-induced congestion and avoid hurting interactive traffic (e.g. VoIP and gaming).
+We implement LEDBAT as a TCP flavor using the [[http://netlab.caltech.edu/projects/ns2tcplinux/ns2linux/index.html | TCP-Linux]] interface: in this way, (nearly) the same code runs as both a module in the '''Linux kernel''', as well as for the '''network simulator''' [[http://www.isi.edu/nsnam/ns/| [++ @@ns2@@ ++] ]]. Our code is heavily inspired by the TCP-LP Linux kernel implementation, from which our development started.
+In this page you will find our open implementation of the LEDBAT congestion control algorithm, as a TCP congestion control flavor (we use the TCP timestamp option to carry the values of the timestamps needed by the protocol to perform its calculations).  
+
+
+If you use the code, please cite it as:
+
+  Dario Rossi, Claudio Testa, Silvio Valenti, Luca Muscariello, 
+  [[ http://perso.telecom-paristech.fr/~drossi/papers/rossi10icccn.pdf | '''LEDBAT: the new BitTorrent congestion control protocol''' ]], 
+  ''International Conference on Computer Communications and Networks (ICCCN 2010)'', Zurich, Switzerland, August, 2010.
+
+
+and don't hesitate to look at the [[#publication | publication ]] section for other useful references and datasets.
+
+
+[[#howtos]]
+[[#howtorun]]
+!How to setup the LEDBAT module for ns2
+
+Here we provide the [[ Data:tcp_ledbat.c | ns2 source code of the TCP-LEDBAT ]] implementation of draft v0 (notice that while intermediate draft version changed much from v0, the latest v10 and the RFC are similar to v0).  Alternatively, have a look at the [[#howtokernel | kernel]] implementatio below, that has been updated to draft v9, and that should be straightforward to adapting to ns2 (in which case you may need to follow these [[http://netlab.caltech.edu/projects/ns2tcplinux/ns2linux/tutorial/index.html | instructions]]). 
+
+
+1. If you have not done it yet, follow these [[http://www.isi.edu/nsnam/ns/ns-build.html | instructions ]] to download and build [++ @@ns2@@ ++].
+
+2. download the [[ Data:tcp_ledbat.c | source code]] of our ns2 implementation and save it as [++ @@tcp_ledbat.c@@ ++] in the directory [++ @@tcp/linux/src/@@ ++] under the [++ @@ns@@ ++] source tree.
+
+3. edit [++ @@Makefile.in@@ ++] in the [++ @@ns@@ ++] source directory, adding the new file to the object list
+
+    OBJ_CC = [=\=]
+    ...
+    '''tcp/linux/src/tcp_ledbat.o [=\=]'''
+    ...
+
+4. recompile the simulator
+
+    $ configure
+    $ make
+
+5. in your tcl script, include the following lines to create a LEDBAT sender node (cfr. tcp-linux [[ http://netlab.caltech.edu/projects/ns2tcplinux/ns2linux/tutorial/index.html | tutorial]] for more information)
+    
+    ...
+    set tcp_sender [new Agent/TCP/Linux]
+    $tcp_sender set timestamps_ true
+    $tcp_sender select_ca ledbat
+    ...
+
+[[#howtokernel]]
+!How to setup the LEDBAT module for the linux kernel
+
+We have updated the source code of TCP-LEDBAT to version 9 of the [[http://tools.ietf.org/html/draft-ietf-ledbat-congestion-09 | draft ]]. 
+Notice that while we have carefully tested the [[#howtorun | simulation code]], the kernel-level code should be regarded as alpha and needs much more testing: any bug reports or patches are welcome!. Please also have a look to our [[https://github.com/silviov/TCP-LEDBAT | git repository]] for more updates.
+
+
+1. Download the code from the [[https://github.com/silviov/TCP-LEDBAT | git repository]] 
+containing the module source and the @@Makefile@@
+
+2. Follow the instruction in the README file
+    
+    tar xvzf ledbat-module.tgz
+    cd ledbat-module
+    make; make install
+    sudo modprobe tcp_ledbat
+
+3. Enable the congestion control for new connections
+
+    sudo sysctl -w net.ipv4.tcp_congestion_control=ledbat
+
+4. If you prefer not to switch all connections to LEDBAT, you can just add it to the allowed congestion control algorithms
+   
+   sudo sysctl net.ipv4.tcp_allowed_congestion_control="cubic reno ledbat" 
+
+and then use the @@server.c@@ and @@client.c@@ simple programs to test the module (alternatively, later version of iperf let you select the congestion control flavor through the @@-Z@@ option directly from the command line).
+
+[[#ledbatparam]]
+!  How to configure LEDBAT parameters
+
+The tcp_ledbat module has the following parameters.
+
+:'''base_histo_len''': length of the base_history vector, default=6
+:'''noise_filter_len''': length of the noise_filter vector, default=3
+:'''target''': TARGET queuing delay, default=25
+:'''alpha1''': numerator of the GAIN, default=1
+:'''alpha2''': denominator of the GAIN, default=1
+:'''min_impl''': select the minimum implementation:  default=0\\
+0 use the standart [++ @@base_histo@@ ++] \\
+1 use the minimum over all ledbat connections \\
+2 use the one-way delay moving average
+:'''do_ss''': specify wheter to perform slow start:  default=0\\
+0 no \\
+1 yes, à la TCP (i.e., setting initial threshold to \infty) \\
+2 yes, using a custom slow-start threshold '''ledbat_ssthresh''' to switch to congestion avoidance (i.e. prior that avoiding a loss), 
+ default=65000 
+
+If, for instance, you want to change the target to 100ms, include this line in your script: 
+
+    $tcp_sender set_ca_param ledbat target 100
+
+[[#faq]]
+!FAQ
+
+* '''The code seems not to follow the draft. You forgot to divide offset by @@target@@ and @@cwnd@@.'''
+
+Right, the code tries to avoid floating point arithmetic so we used a trick to avoid this calculation. Let's have a look at the code:
+
+    max_cwnd = ((u32) (tp-&gt;snd_cwnd))*target;
+    [...]
+    cwnd = tp-&gt;snd_cwnd_cnt + offset;
+    tp-&gt;snd_cwnd_cnt = cwnd;
+    if (ledbat-&gt;snd_cwnd_cnt &gt;= max_cwnd) {
+        tp-&gt;snd_cwnd++;
+    }
+
+Basically we use the counter @@tp-&gt;snd_cwnd_cnt@@ to avoid floating point calculation. We increment the congestion window value (@@tp-&gt;snd_cwnd@@) only when the counter reaches @@max_cwnd@@, which is equal to @@snd_cwnd * target@@. This means that to increment the congestion window we need at least @@cwnd@@ packets with a delay of 0, because each of these packets is going to increment the counter of @@target@@. This is equivalent to divide @@offset@@ by @@cwnd@@ and @@target@@.
+
+
+
+
+[[#contacts]]
+!Contacts
+
+*Dario Rossi    &lt;dario (dot) rossi (at) enst (dot) fr&gt;
+*Claudio Testa  &lt;claudio (dot) testa (at) enst (dot) fr&gt;
+*Silvio Valenti &lt;silvio (dot) valenti (at) gmail (dot) com&gt;
+
+
+[[#publications]]
+! Publications
+Our work on LEDBAT is based on either  experimental measurements cite{PAM-10},cite{TMA-12},cite{TMA-13a},cite{TMA-13b},cite{PAM-13},cite{P2P-12},cite{P2P-13a} or simulative cite{ICCCN-10},cite{LCN-10},cite{GLOBECOM-10},cite{CoNEXT-12},cite{COMNET-13} approaches.  Earlier work focused on congestion control perspective from a single flow cite{PAM-10},cite{ICCCN-10},cite{LCN-10},cite{GLOBECOM-10},cite{COMNET-13}, after which we focused on the impact of LEDBAT from the BitTorrent swarm perspective cite{P2P-11},cite{TMA-12},cite{P2P-13a} and more recently on its impact on bufferbloat cite{P2P-12},cite{TMA-13a},cite{PAM-13} or its interdependence with Active Queue Management techniques cite{CoNEXT-12},cite{TMA-13b},cite{ITC-13}
+
+We pointed out the existence of a latecomer unfairness problem cite{ICCCN-10}, to which we propose some  solution in cite{GLOBECOM-10,COMNET-13}. We further addressed a sensitivity analysis of LEDBAT in cite{LCN-10} where we also relatively compare the level of low-priority of LEDBAT, TCP-LP and TCP-NICE. Further, cite{PAM-10} points out that the level of low priority depends on the TCP flavor and settings, and that cross traffic in the reverse path may have an important impact in practice.   Finally, notice that LEDBAT manages to achieve a lower-than-best-effort (i.e., lower than TCP) priority only in case of FIFO buffering: our simulative cite{CoNEXT-12}  and experimental cite{TMA-13b} work shows that in case LEDBAT and TCP share a bottleneck buffer governed by AQM (RED, Choke, CoDel) or scheduling (SFQ, DRR) then they will fairly compete for bottleneck resources. Beside this issue is more general than the LEDBAT case, as it also applies to other lower-than-best-effort protocols such as TCP-NICE and TCP-LP for instance -- so check the [[ Dataset/LEDBAT+AQM | LEDBAT+AQM ]] section of this website. 
+
+While the latecomer unfairness problem is especially bad in case of backlogged connections (e.g., two competing uploads, backups, FTP-like transfers, etc.) it is less of a problem in case of small-lived or on/off sources cite{COMNET-13}. As such, performance studies based on simulation cite{P2P-11} or experiments cite{TMA-12} have shown LEDBAT to have a good interplay with the BitTorrent swarming protocol.  We have extended these results 
+using an experimental methodology in cite{P2P-13a}, considering a wider range of congestion control protocols, including low-priority alternatives to LEDBAT such as NICE and TCP-LP, or other delay-based protocols such as Vegas -- more details are available in the [[ Software/LBE | the Lower than Best Effort (LBE) ]] section of this website.
+
+At the same time, while one of the original goals of LEDBAT was to relieve the negative effects of self-induced congestion on the user experience, our work cite{P2P-12,TMA-13a,PAM-13} show that this problem is only partly solved -- as a single TCP connection, due to BitTorrent or to other applications, can still cause bufferbloat. More precisely, cite{PAM-13} proposes a methodology to infer the amount of queuing delay of remote peers exploiting the LEDBAT timestamps. We implemented the methodology in a software tool demonstrated at cite{P2P-12}, that  we used in a Internet measurement campaign -- more details and datasets in the  [[ Dataset.BufferbloatInternetCampaign | Bufferbloat ]] section of this website.
+
+
+bibtexquerytopic:[biblio.bib][ledbat]
+
+
+ 
+
+(:if false:)
+
+[[#other]]
+! Other LEBDAT implementations [[#ietf]]
+
+(based on a mail I sent on September 25th to 2010 ledbat@ietf.org)
+
+!! Available implementations
+
+Recently, several implementations of LEDBAT appeared: to the best of our knowledge, only BitTorrent [BT] and the ns2+Linux [OPENLEDBAT] implementations are publicy available, while other implementations are used in performance evaluation studies such as [ITC22] and [ATQR] but not available online.
+
+[BT] used to differ from LEDBAT specification in (1) the choice of a TARGET=100ms parameter (while in the draft is/was set to 25ms) and (2) in the use of variable framing (outside of draft scope).
+
+So far, these implementation have not been experimentally compared.
+
+
+!!  Experimental studies
+
+The BitTorrent implementation (though based on the previous closed-source uTP and not on the open-source [BT] release) has been evaluated in [PAM], which points out that the level of low priority of LEDBAT depends on the TCP flavor and settings, and that cross traffic in the reverse path may have an important impact in practice.
+
+Further details concerning the [BT] implementations are available in [IPTPS] where  BitTorrent details an algorithm to solve the problem of the clock drift in LEDBAT, that ameliorate the queuing delay estimation at the sender side.
+
+The experimental work in [ITC22] exploits instead a own implementation and points that LEDBAT may not work as expected (and actually might be needed) in case active queue management techniques AQM are applied in user modems (the study also suggests AQM to become a default practice in set-top-box devices)
+
+
+!!  Latecomer unfairness
+
+In the simplest setup [ICCCN] points out the existence of a latecomer unfairness problem, that is also discussed in the mailing list.
+
+[GLOBECOM] shows this to be tied to both the protocol dynamics as well as measurement errors, proposing simple solution.
+
+[ICCCN,GLOBECOM] however assume FIFO queuing, and it would be interesting to see the impact of actually deployed AQM techniques as suggested in [ITC22].
+
+[ARXIV] also shows the problem to be exacerbated by backlogged transmissions, in the sense that in chunk-by-chunk transmission, the time elapsed between consecutive chunks may flush the queue empty (and let latecomer correct their base delay estimate).
+
+Interestingly, while [ITC22] observe a latecomer issue, this phenomenon is not observed in [ATQR].  [ARXIV] further shows that latecomer unfairness also arise on [BT] implementation (depending on the scenario).
+
+
+!!  Sensitivity analysis and comparison
+
+[ICCNT] propose a dynamic adjustation of LEDBAT parameters to address oscillations of congestion window in  steady state.
+
+[LCN] performs a sensitivity analysis of LEDBAT (to the TARGET and GAIN settings) and also relatively compare the level of low-priority of LEDBAT, TCP-LP and TCP-NICE, showing LEDBAT to achieve the lowest priority.
+
+A sensitivity to heterogeneous TARGETs settings (i.e., the fact that Legacy implementations with higher TARGETs may starve compliant implementation) has been pointed out in the mailing list and [ITC22,LCN].
+
+Hence, chosing a single, fixed TARGET value remains an open point.
+
+
+!!  References
+
+[BT]
+G. Hazel. uTorrent Transport Protocol library. http://github.com/bittorrent/libutp, May 2010.
+
+[OPENLEDBAT] http://perso.infres.enst.fr/~drossi/index.php?n=Software.LEDBAT
+
+[ITC22]
+Joscha Schneider. Joerg Wagner,  Rolf Winter ,  Hans-Joerg Kolbe,
+"Out of my Way -- Evaluating Low Extra Delay Background Transport in an ADSL Access Network" . In Proceedings of the 22nd International Teletraffic Congress (ITC22), Amsterdam, The Netherlands, September 7 - 9 2010.
+
+[AQTR]
+Mugurel Ionut Andreica, Nicolae Tapus, Johan Pouwelse, "Performance Evaluation of a Python Implementation of the New LEDBAT Congestion Control Algorithm", Proceedings of the IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR'10), Romania, 28-30 May, 2010
+http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5520827
+
+[IPTPS]
+B. Cohen and A. Norberg. "Correcting for clock drift in uTP and
+LEDBAT." Invited talk at 9th USENIX International Workshop on
+Peer-to-Peer Systems (IPTPS 2010), San Jose, CA, Apr 2010.
+http://www.usenix.org/event/iptps10/tech/slides/cohen.pdf
+
+[ICCNT]
+A.J. Abu and S. Gordon. "A Dynamic Algorithm for Stabilising
+LEDBAT Congestion Window." In 2nd IEEE International Conference on
+Computer and Network Technology (ICCNT 2010), Bangkok, Thailand,
+Apr 2010.
+http://www.computer.org/portal/web/csdl/doi/10.1109/ICCNT.2010.37
+
+[PAM]
+D. Rossi, C. Testa and S. Valenti, "Yes, we LEDBAT: Playing with the new BitTorrent congestion control algorithm" . In Passive and Active Measurement (PAM'10), Zurich, Switzerland, April 2010.
+http://www.pam2010.ethz.ch/papers/full-length/4.pdf
+
+[ICCCN]
+D. Rossi, C. Testa, S. Valenti and L. Muscariello, "LEDBAT: the new BitTorrent congestion control protocol" . In International Conference on Computer Communication Networks (ICCCN'10), Zurich, Switzerland, August 2-5 2010.
+http://ieeexplore.ieee.org/iel5/5559661/5560011/05560080.pdf
+
+[LCN]
+G. Carofiglio, L. Muscariello, D. Rossi and C. Testa, "A hands-on Assessment of Transport Protocols with Lower than Best Effort Priority" . In 35th IEEE Conference on Local Computer Networks (LCN'10), Denver, CO, USA, October 10-14 2010.
+http://arxiv.org/pdf/1006.3017
+
+[GLOBECOM]
+G. Carofiglio, L. Muscariello, D. Rossi and S. Valenti, "The quest for LEDBAT fairness". In IEEE Globecom'10, Miami, FL, USA, December 6-10 2010.
+http://arxiv.org/pdf/1006.3018v1
+
+[ARXIV] G. Carofiglio, L. Muscariello, D. Rossi and S. Valenti,
+"Rethinking low extra delay background transport protocols"
+http://arxiv.org/abs/1010.5623
+
+(:if:)
+
+
+</pre>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

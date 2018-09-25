@@ -1,0 +1,1325 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>bufferbloat</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> Due to the ongoing migration to Jekyll, this page is still work in progress </p>
+		</div>
+
+<h2 id="bufferbloat-dataset">Bufferbloat dataset</h2>
+
+<p>'’Bufferbloat’’ is the growth in buffer size that has led Internet delays to occasionally exceed the light propagation delay from the Earth
+to the Moon. Manufacturers have built in large buffers to prevent losses on Wi-Fi, cable and ADSL links. But the combination of some links’
+limited bandwidth with TCP’s tendency to saturate that bandwidth results in  excessive queuing delays. In response, new congestion control protocols such as BitTorrent’s uTP/LEDBAT aim at explicitly limiting the delay that they add at the bottleneck link.</p>
+
+<p>In this page, we make our <a href="#references"><i class="fa fa-file-text-o"></i> results</a>,  code and <a href="#dataset"><i class="fa fa-cube"></i> dataset</a>  available to the scientific community.</p>
+
+<hr />
+
+<h3 id="experimental-validation">Experimental validation</h3>
+
+<p>We propose true,   demonstrate true and validate  true a methodology for bufferbloat inference.
+The technique  infeers the upstream queuing delay experienced by remote hosts: both those using LEDBAT, through LEDBAT’s native one-way delay measurements, and those using TCP, through the Time-stamp Option. The methodology has been published at true, demonstrated at true and implemented in <a href="http://tstat.tlc.polito.it">Tstat</a></p>
+
+<p><img src="/drossi/assets/images/bufferbloat-fig2.png" alt="" title="Controlled experiments to validation the methodology" width="100%px" /></p>
+
+<p>We   extensively validate  the methodology in a testbed. To let the community repeat our results, we share the <a href="/drossi/data/bufferbloat-methodology/testbed_traces_fig2.tgz"><i class="fa fa-cube"></i> raw traces</a> and  <a href="/drossi/data/bufferbloat-methodology/log_fig2.tgz"><i class="fa fa-cube"></i> logs</a>    that are used to obtain Fig. 2(a) and (b) shown above and described in this  <a href="/drossi//data/bufferbloat-methodology/techrep.pdf"><i class="fa fa-file-pdf-o"></i> extended technical report</a>. File names in the dataset are labeled accordingly.</p>
+
+<ul>
+  <li><a href="/drossi/data/bufferbloat-methodology/testbed_traces_fig2.tgz"><i class="fa fa-cube"></i> packet level traces</a></li>
+  <li><a href="/drossi/data/bufferbloat-methodology/log_fig2.tgz"><i class="fa fa-cube"></i> kernel and application level ground truth logs</a></li>
+</ul>
+
+<hr />
+
+<h3 id="-internet-experiments"><a name="dataset"></a> Internet experiments</h3>
+
+<p>To assess the extent of bufferbloat in the wild, we have performed an Internet measurement campaigns, whose data is available below. 
+Specifically,  we apply the technique on both active BitTorrent true and large-scale scanning experiments true  to obtain measuremnts of Internet bufferbloat.</p>
+
+<p>Our measurement campaign (see an excerpt in the figure below) let us conclude that:</p>
+<ul>
+  <li>LEDBAT delay-based congestion control is effective in keeping the queuing delay low for the bulk of the peers,</li>
+  <li>yet  about 1% of peers often experience queuing delay in excess of 1 s, and</li>
+  <li>not only the network access type, but also the BitTorrent client  and the operating system concurr in determining the bufferbloat magnitudo.</li>
+</ul>
+
+<p><img src="/drossi/assets/images/bufferbloat.png" alt="" title="Measurement and validation of Internet bufferbloat" width="80%" /></p>
+
+<p>We make the dataset used in true  paper available to the community. Dataset consists of several BitTorrent packet-level traces, concerning  12 torrents, captured from 3 vantage points for a total of 88 experiments in which we contacted over 25K external peers.</p>
+
+<ul>
+  <li><a href="/drossi/data/bufferbloat-methodology/bufferbloat-internet-experiments-tma2013.tgz"><i class="fa fa-cube"></i> Internet experiments</a>  (20GB compressed size, 88 experiments, raw pcap traces captured)</li>
+  <li>the <a href="/drossi/data/bufferbloat-internet/fig2.tgz"><i class="fa fa-cube"></i> four peers sample</a>  used in Fig.2 of true</li>
+</ul>
+
+<hr />
+
+<h3 id="-references"><a name="references"></a> References</h3>
+
+<ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="P2P-12"></a>[P2P-12]</strong></abbr>
+	, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi12p2p.pdf"></i> 
+		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi12p2p.pdf"> <emph> Inferring the buffering delay of remote BitTorrent peers under LEDBAT vs TCP </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE P2P’XII 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="P2P-12">Abstract</button>
+<div id="P2P-12" class="collapse">
+<p>Nowadays, due to excessive queuing, Internet delays
+grow sometimes as large as the propagation delay from moon to
+earth – for which the bufferbloat term was recently coined. Some
+points to active queue management (AQM) as its solution, others
+propose end-to-end congestion control techniques – like BitTor-
+rent that recently replaced TCP with the LEDBAT transport
+protocol.
+In this demo, we implement a methodology to monitor the
+upstream queuing delay experienced by remote hosts, both those
+using LEDBAT, through LEDBAT’s native one-way delay mea-
+surements, and those using TCP, through the timestamp option.
+By actively taking part into torrent downloads as leechers, our
+software is able to infer (and visualize) the amount of access
+delay suffered by the remote peers.
+</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-P2P-12">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-P2P-12" class="collapse well"> Nowadays, due to excessive queuing, Internet delays
+grow sometimes as large as the propagation delay from moon to
+earth – for which the bufferbloat term was recently coined. Some
+points to active queue management (AQM) as its solution, others
+propose end-to-end congestion control techniques – like BitTor-
+rent that recently replaced TCP with the LEDBAT transport
+protocol.
+In this demo, we implement a methodology to monitor the
+upstream queuing delay experienced by remote hosts, both those
+using LEDBAT, through LEDBAT’s native one-way delay mea-
+surements, and those using TCP, through the timestamp option.
+By actively taking part into torrent downloads as leechers, our
+software is able to infer (and visualize) the amount of access
+delay suffered by the remote peers.
+  </div>
+<div id="BibTeX-P2P-12" class="collapse"> <pre>@inproceedings{DR:P2P-12,
+  title = {Inferring the buffering delay of remote {BitTorrent} peers under {LEDBAT} vs {TCP}},
+  author = {},
+  year = {2012},
+  booktitle = {IEEE P2P'XII},
+  annote = {category=article state=published project=misc},
+  note = {keyword=ledbat},
+  month = sep,
+  pages = {77-78},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PAM-13"></a>[PAM-13]</strong></abbr>
+	Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13pam.pdf"></i> 
+		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13pam.pdf"> <emph> Remotely Gauging Upstream Bufferbloat Delays </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Passive and Active Measurement (PAM), Extended Abstract 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="PAM-13">Abstract</button>
+<div id="PAM-13" class="collapse">
+<p>Bufferbloat is the growth in buffer size that has led Internet delays to occasionally exceed the light propagation delay from the Earth to the Moon.  Manufacturers have built in large buffers to prevent losses on Wi-Fi, cable and ADSL links. But the combination of some links’ limited bandwidth with TCP’s tendency to saturate that bandwidth results in excessive queuing delays. In response, new congestion control protocols such as  BitTorrent’s uTP/LEDBAT aim at explicitly limiting the delay that they add over the bottleneck link. This work
+proposes and validate a methodology to monitor the upstream queuing delay experienced by remote hosts, both those using LEDBAT, through LEDBAT’s native one-way delay measurements, and those using TCP (via the Timestamp Option).  </p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-13">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-13">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PAM-13" class="collapse well"> Bufferbloat is the growth in buffer size that has led Internet delays to occasionally exceed the light propagation delay from the Earth to the Moon.  Manufacturers have built in large buffers to prevent losses on Wi-Fi, cable and ADSL links. But the combination of some links’ limited bandwidth with TCP’s tendency to saturate that bandwidth results in excessive queuing delays. In response, new congestion control protocols such as  BitTorrent’s uTP/LEDBAT aim at explicitly limiting the delay that they add over the bottleneck link. This work
+proposes and validate a methodology to monitor the upstream queuing delay experienced by remote hosts, both those using LEDBAT, through LEDBAT’s native one-way delay measurements, and those using TCP (via the Timestamp Option).    </div>
+<div id="BibTeX-PAM-13" class="collapse"> <pre>@inproceedings{DR:PAM-13,
+  author = {Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A.},
+  title = {Remotely Gauging Upstream Bufferbloat Delays},
+  booktitle = {Passive and Active Measurement (PAM), Extended Abstract},
+  year = {2013},
+  address = {Hong Kong, China},
+  month = mar,
+  annote = {category=article state=published project=mplane},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13pam.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13pam.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13pam.pdf},
+  note = {keyword=ledbat,bufferbloat,mplane}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TMA-13a"></a>[TMA-13a]</strong></abbr>
+	Chirichella, C. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13tma-a.pdf"></i> 
+		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13tma-a.pdf"> <emph> To the Moon and back: are Internet bufferbloat delays really that large </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE INFOCOM Workshop on Traffic Measurement and Analysis (TMA’13) 	   
+
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TMA-13a">Abstract</button>
+<div id="TMA-13a" class="collapse">
+<p>Recently, the \u201cbufferbloat\u201d term has been coined to describe very large queuing delays (up to several seconds) experienced by Internet users. This problem has pushed protocol designer to deploy alternative (delay-based) models to the standard (lossbased) TCP best effort congestion control. In this work, we exploit timestamp information carried in the LEDBAT header, a protocol proposed by BitTorrent as replacement for TCP data transfer, to infer the queuing delay suffered by remote hosts. We conduct a thorough measurement campaign, that let us conclude that (i) LEDBAT delay-based congestion control is effective in keeping the queuing delay low for the bulk of the peers, (ii) yet about 1% of peers often experience queuing delay in excess of 1s, and (iii) not only the network access type, but also the BitTorrent client and the operating system concurr in determining the bufferbloat magnitude.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-13a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-13a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TMA-13a" class="collapse well"> Recently, the \u201cbufferbloat\u201d term has been coined to describe very large queuing delays (up to several seconds) experienced by Internet users. This problem has pushed protocol designer to deploy alternative (delay-based) models to the standard (lossbased) TCP best effort congestion control. In this work, we exploit timestamp information carried in the LEDBAT header, a protocol proposed by BitTorrent as replacement for TCP data transfer, to infer the queuing delay suffered by remote hosts. We conduct a thorough measurement campaign, that let us conclude that (i) LEDBAT delay-based congestion control is effective in keeping the queuing delay low for the bulk of the peers, (ii) yet about 1% of peers often experience queuing delay in excess of 1s, and (iii) not only the network access type, but also the BitTorrent client and the operating system concurr in determining the bufferbloat magnitude.  </div>
+<div id="BibTeX-TMA-13a" class="collapse"> <pre>@inproceedings{DR:TMA-13a,
+  author = {Chirichella, C. and Rossi, D.},
+  title = {To the Moon and back: are Internet bufferbloat delays really that large},
+  booktitle = {IEEE INFOCOM Workshop on Traffic Measurement and Analysis (TMA'13)},
+  year = {2013},
+  address = {Turin, Italy},
+  month = apr,
+  annote = {category=article state=published project=mplane},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13tma-a.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13tma-a.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13tma-a.pdf},
+  note = {keyword=ledbat,bufferbloat,mplane}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="GLOBECOM-13"></a>[GLOBECOM-13]</strong></abbr>
+	Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13globecom.pdf"></i> 
+		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13globecom.pdf"> <emph> Passive bufferbloat measurement exploiting
+transport layer information </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE GLOBECOM 	   
+
+
+</emph>
+
+		   
+
+	 dec. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="GLOBECOM-13">Abstract</button>
+<div id="GLOBECOM-13" class="collapse">
+<p>"Bufferbloat" is the growth in buffer size that has
+led Internet delays to occasionally exceed the light propagation
+delay from the Earth to the Moon. Manufacturers have built
+in large buffers to prevent losses on Wi-Fi, cable and ADSL
+links. But the combination of some links limited bandwidth
+with TCP tendency to saturate that bandwidth results in
+excessive queuing delays. In response, new congestion control
+protocols such as BitTorrent uTP/LEDBAT aim at explicitly
+limiting the delay that they add at the bottleneck link. This work
+proposes a methodology to monitor the upstream queuing delay
+experienced by remote hosts, both those using LEDBAT, through
+LEDBAT native one-way delay measurements, and those using
+TCP, through the Timestamp Option. We report preliminary
+findings on bufferbloat-related queuing delays on an Internet
+measurement campaign involving a few thousand hosts.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-13">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-13">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-GLOBECOM-13" class="collapse well"> "Bufferbloat" is the growth in buffer size that has
+led Internet delays to occasionally exceed the light propagation
+delay from the Earth to the Moon. Manufacturers have built
+in large buffers to prevent losses on Wi-Fi, cable and ADSL
+links. But the combination of some links limited bandwidth
+with TCP tendency to saturate that bandwidth results in
+excessive queuing delays. In response, new congestion control
+protocols such as BitTorrent uTP/LEDBAT aim at explicitly
+limiting the delay that they add at the bottleneck link. This work
+proposes a methodology to monitor the upstream queuing delay
+experienced by remote hosts, both those using LEDBAT, through
+LEDBAT native one-way delay measurements, and those using
+TCP, through the Timestamp Option. We report preliminary
+findings on bufferbloat-related queuing delays on an Internet
+measurement campaign involving a few thousand hosts.  </div>
+<div id="BibTeX-GLOBECOM-13" class="collapse"> <pre>@inproceedings{DR:GLOBECOM-13,
+  title = {Passive bufferbloat measurement exploiting
+  transport layer information},
+  author = {Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A.},
+  year = {2013},
+  booktitle = {IEEE GLOBECOM},
+  annote = {category=article state=published project=mplane},
+  month = dec,
+  note = {keyword=traffic,ledbat},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PAM-14b"></a>[PAM-14b]</strong></abbr>
+	Casoria, P. and Rossi, D. and Auge, J. and Buob, Marc-Olivier and Friedman, T. and Pescape, A., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi14pam-b.pdf"></i> 
+		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi14pam-b.pdf"> <emph>  Distributed active measurement of Internet queuing delays  </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Passive and Active Measurement (PAM), Extended Abstract 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="PAM-14b">Abstract</button>
+<div id="PAM-14b" class="collapse">
+<p>Despite growing link capacities, over-dimensioned buffers are still
+causing, in the Internet of the second decade of the third millenium, hosts to
+suffer from severe queuing delays (or bufferbloat). While maximum bufferbloat
+possibly exceeds few seconds, it is far less clear how often this maximum is hit
+in practice. This paper reports on our ongoing work to build a spatial and temporal map of Internet bufferbloat, describing a system based on distributed agents
+running on PlanetLab that aims at providing a quantitative answer to the above
+question.
+
+</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-14b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-14b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PAM-14b" class="collapse well"> Despite growing link capacities, over-dimensioned buffers are still
+causing, in the Internet of the second decade of the third millenium, hosts to
+suffer from severe queuing delays (or bufferbloat). While maximum bufferbloat
+possibly exceeds few seconds, it is far less clear how often this maximum is hit
+in practice. This paper reports on our ongoing work to build a spatial and temporal map of Internet bufferbloat, describing a system based on distributed agents
+running on PlanetLab that aims at providing a quantitative answer to the above
+question.
+
+  </div>
+<div id="BibTeX-PAM-14b" class="collapse"> <pre>@inproceedings{DR:PAM-14b,
+  author = {Casoria, P. and Rossi, D. and Auge, J. and Buob, Marc-Olivier and Friedman, T. and Pescape, A.},
+  title = { Distributed active measurement of Internet queuing delays },
+  booktitle = {Passive and Active Measurement (PAM), Extended Abstract},
+  year = {2014},
+  address = {Los Angeles, USA},
+  month = mar,
+  annote = {category=article state=published project=mplane},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi14pam-b.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi14pam-b.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi14pam-b.pdf},
+  note = {keyword=bufferbloat,mplane,measurement}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li></ul>
+
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

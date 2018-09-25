@@ -1,0 +1,31 @@
+/*  (failed) attemp at making dropdown menus on hover */
+
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+
+
+
+/*  (failed) attemp at making dropdown menus on hover */
+
+navigation #navbar .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/*  skip some vertical space due to fixed navbar 
+
+https://getbootstrap.com/docs/3.3/components/#navbar
+
+Body padding required
+The fixed navbar will overlay your other content, unless you add padding to the top of the <body>. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.
+
+body { padding-top: 70px; }
+Make sure to include this after the core Bootstrap CSS.
+
+*/
+body {  
+	padding-top:65px 
+} 

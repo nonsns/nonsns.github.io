@@ -1,0 +1,2884 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Recent publications</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <p><strong>Quick links</strong>: <a href="/drossi/publications/type"><i class="fa fa-th-large"></i> By type</a> / 
+		<a href="/drossi/publications/date"><i class="fa fa-calendar"></i>  By date</a> / 
+		<a href="/drossi/publications/project"><i class="fa fa-cogs"></i> By project</a> / 
+		<a href="/drossi/publications/topic"><i class="fa fa-folder-open"></i> By topic</a> / 
+		<a href="/drossi/publications/award"><i class="fa fa-star "></i> Award winning</a> / 
+		<a href="/drossi/publications/recent"><i class="fa fa-clock-o "></i> Recent stuff</a> / 
+		<a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&amp;hl=en&amp;oi=ao"><img src="/drossi/assets/icon/google-logo.png" alt="" width="64px" />Scholar</a> / 
+		<a href="http://dblp.uni-trier.de/pers/hd/r/Rossi:Dario"><img src="/drossi/assets/icon/dblp-logo.png" alt="" width="32px" />dblp</a> / 
+		<a href="https://orcid.org/0000-0003-3936-8876"><img src="/drossi/assets/icon/orcid-logo.png" alt="" width="32px" /></a></p>
+
+<h2 id="-recent-publication--last-20---"><a name="recent"></a> Recent publication <span class="badge"> (last 20 )  </span></h2>
+<ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ITC-18"></a>[ITC-18]</strong></abbr>
+	Enguehard, Marcel and Carofiglio, Giovanna and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18itc.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18itc.pdf"> <emph> A popularity-based approach for effective Cloud offload in Fog clusters </emph></a> 
+    	
+
+
+
+<emph>
+
+	   30th International Teletraffic Congress (ITC30) 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ITC-18">Abstract</button>
+<div id="ITC-18" class="collapse">
+<p>Recent research has put forward the concept of Fog computing, a deported intelligence for IoT networks. Fog clusters are meant to complement current cloud deployments, providing compute and storage resources directly in the access network – which is particularly useful for low-latency applications. How- ever, Fog deployments are expected to be less elastic than cloud platforms, since elasticity in Cloud platforms comes from the scale of the data-centers. Thus, a Fog node dimensioned for the average traffic load of a given application will not be able to handle sudden bursts of traffic. In this paper, we explore such a use-case, where a Fog-based latency-sensitive application must offload some of its processing to the Cloud. We build an analytical queueing model for deriving the statistical response time of a Fog deployment under different request Load Balancing (LB) strategies, contrasting a naive, an ideal (LFU-LB, assuming a priori knowledge of the request popularity) and a practical (LRU-LB, based on online learning of the popularity with an LRU filter) scheme. Using our model, and confirming the results through simulation, we show that our LRU-LB proposal achieves close-to-ideal performance, with high savings on Cloud offload cost with respect to a request-oblivious strategy in the explored scenarios.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ITC-18" class="collapse well"> Recent research has put forward the concept of Fog computing, a deported intelligence for IoT networks. Fog clusters are meant to complement current cloud deployments, providing compute and storage resources directly in the access network – which is particularly useful for low-latency applications. How- ever, Fog deployments are expected to be less elastic than cloud platforms, since elasticity in Cloud platforms comes from the scale of the data-centers. Thus, a Fog node dimensioned for the average traffic load of a given application will not be able to handle sudden bursts of traffic. In this paper, we explore such a use-case, where a Fog-based latency-sensitive application must offload some of its processing to the Cloud. We build an analytical queueing model for deriving the statistical response time of a Fog deployment under different request Load Balancing (LB) strategies, contrasting a naive, an ideal (LFU-LB, assuming a priori knowledge of the request popularity) and a practical (LRU-LB, based on online learning of the popularity with an LRU filter) scheme. Using our model, and confirming the results through simulation, we show that our LRU-LB proposal achieves close-to-ideal performance, with high savings on Cloud offload cost with respect to a request-oblivious strategy in the explored scenarios.  </div>
+<div id="BibTeX-ITC-18" class="collapse"> <pre>@inproceedings{DR:ITC-18,
+  author = {Enguehard, Marcel and Carofiglio, Giovanna and Rossi, Dario},
+  title = {A popularity-based approach for effective Cloud offload in Fog clusters},
+  booktitle = {30th International Teletraffic Congress (ITC30)},
+  month = sep,
+  location = {Vienna, Austria},
+  year = {2018},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18itc.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="BIGDAMA-18"></a>[BIGDAMA-18]</strong></abbr>
+	Putina, Andrian and Rossi, Dario and Bifet, Albert and Barth, Steven and Pletcher, Drew and Precup, Cristina and Nivaggioli, Patrice, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18bigdama.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18bigdama.pdf"> <emph> Telemetry-based stream-learning of BGP anomalies </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication Networks (Big-DAMA’18) 	   
+
+
+</emph>
+
+		   
+
+	 aug. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="BIGDAMA-18">Abstract</button>
+<div id="BIGDAMA-18" class="collapse">
+<p>Recent technology evolution allows network equipments to continuously stream a wealth of "telemetry" information, which pertains to multiple protocols and layers of the tack, at a very fine spatial-grain and high-frequency. Processing this deluge of telemetry data in real-time clearly offers new opportunities for network control and troubleshooting, but also poses serious challenges. We tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of BGP anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to features collected from a large-scale testbed comprising tens of routers traversed by 1 Terabit/s worth of real application traffic. In spirit with the recent trend toward reproducibility of research results, we make our code and datasets available as open source to the scientific community</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-BIGDAMA-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-BIGDAMA-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-BIGDAMA-18" class="collapse well"> Recent technology evolution allows network equipments to continuously stream a wealth of "telemetry" information, which pertains to multiple protocols and layers of the tack, at a very fine spatial-grain and high-frequency. Processing this deluge of telemetry data in real-time clearly offers new opportunities for network control and troubleshooting, but also poses serious challenges. We tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of BGP anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to features collected from a large-scale testbed comprising tens of routers traversed by 1 Terabit/s worth of real application traffic. In spirit with the recent trend toward reproducibility of research results, we make our code and datasets available as open source to the scientific community  </div>
+<div id="BibTeX-BIGDAMA-18" class="collapse"> <pre>@inproceedings{DR:BIGDAMA-18,
+  author = {Putina, Andrian and Rossi, Dario and Bifet, Albert and Barth, Steven and Pletcher, Drew and Precup, Cristina and Nivaggioli, Patrice},
+  title = {Telemetry-based stream-learning of BGP anomalies},
+  booktitle = {ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication Networks (Big-DAMA'18)},
+  month = aug,
+  year = {2018},
+  location = {Budapest, Hungary},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18bigdama.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="SIGCOMM-18a"></a>[SIGCOMM-18a]</strong></abbr>
+	da Hora, Diego Neves and Rossi, Dario and Christophides, Vassilis and Teixeira, Renata, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-a.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-a.pdf"> <emph> A practical method for measuring Webabove-the-fold time </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM SIGCOMM, Demo Session 	   
+
+
+</emph>
+
+		   
+
+	 aug. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="SIGCOMM-18a">Abstract</button>
+<div id="SIGCOMM-18a" class="collapse">
+<p>Page load time (PLT) is still the most common application Quality of Service (QoS) metric to estimate the Quality of Experience (QoE) of Web users. Yet, recent literature abounds with interesting proposals for alternative metrics (e.g., Above The Fold, SpeedIndex and variants) that aim at closely capturing how users perceive the Webpage rendering process. However, these novel metrics are typically computationally expensive, as they require to monitor and post-process videos of the rendering process, and have failed to be widely deployed. In this demo, we show our implementation of an open-source Chrome extension that implements a practical and lightweight method to measure the approximated Above-the-Fold (AATF) time, as well as others Web performance metrics. The idea is, instead of accurately monitoring the rendering output, to track the download time of the last visible object on screen (i.e., “above the fold”). Our plugin also has options to save detailed reports for later analysis, a functionality ideally suited for researchers wanting to gather data from Web experiments.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-SIGCOMM-18a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SIGCOMM-18a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-SIGCOMM-18a" class="collapse well"> Page load time (PLT) is still the most common application Quality of Service (QoS) metric to estimate the Quality of Experience (QoE) of Web users. Yet, recent literature abounds with interesting proposals for alternative metrics (e.g., Above The Fold, SpeedIndex and variants) that aim at closely capturing how users perceive the Webpage rendering process. However, these novel metrics are typically computationally expensive, as they require to monitor and post-process videos of the rendering process, and have failed to be widely deployed. In this demo, we show our implementation of an open-source Chrome extension that implements a practical and lightweight method to measure the approximated Above-the-Fold (AATF) time, as well as others Web performance metrics. The idea is, instead of accurately monitoring the rendering output, to track the download time of the last visible object on screen (i.e., “above the fold”). Our plugin also has options to save detailed reports for later analysis, a functionality ideally suited for researchers wanting to gather data from Web experiments.  </div>
+<div id="BibTeX-SIGCOMM-18a" class="collapse"> <pre>@inproceedings{DR:SIGCOMM-18a,
+  title = {A practical method for measuring Webabove-the-fold time},
+  author = {da Hora, Diego Neves and Rossi, Dario and Christophides, Vassilis and Teixeira, Renata},
+  booktitle = {ACM SIGCOMM, Demo Session},
+  address = {Budapest, Hungary},
+  month = aug,
+  year = {2018},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="SIGCOMM-18b"></a>[SIGCOMM-18b]</strong></abbr>
+	Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-b.pdf"> <emph> FlowMon-DPDK: Parsimonious per-flow software monitoring at line rate </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM SIGCOMM, Demo Session 	   
+
+
+</emph>
+
+		   
+
+	 aug. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="SIGCOMM-18b">Abstract</button>
+<div id="SIGCOMM-18b" class="collapse">
+<p>Software packet processing is an intriguing approach due to its tremendous flexibility and cost reduction compared with hardware solutions, which have long dominated software performance. However, the emergence of fast packet I/O frameworks challenges hardware supremacy, as software solutions based on commodity hardware manage to process packets at high speed (10-40 Gbps). Whereas novel packet processing applications based on these new frameworks proliferate, fine-grained traffic monitor at high speed has received comparatively less attention. In this demonstration, we showcase FlowMon-DPDK a novel software traffic monitor recently published at TMA 2018, based on the Intel DPDK I/O framework. Our monitor is capable of providing runtime statistics at both packet- and flow-levels at 10 Gbit/s using a minimal amount of CPU resources, with packet losses that are order of magnitude smaller than state-of-the-art software. A video showing the demonstration is available at \urlhttps://youtu.be/B8uaw9UgMm0. For further details, please refer to our TMA 2018 paper.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-SIGCOMM-18b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SIGCOMM-18b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-SIGCOMM-18b" class="collapse well"> Software packet processing is an intriguing approach due to its tremendous flexibility and cost reduction compared with hardware solutions, which have long dominated software performance. However, the emergence of fast packet I/O frameworks challenges hardware supremacy, as software solutions based on commodity hardware manage to process packets at high speed (10-40 Gbps). Whereas novel packet processing applications based on these new frameworks proliferate, fine-grained traffic monitor at high speed has received comparatively less attention. In this demonstration, we showcase FlowMon-DPDK a novel software traffic monitor recently published at TMA 2018, based on the Intel DPDK I/O framework. Our monitor is capable of providing runtime statistics at both packet- and flow-levels at 10 Gbit/s using a minimal amount of CPU resources, with packet losses that are order of magnitude smaller than state-of-the-art software. A video showing the demonstration is available at \urlhttps://youtu.be/B8uaw9UgMm0. For further details, please refer to our TMA 2018 paper.  </div>
+<div id="BibTeX-SIGCOMM-18b" class="collapse"> <pre>@inproceedings{DR:SIGCOMM-18b,
+  author = {Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario},
+  title = {FlowMon-DPDK: Parsimonious per-flow software monitoring at line rate},
+  booktitle = {ACM SIGCOMM, Demo Session},
+  address = {Budapest, Hungary},
+  month = aug,
+  year = {2018},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="SIGCOMM-18c"></a>[SIGCOMM-18c]</strong></abbr>
+	Addanki, Vamsi and Linguaglossa, Leonardo and Roberts, James and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-c.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-c.pdf"> <emph> Fair dropping for multi-resource fairness in software routers </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 aug. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="SIGCOMM-18c">Abstract</button>
+<div id="SIGCOMM-18c" class="collapse">
+<p>We demonstrate that fair dropping is an effective means to realize fair sharing of bandwidth and CPU in a software router. Analysis underpinning the effectiveness of the proposed approach is presented in an IFIP Networking 2018 paper [1]</p> 
+</div>
+
+-->
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-SIGCOMM-18c">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SIGCOMM-18c">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-SIGCOMM-18c" class="collapse well"> We demonstrate that fair dropping is an effective means to realize fair sharing of bandwidth and CPU in a software router. Analysis underpinning the effectiveness of the proposed approach is presented in an IFIP Networking 2018 paper [1]  </div>
+<div id="BibTeX-SIGCOMM-18c" class="collapse"> <pre>@booktitle{DR:SIGCOMM-18c,
+  author = {Addanki, Vamsi and Linguaglossa, Leonardo and Roberts, James and Rossi, Dario},
+  title = {Fair dropping for multi-resource fairness in software routers},
+  booktitle = {ACM SIGCOMM, Demo Session},
+  address = {Budapest, Hungary},
+  month = aug,
+  year = {2018},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18sigcomm-c.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="HPSR-18"></a>[HPSR-18]</strong></abbr>
+	Gong, YiXi and Roberts, James W. and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18hpsr.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18hpsr.pdf"> <emph> Per-Flow Fairness in the Datacenter Network </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE International Conference on High Performance Switching and Routing (HPSR’18) 	   
+
+
+</emph>
+
+		   
+
+	 jun. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="HPSR-18">Abstract</button>
+<div id="HPSR-18" class="collapse">
+<p>	Datacenter network (DCN) design has been actively researched for over a decade. Solutions proposed range from end-to-end transport protocol redesign to more intricate, monolithic and cross-layer architectures. Despite this intense activity, to date we remark the absence of DCN proposals based on simple fair scheduling strategies. In this paper, we evaluate the effectiveness of FQ-CoDel in the DCN environment. Our results show, (i) that average throughput is greater than that attained with DCN tailored protocols like DCTCP, and (ii) the completion time of short flows is close to that of state-of-art DCN proposals like pFabric. Good enough performance and striking simplicity make FQ-CoDel a serious contender in the DCN arena. 	</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-HPSR-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-HPSR-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-HPSR-18" class="collapse well"> 	Datacenter network (DCN) design has been actively researched for over a decade. Solutions proposed range from end-to-end transport protocol redesign to more intricate, monolithic and cross-layer architectures. Despite this intense activity, to date we remark the absence of DCN proposals based on simple fair scheduling strategies. In this paper, we evaluate the effectiveness of FQ-CoDel in the DCN environment. Our results show, (i) that average throughput is greater than that attained with DCN tailored protocols like DCTCP, and (ii) the completion time of short flows is close to that of state-of-art DCN proposals like pFabric. Good enough performance and striking simplicity make FQ-CoDel a serious contender in the DCN arena. 	  </div>
+<div id="BibTeX-HPSR-18" class="collapse"> <pre>@inproceedings{DR:HPSR-18,
+  author = {Gong, YiXi and Roberts, James W. and Rossi, Dario},
+  title = {Per-Flow Fairness in the Datacenter Network},
+  booktitle = {IEEE International Conference on High Performance Switching and Routing (HPSR'18)},
+  month = jun,
+  year = {2018},
+  location = {Bucharest, Romania},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18hpsr.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="NOSSDAV-18"></a>[NOSSDAV-18]</strong></abbr>
+	Samain, Jacques and Carofiglio, Giovanna and Tortelli, Michele and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18nossdav.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18nossdav.pdf"> <emph> A simple yet effective network-assisted signal for enhanced DASH quality of experience </emph></a> 
+    	
+
+
+
+<emph>
+
+	   28th ACM SIGMM Workshop on Network and Operating Systems Support for Digital Audio and Video (NOSSDAV’18) 	   
+
+
+</emph>
+
+	 <i class="fa fa fa-star"></i> 	   
+
+	 jun. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="NOSSDAV-18">Abstract</button>
+<div id="NOSSDAV-18" class="collapse">
+<p>propose and evaluate simple signals coming from in-network telemetry that are effective to enhance the quality of DASH streaming. Specifically, in-network caching is known to positively affect DASH streaming quality but at the same time negatively affect the controller stability, increasing the quality switch ratio. Our contributions are to first (i) consider the broad spectrum of interaction between the network and the application, and then (ii) to devise how to effectively exploit in a DASH controller a very simple signal (i.e., per-quality hit ratio) that can be exported by framework such as Server and Network Assisted DASH (SAND) at fairly low rate (i.e., a timescale of 10s of seconds). Our thorough experimental campaign confirms the soundness of the approach (that significantly ameliorate performance with respect to network-blind DASH), as well as its robustness (i.e., tuning is not critical) and practical appeal (i.e., due to its simplicity and compatibility with SAND).</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+
+	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NOSSDAV-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NOSSDAV-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-NOSSDAV-18" class="collapse well"> propose and evaluate simple signals coming from in-network telemetry that are effective to enhance the quality of DASH streaming. Specifically, in-network caching is known to positively affect DASH streaming quality but at the same time negatively affect the controller stability, increasing the quality switch ratio. Our contributions are to first (i) consider the broad spectrum of interaction between the network and the application, and then (ii) to devise how to effectively exploit in a DASH controller a very simple signal (i.e., per-quality hit ratio) that can be exported by framework such as Server and Network Assisted DASH (SAND) at fairly low rate (i.e., a timescale of 10s of seconds). Our thorough experimental campaign confirms the soundness of the approach (that significantly ameliorate performance with respect to network-blind DASH), as well as its robustness (i.e., tuning is not critical) and practical appeal (i.e., due to its simplicity and compatibility with SAND).  </div>
+<div id="BibTeX-NOSSDAV-18" class="collapse"> <pre>@inproceedings{DR:NOSSDAV-18,
+  author = {Samain, Jacques and Carofiglio, Giovanna and Tortelli, Michele and Rossi, Dario},
+  title = {A simple yet effective network-assisted signal for enhanced DASH quality of experience},
+  booktitle = {28th ACM SIGMM Workshop on Network and Operating Systems Support for Digital Audio and Video (NOSSDAV'18)},
+  month = jun,
+  year = {2018},
+  note = {bestpaperaward},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18nossdav.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="QOMEX-18"></a>[QOMEX-18]</strong></abbr>
+	Hossfeld, Tobias and Metzger, Florian and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18qomex.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18qomex.pdf"> <emph> Speed Index: Relating the Industrial Standard for User Perceived Web Performance to Web QoE </emph></a> 
+    	
+
+
+
+<emph>
+
+	   10th International Conference on Quality of Multimedia Experience (QoMEX 2018) 	   
+
+
+</emph>
+
+		   
+
+	 jun. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="QOMEX-18">Abstract</button>
+<div id="QOMEX-18" class="collapse">
+<p>In 2012, Google introduced the Speed Index (SI) metric to quantify the speed of the Web page visual completeness for the actually displayed above-the-fold (ATF) portion of a Web page. In Web browsing a page might appear to the user to be already fully rendered, even though further content may still be retrieved, resulting in the Page Load Time (PLT). This happens due to the browser progressively rendering all objects, part of which can also be located below the browser window’s current viewport. The SI metric (and variants) thereof have since established themselves as a de facto standard in Web page and browser testing. While SI is a step in the direction of including the user experience into Web metrics, the actual meaning of the metric and especially its relationship between Speed Index and Web QoE is however far from being clear. The contributions of this paper are thus to first develop an understanding of the SI based on a theoretical analysis and second, to analyze the interdependency between SI and MOS values from an existing public dataset. Specifically, our analysis is based on two well established models that map the user waiting time to a user ACR-rating of the QoE. The analysis show that ATF-based metrics are more appropriate than pure PLT as input to Web QoE models.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-QOMEX-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-QOMEX-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-QOMEX-18" class="collapse well"> In 2012, Google introduced the Speed Index (SI) metric to quantify the speed of the Web page visual completeness for the actually displayed above-the-fold (ATF) portion of a Web page. In Web browsing a page might appear to the user to be already fully rendered, even though further content may still be retrieved, resulting in the Page Load Time (PLT). This happens due to the browser progressively rendering all objects, part of which can also be located below the browser window’s current viewport. The SI metric (and variants) thereof have since established themselves as a de facto standard in Web page and browser testing. While SI is a step in the direction of including the user experience into Web metrics, the actual meaning of the metric and especially its relationship between Speed Index and Web QoE is however far from being clear. The contributions of this paper are thus to first develop an understanding of the SI based on a theoretical analysis and second, to analyze the interdependency between SI and MOS values from an existing public dataset. Specifically, our analysis is based on two well established models that map the user waiting time to a user ACR-rating of the QoE. The analysis show that ATF-based metrics are more appropriate than pure PLT as input to Web QoE models.  </div>
+<div id="BibTeX-QOMEX-18" class="collapse"> <pre>@inproceedings{DR:QOMEX-18,
+  author = {Hossfeld, Tobias and Metzger, Florian and Rossi, Dario},
+  title = {Speed Index: Relating the Industrial Standard for User Perceived Web Performance to Web QoE},
+  booktitle = {10th International Conference on Quality of Multimedia Experience (QoMEX 2018)},
+  month = jun,
+  year = {2018},
+  location = {Sardinia, Italy},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18qomex.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TMA-18"></a>[TMA-18]</strong></abbr>
+	Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18tma.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18tma.pdf"> <emph> FlowMon-DPDK: Parsimonious per-flow software monitoring at line rate </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Network Traffic Measurement and Analysis Conference (TMA’18) 	   
+
+
+</emph>
+
+		   
+
+	 jun. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TMA-18">Abstract</button>
+<div id="TMA-18" class="collapse">
+<p>Testing experimental network devices requires deep performance analysis, which is usually performed with expensive, not flexible, hardware equipment. With the advent of high- speed packet I/O frameworks, general purpose equipments have narrowed the performance gap in respect of dedicated hardware and a variety of software-based solutions have emerged for handling traffic at very high speed. While the literature abounds with software traffic generators, existing monitoring solutions do not target worst-case scenarios (i.e., 64B packets at line rate) that are particularly relevant for stress-testing high-speed network functions, or occupy too many resources. In this paper we first analyze the design space for high-speed traffic monitoring that leads us to specific choices characterizing FlowMon-DPDK, a DPDK-based software traffic monitor that we make available as open source software. In a nutshell, FlowMon-DPDK provides tunable fine-grained statistics at both packet and flow levels. Experimental results demonstrate that our traffic monitor is able to provide per-flow statistics with 5-nines precision at high-speed (14.88 Mpps) using a exiguous amount of resources. Finally, we showcase FlowMon-DPDK usage by testing two open source prototypes for stateful flow-level end-host and in-network packet processing.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TMA-18" class="collapse well"> Testing experimental network devices requires deep performance analysis, which is usually performed with expensive, not flexible, hardware equipment. With the advent of high- speed packet I/O frameworks, general purpose equipments have narrowed the performance gap in respect of dedicated hardware and a variety of software-based solutions have emerged for handling traffic at very high speed. While the literature abounds with software traffic generators, existing monitoring solutions do not target worst-case scenarios (i.e., 64B packets at line rate) that are particularly relevant for stress-testing high-speed network functions, or occupy too many resources. In this paper we first analyze the design space for high-speed traffic monitoring that leads us to specific choices characterizing FlowMon-DPDK, a DPDK-based software traffic monitor that we make available as open source software. In a nutshell, FlowMon-DPDK provides tunable fine-grained statistics at both packet and flow levels. Experimental results demonstrate that our traffic monitor is able to provide per-flow statistics with 5-nines precision at high-speed (14.88 Mpps) using a exiguous amount of resources. Finally, we showcase FlowMon-DPDK usage by testing two open source prototypes for stateful flow-level end-host and in-network packet processing.  </div>
+<div id="BibTeX-TMA-18" class="collapse"> <pre>@inproceedings{DR:TMA-18,
+  author = {Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario},
+  title = {FlowMon-DPDK: Parsimonious per-flow software monitoring at line rate},
+  booktitle = {Network Traffic Measurement and Analysis Conference (TMA'18)},
+  month = jun,
+  year = {2018},
+  location = {Wien, Austria},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18tma.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="RIPE-76"></a>[RIPE-76]</strong></abbr>
+	da Hora, Diego Neves and Christophides, Vassilis and Teixeira, Renata and Rossi, Dario, 
+
+	
+    	Perceptual evaluation of web-browsing 
+		
+
+
+
+<emph>
+
+	   Talk at the RIPE76, Measurement and Tools (MAT) Working Group 	   
+
+
+</emph>
+
+		   
+
+	 may. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-RIPE-76">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-RIPE-76" class="collapse well">   </div>
+<div id="BibTeX-RIPE-76" class="collapse"> <pre>@inproceedings{DR:RIPE-76,
+  title = {Perceptual evaluation of web-browsing},
+  author = {da Hora, Diego Neves and Christophides, Vassilis and Teixeira, Renata and Rossi, Dario},
+  booktitle = {Talk at the RIPE76, Measurement and Tools (MAT) Working Group},
+  address = {Marseille, France},
+  month = may,
+  year = {2018}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="NETWORKING-18"></a>[NETWORKING-18]</strong></abbr>
+	Vamsi Addanki, Leonardo Linguaglossa, James Roberts and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18networking.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18networking.pdf"> <emph> Controlling software router resource sharing by fair packet dropping </emph></a> 
+    	
+
+
+
+<emph>
+
+		   
+
+
+</emph>
+
+		   
+
+	 may. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="NETWORKING-18">Abstract</button>
+<div id="NETWORKING-18" class="collapse">
+<p>The paper discusses resource sharing in a software router where both bandwidth and CPU may be bottlenecks. We propose a novel fair dropping algorithm to realize per-flow max-min fair sharing of these resources. The algorithm is compatible with features like batch I/O and batch processing that tend to make classical scheduling impractical. We describe an implementation using Vector Packet Processing, part of the Linux Foundation FD.io project. Preliminary experimental results prove the efficiency of the algorithm in controlling bandwidth and CPU sharing at high speed. Performance in dynamic traffic is evaluated using analysis and simulation, demonstrating that the proposed approach is both effective and scalable.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-NETWORKING-18" class="collapse well"> The paper discusses resource sharing in a software router where both bandwidth and CPU may be bottlenecks. We propose a novel fair dropping algorithm to realize per-flow max-min fair sharing of these resources. The algorithm is compatible with features like batch I/O and batch processing that tend to make classical scheduling impractical. We describe an implementation using Vector Packet Processing, part of the Linux Foundation FD.io project. Preliminary experimental results prove the efficiency of the algorithm in controlling bandwidth and CPU sharing at high speed. Performance in dynamic traffic is evaluated using analysis and simulation, demonstrating that the proposed approach is both effective and scalable.  </div>
+<div id="BibTeX-NETWORKING-18" class="collapse"> <pre>@inproceedings{DR:NETWORKING-18,
+  author = {Vamsi Addanki, Leonardo Linguaglossa, James Roberts and Rossi, Dario},
+  title = {Controlling software router resource sharing by fair packet dropping},
+  month = may,
+  location = {Zurich, Switzerland},
+  year = {2018},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18networking.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="INFOCOM-18a"></a>[INFOCOM-18a]</strong></abbr>
+	Putina, Andrian and Rossi, Dario and Bifet, Albert and Barth, Steven and Pletcher, Drew and Precup, Cristina and Nivaggioli, Patrice, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18infocom-a.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18infocom-a.pdf"> <emph> Unsupervised real-time detection of BGP anomalies leveraging high-rate and fine-grained telemetry data </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE INFOCOM, Demo Session 	   
+
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="INFOCOM-18a">Abstract</button>
+<div id="INFOCOM-18a" class="collapse">
+<p>Recent technology evolution of network equipment allow to continuously stream a wealth of information, pertaining to multiple protocols and layers of the stack, at a very fine spatial-grain and at furthermore high-frequency. Processing this deluge of telemetry data in real-time clearly offers new opportunities for network control and troubleshooting, but also poses serious challenges. In this demonstration, we tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of BGP anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to telemetry features collected from a large-scale testbed comprising tens of routers traversed by 1 Terabit/s worth of real application traffic.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-18a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-18a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-INFOCOM-18a" class="collapse well"> Recent technology evolution of network equipment allow to continuously stream a wealth of information, pertaining to multiple protocols and layers of the stack, at a very fine spatial-grain and at furthermore high-frequency. Processing this deluge of telemetry data in real-time clearly offers new opportunities for network control and troubleshooting, but also poses serious challenges. In this demonstration, we tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of BGP anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to telemetry features collected from a large-scale testbed comprising tens of routers traversed by 1 Terabit/s worth of real application traffic.  </div>
+<div id="BibTeX-INFOCOM-18a" class="collapse"> <pre>@inproceedings{DR:INFOCOM-18a,
+  author = {Putina, Andrian and Rossi, Dario and Bifet, Albert and Barth, Steven and Pletcher, Drew and Precup, Cristina and Nivaggioli, Patrice},
+  title = {Unsupervised real-time detection of BGP anomalies leveraging high-rate and fine-grained telemetry data},
+  booktitle = {IEEE INFOCOM, Demo Session},
+  month = apr,
+  year = {2018},
+  location = {Honolulu, Hawaii},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18infocom-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="INFOCOM-18b"></a>[INFOCOM-18b]</strong></abbr>
+	Barach, David and Linguaglossa, Leonardo and Marion, Damjan and Pfister, Pierre and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18infocom-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18infocom-b.pdf"> <emph> Batched packet processing for high-speed software data plane functions </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE INFOCOM, Demo Session 	   
+
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="INFOCOM-18b">Abstract</button>
+<div id="INFOCOM-18b" class="collapse">
+<p>In the last decade, a number of frameworks started to appear that implement, directly in user-space with kernel-bypass mode, high-speed software data plane functionalities on commodity hardware. Vector Packet Processor (VPP) is one of such frameworks, representing an interesting point in the design space in that it offers: (i) in user-space networking, (ii) the flexibility of a modular router (Click and variants) with (iii) the benefits brought by techniques such as batch processing that have become commonplace in lower-level building blocks of high-speed networking stacks (such as netmap or DPDK). Similarly to Click, VPP lets users arrange functions as a processing graph, providing a full-blown stack of network functions. However, unlike Click where the whole tree is traversed for each packet, in VPP each traversed node processes all packets in the batch before moving to the next node. This design choice enables several code optimizations that greatly improve the achievable processing throughput: the purpose of this demonstration is to introduce the main VPP concepts and architecture, as well as experimentally showing the impact of design choices –and especially of batch packet processing–, on the achievable packet forwarding performance.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-18b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-18b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-INFOCOM-18b" class="collapse well"> In the last decade, a number of frameworks started to appear that implement, directly in user-space with kernel-bypass mode, high-speed software data plane functionalities on commodity hardware. Vector Packet Processor (VPP) is one of such frameworks, representing an interesting point in the design space in that it offers: (i) in user-space networking, (ii) the flexibility of a modular router (Click and variants) with (iii) the benefits brought by techniques such as batch processing that have become commonplace in lower-level building blocks of high-speed networking stacks (such as netmap or DPDK). Similarly to Click, VPP lets users arrange functions as a processing graph, providing a full-blown stack of network functions. However, unlike Click where the whole tree is traversed for each packet, in VPP each traversed node processes all packets in the batch before moving to the next node. This design choice enables several code optimizations that greatly improve the achievable processing throughput: the purpose of this demonstration is to introduce the main VPP concepts and architecture, as well as experimentally showing the impact of design choices –and especially of batch packet processing–, on the achievable packet forwarding performance.  </div>
+<div id="BibTeX-INFOCOM-18b" class="collapse"> <pre>@inproceedings{DR:INFOCOM-18b,
+  author = {Barach, David and Linguaglossa, Leonardo and Marion, Damjan and Pfister, Pierre and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome},
+  title = {Batched packet processing for high-speed software data plane functions},
+  booktitle = {IEEE INFOCOM, Demo Session},
+  month = apr,
+  year = {2018},
+  location = {Honolulu, Hawaii},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18infocom-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PAM-18a"></a>[PAM-18a]</strong></abbr>
+	Salutari, Flavia and Cicalese, Danilo and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-a.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-a.pdf"> <emph> A closer look at IP-ID behavior in the Wild </emph></a> 
+    	
+
+
+
+<emph>
+
+	   International Conference on Passive and Active Network Measurement (PAM) 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="PAM-18a">Abstract</button>
+<div id="PAM-18a" class="collapse">
+<p>Originally used to assist network-layer fragmentation and reassembly, the IP identification field (IP-ID) has been used and abused for a range of tasks, from counting hosts behind NAT, to detect router aliases and, lately, to assist detection of censorship in the Internet at large. These inferences have been possible since, in the past, the IP- ID was mostly implemented as a simple packet counter: however, this behavior has been discouraged for security reasons and other policies, such as random values, have been suggested. In this study, we propose a framework to classify the different IP-ID behaviors using active probing from a single host. Despite being only minimally intrusive, our technique is significantly accurate (99% true positive classification) robust against packet losses (up to 20%) and lightweight (few packets suffices to discriminate all IP-ID behaviors). We then apply our technique to an Internet-wide census, where we actively probe one alive target per each routable /24 subnet: we find that that the majority of hosts adopts a constant IP-IDs (39%) or local counter (34%), that the fraction of global counters (18%) significantly diminished, that a non marginal number of hosts have an odd behavior (7%) and that random IP-IDs are still an exception (2%).</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-18a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-18a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PAM-18a" class="collapse well"> Originally used to assist network-layer fragmentation and reassembly, the IP identification field (IP-ID) has been used and abused for a range of tasks, from counting hosts behind NAT, to detect router aliases and, lately, to assist detection of censorship in the Internet at large. These inferences have been possible since, in the past, the IP- ID was mostly implemented as a simple packet counter: however, this behavior has been discouraged for security reasons and other policies, such as random values, have been suggested. In this study, we propose a framework to classify the different IP-ID behaviors using active probing from a single host. Despite being only minimally intrusive, our technique is significantly accurate (99% true positive classification) robust against packet losses (up to 20%) and lightweight (few packets suffices to discriminate all IP-ID behaviors). We then apply our technique to an Internet-wide census, where we actively probe one alive target per each routable /24 subnet: we find that that the majority of hosts adopts a constant IP-IDs (39%) or local counter (34%), that the fraction of global counters (18%) significantly diminished, that a non marginal number of hosts have an odd behavior (7%) and that random IP-IDs are still an exception (2%).  </div>
+<div id="BibTeX-PAM-18a" class="collapse"> <pre>@inproceedings{DR:PAM-18a,
+  title = {A closer look at IP-ID behavior in the Wild},
+  author = {Salutari, Flavia and Cicalese, Danilo and Rossi, Dario},
+  booktitle = {International Conference on Passive and Active Network Measurement (PAM)},
+  address = {Berlin, Germany},
+  year = {2018},
+  month = mar,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PAM-18b"></a>[PAM-18b]</strong></abbr>
+	da Hora, Diego Neves and Asrese, Alemnew Sheferaw and Christophides, Vassilis and Teixeira, Renata and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-b.pdf"> <emph> Narrowing the gap between QoS metrics and Web QoE using Above-the-fold metrics </emph></a> 
+    	
+
+
+
+<emph>
+
+	   International Conference on Passive and Active Network Measurement (PAM), Receipient of the Best dataset award 	   
+
+
+</emph>
+
+	 <i class="fa fa fa-star"></i> 	   
+
+	 mar. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="PAM-18b">Abstract</button>
+<div id="PAM-18b" class="collapse">
+<p>Page load time (PLT) is still the most common application Quality of Service (QoS) metric to estimate the Quality of Experience (QoE) of Web users. Yet, recent literature abounds with proposals for alternative metrics (e.g., Above The Fold, SpeedIndex and their variants) that aim at better estimating user QoE. The main purpose of this work is thus to thoroughly investigate a mapping between established and recently proposed objective metrics and user QoE. We obtain ground truth QoE via user experiments where we collect and analyze 3,400 Web accesses annotated with QoS metrics and explicit user ratings in a scale of 1 to 5, which we make available to the community. In particular, we contrast domain expert models (such as ITU-T and IQX) fed with a single QoS metric, to models trained using our ground-truth dataset over multiple QoS metrics as features. Results of our experiments show that, albeit very simple, expert models have a comparable accuracy to machine learning approaches. Furthermore, the model accuracy improves considerably when building per-page QoE models, which may raise scalability concerns as we discuss.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+
+	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-18b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-18b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PAM-18b" class="collapse well"> Page load time (PLT) is still the most common application Quality of Service (QoS) metric to estimate the Quality of Experience (QoE) of Web users. Yet, recent literature abounds with proposals for alternative metrics (e.g., Above The Fold, SpeedIndex and their variants) that aim at better estimating user QoE. The main purpose of this work is thus to thoroughly investigate a mapping between established and recently proposed objective metrics and user QoE. We obtain ground truth QoE via user experiments where we collect and analyze 3,400 Web accesses annotated with QoS metrics and explicit user ratings in a scale of 1 to 5, which we make available to the community. In particular, we contrast domain expert models (such as ITU-T and IQX) fed with a single QoS metric, to models trained using our ground-truth dataset over multiple QoS metrics as features. Results of our experiments show that, albeit very simple, expert models have a comparable accuracy to machine learning approaches. Furthermore, the model accuracy improves considerably when building per-page QoE models, which may raise scalability concerns as we discuss.  </div>
+<div id="BibTeX-PAM-18b" class="collapse"> <pre>@inproceedings{DR:PAM-18b,
+  title = {Narrowing the gap between QoS metrics and Web QoE using Above-the-fold metrics},
+  author = {da Hora, Diego Neves and Asrese, Alemnew Sheferaw and Christophides, Vassilis and Teixeira, Renata and Rossi, Dario},
+  booktitle = {International Conference on Passive and Active Network Measurement (PAM), Receipient of the Best dataset award},
+  address = {Berlin, Germany},
+  month = mar,
+  year = {2018},
+  note = {bestpaperaward},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PAM-18c"></a>[PAM-18c]</strong></abbr>
+	Green, Thomas and Lambert, Anthony and Pelsser, Cristel and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-c.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-c.pdf"> <emph> Leveraging Inter-domain Stability for BGP Dynamics Analysis </emph></a> 
+    	
+
+
+
+<emph>
+
+	   International Conference on Passive and Active Network Measurement (PAM) 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="PAM-18c">Abstract</button>
+<div id="PAM-18c" class="collapse">
+<p>In the Internet, Autonomous Systems continuously exchange routing information via the BGP protocol: the large number of networks involved and the verbosity of BGP result in a huge stream of updates. Making sense of all those messages remains a challenge today. In this paper, we leverage the notion of "primary path" (i.e., the most used inter-domain path of a BGP router toward a destination prefix for a given time period), reinterpreting updates by grouping them in terms of primary paths unavailability periods, and illustrate how BGP dynamics analysis would benefit from working with primary paths. Our contributions are as follows. First, through measurements, we validate the existence of primary paths: by analyzing BGP updates announced at the LINX RIS route collector spanning a three months period, we show that primary paths are consistently in use during the observation period. Second, we quantify the benefits of primary paths for BGP dynamics analysis on two use cases : Internet tomography and anomaly detection. For the latter, using three months of anomalous BGP events documented by BGPmon as reference, we show that primary paths could be used for detecting such events (hijacks and outages), testifying of the increased semantic they provide.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-18c">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-18c">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PAM-18c" class="collapse well"> In the Internet, Autonomous Systems continuously exchange routing information via the BGP protocol: the large number of networks involved and the verbosity of BGP result in a huge stream of updates. Making sense of all those messages remains a challenge today. In this paper, we leverage the notion of "primary path" (i.e., the most used inter-domain path of a BGP router toward a destination prefix for a given time period), reinterpreting updates by grouping them in terms of primary paths unavailability periods, and illustrate how BGP dynamics analysis would benefit from working with primary paths. Our contributions are as follows. First, through measurements, we validate the existence of primary paths: by analyzing BGP updates announced at the LINX RIS route collector spanning a three months period, we show that primary paths are consistently in use during the observation period. Second, we quantify the benefits of primary paths for BGP dynamics analysis on two use cases : Internet tomography and anomaly detection. For the latter, using three months of anomalous BGP events documented by BGPmon as reference, we show that primary paths could be used for detecting such events (hijacks and outages), testifying of the increased semantic they provide.  </div>
+<div id="BibTeX-PAM-18c" class="collapse"> <pre>@inproceedings{DR:PAM-18c,
+  title = {{Leveraging Inter-domain Stability for BGP Dynamics Analysis}},
+  author = {Green, Thomas and Lambert, Anthony and Pelsser, Cristel and Rossi, Dario},
+  booktitle = {International Conference on Passive and Active Network Measurement (PAM)},
+  address = {Berlin, Germany},
+  year = {2018},
+  month = mar,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18pam-c.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CCR-18"></a>[CCR-18]</strong></abbr>
+	Cicalese, Danilo and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18ccr.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18ccr.pdf"> <emph> A longitudinal study of IP Anycast </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In ACM Computer Communication Review, 	   
+	 Vol. 1, 	   
+		   
+		   
+
+
+</emph>
+
+		   
+
+		   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="CCR-18">Abstract</button>
+<div id="CCR-18" class="collapse">
+<p>IP anycast is a commonly used technique to share the load of a variety of global services. For more than one year, leveraging a lightweight technique for IP anycast detection, enumeration and geolocation, we perform regular IP monthly censuses. This paper provides a brief longitudinal study of the anycast ecosystem, and we additionally make all our datasets (raw measurements from PlanetLab and RIPE Atlas), results (monthly geolocated anycast replicas for all IP/24) and code available to the community.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CCR-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCR-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CCR-18" class="collapse well"> IP anycast is a commonly used technique to share the load of a variety of global services. For more than one year, leveraging a lightweight technique for IP anycast detection, enumeration and geolocation, we perform regular IP monthly censuses. This paper provides a brief longitudinal study of the anycast ecosystem, and we additionally make all our datasets (raw measurements from PlanetLab and RIPE Atlas), results (monthly geolocated anycast replicas for all IP/24) and code available to the community.  </div>
+<div id="BibTeX-CCR-18" class="collapse"> <pre>@article{DR:CCR-18,
+  title = {A longitudinal study of IP Anycast},
+  author = {Cicalese, Danilo and Rossi, Dario},
+  journal = {ACM Computer Communication Review},
+  volume = {1},
+  year = {2018},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18ccr.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TON-18"></a>[TON-18]</strong></abbr>
+	Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18ton.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18ton.pdf"> <emph> Caching Encrypted Content via Stochastic Cache Partitioning </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE/ACM Transactions on Networking, 	   
+	 Vol. 26, 	   
+		   
+		   
+
+
+</emph>
+
+		   
+
+		   
+	 2018, 	   
+
+
+
+
+
+ DOI 10.1109/TNET.2018.2793892 	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TON-18">Abstract</button>
+<div id="TON-18" class="collapse">
+<p>In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TON-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TON-18" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.  </div>
+<div id="BibTeX-TON-18" class="collapse"> <pre>@article{DR:TON-18,
+  title = {Caching Encrypted Content via Stochastic Cache Partitioning},
+  author = {Araldo, Andrea and Dan, Gyorgy and Rossi, Dario},
+  year = {2018},
+  volume = {26},
+  issue = {1},
+  doi = {10.1109/TNET.2018.2793892},
+  journal = {IEEE/ACM Transactions on Networking},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18ton.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="JSAC-18"></a>[JSAC-18]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18jsac.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18jsac.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Journal on Selected Areas in Communication (JSAC), 	   
+	 Vol. to appear, 	   
+		   
+		   
+
+
+</emph>
+
+		   
+
+		   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="JSAC-18">Abstract</button>
+<div id="JSAC-18" class="collapse">
+<p>In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-JSAC-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-JSAC-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-JSAC-18" class="collapse well"> In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.  </div>
+<div id="BibTeX-JSAC-18" class="collapse"> <pre>@article{DR:JSAC-18,
+  title = {Parallel Simulation of Very Large-Scale General Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2018},
+  journal = {IEEE Journal on Selected Areas in Communication (JSAC)},
+  volume = {to appear},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18jsac.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TGCN-18"></a>[TGCN-18]</strong></abbr>
+	Enguehard, Marcel and Droms, Ralph and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18tgcn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18tgcn.pdf"> <emph> On the cost of geographic forwarding for information-centric things </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Transactions on Green Communications and Networking, 	   
+	 Vol. to appear, 	   
+	 No. , 	   
+	 pp.1-1, 	   
+
+
+</emph>
+
+		   
+
+	 . 	   
+	 2018, 	   
+
+
+
+
+
+ DOI 10.1109/TGCN.2018.2867267 	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TGCN-18">Abstract</button>
+<div id="TGCN-18" class="collapse">
+<p>Recent research has identified Information-Centric Networking (ICN) as a good fit for Internet of Things (IoT) deployments. However, most studies have focused on ICN as an application enabler, disregarding the behaviour from a network viewpoint. In this paper, we address this by studying the most important properties of an ICN-IoT deployment and contrast the operational costs between geographic-based forwarding and name-based forwarding schemes. We aim to understand if, and under which IoT deployment characteristics, geographic forwarding constitutes an advantage over name-based schemes, in terms of feasibility (i.e., memory footprint and computational capability of the devices) and performance (which we analyze as the overall energy cost of operating an ICN-IoT network under either forwarding paradigm). To achieve this goal, we employ a mixture of (i) modelling, (ii) simulative and (iii) experimental methodologies, which are useful to respectively (i) state the problem in a principled way, (ii) gather information about topological properties that are instrumental to the model and (iii) gather physical properties of the devices to feed the model with realistic data. In a nutshell, our results show that geographic forwarding (i) halves the memory footprint on our reference deployments and (ii) yields significant energy savings, especially for dynamic topologies.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TGCN-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TGCN-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TGCN-18" class="collapse well"> Recent research has identified Information-Centric Networking (ICN) as a good fit for Internet of Things (IoT) deployments. However, most studies have focused on ICN as an application enabler, disregarding the behaviour from a network viewpoint. In this paper, we address this by studying the most important properties of an ICN-IoT deployment and contrast the operational costs between geographic-based forwarding and name-based forwarding schemes. We aim to understand if, and under which IoT deployment characteristics, geographic forwarding constitutes an advantage over name-based schemes, in terms of feasibility (i.e., memory footprint and computational capability of the devices) and performance (which we analyze as the overall energy cost of operating an ICN-IoT network under either forwarding paradigm). To achieve this goal, we employ a mixture of (i) modelling, (ii) simulative and (iii) experimental methodologies, which are useful to respectively (i) state the problem in a principled way, (ii) gather information about topological properties that are instrumental to the model and (iii) gather physical properties of the devices to feed the model with realistic data. In a nutshell, our results show that geographic forwarding (i) halves the memory footprint on our reference deployments and (ii) yields significant energy savings, especially for dynamic topologies.  </div>
+<div id="BibTeX-TGCN-18" class="collapse"> <pre>@article{DR:TGCN-18,
+  author = {Enguehard, Marcel and Droms, Ralph and Rossi, Dario},
+  journal = {IEEE Transactions on Green Communications and Networking},
+  title = {On the cost of geographic forwarding for information-centric things},
+  year = {2018},
+  volume = {to appear},
+  number = {},
+  pages = {1-1},
+  keywords = {Cryptography;Data models;Architecture;Protocols;Internet of Things;Topology},
+  doi = {10.1109/TGCN.2018.2867267},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18tgcn.pdf},
+  issn = {2473-2400},
+  month = {}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li></ul>
+
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

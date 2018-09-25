@@ -1,0 +1,4315 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>ccnSim</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      
+<h2 id="--ccnsim"><a name="#top"></a>  ccnSim</h2>
+
+<div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> Page transition in process; If you wish to contact us please use the mailing list `ccnsim@listes.telecom-paristech.fr`  
+and refrain to send me emails in unicast, as my email loss probability is non zero and my email delay reply is anyway heavy-tailed :) </p>
+		</div>
+
+<p><strong>Quick links:</strong>   <a href="#demos"><i class="fa fa-cogs"></i> Demos</a> / <a href="#download"><i class="fa fa-cube"></i> Download</a> / <a href="#download"><i class="fa fa-book"></i> Manual and scenarios</a> / <a href="#faq"><i class="fa fa-question"></i> FAQ</a> / <a href="#people"><i class="fa fa-group"></i> People</a>  / <a href="#acknowledgements"><i class="fa fa-dollar"></i> Acks</a> / <a href="#references"><i class="fa fa-file-text-o"></i> Publications</a></p>
+
+<h3 id="overview-">Overview <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<p><strong>ccnSim</strong> is a scalable chunk-level  simulator of Information and Content Centric Networks (ICN/CCN) that we make available as open-source software to promote cross-comparison in the scientific community. ccnSim is written in C++ under the <a href="http://www.omnetpp.org/">Omnnet++</a> framework, and features three simulation engines:</p>
+
+<ul>
+  <li>
+    <p>A classic <strong>Event-Driven</strong> engine (available in all versions) allows to assess CCN performance in scenarios with large orders of magnitude for CCN content stores (up to 10^6 chunks) and Internet catalog sizes (up to 10^8 files) on off-the-shelf hardware (i.e, a PC with a fair amount of RAM).  If you use ccnSim up to v0.3, we ask you to please acknowledge our work by citing true (thanks!)</p>
+  </li>
+  <li>
+    <p><strong>ModelGraft</strong>, a new hybrid modeling/simulation engine (available starting from v0.4)  that allows for unprecedented scalability: with respect to the (highly optimized) execution times of event driven simulation in v0.3, the new technique allow simulation of much larger networks  catalogs and content stores on an exiguous amount of RAM and with over 100x reduction of simulation duration.  If use ccnSim v0.4 or above,  we ask you to please acknowledge our work by citing true (thanks!)</p>
+  </li>
+  <li>
+    <p>Finally, a novel parallel simulation engine that achieves 100x gain over ModelGraft and thus a 10000x gain over event-driven simulation!  The new  technique (referred to as CS-POST-MT in true) proposes to, insted of slicing nodes of the network over multiple cores, to slice independent portions of the catalog over multiple cores.     In contrast to network slicing, which would incur significant MPI overhead, the new technique exhibit an ideal speedup in the number of cores, which justify the above speedups). We have just released the <a href="#download"><i class="fa fa-github"></i> code</a>  and a detailed technical report true, don’t hesitate to tell us what do you think!</p>
+  </li>
+</ul>
+
+<h3 id="----demos---"><a name="demos"></a> <i class="fa fa-cogs"></i>   Demos   <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<p>You can check the how fast the new version of ccnSim runs when equipped with the the ModelGraft engine true vs the classic event-driven engine true  on this  <a href="https://www.youtube.com/embed/kgC1yPZgexY?feature=player_detailpage">YouTube video</a>  that we demonstrated at true.</p>
+
+<p><a href="https://www.youtube.com/embed/kgC1yPZgexY?feature=player_detailpage"><img src="/drossi/assets/images/ccnSim-demo.png" alt="" title="YouTube video of the ModelGraft demo" width="300px" /></a></p>
+
+<p>Now, imagine that the same comparison would apply to the parallel simulation engine true, which is orders of magnitude faster than ModelGraft! Overall, the parallel engine yield a speed up with respect to event driven on the order of 10000x, for a loss of accuracy of about 0.1% in our tests!  (<em>Another YouTube video will soon be available</em>)</p>
+
+<div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> add a pointer to the ICN-14 demo </p>
+		</div>
+
+<h3 id="--download--"><i class="fa fa-cube"></i> <a name="download"></a> Download  <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Source</th>
+      <th>Downloads</th>
+      <th>Manual</th>
+      <th>Scenarios</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr class="info"><td>    0.4-Parallel (11/2017) 
+      </td><td>   <i class="fa fa-github"></i> GitHub repository <a href="https://goo.gl/uuwwdX">  https://github.com/TeamRossi/ccnSim-0.4-Parallel </a>   
+      </td><td>   How do you count downloads on Git?  
+      </td><td>   <a href="https://goo.gl/i4sfEF"> <i class="fa fa-book"></i> v0.4-Parallel manual </a>
+      </td><td>   Scenarios to replicate true  included in the  
+         <a href="https://goo.gl/uuwwdX">  <i class="fa fa-github"></i> GitHub repository  </a>   
+      </td></tr>
+
+      <tr class="info"><td>    0.4 (05/2017)          
+      </td><td>   <i class="fa fa-github"></i> GitHub repository <a href="https://goo.gl/g4rAzN">  https://github.com/TeamRossi/ccnSim-0.4 </a>
+or <i class="fa fa-docker"></i> DockerHub image   <a href="https://goo.gl/gJFFK9">  https://hub.docker.com/r/nonsns/ccnsim-0.4/ </a>
+
+      </td><td>   How do you count downloads on Git?  
+      </td><td>   <a href="https://goo.gl/eLri5q"><i class="fa fa-book"></i> v0.4 manual</a> 
+      </td><td>   Scenarios to replicate true included in the <a href="https://goo.gl/g4rAzN"><i class="fa fa-github"></i> GitHub repository </a>  
+      </td></tr>
+</tbody>
+</table>
+
+<ul>
+  <li>We’ve just (November ‘17)  released the experimental version of <strong>ccnSim-v0.4-Parallel</strong>
+    <ul>
+      <li>We released the code on <a href="http://goo.gl/uuwwdX"><i class="fa fa-github"></i>GitHub</a>  (fyi, no plans to support it as a docker so far)</li>
+      <li>The code implements the parallel CS-POST-MT technique described in the technical report true. Have a look and let us know what do you think!</li>
+    </ul>
+  </li>
+  <li>We’ve just (July ‘17) released the latest stable version of <strong>ccnSim-v0.4</strong> as a docker image hosted on <a href="https://hub.docker.com/r/nonsns/ccnsim-0.4/"><i class="fa fa-docker"></i> DockerHub</a>!
+    <ul>
+      <li>This will spare the hassle of compiling and setting up the environment and allow you to quickly launch your first ccnSim-0.4 simulation  so rush to https://hub.docker.com/r/nonsns/ccnsim-0.4/ !</li>
+      <li>Note: The container does not support the graphical interface. But, trust us, you do not need it anyway ;)</li>
+    </ul>
+  </li>
+  <li>
+    <p>We’ve just committed (May ‘17)  the latest stable version of <strong>ccnSim-v0.4</strong> on <a href="https://github.com/TeamRossi/ccnSim-0.4"><i class="fa fa-github"></i> GitHub</a>!</p>
+
+    <ul>
+      <li>This is exactly the same <strong>ccnSim-v0.4</strong> version that you can dowload below, just hosted on GitHub</li>
+      <li>This new release does not change simulation API, but introduce new significant breakthrough truetruetrue in the core simulation environment that allow for very significant memory reduction and CPU speedup.</li>
+      <li>ccnSim-v0.4 is still able to run classic Event Driven simulation (as in v0.3, but with significant reduction of the memory footprint due to the use of inversion rejection sampling)</li>
+      <li>ccnSim-v0.4 further allows to run a novel Monte Carlo simulation engine (new from v0.4, with significant reduction of the memory footprint and execution time)</li>
+      <li>The Event Driven and Monte Carlo engines can be seamlessly used, so <a href="ccnSim:ccnsim-manual-0.3.pdf">v0.3 manual</a> is still valid</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="---previous-versions--"><i class="fa fa-cube"></i>   Previous versions  <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<p>Other versions are still available but their download is discouraged (the download counts is indicative, as it is frozen and no longer supported). To discourage downloads, links are not provided (you can do the same, and better with v0.4), but the files are still archived (it should not be impossible to guess with trial and error if you’re motivated).</p>
+
+<p>As for the the former versions of ccnSim:</p>
+<ul>
+  <li>Really, there is no reason not to use v0.4 which is not only more complete, but also simpler, more modular and faster! Notice that v0.4 also improves the Event Driven engine, so you should consider moving it to this one (which, unless you have modified the code on your own, should be painless as they are fully interoperable)</li>
+  <li>v0.1 was used in true, true, true and v0.2 in  true, true, true and v0.3 in several others.</li>
+  <li>We extensively benchmarked ccnSim performance and refactored its code, you can find an account of scalability properties of v0.3 in true. However, results true should convince you to migrate to v0.4!</li>
+  <li>Example scenarios to reproduce some of our latest publications true and true are also available in v0.4</li>
+</ul>
+
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Source</th>
+      <th>Downloads </th>
+      <th>Manual</th>
+      <th>Scenarios</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr><td>    0.4 (05/2017)        
+      </td><td>   <i class="fa fa-file-zip-o"></i> ccnSim-0.4.tgz 
+      </td><td>   166
+      </td><td>   <a href="https://goo.gl/eLri5q"><i class="fa fa-book"></i> v0.4 manual</a> 
+      </td><td>   Scenarios to replicate true included in the <a href="https://goo.gl/g4rAzN"><i class="fa fa-github"></i> GitHub repository </a>      
+      </td></tr>
+      <tr><td>    0.4alpha2 (02/2016)        
+      </td><td>   <i class="fa fa-file-zip-o"></i> ccnSim-0.4alpha2.tgz  
+      </td><td>   377 
+      </td><td>   Please have a look at true and <a href="/drossi/code/ccnSim/ccnsim-manual-0.3.pdf"><i class="fa fa-book"></i> v0.3 manual</a> 
+      </td><td>   Scenarios true included in the <i class="fa fa-file-zip-o"></i> archive
+      </td></tr>
+      <tr><td>    0.4alpha (12/2015)        
+      </td><td>    <i class="fa fa-file-zip-o"></i> ccnSim-0.4alpha.tgz
+      </td><td>   238
+      </td><td>   Please have a look at true and <a href="/drossi/code/ccnSim/ccnsim-manual-0.3.pdf"><i class="fa fa-book"></i> v0.3 manual</a> 
+      </td><td>   Scenarios true included in the <i class="fa fa-file-zip-o"></i> archive
+      </td></tr> 
+      <tr><td>    0.3 (10/2014)        
+      </td><td>   <i class="fa fa-file-zip-o"></i> ccnsim-0.3.tgz
+      </td><td>   1084
+      </td><td>   Please have a look at true and <a href="/drossi/code/ccnSim/ccnsim-manual-0.3.pdf"><i class="fa fa-book"></i> v0.3 manual</a> 
+      </td><td>   <a href="/drossi/code/ccnSim/ccnsim-inrr-scripts-0.3.tgz"><i class="fa fa-file-zip-o"></i> NRR scripts</a> to replicate true, and <a href="/drossi/code/ccnSim/ccnsim-costaware-scripts-0.3.tgz"><i class="fa fa-file-zip-o"></i> Cost-Aware scripts</a> to replicate true  (never counted)
+        [NRR](ccnSim:) 
+      </td></tr> 
+      <tr><td>    0.2 (09/2013)        
+      </td><td>    <i class="fa fa-file-zip-o"></i>  ccnsim-0.2.tgz
+      </td><td>   747
+      </td><td>    <a href="/drossi/code/ccnSim/ccnsim-0.2-manual.pdf"><i class="fa fa-book"></i> v0.2 manual</a>  
+      </td><td>   <a href="/drossi/code/ccnSim/ccnsim-inrr-scripts-0.3.tgz"><i class="fa fa-file-zip-o"></i> NRR scripts</a> to replicate true (554 downloads)
+      </td></tr> 
+      <tr><td>    0.1 (03/2012)        
+      </td><td>    <i class="fa fa-file-zip-o"></i> ccnsim-0.1.zip
+      </td><td>   1340
+      </td><td>   <a href="/drossi/code/ccnSim/ccnSim-howto.pdf"><i class="fa fa-book"></i> v0.1 manual</a>   
+      </td><td>    
+      </td></tr> 
+</tbody>
+</table>
+
+<h3 id="--faq-"><i class="fa fa-question"></i> <a name="faq"></a> FAQ <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<ul>
+  <li>
+    <p><strong>I have troubles installing ccnSim with omnet++ 5.1 (and above)</strong></p>
+
+    <p><em>Short answer: if you don’t want to modify ccnSim, then use the docker container; long answer: keep reading</em>.</p>
+
+    <p>Unfortunately, this is due to changes in <code class="highlighter-rouge">opp_makemake</code> (from the omnet++ changelog: “Support for deep includes (automatically adding each subfolder to the include path) has been dropped, due to being error-prone and having limited usefulness. In projects that used this feature, #include directives need to be updated to include the directory as well.”). Fixing this issue is more involved though than just specifying the folders, since there are other modifications introduced by the 5.1 version of omnet++, among which <code class="highlighter-rouge">send()</code> and <code class="highlighter-rouge">arrived()</code> methods used to generate and process messages. Given that, aside these non-backward compatible changes, no change is relevant for ccnSim, we recommend you to use <a href="https://omnetpp.org/21-articles/3740-omnet-5-0-released">omnet++ v5.0</a></p>
+  </li>
+</ul>
+
+<!--
+* *I have troubles installing ccnSim with omnet++ 5.0* 
+**Short answer: Upgrade to ccnSim-v4!  If you use older version, keeps reading** 
+We are aware that v5.0 introduced some non-backward-compatible changes. We are updating the code and instructions to be compatible with both omnet++ versions. In the meanwhile, to succesfully install ccnSim with omnet++ 5.0, you need to use these slightly modified [[ ccnSim:5.0/ctopology.cc | `ctopology.cc`  ]] and [[ ccnSim:5.0/ctopology.h| `ctopology.h`  ]], and you need to copy [[ ccnSim:5.0/ctopology.h| `ctopology.h`  ]] to `$OMNET_DIR/include/omnetpp` (instead of the folder commonly used for v4.x)
+-->
+
+<ul>
+  <li>
+    <p><strong>I have troubles installing omnet++ 4.1 with gcc-4.6</strong></p>
+
+    <p><em>Short answer: Upgrade to ccnSim-v0.4! Long anwer:  keep reading.</em></p>
+
+    <p>If you want to use older version, please refer to <a href="http://www.freeminded.org/index.php/2011/12/omnet-error-during-startup-no-user-interface-cmdenv-tkenv-etc-found/">this page</a> for a solution (thanks to Cesar A. Bernardini for pointing this out)</p>
+  </li>
+  <li>
+    <p><strong>I have troubles running ccnSim with Tkenv</strong></p>
+
+    <p><em>Short answer: (you) don’t (need it). Long answer: keep reading.</em></p>
+
+    <p>We are phasing out the support for the graphical interface. But, trust us, you do not need it anyway  ;)  If you want to install Tkenv, notice that your Tkenv environment should work if you properly installed ccnSim-0.4!  If you use older version and when running in graphical mode,  you encounter an error like the following:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Error in module (Client) abilene_network.client[8] (id=23) at event #117, t=5.872724860981:
+  You forgot to manually add a dup() function to class ccn_interest.
+</code></pre></div>    </div>
+
+    <p>then the fix is simply the following: modify the files <code class="highlighter-rouge">include/ccn_interest.h</code> and  <code class="highlighter-rouge">include/ccn_data.h</code>, replacing the line</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  virtual ccn_interest *dup() {return new ccn_interest(*this);}
+</code></pre></div>    </div>
+
+    <p>with:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  virtual ccn_interest *dup() const {return new ccn_interest(*this);}
+</code></pre></div>    </div>
+
+    <p>However, we cannot provide support (neirther via email, phone, or avian carrier) over the graphical interface (sorry).</p>
+  </li>
+  <li>
+    <p><strong>I have troubles unpacking the v0.3 archive</strong></p>
+
+    <p><em>Short answer: don’t and use v0.4. Long answer: keep reading.</em></p>
+
+    <p>We are aware  that some with some  linux OS distributions, there may be troubles in unpacking the archive from the command line (though this is not deterministic with thedistribution version (?).  Assuming to have a terminal opened in the same directory where the archive is stored,  issue a  <code class="highlighter-rouge">tar xzvf ccnsim-0.3.tgz</code> command.   In case that fails, <code class="highlighter-rouge">gunzip ccnsim-0.3.tgz; tar xvf ccnsim-0.3.tar</code> should work for your system.</p>
+  </li>
+  <li>
+    <p><strong>How do I simulate INFORM?</strong></p>
+
+    <p><em>Short answer: don’t and use iNRR. Long answer: keep reading.</em></p>
+
+    <p>Unfortunately, we missed manpower to sync back  true in the main ccnSim tree. Fortunately though, since v0.3 ccnSim implements Nearest Replica Routing (NRR) true, that is the best candidate for comparison. So follow suggestion in true to setup a sound comparison! and browse the <a href="/drossi/demo/icn14/">online interactive demo</a>  presented at true to get an idea why this answer should satisfy you.</p>
+  </li>
+  <li>
+    <p><strong>How do I simulate a tree topology?</strong></p>
+
+    <p>Since v0.2, tree topologies are included in the default release; additional tree-like topologies (e.g., redundant trees) are available in the companion script set. In case you’re still using v0.1, please notice that if you select single shortest path routing and a single repository on any real topology,  this will actually induce a chunk-diffusion  tree rooted at  the repository (though the resulting tree will not be a ‘‘binary’’ tree).</p>
+  </li>
+  <li>
+    <p><strong>How do I play with graph-related properties ?</strong></p>
+
+    <p>Originally, we were computing graph related properties directly within ccnSim (the <code class="highlighter-rouge">betweenness_centrality()</code> function in <code class="highlighter-rouge">ctopology.cc</code>) at the beginning of the simulation. While the method is simplest for the user, it incurs in however a non marginal overhead, as it requires to compute the betweenness centrality of all nodes over and over, so that repeating simulation over the same topology eventually becomes a useless  computational overhead.    Additionally, betweenness centrality is just one metric, though there are others graph-related properties (e.g., ego-betweenness centrality, or the one we consider in true, etc.) that could be considered as well, so that this approach was also limited in scope.</p>
+
+    <p>We henceforth decided to follow and approach is similar to the one we adopted to adapt the cache size in true: i.e., split computation that are related to topological properties that are static over the whole simulation (e.g., betweenness, etc.) from those that need to be taken frequently and possibly evolve over time (eg. routing and forwarding). This is done by specifying a <code class="highlighter-rouge">betweenness</code> value for all nodes in the <code class="highlighter-rouge">.ini</code> file, with instructions like:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  **node[0].betweenness = 1
+  **node[1].betweenness = 0.4
+  [...]
+</code></pre></div>    </div>
+
+    <p>the values of betweenness (of any other similar metrics) can be easily pre-computed with graph-related tools (e.g., such as <a href="http://socnetv.sourceforge.net">socnetv</a>. So this is more flexible (as any metric can fit) and less computationally intensive (as the computation is done once for any new scenario).</p>
+  </li>
+</ul>
+
+<h3 id="--people-alphabetical-order-"><i class="fa fa-group"></i> <a name="people"></a> People (alphabetical order) <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<ul>
+  <li>Andrea Araldo (former principal suspect)</li>
+  <li>Raffele Chiocchetti (former developer)</li>
+  <li>Emilio Leonardi (well informed outsider)</li>
+  <li>Dario Rossi (occasional debugger)</li>
+  <li>Giuseppe Rossini (former lead developer)</li>
+  <li>Michele Tortelli (\infty power user)</li>
+</ul>
+
+<h3 id="--acknowledgements-temporal-order-"><i class="fa fa-dollar"></i> <a name="acknowledgements"></a> Acknowledgements (temporal order) <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+<ul>
+  <li>ccnSim development started in the context of the <a href="http://www.anr-connect.org">ANR Project Connect</a>,  continued thanks to funding from two EIT ICT Labs projects (Smart Ubiquitous Content  and  Virtual Data Plane for Sofware defined network) and is now living on <a href="http://newnet.telecom-paristech.fr/">NewNet@Paris</a> funds</li>
+</ul>
+
+<h3 id="--references--"><i class="fa fa-file-text-o"></i> <a name="references"></a> References  <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
+
+<ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TON-18"></a>[TON-18]</strong></abbr>
+	Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18ton.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18ton.pdf"> <emph> Caching Encrypted Content via Stochastic Cache Partitioning </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE/ACM Transactions on Networking, 	   
+	 Vol. 26, 	   
+		   
+		   
+
+
+</emph>
+
+		   
+
+		   
+	 2018, 	   
+
+
+
+
+
+ DOI 10.1109/TNET.2018.2793892 	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TON-18">Abstract</button>
+<div id="TON-18" class="collapse">
+<p>In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TON-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TON-18" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.  </div>
+<div id="BibTeX-TON-18" class="collapse"> <pre>@article{DR:TON-18,
+  title = {Caching Encrypted Content via Stochastic Cache Partitioning},
+  author = {Araldo, Andrea and Dan, Gyorgy and Rossi, Dario},
+  year = {2018},
+  volume = {26},
+  issue = {1},
+  doi = {10.1109/TNET.2018.2793892},
+  journal = {IEEE/ACM Transactions on Networking},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18ton.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="JSAC-18"></a>[JSAC-18]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi18jsac.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi18jsac.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Journal on Selected Areas in Communication (JSAC), 	   
+	 Vol. to appear, 	   
+		   
+		   
+
+
+</emph>
+
+		   
+
+		   
+	 2018, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="JSAC-18">Abstract</button>
+<div id="JSAC-18" class="collapse">
+<p>In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-JSAC-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-JSAC-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-JSAC-18" class="collapse well"> In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.  </div>
+<div id="BibTeX-JSAC-18" class="collapse"> <pre>@article{DR:JSAC-18,
+  title = {Parallel Simulation of Very Large-Scale General Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2018},
+  journal = {IEEE Journal on Selected Areas in Communication (JSAC)},
+  volume = {to appear},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi18jsac.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PARALLEL-CACHE-17"></a>[PARALLEL-CACHE-17]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/drossi17parallel-cache.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/drossi17parallel-cache.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	     Telecom ParisTech 	   
+	
+
+</emph>
+
+		   
+
+	 nov. 	   
+	 2017, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PARALLEL-CACHE-17">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PARALLEL-CACHE-17" class="collapse well">   </div>
+<div id="BibTeX-PARALLEL-CACHE-17" class="collapse"> <pre>@techrep{DR:PARALLEL-CACHE-17,
+  title = {Parallel Simulation of Very Large-Scale General Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2017},
+  month = nov,
+  institution = {Telecom ParisTech},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/drossi17parallel-cache.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TMM-17"></a>[TMM-17]</strong></abbr>
+	Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Michele and Sardara, Mauro and Tortelli, Michele and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi17tmm.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi17tmm.pdf"> <emph> Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Transactions on Multimedia, 	   
+	 Vol. 19, 	   
+		   
+	 pp.2166-2181, 	   
+
+
+</emph>
+
+		   
+
+	 oct. 	   
+	 2017, 	   
+
+
+
+
+
+ DOI 10.1109/TMM.2017.2733340 	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TMM-17">Abstract</button>
+<div id="TMM-17" class="collapse">
+<p>Streaming of video contents over the Internet is experiencing an unprecedented growth. While video permeates every application, it also puts tremendous pressure in the network – to support users having heterogeneous accesses and expecting high quality of experience, in a furthermore cost-effective manner. In this context, Future Internet (FI) paradigms, such as Information Centric Networking (ICN), are particularly well suited to not only enhance video delivery at the client (as in the DASH approach), but to also naturally and seamlessly extend video support deeper in the network functions. In this paper, we contrast ICN and TCP/IP with an experimental approach, where we employ several state-of-the-art DASH controllers (PANDA, AdapTech, and BOLA) on an ICN vs TCP/IP network stack. Our campaign, based on tools which we developed and made available as open-source software, includes multiple clients (homogeneous vs heterogeneous mixture, synchronous vs asynchronous arrivals), videos (up to 4K resolution), channels (e.g., DASH profiles, emulated WiFi and LTE, real 3G/4G traces), and levels of integration with an ICN network (i.e., vanilla NDN, wireless loss detection and recovery at the access point, load balancing). Our results clearly illustrate, as well as quantitatively assess, benefits of ICN-based streaming, warning about potential pitfalls that are however easy to avoid.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMM-17">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMM-17">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TMM-17" class="collapse well"> Streaming of video contents over the Internet is experiencing an unprecedented growth. While video permeates every application, it also puts tremendous pressure in the network – to support users having heterogeneous accesses and expecting high quality of experience, in a furthermore cost-effective manner. In this context, Future Internet (FI) paradigms, such as Information Centric Networking (ICN), are particularly well suited to not only enhance video delivery at the client (as in the DASH approach), but to also naturally and seamlessly extend video support deeper in the network functions. In this paper, we contrast ICN and TCP/IP with an experimental approach, where we employ several state-of-the-art DASH controllers (PANDA, AdapTech, and BOLA) on an ICN vs TCP/IP network stack. Our campaign, based on tools which we developed and made available as open-source software, includes multiple clients (homogeneous vs heterogeneous mixture, synchronous vs asynchronous arrivals), videos (up to 4K resolution), channels (e.g., DASH profiles, emulated WiFi and LTE, real 3G/4G traces), and levels of integration with an ICN network (i.e., vanilla NDN, wireless loss detection and recovery at the access point, load balancing). Our results clearly illustrate, as well as quantitatively assess, benefits of ICN-based streaming, warning about potential pitfalls that are however easy to avoid.  </div>
+<div id="BibTeX-TMM-17" class="collapse"> <pre>@article{DR:TMM-17,
+  title = {Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP},
+  author = {Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Michele and Sardara, Mauro and Tortelli, Michele and Rossi, Dario},
+  journal = {IEEE Transactions on Multimedia},
+  volume = {19},
+  issue = {10},
+  month = oct,
+  year = {2017},
+  doi = {10.1109/TMM.2017.2733340},
+  pages = {2166-2181},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi17tmm.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="COMNET-17a"></a>[COMNET-17a]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi17comnet-a.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi17comnet-a.pdf"> <emph> A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In Elsevier Computer Networks, 	   
+	 Vol. 125, 	   
+		   
+	 pp.146–159, 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2017, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="COMNET-17a">Abstract</button>
+<div id="COMNET-17a" class="collapse">
+<p>Two concurrent factors challenge the evaluation of large-scale cache networks: complex algorithmic interactions, which are hardly represented by analytical models, and catalog/network size, which limits the scalability of event-driven simulations. To solve these limitations, we propose a new hybrid technique, that we colloquially refer to as ModelGraft, which combines elements of stochastic analysis within a simulative Monte-Carlo approach. In ModelGraft, large scenarios are mapped to a downscaled counterpart built upon Time-To-Live (TTL) caches, to achieve CPU and memory scalability. Additionally, a feedback loop ensures convergence to a consistent state, whose performance accurately represent those of the original system. Finally, the technique also retains simulation simplicity and flexibility, as it can be seamlessly applied to numerous forwarding, meta-caching, and replacement algorithms. We implement and make ModelGraft available as an alternative simulation engine of ccnSim. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. Ultimately, ModelGraft pushes the boundaries of the performance evaluation well beyond the limits achieved in the current state of the art, enabling the study of Internet-scale scenarios with content catalogs comprising hundreds billions objects.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-COMNET-17a" class="collapse well"> Two concurrent factors challenge the evaluation of large-scale cache networks: complex algorithmic interactions, which are hardly represented by analytical models, and catalog/network size, which limits the scalability of event-driven simulations. To solve these limitations, we propose a new hybrid technique, that we colloquially refer to as ModelGraft, which combines elements of stochastic analysis within a simulative Monte-Carlo approach. In ModelGraft, large scenarios are mapped to a downscaled counterpart built upon Time-To-Live (TTL) caches, to achieve CPU and memory scalability. Additionally, a feedback loop ensures convergence to a consistent state, whose performance accurately represent those of the original system. Finally, the technique also retains simulation simplicity and flexibility, as it can be seamlessly applied to numerous forwarding, meta-caching, and replacement algorithms. We implement and make ModelGraft available as an alternative simulation engine of ccnSim. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. Ultimately, ModelGraft pushes the boundaries of the performance evaluation well beyond the limits achieved in the current state of the art, enabling the study of Internet-scale scenarios with content catalogs comprising hundreds billions objects.  </div>
+<div id="BibTeX-COMNET-17a" class="collapse"> <pre>@article{DR:COMNET-17a,
+  title = {A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2017},
+  month = sep,
+  journal = {Elsevier Computer Networks},
+  pages = {146--159},
+  volume = {125},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi17comnet-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="COMNET-17b"></a>[COMNET-17b]</strong></abbr>
+	Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi17comnet-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi17comnet-b.pdf"> <emph> Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In Elsevier Computer Networks, 	   
+	 Vol. 125, 	   
+		   
+	 pp.132–145, 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2017, 	   
+
+
+
+
+
+ DOI 10.1016/j.comnet.2017.04.041 	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="COMNET-17b">Abstract</button>
+<div id="COMNET-17b" class="collapse">
+<p>Information-centric network (ICN) is a novel architecture identifying data as a first class citizen, and caching as a prominent low-level feature. Yet, efficiently using large storage (e.g., 1 TB) at line rate (e.g., 10 Gbps) is not trivial: in our previous work, we proposed an ICN router design equipped with hierarchical caches, that exploits peculiarities of the ICN traffic arrival process. In this paper, we implement such proposal in the NDN Forwarding Daemon (NFD), and carry on a thorough experimental evaluation of its performance with an emulation methodology on common off the shelf hardware. Our study testifies the interest and feasibility of the approach.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-COMNET-17b" class="collapse well"> Information-centric network (ICN) is a novel architecture identifying data as a first class citizen, and caching as a prominent low-level feature. Yet, efficiently using large storage (e.g., 1 TB) at line rate (e.g., 10 Gbps) is not trivial: in our previous work, we proposed an ICN router design equipped with hierarchical caches, that exploits peculiarities of the ICN traffic arrival process. In this paper, we implement such proposal in the NDN Forwarding Daemon (NFD), and carry on a thorough experimental evaluation of its performance with an emulation methodology on common off the shelf hardware. Our study testifies the interest and feasibility of the approach.  </div>
+<div id="BibTeX-COMNET-17b" class="collapse"> <pre>@article{DR:COMNET-17b,
+  title = {Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers},
+  author = {Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D.},
+  journal = {Elsevier Computer Networks},
+  month = sep,
+  year = {2017},
+  doi = {10.1016/j.comnet.2017.04.041},
+  pages = {132--145},
+  volume = {125},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi17comnet-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ITC28a"></a>[ITC28a]</strong></abbr>
+	Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi16itc28-a.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi16itc28-a.pdf"> <emph> Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ITC28, Runner-up for best paper award and receipient of the IEEE ComSoc/ISOC Internet Technical Committee Best paper award 2016-2017 	   
+
+
+</emph>
+
+	 <i class="fa fa fa-star"></i> 	   
+
+	 sep. 	   
+	 2016, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ITC28a">Abstract</button>
+<div id="ITC28a" class="collapse">
+<p>In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, an increasing share of content delivery services adopt encryption through HTTPS, which is not compatible with traditional ISP-managed approaches like transparent and proxy caching. This raises the need for solutions involving both Internet Service Providers (ISP) and Content Providers (CP): by design, the solution should preserve business-critical CP information (e.g., content popularity, user preferences) on the one hand, while allowing for a deeper integration of caches in the ISP architecture (e.g., in 5G femto-cells) on the other hand. In this paper we address this issue by considering a contentoblivious ISP-operated cache. The ISP allocates the cache storage to various content providers so as to maximize the bandwidth savings provided by the cache: the main novelty lies in the fact that, to protect business-critical information, ISPs only need to measure the aggregated miss rates of the individual CPs and does not need to be aware of the objects that are requested, as in classic caching. We propose a cache allocation algorithm based on a perturbed stochastic subgradient method, and prove that the algorithm converges close to the allocation that maximizes the overall cache hit rate. We use extensive simulations to validate the algorithm and to assess its convergence rate under stationary and non-stationary content popularity. Our results (i) testify the feasibility of content-oblivious caches and (ii) show that the proposed algorithm can achieve within 10% from the global optimum in our evaluation.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+
+	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ITC28a" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, an increasing share of content delivery services adopt encryption through HTTPS, which is not compatible with traditional ISP-managed approaches like transparent and proxy caching. This raises the need for solutions involving both Internet Service Providers (ISP) and Content Providers (CP): by design, the solution should preserve business-critical CP information (e.g., content popularity, user preferences) on the one hand, while allowing for a deeper integration of caches in the ISP architecture (e.g., in 5G femto-cells) on the other hand. In this paper we address this issue by considering a contentoblivious ISP-operated cache. The ISP allocates the cache storage to various content providers so as to maximize the bandwidth savings provided by the cache: the main novelty lies in the fact that, to protect business-critical information, ISPs only need to measure the aggregated miss rates of the individual CPs and does not need to be aware of the objects that are requested, as in classic caching. We propose a cache allocation algorithm based on a perturbed stochastic subgradient method, and prove that the algorithm converges close to the allocation that maximizes the overall cache hit rate. We use extensive simulations to validate the algorithm and to assess its convergence rate under stationary and non-stationary content popularity. Our results (i) testify the feasibility of content-oblivious caches and (ii) show that the proposed algorithm can achieve within 10% from the global optimum in our evaluation.  </div>
+<div id="BibTeX-ITC28a" class="collapse"> <pre>@inproceedings{DR:ITC28a,
+  title = {Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery},
+  author = {Araldo, Andrea and Dan, Gyorgy and Rossi, Dario},
+  year = {2016},
+  month = sep,
+  booktitle = {ITC28, Runner-up for best paper award and receipient of the IEEE ComSoc/ISOC Internet Technical Committee Best paper award 2016-2017},
+  note = {bestpaperaward},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi16itc28-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ITC28b"></a>[ITC28b]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi16itc28-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi16itc28-b.pdf"> <emph> ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ITC28 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2016, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ITC28b">Abstract</button>
+<div id="ITC28b" class="collapse">
+<p>Large scale deployments of general cache networks, such as Content Delivery Networks or Information Centric Networking architectures, arise new challenges regarding their performance evaluation for network planning. On the one hand, analytical models can hardly represent in details all the interactions of complex replacement, replication, and routing policies on arbitrary topologies. On the other hand, the sheer size of networks and content catalogs makes event-driven simulation techniques inherently non-scalable. We propose a new technique for the performance evaluation of large-scale caching systems that intelligently integrates elements of stochastic analysis within a MonteCarlo simulative approach, that we colloquially refer to as ModelGraft. Our approach (i) leverages the intuition that complex scenarios can be mapped to a simpler equivalent scenario that builds upon Time-To-Live (TTL) caches; it (ii) significantly downscales the scenario to lower computation and memory complexity, while, at the same time, preserving its properties to limit accuracy loss; finally, it (iii) is simple to use and robust, as it autonomously converges to a consistent state through a feedback-loop control system, regardless of the initial state. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. In addition, we show that ModelGraft extends performance evaluation well beyond the boundaries of classic approaches, by enabling study of Internet-scale scenarios with content catalogs comprising hundreds of billions objects.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ITC28b" class="collapse well"> Large scale deployments of general cache networks, such as Content Delivery Networks or Information Centric Networking architectures, arise new challenges regarding their performance evaluation for network planning. On the one hand, analytical models can hardly represent in details all the interactions of complex replacement, replication, and routing policies on arbitrary topologies. On the other hand, the sheer size of networks and content catalogs makes event-driven simulation techniques inherently non-scalable. We propose a new technique for the performance evaluation of large-scale caching systems that intelligently integrates elements of stochastic analysis within a MonteCarlo simulative approach, that we colloquially refer to as ModelGraft. Our approach (i) leverages the intuition that complex scenarios can be mapped to a simpler equivalent scenario that builds upon Time-To-Live (TTL) caches; it (ii) significantly downscales the scenario to lower computation and memory complexity, while, at the same time, preserving its properties to limit accuracy loss; finally, it (iii) is simple to use and robust, as it autonomously converges to a consistent state through a feedback-loop control system, regardless of the initial state. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. In addition, we show that ModelGraft extends performance evaluation well beyond the boundaries of classic approaches, by enabling study of Internet-scale scenarios with content catalogs comprising hundreds of billions objects.  </div>
+<div id="BibTeX-ITC28b" class="collapse"> <pre>@inproceedings{DR:ITC28b,
+  title = {ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2016},
+  month = sep,
+  booktitle = {ITC28},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi16itc28-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="NETWORKING-16"></a>[NETWORKING-16]</strong></abbr>
+	Araldo, Andrea and Martignon, Fabio and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi16networking.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi16networking.pdf"> <emph> Representation Selection Problem: Optimizing Video Delivery through Caching </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IFIP Networking 	   
+
+
+</emph>
+
+		   
+
+	 may. 	   
+	 2016, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="NETWORKING-16">Abstract</button>
+<div id="NETWORKING-16" class="collapse">
+<p>To cope with Internet video explosion, recent work proposes to deploy caches to absorb part of the traffic related to popular videos. Nonetheless, caching literature has mainly focused on network-centric metrics, while the quality of users’ video streaming experience should be the key performance index to optimize. Additionally, the general assumption is that each user request can be satisfied by a single object, which does not hold when multiple representations at different quality levels are available for the same video. Our contribution in this paper is to extend the classic object placement problem (which object to cache and where) by further considering the representation selection problem (i.e., which quality representation to cache), employing two methodologies to tackle this challenge. First, we employ a Mixed Integer Linear Programming (MILP) formulation to obtain the centralized optimal solution, as well as bounds to natural policies that are readily obtained as additional constraints of the MILP. Second, from the structure of the optimal solution, we learn guidelines that assist the design of distributed caching strategies: namely, we devise a simple yet effective distributed strategy that incrementally improves the quality of cached objects. Via simulation over large scale scenarios comprising up to hundred nodes and hundred million objects, we show our proposal to be effective in balancing user perceived utility vs bandwidth usage.	</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-16">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-16">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-NETWORKING-16" class="collapse well"> To cope with Internet video explosion, recent work proposes to deploy caches to absorb part of the traffic related to popular videos. Nonetheless, caching literature has mainly focused on network-centric metrics, while the quality of users’ video streaming experience should be the key performance index to optimize. Additionally, the general assumption is that each user request can be satisfied by a single object, which does not hold when multiple representations at different quality levels are available for the same video. Our contribution in this paper is to extend the classic object placement problem (which object to cache and where) by further considering the representation selection problem (i.e., which quality representation to cache), employing two methodologies to tackle this challenge. First, we employ a Mixed Integer Linear Programming (MILP) formulation to obtain the centralized optimal solution, as well as bounds to natural policies that are readily obtained as additional constraints of the MILP. Second, from the structure of the optimal solution, we learn guidelines that assist the design of distributed caching strategies: namely, we devise a simple yet effective distributed strategy that incrementally improves the quality of cached objects. Via simulation over large scale scenarios comprising up to hundred nodes and hundred million objects, we show our proposal to be effective in balancing user perceived utility vs bandwidth usage.	  </div>
+<div id="BibTeX-NETWORKING-16" class="collapse"> <pre>@inproceedings{DR:NETWORKING-16,
+  title = {Representation Selection Problem: Optimizing Video Delivery through Caching},
+  author = {Araldo, Andrea and Martignon, Fabio and Rossi, Dario},
+  year = {2016},
+  month = may,
+  booktitle = {IFIP Networking},
+  pages = {323-331},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi16networking.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CCN-TR16"></a>[CCN-TR16]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/ModelGraft.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/ModelGraft.pdf"> <emph> Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Tech. Rep. 	   
+
+
+</emph>
+
+		   
+
+		   
+	 2016, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR16">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CCN-TR16" class="collapse well">   </div>
+<div id="BibTeX-CCN-TR16" class="collapse"> <pre>@inproceedings{DR:CCN-TR16,
+  title = {Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2016},
+  booktitle = {Tech. Rep.},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/ModelGraft.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-15"></a>[ICN-15]</strong></abbr>
+	R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Rossi, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi15icn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi15icn.pdf"> <emph> Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM SIGCOMM Conference on Information-Centric Networking (ICN’15) 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2015, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICN-15">Abstract</button>
+<div id="ICN-15" class="collapse">
+<p>Recent work motivates the design of Information-centric rou-ters that make use of hierarchies of memory to jointly scale in the size and speed of content stores. The present paper advances this understanding by (i) instantiating a general purpose two-layer packet-level caching system, (ii) investigating the solution design space via emulation, and (iii) introducing a proof-of-concept prototype. The emulation-based study reveals insights about the broad design space, the expected impact of workload, and gains due to multi-threaded execution. The full-blown system prototype experimentally confirms that, by exploiting both DRAM and SSD memory technologies, ICN routers can sustain cache operations in excess of 10Gbps running on off-the-shelf hardware.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-15">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-15">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-15" class="collapse well"> Recent work motivates the design of Information-centric rou-ters that make use of hierarchies of memory to jointly scale in the size and speed of content stores. The present paper advances this understanding by (i) instantiating a general purpose two-layer packet-level caching system, (ii) investigating the solution design space via emulation, and (iii) introducing a proof-of-concept prototype. The emulation-based study reveals insights about the broad design space, the expected impact of workload, and gains due to multi-threaded execution. The full-blown system prototype experimentally confirms that, by exploiting both DRAM and SSD memory technologies, ICN routers can sustain cache operations in excess of 10Gbps running on off-the-shelf hardware.  </div>
+<div id="BibTeX-ICN-15" class="collapse"> <pre>@inproceedings{DR:ICN-15,
+  title = {Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation},
+  author = {{R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Rossi}},
+  booktitle = {ACM SIGCOMM Conference on Information-Centric Networking (ICN'15)},
+  address = {San Francisco, CA},
+  month = sep,
+  year = {2015},
+  pages = {147-156},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi15icn.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="GLOBECOM-14"></a>[GLOBECOM-14]</strong></abbr>
+	, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14globecom.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14globecom.pdf"> <emph> Cost-aware caching: optimizing cache provisioning and object placement in ICN </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE Globecom 	   
+
+
+</emph>
+
+		   
+
+	 dec. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="GLOBECOM-14">Abstract</button>
+<div id="GLOBECOM-14" class="collapse">
+<p>Caching is frequently used by Internet Service Providers as a viable technique to reduce the latency perceived by end users, while jointly offloading network traffic. While the cache hit-ratio is generally considered in the literature as the dominant performance metric for such type of systems, in this paper we argue that a critical missing piece has so far been neglected. Adopting a radically different perspective, in this paper we explicitly account for the cost of content retrieval, i.e. the cost associated to the external bandwidth needed by an ISP to retrieve the contents requested by its customers. Interestingly, we discover that classical cache provisioning techniques that maximize cache efficiency (i.e., the hit-ratio), lead to suboptimal solutions with higher overall cost. To show this mismatch, we propose two optimization models that either minimize the overall costs or maximize the hit-ratio, jointly providing cache sizing, object placement and path selection. We formulate a polynomial- time greedy algorithm to solve the two problems and analytically prove its optimality. We provide numerical results and show that significant cost savings are attainable via a cost-aware design.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-14">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-14">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-GLOBECOM-14" class="collapse well"> Caching is frequently used by Internet Service Providers as a viable technique to reduce the latency perceived by end users, while jointly offloading network traffic. While the cache hit-ratio is generally considered in the literature as the dominant performance metric for such type of systems, in this paper we argue that a critical missing piece has so far been neglected. Adopting a radically different perspective, in this paper we explicitly account for the cost of content retrieval, i.e. the cost associated to the external bandwidth needed by an ISP to retrieve the contents requested by its customers. Interestingly, we discover that classical cache provisioning techniques that maximize cache efficiency (i.e., the hit-ratio), lead to suboptimal solutions with higher overall cost. To show this mismatch, we propose two optimization models that either minimize the overall costs or maximize the hit-ratio, jointly providing cache sizing, object placement and path selection. We formulate a polynomial- time greedy algorithm to solve the two problems and analytically prove its optimality. We provide numerical results and show that significant cost savings are attainable via a cost-aware design.  </div>
+<div id="BibTeX-GLOBECOM-14" class="collapse"> <pre>@inproceedings{DR:GLOBECOM-14,
+  author = {},
+  title = {Cost-aware caching: optimizing cache provisioning and object placement in ICN},
+  booktitle = {IEEE Globecom},
+  address = {Austin, Texas},
+  month = dec,
+  year = {2014},
+  pages = {1108 - 1113},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14globecom.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-14a"></a>[ICN-14a]</strong></abbr>
+	Araldo, Andrea and Rossi, Dario and Martignon, Fabio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-a.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-a.pdf"> <emph> Design and Evaluation of Cost-aware Information Centric Routers </emph></a> 
+    	
+
+
+
+<emph>
+
+	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICN-14a">Abstract</button>
+<div id="ICN-14a" class="collapse">
+<p>Albeit an important goal of Information Centric Networking (ICNs) is traffic reduction, a perhaps even more important aspect follows from the above achievement: the reduction of ISP operational costs that comes as consequence of the reduced load on transit and provider links. Surprisingly, to date this crucial aspect has not been properly taken into account, neither in the architectural design, nor in the op- eration and management of ICN proposals. In this work, we instead design a distributed cost-aware scheme that explicitly considers the cost heterogeneity among different links. We contrast our scheme with both traditional cost-blind schemes and optimal results. We further propose an architectural design to let multiple schemes be interoper- able, and finally assess whether overlooking implementation details could hamper the practical relevance of our design. Numerical results show that our cost-aware scheme can yield significant cost savings, that are furthermore consistent over a wide range of scenarios.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-14a" class="collapse well"> Albeit an important goal of Information Centric Networking (ICNs) is traffic reduction, a perhaps even more important aspect follows from the above achievement: the reduction of ISP operational costs that comes as consequence of the reduced load on transit and provider links. Surprisingly, to date this crucial aspect has not been properly taken into account, neither in the architectural design, nor in the op- eration and management of ICN proposals. In this work, we instead design a distributed cost-aware scheme that explicitly considers the cost heterogeneity among different links. We contrast our scheme with both traditional cost-blind schemes and optimal results. We further propose an architectural design to let multiple schemes be interoper- able, and finally assess whether overlooking implementation details could hamper the practical relevance of our design. Numerical results show that our cost-aware scheme can yield significant cost savings, that are furthermore consistent over a wide range of scenarios.  </div>
+<div id="BibTeX-ICN-14a" class="collapse"> <pre>@inproceedings{DR:ICN-14a,
+  title = {Design and Evaluation of Cost-aware Information Centric Routers},
+  author = {Araldo, Andrea and Rossi, Dario and Martignon, Fabio},
+  booktitle = {1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014)},
+  address = {Paris, France},
+  month = sep,
+  year = {2014},
+  pages = {147-156},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-14b"></a>[ICN-14b]</strong></abbr>
+	Rossini, Giuseppe and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-b.pdf"> <emph> Coupling caching and forwarding: Benefits, analysis, and implementation </emph></a> 
+    	
+
+
+
+<emph>
+
+	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICN-14b">Abstract</button>
+<div id="ICN-14b" class="collapse">
+<p>A recent debate revolves around the usefulness of pervasive caching, i.e., adding caching capabilities to possibly every router of the future Internet. Recent research argues against it, on the ground that it provides only very limited gain with respect to the current CDN scenario, where caching only happens at the network edge. In this paper, we instead show that advantages of ubiquitous caching appear only when meta-caching (i.e., whether or not cache the incoming object) and forwarding (i.e., where to direct requests in case of cache miss) decisions are tightly coupled. Summarizing our contributions, we (i) show that gains can be obtained provided that ideal Nearest Replica Routing (iNRR) forwarding and Leave a Copy Down (LCD) meta-caching are jointly in use, (ii) model the iNRR forwarding policy, (iii) provide two alternative implementations that arbitrarily closely approximate iNRR behavior, and (iv) promote cross-comparison by making our code available to the community.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-14b" class="collapse well"> A recent debate revolves around the usefulness of pervasive caching, i.e., adding caching capabilities to possibly every router of the future Internet. Recent research argues against it, on the ground that it provides only very limited gain with respect to the current CDN scenario, where caching only happens at the network edge. In this paper, we instead show that advantages of ubiquitous caching appear only when meta-caching (i.e., whether or not cache the incoming object) and forwarding (i.e., where to direct requests in case of cache miss) decisions are tightly coupled. Summarizing our contributions, we (i) show that gains can be obtained provided that ideal Nearest Replica Routing (iNRR) forwarding and Leave a Copy Down (LCD) meta-caching are jointly in use, (ii) model the iNRR forwarding policy, (iii) provide two alternative implementations that arbitrarily closely approximate iNRR behavior, and (iv) promote cross-comparison by making our code available to the community.  </div>
+<div id="BibTeX-ICN-14b" class="collapse"> <pre>@inproceedings{DR:ICN-14b,
+  title = {Coupling caching and forwarding: Benefits, analysis, and implementation},
+  author = {Rossini, Giuseppe and Rossi, Dario},
+  booktitle = {1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014)},
+  address = {Paris, France},
+  month = sep,
+  year = {2014},
+  pages = {127-136},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-14c"></a>[ICN-14c]</strong></abbr>
+	Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-c.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-c.pdf"> <emph> Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking </emph></a> 
+    	
+
+
+
+<emph>
+
+	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICN-14c">Abstract</button>
+<div id="ICN-14c" class="collapse">
+<p>Web content coming from outside the ISP is today skyrocketing, causing significant additional infrastructure costs to network operators. The reduced marginal revenues left to ISPs, whose business is almost entirely based on declining flat rate subscriptions, call for significant innovation within the network infrastructure, to support new service delivery. In this paper, we suggest the use of micro CDNs in ISP access and back-haul networks to reduce redundant web traffic within the ISP infrastructure while improving user’s QoS. With micro CDN we refer to a content delivery system composed of (i) a high speed caching substrate, (ii) a content based routing protocol and (iii) a set of data transfer mechanisms made available by content-centric networking. The contribution of this paper is twofold. First, we extensively analyze more than one month of web traffic via continuous monitoring between the access and back-haul network of Orange in France. Second, we characterize key properties of monitored traffic, such as content popularity and request cacheability, to infer potential traffic reduction enabled by the introduction of micro CDNs. Based on these findings, we then perform micro CDN dimensioning in terms of memory requirements and provide guidelines on design choices</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14c">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14c">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-14c" class="collapse well"> Web content coming from outside the ISP is today skyrocketing, causing significant additional infrastructure costs to network operators. The reduced marginal revenues left to ISPs, whose business is almost entirely based on declining flat rate subscriptions, call for significant innovation within the network infrastructure, to support new service delivery. In this paper, we suggest the use of micro CDNs in ISP access and back-haul networks to reduce redundant web traffic within the ISP infrastructure while improving user’s QoS. With micro CDN we refer to a content delivery system composed of (i) a high speed caching substrate, (ii) a content based routing protocol and (iii) a set of data transfer mechanisms made available by content-centric networking. The contribution of this paper is twofold. First, we extensively analyze more than one month of web traffic via continuous monitoring between the access and back-haul network of Orange in France. Second, we characterize key properties of monitored traffic, such as content popularity and request cacheability, to infer potential traffic reduction enabled by the introduction of micro CDNs. Based on these findings, we then perform micro CDN dimensioning in terms of memory requirements and provide guidelines on design choices  </div>
+<div id="BibTeX-ICN-14c" class="collapse"> <pre>@inproceedings{DR:ICN-14c,
+  title = {Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking},
+  author = {Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario},
+  booktitle = {1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014)},
+  address = {Paris, France},
+  month = sep,
+  year = {2014},
+  pages = {57-66},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-c.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-14d"></a>[ICN-14d]</strong></abbr>
+	Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-d.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-d.pdf"> <emph> Analyzing Cacheability in the Access Network with HACkSAw </emph></a> 
+    	
+
+
+
+<emph>
+
+	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICN-14d">Abstract</button>
+<div id="ICN-14d" class="collapse">
+<p>Web traffic is growing, and the need for accurate traces of HTTP traffic is therefore also rising, both for operators and researchers, as accurate HTTP traffic traces allow to analyse and characterize the traffic and the clients, and to analyse the performance of the network and the perceived quality of service for the final users. Since most ICN proposals also advocate for pervasive caching, it is imperative to measure the cacheability of traffic to assess the impact and/or the potential benefits of such solutions. This demonstration will show a both a tool to collect HTTP traces that is both fast and accurate and that overcomes the limitations of existing tools, and a set of important statistics that can be computed in post processing, like aggregate/demultiplexed cacheability figures.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14d">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14d">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-14d" class="collapse well"> Web traffic is growing, and the need for accurate traces of HTTP traffic is therefore also rising, both for operators and researchers, as accurate HTTP traffic traces allow to analyse and characterize the traffic and the clients, and to analyse the performance of the network and the perceived quality of service for the final users. Since most ICN proposals also advocate for pervasive caching, it is imperative to measure the cacheability of traffic to assess the impact and/or the potential benefits of such solutions. This demonstration will show a both a tool to collect HTTP traces that is both fast and accurate and that overcomes the limitations of existing tools, and a set of important statistics that can be computed in post processing, like aggregate/demultiplexed cacheability figures.  </div>
+<div id="BibTeX-ICN-14d" class="collapse"> <pre>@inproceedings{DR:ICN-14d,
+  title = {Analyzing Cacheability in the Access Network with HACkSAw},
+  author = {Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario},
+  booktitle = {1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session},
+  address = {Paris, France},
+  month = sep,
+  year = {2014},
+  pages = {201-202},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-d.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-14e"></a>[ICN-14e]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-e.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-e.pdf"> <emph> CCN Simulators: Analysis and Cross-Comparison </emph></a> 
+    	
+
+
+
+<emph>
+
+	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14e">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-14e" class="collapse well">   </div>
+<div id="BibTeX-ICN-14e" class="collapse"> <pre>@inproceedings{DR:ICN-14e,
+  title = {CCN Simulators: Analysis and Cross-Comparison},
+  author = {Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo},
+  booktitle = {1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session},
+  address = {Paris, France},
+  month = sep,
+  year = {2014},
+  pages = {197-198},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14icn-e.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="QICN-14"></a>[QICN-14]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi14qicn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14qicn.pdf"> <emph> Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality </emph></a> 
+    	
+
+
+
+<emph>
+
+	   International Workshop on Quality, Reliability, and Security in Information-Centric Networking (Q-ICN) 	   
+
+
+</emph>
+
+		   
+
+	 aug. 	   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="QICN-14">Abstract</button>
+<div id="QICN-14" class="collapse">
+<p>While numerous Information Centric Networking (ICN) architectures have been proposed over the last years, the community has so far only timidly attempted at a quantitative assessment of the relative quality of service level that users are expected to enjoy in each of them. This paper starts a journey toward the cross comparison of ICN alternatives, making several contributions along this road. Specifically, a census of 20 ICN software tools reveals that about 10 are dedicated to a specific architecture, about half of which are simulators. Second, we survey ICN research papers using simulation to gather information concerning the used simulator, finding that a large fraction either uses custom proprietary and unavailable software, or even plainly fails to mention any information on this regard, which is deceiving. Third, we cross-compare some of the available simulators, finding that they achieve consistent results, which is instead encouraging. Fourth, we propose a methodology to increase and promote cross- comparison, which is within reach but requires community-wide agreement, promotion and enforcement.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-QICN-14">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-QICN-14">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-QICN-14" class="collapse well"> While numerous Information Centric Networking (ICN) architectures have been proposed over the last years, the community has so far only timidly attempted at a quantitative assessment of the relative quality of service level that users are expected to enjoy in each of them. This paper starts a journey toward the cross comparison of ICN alternatives, making several contributions along this road. Specifically, a census of 20 ICN software tools reveals that about 10 are dedicated to a specific architecture, about half of which are simulators. Second, we survey ICN research papers using simulation to gather information concerning the used simulator, finding that a large fraction either uses custom proprietary and unavailable software, or even plainly fails to mention any information on this regard, which is deceiving. Third, we cross-compare some of the available simulators, finding that they achieve consistent results, which is instead encouraging. Fourth, we propose a methodology to increase and promote cross- comparison, which is within reach but requires community-wide agreement, promotion and enforcement.  </div>
+<div id="BibTeX-QICN-14" class="collapse"> <pre>@inproceedings{DR:QICN-14,
+  title = {Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality},
+  author = {Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo},
+  booktitle = {International Workshop on Quality, Reliability, and Security in Information-Centric Networking (Q-ICN)},
+  address = {Rhodes, Greece},
+  month = aug,
+  year = {2014},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi14qicn.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-08"></a>[PATENT-08]</strong></abbr>
+	Rossi, D. and Rossini, G., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO14305866.7"></i> 
+		<a href="Patent EPO14305866.7"> <emph> Method for managing packets in a network of Information Centric Networking (ICN) nodes </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+		   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-08">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PATENT-08" class="collapse well">   </div>
+<div id="BibTeX-PATENT-08" class="collapse"> <pre>@misc{DR:PATENT-08,
+  author = {Rossi, D. and Rossini, G.},
+  howpublished = {Patent EPO14305866.7},
+  title = {Method for managing packets in a network of Information Centric Networking (ICN) nodes},
+  year = {2014}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-07"></a>[PATENT-07]</strong></abbr>
+	Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO14305639.8"></i> 
+		<a href="Patent EPO14305639.8"> <emph> Information Centric Networking (ICN) router </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+		   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-07">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PATENT-07" class="collapse well">   </div>
+<div id="BibTeX-PATENT-07" class="collapse"> <pre>@misc{DR:PATENT-07,
+  author = {Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio},
+  howpublished = {Patent EPO14305639.8},
+  title = {Information Centric Networking (ICN) router},
+  year = {2014}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICC-13"></a>[ICC-13]</strong></abbr>
+	Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi13icc.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi13icc.pdf"> <emph> ccnSim: an Highly Scalable CCN Simulator </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE International Conference on Communications (ICC) 	   
+
+
+</emph>
+
+		   
+
+	 jun. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICC-13">Abstract</button>
+<div id="ICC-13" class="collapse">
+<p>Research interest about Information Centric Networking (ICN) has grown at a very fast pace over the last few years, especially after the 2009 seminal paper of Van Jacobson et al. describing a Content Centric Network (CCN) architecture. While significant research effort has been produced in terms of architectures, algorithms, and models, the scientific community currently lacks common tools and scenarios to allow a fair cross- comparison among the different proposals. The situation is particularly complex as the commonly used general-purpose simulators cannot cope with the expected system scale: thus, many proposals are currently evaluated over small and unrealistic scale, especially in terms of dominant factors like catalog and cache sizes. As such, there is need of a scalable tool under which different algorithms can be tested and compared. Over the last years, we have developed and optimized ccnSim, an highly scalable chunk-level simulator especially suitable for the analysis of caching performance of CCN network. In this paper, we briefly describe the tool, and present an extensive benchmark of its performance. To give an idea of ccnSim scalability, a common off-the-shelf PC equipped with 8GB of RAM memory is able to simulate 2-hours of a 50-nodes CCN network, where each nodes is equipped with 10 GB caches, serving a 1 PB catalog in about 20 min CPU time.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICC-13">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-13">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICC-13" class="collapse well"> Research interest about Information Centric Networking (ICN) has grown at a very fast pace over the last few years, especially after the 2009 seminal paper of Van Jacobson et al. describing a Content Centric Network (CCN) architecture. While significant research effort has been produced in terms of architectures, algorithms, and models, the scientific community currently lacks common tools and scenarios to allow a fair cross- comparison among the different proposals. The situation is particularly complex as the commonly used general-purpose simulators cannot cope with the expected system scale: thus, many proposals are currently evaluated over small and unrealistic scale, especially in terms of dominant factors like catalog and cache sizes. As such, there is need of a scalable tool under which different algorithms can be tested and compared. Over the last years, we have developed and optimized ccnSim, an highly scalable chunk-level simulator especially suitable for the analysis of caching performance of CCN network. In this paper, we briefly describe the tool, and present an extensive benchmark of its performance. To give an idea of ccnSim scalability, a common off-the-shelf PC equipped with 8GB of RAM memory is able to simulate 2-hours of a 50-nodes CCN network, where each nodes is equipped with 10 GB caches, serving a 1 PB catalog in about 20 min CPU time.  </div>
+<div id="BibTeX-ICC-13" class="collapse"> <pre>@inproceedings{DR:ICC-13,
+  title = {{ccnSim}: an Highly Scalable CCN Simulator},
+  author = {Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe},
+  booktitle = {IEEE International Conference on Communications (ICC)},
+  year = {2013},
+  month = jun,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi13icc.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-13"></a>[ICN-13]</strong></abbr>
+	, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi13icn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi13icn.pdf"> <emph> INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM SIGCOMM Worskhop on Information-Centric Networking (ICN) 	   
+
+
+</emph>
+
+		   
+
+		   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ICN-13">Abstract</button>
+<div id="ICN-13" class="collapse">
+<p>Information Centric Networking is a new communication paradigm where network primitives are based on named-data rather than host identifiers. In ICN, data retrieval is triggered by user requests which are forwarded towards a copy of the desired content item. Data can be retrieved either from a server that permanently provides a content item, or from a temporary item copy opportunistically cached by an in-network node. As the availability of cached items dynamically varies over time, the request forwarding scheme should be adapted accordingly. In this paper we focus on dynamic request forwarding in ICN, and develop an approach, inspired by Q-routing framework, that we show to outperform algorithms currently available in the state of the art.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-13">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-13">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-13" class="collapse well"> Information Centric Networking is a new communication paradigm where network primitives are based on named-data rather than host identifiers. In ICN, data retrieval is triggered by user requests which are forwarded towards a copy of the desired content item. Data can be retrieved either from a server that permanently provides a content item, or from a temporary item copy opportunistically cached by an in-network node. As the availability of cached items dynamically varies over time, the request forwarding scheme should be adapted accordingly. In this paper we focus on dynamic request forwarding in ICN, and develop an approach, inspired by Q-routing framework, that we show to outperform algorithms currently available in the state of the art.  </div>
+<div id="BibTeX-ICN-13" class="collapse"> <pre>@inproceedings{DR:ICN-13,
+  title = {{INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking}},
+  author = {},
+  booktitle = {ACM SIGCOMM Worskhop on Information-Centric Networking (ICN)},
+  year = {2013},
+  address = {Hong Kong, China},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi13icn.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-06"></a>[PATENT-06]</strong></abbr>
+	Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO13306124.2"></i> 
+		<a href="Patent EPO13306124.2"> <emph> Dynamic Interest Forwarding Mechanism for Information Centric Networking </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 . 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-06">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PATENT-06" class="collapse well">   </div>
+<div id="BibTeX-PATENT-06" class="collapse"> <pre>@misc{DR:PATENT-06,
+  author = {Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G.},
+  title = {Dynamic Interest Forwarding Mechanism for Information Centric Networking},
+  howpublished = {Patent EPO13306124.2},
+  address = {},
+  year = {2013},
+  month = {},
+  volume = {},
+  number = {},
+  pages = {},
+  annote = {}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-05"></a>[PATENT-05]</strong></abbr>
+	Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO13161714.4"></i> 
+		<a href="Patent EPO13161714.4"> <emph> Device and method for organizing forwarding information in nodes of a content centric networking </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 . 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-05">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-PATENT-05" class="collapse well">   </div>
+<div id="BibTeX-PATENT-05" class="collapse"> <pre>@misc{DR:PATENT-05,
+  author = {Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G.},
+  title = {Device and method for organizing forwarding information in nodes of a content centric networking},
+  howpublished = {Patent EPO13161714.4},
+  address = {},
+  year = {2013},
+  month = {},
+  volume = {},
+  number = {},
+  pages = {},
+  annote = {}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CAMAD-12"></a>[CAMAD-12]</strong></abbr>
+	G. Rossini, D. Rossi, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi12camad.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi12camad.pdf"> <emph> A dive into the caching performance of Content Centric Networking </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE 17th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD’12) 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="CAMAD-12">Abstract</button>
+<div id="CAMAD-12" class="collapse">
+<p>Content Centric Networking (CCN) is a promising architecture for the diffusion of popular content over the Internet. While CCN system design is sound, gathering a reliable estimate of its performance in the current Internet is challenging, due to the large scale and to the lack of agreement in some critical elements of the evaluation scenario. In this work, we add a number of important pieces to the CCN puzzle by means of a chunk-level simulator that we make available to the scientific community as open source software. First, we pay special attention to the locality of the user request process, as it may be determined by user interest or language barrier. Second, we consider the existence of possibly multiple repositories for the same content, as in the current Internet, along with different CCN interest forwarding policies, exploiting either a single or multiple repositories in parallel. To widen the relevance of our findings, we consider multi- ple topologies, content popularity settings, caching replacement policies and CCN forwarding strategies. Summarizing our main result, though the use of multiple content repositories can be beneficial from the user point of view, it may however counter part of the benefits if the CCN strategy layer implements naive interest forwarding policies.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CAMAD-12">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CAMAD-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CAMAD-12" class="collapse well"> Content Centric Networking (CCN) is a promising architecture for the diffusion of popular content over the Internet. While CCN system design is sound, gathering a reliable estimate of its performance in the current Internet is challenging, due to the large scale and to the lack of agreement in some critical elements of the evaluation scenario. In this work, we add a number of important pieces to the CCN puzzle by means of a chunk-level simulator that we make available to the scientific community as open source software. First, we pay special attention to the locality of the user request process, as it may be determined by user interest or language barrier. Second, we consider the existence of possibly multiple repositories for the same content, as in the current Internet, along with different CCN interest forwarding policies, exploiting either a single or multiple repositories in parallel. To widen the relevance of our findings, we consider multi- ple topologies, content popularity settings, caching replacement policies and CCN forwarding strategies. Summarizing our main result, though the use of multiple content repositories can be beneficial from the user point of view, it may however counter part of the benefits if the CCN strategy layer implements naive interest forwarding policies.  </div>
+<div id="BibTeX-CAMAD-12" class="collapse"> <pre>@inproceedings{DR:CAMAD-12,
+  title = {A dive into the caching performance of Content Centric Networking},
+  author = {G. Rossini, D. Rossi},
+  booktitle = {IEEE 17th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD'12)},
+  year = {2012},
+  month = sep,
+  pages = {105-109},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi12camad.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ALGOTEL-12"></a>[ALGOTEL-12]</strong></abbr>
+	Rossini, G. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi12algotel.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi12algotel.pdf"> <emph> Large scale simulation of CCN networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Algotel 2012 	   
+
+
+</emph>
+
+		   
+
+	 may. 	   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ALGOTEL-12">Abstract</button>
+<div id="ALGOTEL-12" class="collapse">
+<p>This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a very thorough simulation study of the main system performance, consider several ingredients such as network topology, multi-path routing, content popularity, caching decisions and replacement policies. Summarizing our main results, we gather that (i) the impact of the topology is limited, (ii) multi-path routing may play against CCN efficiency, (iii) simple randomized policies perform almost as well as more complex ones, (iv) catalog and popularity settings play by far the most crucial role above all. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ALGOTEL-12">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ALGOTEL-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ALGOTEL-12" class="collapse well"> This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a very thorough simulation study of the main system performance, consider several ingredients such as network topology, multi-path routing, content popularity, caching decisions and replacement policies. Summarizing our main results, we gather that (i) the impact of the topology is limited, (ii) multi-path routing may play against CCN efficiency, (iii) simple randomized policies perform almost as well as more complex ones, (iv) catalog and popularity settings play by far the most crucial role above all. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.  </div>
+<div id="BibTeX-ALGOTEL-12" class="collapse"> <pre>@inproceedings{DR:ALGOTEL-12,
+  author = {Rossini, G. and Rossi, D.},
+  title = {Large scale simulation of CCN networks},
+  booktitle = {Algotel 2012},
+  year = {2012},
+  address = {La Grande Motte, France},
+  month = may,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi12algotel.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="NOMEN-12"></a>[NOMEN-12]</strong></abbr>
+	Rossi, D. and Rossini, G., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi12nomen.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi12nomen.pdf"> <emph> On sizing CCN content stores by exploiting topological information </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE INFOCOM, NOMEN Worshop, 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="NOMEN-12">Abstract</button>
+<div id="NOMEN-12" class="collapse">
+<p>In this work, we study the caching performance of Content Centric Networking (CCN), with special emphasis on the size of individual CCN router caches. Specifically, we consider several graph-related centrality metrics (e.g., betweenness, closeness, stress, graph, eccentricity and degree centralities) to allocate content store space heterogeneously across the CCN network, and contrast the performance to that of an homogeneous allocation. To gather relevant results, we study CCN caching performance under large cache sizes (individual content stores of 10 GB), realistic topologies (up to 60 nodes), a YouTube-like Internet catalog (108 files for 1PB video data). A thorough simulation campaign allow us to conclude that (i) , the gain brought by content store size heterogeneity is very limited, and that (ii) the simplest metric, namely degree centrality, already proves to be a “sufficiently good” allocation criterion. On the one hand, this implies rather simple rules of thumb for the content store sizing (e.g., “if you add a line card to a CCN router, add some content store space as well”). On the other hand, we point out that technological constraints, such as line- speed operation requirement, may however limit the applicability of degree-based content store allocation.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NOMEN-12">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NOMEN-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-NOMEN-12" class="collapse well"> In this work, we study the caching performance of Content Centric Networking (CCN), with special emphasis on the size of individual CCN router caches. Specifically, we consider several graph-related centrality metrics (e.g., betweenness, closeness, stress, graph, eccentricity and degree centralities) to allocate content store space heterogeneously across the CCN network, and contrast the performance to that of an homogeneous allocation. To gather relevant results, we study CCN caching performance under large cache sizes (individual content stores of 10 GB), realistic topologies (up to 60 nodes), a YouTube-like Internet catalog (108 files for 1PB video data). A thorough simulation campaign allow us to conclude that (i) , the gain brought by content store size heterogeneity is very limited, and that (ii) the simplest metric, namely degree centrality, already proves to be a “sufficiently good” allocation criterion. On the one hand, this implies rather simple rules of thumb for the content store sizing (e.g., “if you add a line card to a CCN router, add some content store space as well”). On the other hand, we point out that technological constraints, such as line- speed operation requirement, may however limit the applicability of degree-based content store allocation.  </div>
+<div id="BibTeX-NOMEN-12" class="collapse"> <pre>@inproceedings{DR:NOMEN-12,
+  author = {Rossi, D. and Rossini, G.},
+  title = {On sizing CCN content stores by exploiting topological information},
+  booktitle = {IEEE INFOCOM, NOMEN Worshop,},
+  year = {2012},
+  address = {Orlando, FL},
+  pages = {280-285},
+  month = mar,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi12nomen.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="IETF83-a"></a>[IETF83-a]</strong></abbr>
+	Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi12icnrg-ietf83.pptx"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi12icnrg-ietf83.pptx"> <emph> A dive into CCN^⋆caching performance </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Talk at IETF83, ICNRG meeting 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-IETF83-a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-IETF83-a" class="collapse well">   </div>
+<div id="BibTeX-IETF83-a" class="collapse"> <pre>@inproceedings{DR:IETF83-a,
+  author = {Rossi, Dario},
+  title = {A dive into CCN$^\star$ caching performance},
+  booktitle = {Talk at IETF83, ICNRG meeting},
+  month = mar,
+  year = {2012},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi12icnrg-ietf83.pptx}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICN-12"></a>[ICN-12]</strong></abbr>
+	Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Giovanna and Diego Perino, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi12icn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi12icn.pdf"> <emph> Exploit the known or explore the unknown: Hamlet-like doubts in ICN </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM SIGCOMM, ICN Workshop, 	   
+
+
+</emph>
+
+		   
+
+		   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICN-12" class="collapse well">   </div>
+<div id="BibTeX-ICN-12" class="collapse"> <pre>@inproceedings{DR:ICN-12,
+  author = {Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Giovanna and Diego Perino},
+  title = {Exploit the known or explore the unknown: Hamlet-like doubts in ICN},
+  booktitle = {ACM SIGCOMM, ICN Workshop,},
+  year = {2012},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi12icn.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CCN-TR11a"></a>[CCN-TR11a]</strong></abbr>
+	D. Rossi, G. Rossini, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi11ccn-techrep1.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi11ccn-techrep1.pdf"> <emph> Caching performance of content centric networks under multi-path routing (and more) </emph></a> 
+    	
+
+
+
+<emph>
+
+	     Telecom ParisTech 	   
+	
+
+</emph>
+
+		   
+
+		   
+	 2011, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR11a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CCN-TR11a" class="collapse well">   </div>
+<div id="BibTeX-CCN-TR11a" class="collapse"> <pre>@techreport{DR:CCN-TR11a,
+  title = {Caching performance of content centric networks under multi-path routing (and more)},
+  author = {D. Rossi, G. Rossini},
+  institution = {Telecom ParisTech},
+  year = {2011},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi11ccn-techrep1.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="COMCOM-13"></a>[COMCOM-13]</strong></abbr>
+	Rossini, Giuseppe and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi13comcom.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi13comcom.pdf"> <emph> Evaluating CCN multi-path interest forwarding strategies </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In Elsevier Computer Communication, SI on Information Centric Networking,, 	   
+	 Vol. 36, 	   
+		   
+	 pp.771-778, 	   
+
+
+</emph>
+
+		   
+
+	 Avril. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="COMCOM-13">Abstract</button>
+<div id="COMCOM-13" class="collapse">
+<p>This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a thorough simulation study of the main system performance, with a special focus on multi-path interest forwarding strategies but thoroughly analyzing the impact of several other ingredients – such as network topology, content popularity, caching decisions and replacement policies. Summarizing our main results, (i) catalog and popularity settings play by far the most crucial role (ii) the impact of the strategy layer comes next, with naive forwarding strategies playing against CCN efficiency, (iii) simple randomized caching policies perform almost as well as more complex ones, (iv) the impact of the topology is limited. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMCOM-13">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMCOM-13">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-COMCOM-13" class="collapse well"> This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a thorough simulation study of the main system performance, with a special focus on multi-path interest forwarding strategies but thoroughly analyzing the impact of several other ingredients – such as network topology, content popularity, caching decisions and replacement policies. Summarizing our main results, (i) catalog and popularity settings play by far the most crucial role (ii) the impact of the strategy layer comes next, with naive forwarding strategies playing against CCN efficiency, (iii) simple randomized caching policies perform almost as well as more complex ones, (iv) the impact of the topology is limited. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.  </div>
+<div id="BibTeX-COMCOM-13" class="collapse"> <pre>@article{DR:COMCOM-13,
+  author = {Rossini, Giuseppe and Rossi, Dario},
+  title = {Evaluating CCN multi-path interest forwarding strategies},
+  journal = {Elsevier Computer Communication, SI on Information Centric Networking,},
+  month = {Avril},
+  volume = {36},
+  issue = {7},
+  pages = {771-778},
+  year = {2013},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi13comcom.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li></ul>
+
+<!-- Begin Shinystat code 
+<script type="text/javascript" src="http://codice.shinystat.com/cgi-bin/getcod.cgi?USER=ccnSim"></script>
+<noscript>
+<a href="http://www.shinystat.com" target="_top">
+<img src="http://www.shinystat.com/cgi-bin/shinystat.cgi?USER=ccnSim" alt="Free hit counters" border="0" /></a>
+</noscript>
+End Shinystat code -->
+
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

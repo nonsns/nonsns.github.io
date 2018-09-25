@@ -1,0 +1,791 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>BrainDrain</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <h1 id="braindrain">BrainDrain</h1>
+
+<div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> For nostalgy only. Code and dataset were lost in the migration </p>
+		</div>
+
+<p><img src="/drossi/assets/images/screenshot-braindrain.png" alt="" title="BrainDrain" /></p>
+
+<h2 id="comments-in-italian">Comments (in italian)</h2>
+
+<p><strong>Qui sotto sono raccolti, in ordine alfabetico, i commenti lasciati nel campo libero alla fine del form…</strong></p>
+
+<ul>
+  <li>A 65 anni considero’ offerte, situazione della ricerca italiana permettendo</li>
+  <li>Abolizione del sistema concorsuale. Accesso a posizioni (permanenti e non) tramite curriculum e colloquio, non attraverso un sistema di esami logoro e unico al mondo. Un sistema elastico che permetta a chi assume di assumere sulla base di un interesse scientifico contestualizzato in una strategia di ricerca a lungo temine e non sulla base di uno sistema di baratto tra i dipartimenti (grazie a commissari consenzienti). Provare almeno in questo a non essere un paese terzomondista</li>
+  <li>All’estero ho numerose possibilita’ di contratto a tempo indeterminato, in Italia nessuna.</li>
+  <li>All’estero se produci vivi, se non produci sei out.</li>
+  <li>Al momento di lasdciare l’Italia ero appena laureata e senza contratto, non dottorando.</li>
+  <li>Anche se mi manca l’Italia, preferisco il valore della mia indipendenza accademica e intellettuale.</li>
+  <li>A proposito di politica,ci sarebbe qualche cosarellina da mangiare? (Toto’)</li>
+  <li>Aumentate il valore dei ricercatori</li>
+  <li>avevo un posto da ricercatore pronto per me, ma l’atmosfera all’interno dell’universita’ era tale che lavorare indipendentemente era impossibile…</li>
+  <li>Avre la possibilita’ di svolgere “DIGNITOSAMENTE” lo stesso lavoro in Italia</li>
+  <li>Bella iniziativa, aderisco molto volentieri! In bocca al lupo e grazie!</li>
+  <li>bisogna finanziare l’universitá, ma non prima di averla ripulita da baroni e marcio dilagante</li>
+  <li>Bravi!</li>
+  <li>Bravi!</li>
+  <li>buona iniziativa ma dovete includere alcune opzioni in piu o una casella con scritto “altro” in ogni campo</li>
+  <li>C’e’ poco da commentare !!!!</li>
+  <li>certo che una volta che ti abitui alle research facilities USA è dura tornare indietro!!!</li>
+  <li>Che dire? Mi fa molta tristezza la situazione italiana, e che per rientrare nel mio paese dovro’ abbandonare la fisica.</li>
+  <li>Consiglio vivamente i giovani colleghi ricercatori di considerare l’ Australia come meta di “fuga”. Io lo rifarei!</li>
+  <li>da gennaio 2008 postdoc presso LSP, Université Joseph Fourier and CNRS, Grenoble</li>
+  <li>Dirigo Architecttura e mi tolgo soddisfazioni. Rientrerei solo per una simile posizione, che nessuno mi offrira’</li>
+  <li>Dopo 10 anni da “cultore della materia” senza un minimo di rimborso spese e senza neanche la possibilità di effettuare un dottorato causa dimissioni del mio professore di laurea, la scelta di partire è stata una necessità. Rientrerei se mi fossero date delle condizioni di status e di stipendio almeno pari a quelle di cui godo in Francia. Credo nonostante tutto nella ricchezza della ricerca italiana, soprattutto quando essa si esprima in situazioni di libertà, di laicità e d’indipendenza.</li>
+  <li>Dopo essere andato in Francia, ho vinto un concorso (abilitazione) da ordinario nel 2001, ma nessuna sede mi ha chiamato. In seguito, le opportunita`  di rientrare in italia non sono mai state abbastanza consistenti da convincermi a rientrare</li>
+  <li>Dopo la laurea, non sono stato accettato al dottorando italiano, e sono stato accettato a Stanford.</li>
+  <li>dovreste includere un’opzione per chi e’ partito dall’Italia con la sola laurea e senza un lavoro</li>
+  <li>Durante il post-doc all’estero, ho accettato una borsa post-doc Università Ancona: condizioni di ricerca, di stipendio e di carriera inaccettabili, lasciata a metà e tornata all’estero.</li>
+  <li>E’ caduto un’altro goveno, si prova a essere ottimisti ma e’ davvero difficile!!!! Buona fortuna a chi ha avuto il coraggio di rimanere in italia!!!</li>
+  <li>E’ impossibile classificare i settori usando le categorie del MURST-too narrow</li>
+  <li>Emigrato una prima volta nel 2001 (ETH), rientrato nel 2003, ripartito nel 2006 (IFP)</li>
+  <li>ero in congedo quando ero all’estero e poi non ho piu’ vinto un concorso che sia uno nonostante in molti concorsi fossi piu’ qualificato di gran lunga dei vincitori.</li>
+  <li>ero in congedo quando ero all’estero e poi non ho piu’ vinto un concorso che sia uno nonostante in molti concorsi fossi piu’ qualificato di gran lunga dei vincitori.</li>
+  <li>ero in congedo quando ero all’estero. Poi non ho piu’ vinto un concorso nonostante in molti concorsi fatti fossi piu’ qualificato dei vincitori.</li>
+  <li>esperienza estremamente positiva</li>
+  <li>è un mondo difficile … felicità a momenti e futuro incerto :-)</li>
+  <li>Field PhD e field Da: non ero dottorando ma Specializzando ma non c’é tale campo che peró é attuale in medicina</li>
+  <li>Fuggito per lavorare nell’industria. Sono un cervello in fuga anch’io? Doversti lasciare un campo aperto per la nostra categoria. Bella iniziativa, Grazie!</li>
+  <li>Ho 30 anni, non ho quasi mai pagato contributi, sono stata in quattro paesi diversi, non so dove sarò tra due anni, e se faccio sciopero non interessa a nessuno. Ma non è che noi ricercatori, nonostante quello che si dice,  siamo ai margini della società?</li>
+  <li>Ho avuto il posto di Consultant in UK solo sulla base del mio curriculum! In italia questo non basta. Pur essendo figlio di cattedratico, in Italia  ho avuto piu’ problemi che benefici! Ad altri capire il perche’.</li>
+  <li>Ho avuto una possibilità di rientrare in italia, ma era una borsa di due anni, poco pagata (meno dell’indennità di disoccupazione francese cui avevo diritto) e ho detto di no prima ancora di vincere il concorso CNRS.</li>
+  <li>Ho deciso di non rientrare in Italia perchè la mia professionalità non era riconosciuta. E ancora non lo è.</li>
+  <li>Ho deciso di trasferirmi in Germania a tempo indeterminato motivato primariamente dalla mia situazione privata (mia moglie e’ tedesca) e per questo motivo nel 1993 mi sono dimesso dalla posizione di Ricercatore che avevo ottenuto nel 1992 all’Universita’ di Pisa.  Tuttavia la situazione italiana non mi spingerebbe al ritorno anche nel caso lo volessi…</li>
+  <li>Ho iniziato il mio esilio scientifico -2002- prima della fine del dottorato-2005-grazie a collborazione con universita’ danese e Marie Curie fellowship.</li>
+  <li>Ho lasciato Accademia in Italia per lavorare in una casa Farmaceutica. Poi in USA dove ho sviluppao 3 farmaci  anticancro(approvati in USA and EU). Ho perso il concorso ad Associato nel 2004 (con oltre 300 pubblicazioni e piu di 75 in Peer Rev Journals). Attualment son Senior VP per GSK e sono responsabile globale per la ricerca clinica in Oncologia. Perdere il concorso e’ stata la manna dal cielo: non avrei mai fatto quello che sono riuscito a fare: miloni di pazienti hanno usato e d usano le medicine che ho sviluppato insieme ai mie collaboratori.</li>
+  <li>Ho passato un anno come visiting Professor al Politecnico di Milano. Esperienza molto interessante e positiva, che mi ha pero` confermato nella scelta USA.</li>
+  <li>Ho trovato in USA quello che l’Italia non offre: incredibili opportunita’ per la propria crescita professionale, stimoli e grandi potenzialita’.</li>
+  <li>Ho trovato in USA quello che l’Italia non offre: incredibili opportunita’ per la propria crescita professionale, stimoli e grandi potenzialita’.</li>
+  <li>Il ‘Da’ non contempla la mia situazione - mi sono laureata a Padova e me ne sono andata all’estero per fare il dottorato.</li>
+  <li>Il Direttore della clinica Otorinolaringoiatrica dell’Universita’ di cagliari ha pubblicato l’ultimo lavoro recensito nel lontano 2003!!</li>
+  <li>Il form sembra indirizzato solo a persone che lavoravano in Italia nell’ambito dell’universita’ Un buon numero di persone ha avuto esperienze di lavoro al di fuori dell’universita’ in Italia e quando si e’ trasferita e’ andata a lavorare in un’azienda</li>
+  <li>Il mio campo di studio e’ Media Studies, in particolare International Media.</li>
+  <li>Il mio campo di studio e’ Media Studies, in particolare International Media.</li>
+  <li>Il nepotismo e’ un male da combattere seriamente</li>
+  <li>il reclutamento dei ricercatori in italia penalizza chi e’ stato all’estero a causa delle commissioni locali e dello stipendio troppo basso, mentre le posizioni di ordinario hanno stipendi e incrementi di anzianita’ troppo  alti e soprattutto indipendenti dal merito</li>
+  <li>In effetti io sono nato in Brasile, ma con cittadinanza - vorrei vivere in Italia, ma qui sono pubblici per l’impiego con una buona qualità di vita. Se vi è una buona chiamata, sarebbe molto bene a lavorare e vivere in Italia - che ho parenti a Venezia e Torino.</li>
+  <li>In italia il lavoro e’ preistoria e la paga e’ inferiore di quella di una cassiera da supermercato (con ogni rispetto per la categoria)</li>
+  <li>In Italia la situazione dei giovani medici che si vogliono specializzare e al tempo stesso fare ricerca é molto precaria. Mi piacerebbe rientrare in Italia per cercare di cambiare le cose.Spero di avere delle possibilitá.</li>
+  <li>Iniziativa interassante, bravo!</li>
+  <li>Iniziativa lodevole, ma consiglio di ricercare altri studi del genere; ne esistono diversi.</li>
+  <li>In qualità di Ricercatore in France Télécom R&amp;D ho offerto uno stage retribuito con 1100E mese e il Politecnico di Milano mi ha risposto di preparare 4 marche da bollo da 14E; Cerchero’ uno studente altrove…</li>
+  <li>Io inizio detta attività in UK da Dicembre 2007</li>
+  <li>I ricercatori italiani (che hanno studiato in Italia) sono bravi e meriterebbero molto di piu’ dal loro paese</li>
+  <li>itaglia: oligarchia elettiva fondata sul debito pubblico</li>
+  <li>ITAIA: Buon caffe’ e vino, niente allarmismi terroirstici, burocrazia, lentezza, poca creatività. Gente grigia. Nessuno osa piu’.</li>
+  <li>La lotta e’ stata dura!</li>
+  <li>La mia scelta e’ soprattutto legata a fattori familari: marito straniero con cui ho intrapreso una prolifica carriera di ricerca</li>
+  <li>La mia situazione in Italia era di tecnico laureato, ma non c’e’ questa opzione nel dropw-down menu</li>
+  <li>La possiblità che avrei avuto per rientrare era un assegno di ricerca di 2 anni con prospettive future ZERO. Ora vorrei rientrare ma le prospettive sono praticamente nulle (e se stabilizzano senza criterio sarà peggio).</li>
+  <li>La ricerca in Italia? No comment</li>
+  <li>La scelta di rientrare in Italia e’ legata alla possibilita’ di rientrare con una posizione che garantisca indipendenza (scientifica ed economica).</li>
+  <li>“Lasciate ogni speranza voi ch’…” partite?</li>
+  <li>La situazione in Italia e’ deprimente, sotto molti punti di vista. Speriamo in un futuro migliore.</li>
+  <li>La situazione lavorativa all’estero per un ricercatore è davvero decisamente migliore rispetto a quella italiana, da molti punti di vista</li>
+  <li>Le prospettive di mobilitá degli italiani nell´ambito della docenza  (uscita, rentro… uscita…) sono molto difficili perche non esiste ancora oggi un PROGRAMMA Italiano multilaterale come la Francia , la Germania, USA, Uk… con il Brasile poi sono fermi o meglio bloccati tutti gli accordi bilaterali perché il CNR o Il ministero dell´Universitá non  svolge la cooperazione internazionale stanziando fondi di mobilitá, di ricerca, borse di studio… o quando ci sono, non sono diffusi i programmi. cciabili . É una pena, perché noi italiani andiamo in tutte le universitá del mondo, siamo ben accolti, ma non riusciamo  a ritornare o a fare dei soggiorni di studio e ricerca in Italia, ben sendo italiani e ben sendo laureati in Italia. Questa é la sfida per un BUON MINISTRO.</li>
+  <li>L’ho fatto e lo rifarei.</li>
+  <li>L’idea del forum e’ buona.</li>
+  <li>Limitatamente alle condizioni di lavoro non converebbe rientrare in Italia, sotto nessun punto di vista.</li>
+  <li>L’Italia è buona per andarci in vacanza ma non per vivere!</li>
+  <li>L’Italia fa pena per cio’ che riguarda la ricerca. Non solo per la mancanza di fondi, ma perchè molti dei professori che ho incontrato sono incapaci</li>
+  <li>L’Italia non mi pare al momento in grado di valorizzare il proprio patrimonio artistico e culturale; di contro gli altri paesi sono invece ben disposti (a valorizzare il NOSTRO patrimonio artistico e culturale)</li>
+  <li>L’Italia non potra’ avere sviluppo nella ricerca se quelli che restano sono quelli che abbassano la testa e stanno sotto l’ala protettrice del loro prof.</li>
+  <li>L’opzione ‘non so’ sarebbe utile.  - Associate Prof. dal Luglio 2008</li>
+  <li>L’ultima risposta e’ piu’ una speranza che una previsione razionale!</li>
+  <li>L’universita’ italiana non permette di fatto il rientro a chi vada all’estero, in modo da indurre laureati ad accettare precariato e stipendi da fame</li>
+  <li>ma chi e’ che vuole rientrare in italia?</li>
+  <li>
+    <h1 id="making-stats">making stats?</h1>
+  </li>
+  <li>Manca Astrofisica tra i campi di ricerca!</li>
+  <li>Ma sto considerando ottime offerte in Svizzera, a circa 165 Km dal confine italiano (praticamente a due passi)</li>
+  <li>Mi hanno risposto: “hai un bel posto all’estero, dobbiamo pensare ai disoccupati di qui”.</li>
+  <li>Mi occupo di bioinformatica e non c’e’ una categoria adeguata nel CUN!!!</li>
+  <li>Mi sento di fare un mestiere che ha un “mercato” globale, peccato che l’Italia abbia solo un flusso in uscita.</li>
+  <li>Mi trovo bene dove sono. Vengo valorizzato. Posso fare ricerca ad alto livello. Quindi perchè dovrei tornare in italia??</li>
+  <li>Molte persone, come me, lavorano all’estero in industria prima tornare in accademia. Sarebbe opportuno aggiornare il modulo dando questa opportunita.</li>
+  <li>Molte storie….tutte simili. E’ triste vedere il nostro paese ridotto in quelle condizioni. Dispiace soprattutto per le nuove generazioni!</li>
+  <li>Nato all’estero … mi pare che non ci sia possibilita’ a rientrare in Italia…</li>
+  <li>necessario reimportare le persone ‘fuori’ per cambiare la mentalita’ dentro</li>
+  <li>Nel futuro prossimo… Non ci penso proprio a rientrare in Italia, terra di vantaggio genetico e di merito politico. La crescita professionale che ho avuto grazie ai britannici nel belpaese me la sarei sognata. La patria e’ quella che ti da lavoro, non certo quella che ti prende a calci nel sedere!</li>
+  <li>Nel futuro prossimo provero’ a rientrare in Italia e SPERO di ricevere qualche offerta di lavoro (attualmente ho invito il mio CV ad almeneno 30 diversi istituti)! So gia’ che dovro’ accontentarmi di uno stipendio piu’ basso, ma voglio veramente tornare e purtroppo bisogna accontentarsi…..Purtroppo pero’ non posso non continuare a chiedermi se tutto cio’ sia giusto, soprattutto dopo tutto questi anni di sacrifici e fatiche!</li>
+  <li>Nella sezione “DA” manca un’opzione per chi si é laureato ed é andato a fare il phd all’estero, come nel mio caso.</li>
+  <li>Nella sezione Da: non e’ compresa la possibilita di aver lasciato l’Italia subito dopo la laurea, cosi come e’ successo a me, che non potevo permettermi di perdere tempo con il concorso di dottorato.</li>
+  <li>Nel ruolo attuale ho messo “ricercatore” anche se in realta’ faccio 95% sviluppo! Non tutti gli ex-dottorandi proseguono sulla strada della ricerca. Ciao Dario ;)</li>
+  <li>no comment… i numeri parlano da soli in questi casi!</li>
+  <li>Non avete preso in considerazioni i cervelli in fuga precoce! E anche il fatto che si possa cambiare campo di ricerca. In ogni caso, bella iniziativa.</li>
+  <li>Non credo le cose cambieranno fintanto che i nostri colleghi in Italia considereranno oltraggioso che quacuno ‘da fuori’ vinca un posto come ricercatore in Italia invece che loro.</li>
+  <li>non esiste un’ambito di ricerca analogo a quello per cui mi sono specializzata</li>
+  <li>non e’ tanto il beneficio economico immediato quanto l’aprirsi di opportunita’ e il ridotto uso di favoritismi</li>
+  <li>Non ho intenzione di rientrare in Italia perche’ non c’e’ gratificazione epr chi ha passione nel campo della Scienza. Gli Stati Uniti non sono il “paese dei balocchi” ma sempre meglio che subire le angherie dei vari Baroni della Medicina…..ancora peggio che in Parlamento</li>
+  <li>non mi sembra ci siano condizioni sufficienti per solo pensare ad un rientro</li>
+  <li>non penso di rientrare in italia, forse per vacanza</li>
+  <li>NON sono disposto ad accettare qualunque offerta pur di rientrare in Italia</li>
+  <li>non sono più un ricercatore; ora mi occupo di marketing tecnologico</li>
+  <li>non sono previsti i miei campo e settore di ricerca: antropologia culturale - DEA/01</li>
+  <li>Non sono sicuro se voglio rientrare o no in Italia, dipende dalle offerte che ricevero’</li>
+  <li>Non sono un cervello fuggito.  Mi sono trovato un posto più interessante e sono regolarmente partito, senza fuggire. Anzi forse di c ervello ce ne ho poco.</li>
+  <li>Non sono un cervello fuggito.  Mi sono trovato un posto più interessante e sono regolarmente partito, senza fuggire. Anzi forse di c ervello ce ne ho poco.</li>
+  <li>Offerte post-doc ricevute dall’ Italia non sono competitive. Prospettive di impiego permanente sono remote, mal-retribuite, poco “stimolanti”.</li>
+  <li>Ottima iniziativa per definire una utile rete di relazioni, come sempre opera di singoli anziche` del governo…</li>
+  <li>Partito per la Danimarca con una borsa Erasmus per tesi di laurea. Cercato di fare il dottorato in Italia.</li>
+  <li>Penso che si commenti da solo…</li>
+  <li>Penso di rientrare in Italia soltanto per fare turismo e rivedere i parenti … niente più …</li>
+  <li>perché dovrei tornare in italia se peggiorerei la mia condizione lavorativa da tutti i punti di vista?</li>
+  <li>Per la attuale situazione politica in Italia prevedo un futuro nero per il rientro dei “cervelli”…</li>
+  <li>più spazio ai giovani nell’università, più spazio alla ricerca ed ad una didattica aggiornata</li>
+  <li>Possibilita’ di fare ricerca in Italia presso industria? Moolto grame!</li>
+  <li>Poter svolgere nel mio paese il lavoro per cui ho studiato, con uno stipendio tale da poter mettere su famiglia.</li>
+  <li>Potevo rientrare come tecnico INFM per 4 anni (e poi?). Ho scelto di restare a Losanna per la tranquillità (tempo indeterminato) e per conservare il lavoro di mia moglie difficilmente rimpiazzabile in Italia. La famiglia prima di tutto. Come diceva un famoso professore di Roma: “Mica tutti i post-doc possono essere froci”</li>
+  <li>Preferisco starmene all’estero che in quella rovina di paese in cui sono nato :( ( ma m manca la pizza..)</li>
+  <li>Problemi a classificarmi nei “campi di ricerca” e nei “settori di ricerca”: il mio field e’ storia delle filosofie dell’Asia Orientale (spec. Giappone)</li>
+  <li>purtroppo non ho avuto (e credo non avrò) la possibilità di tornare a lavorare all’Università italiana</li>
+  <li>Quando non ho avuto piu’ interesse a tornare in Italia ho vinto un posto da ricercatore riservato a coloro che erano stati all’estero.  ho rinuciato al posto, ben contenta di averlo fatto perche’ sarei ancore ricercatore senza possibilita’ di avanzamento.  qusto e’ quanto e’ successio alla persona che ha preso il posto da ricercatore che a quel punto era vacante. Ho provato un concorso da associato con nessuna speranza.  da allora ho cambiato tutto l’approccio.  Ho fatti tutti gli esami per il ricinoscimento della mia laurea in medicina, ho fatto una lungo periodo di specialita qui in America dove risiedo.  Ho finalmento un ottimo lavoro, sono professore associato. No ho nessuna intenzione do tornare in Italia</li>
+  <li>Questionario un po’ rigido.</li>
+  <li>Questo questionario da’ per scontato che un italiano sia emigrato all’estero solo dopo, o in concomitanza con, l’inizio del PhD. Non e’ stato formulato molto bene…</li>
+  <li>Rientrare in Italia con un lavoro e un contratto dignitoso, che ripaghi almeno in parte i mie sacrifici passati</li>
+  <li>Rientrare in Italia sarebbe bello ma praticamente impossibile.</li>
+  <li>scontato, ma le condizioni (di vita, lavorative, etc) in Germania sone notevolmente migliori che in Italia</li>
+  <li>scusa il ritardo… ma finalmente ce l’ho fatta  ;)</li>
+  <li>Scusate la domanda ma…perche’ dovrei voler tornare in Italia? A farmi prendere in giro? No grazie.</li>
+  <li>Se dipendesse unicamente da me non tornerei mai piu’ in Italia neanche per fare le vacanze</li>
+  <li>Semplicemente impossibile fare ricerca in Italia. Niente fondi e mentalita’ medievale ormai fuori mercato</li>
+  <li>Se non ti metti in fila dietro al barone di turno si rimane all’estero!!!!</li>
+  <li>Situazione particolare, ero all’estero con una borsa, ho deciso di restare alla fine della borsa, poco dopo ho avuto un posto d’assistente, ho iniziato il dottorato, ho cambiato di Università, da Neuchâtel a Ginevra, ho ora mandati di “Chargée de cours” e fnisco il mio lavoro di ricerca.</li>
+  <li>Sono andata all’estero per scelta (un po’ forzata dalla scelta sul nuleare): ingegnere nucleare alla base e ricercatrice con spectrocopia neutronica. Adesso ho posto fisso in un istituto internazionale. Il budget per la</li>
+  <li>sono andata subito dopo la laurea, vedendo che non c’era possibilita di lavoro</li>
+  <li>Sono espatriata perche’ mio marito ah vinto un posto a tempo indeterminato ad Oxford</li>
+  <li>Sono molto contento della mia scelta, non avevo rancori con l’Italia. Adesso penso che sia un paese triste ed ingnorante.</li>
+  <li>Sono nato in Australia e tutti i miei studii sono stati compiuti a Pert, Western Australia</li>
+  <li>Sono partito da un bel po’, in un tempo dove non si parlava ancora di ‘brain drain”. Purtroppo le cose si sono amplificate. Ho avuto in passato possibilita’ interessanti per rientrare ma ho communque deciso di non farlo per che mio figlio abbia accesso, qui’ in Canada, a possibilita’ che non ritroverebbe in Italia</li>
+  <li>Sono partito di mia volonta’ dopo il PhD per condurre negli USA un tipo di ricerca che non si faceva in Italia. Mi manca l’Italia, ma non rimpiango il sistema accademico italiano.</li>
+  <li>Sono partito per il dottorato… conta? il form risulta per detto motivo non del tutto adeguato, ma sono anche nella cosa della distributzione!</li>
+  <li>Sotto “situazione al momento di lasciare l’Italia” manca la scelta: “appena laurato/a” come nel mio caso, senza un impiego in Italia (sono partita un mese dopo la laurea)</li>
+  <li>Speriamo in un governo che promuova competitivita` e meritocrazia</li>
+  <li>Spero di avere la possibilità di rientrare ma so che questo, probabilmente, comporterà un ridimensionamento delle mie ambizioni e sicuramente una riduzione del salario. E’ triste pensare alle condizioni di lavoro in Italia, con tutte le sue disfunzioni!</li>
+  <li>Spero di rimanere qui per un po’, ma ci sono posti in Italia dove rientrerei volentieri</li>
+  <li>spiegate meglio cosa volete fare di questi dati personali</li>
+  <li>Statisti-che?</li>
+  <li>Sto facendo un ph.D. in demografia - migrazione - sarebbe interessante proprio uno studio sulla fuga dei cervelli</li>
+  <li>Suggerimenti: 1) favorire l’assunzione di italiani all’estero e di stranieri, 2) offrire condizioni di ricerca e di lavoro migliori</li>
+  <li>Tenetevi Mastella e Buttiglione</li>
+  <li>Tenetevi Mastella e Buttiglione!</li>
+  <li>torno in Italia solo se mi coprono d’oro (quindi mai)</li>
+  <li>Troppo tardi per me, speriamo per i colleghi e le colleghe delle nuove generazioni</li>
+  <li>Trovare una posizione di professore in italia, anche a tempo determinato in attesa di conferma, ma con un laboratorio mio e fondi per iniziare.</li>
+  <li>Un italia che finalmente sfutti le proprio risorse</li>
+  <li>Vorrei che li’</li>
+  <li>Vorrei che si creassero le condizioni, in Italia, che mi diano una ragione professionale per tornarci, e vorrei che l’Italia si aprisse alle competenze di chi, italiano o straniero non deve fare differenza, viene da fuori, e che gli dia ragioni e possibilita’ per venire a lavorare in italia e cosi’ arricchire il nostro paese</li>
+  <li>vorrei maggior possibilità di poter lavorare nel mio paese nella ricerca di base. penso che ammodernamento sia possibile via mobilità ed eliminazione dei clientelismi…ce la faremo?</li>
+  <li>Vorrei trovare un lavoro magari non proprio nella mia citta’ natale ma almeno da qualche parte in Italia a condizioni economiche paragonabili alle attuali.</li>
+</ul>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

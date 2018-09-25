@@ -1,0 +1,1441 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>wowSim</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> this page has archaeological (but no longer scientific) interest </p>
+		</div>
+
+<p><img src="/drossi/assets/images/wowSim-logo.png" style="width: 100%" /></p>
+
+<h3 id="source-code">Source code</h3>
+
+<p>Download the latest version of ‘'’wowSim’’’ (v0.75), an event driven C simulator for Vehicular Area Networks (VANETs) implementing 802.11-like medium access protocol and a realistic description of vehicular dynamics (based on Cellular Automata and Coupled Maps) and several other features.</p>
+
+<ul>
+  <li><a href="/code/wowSim-0.75.tgz"><i class="fa fa-github"></i> wowSim-0.75.tgz</a></li>
+  <li><strong>wowSim</strong> is released under GPL licence, see the disclaimer in the source code for futher details.</li>
+  <li><strong>wowSim</strong> makes use of ‘‘libghthash’’ (included in the tarball, see http://www.ipd.bth.se/ska/sim_home/libghthash.html for further info)</li>
+</ul>
+
+<h3 id="usage">Usage</h3>
+
+<pre>
+wow-0.75 (ICC'08 flavor)
+
+usage:
+wow [general opt] [traffic opt] [channel opt] [algorithm opt]
+
+where:
+----[general options]---------------------------------------
+    -D: debug flag - a debug file (\"debug.out\") is created in
+           the directory "debug"
+
+    -?: help - the available options are displayed
+    -T: test mode (use all defaults values, useful to sneak SEGV)
+    -f: force to overwrite existing files
+    -O: use output "dir" rather than default one
+    -C: quit after "num" cycles
+           by default, simulation terminates when networking
+           performance converges; however, to study traffic
+           dynamic, a lower cycles number may be sufficient
+
+----[traffic model options]---------------------------------------
+   -t: traffic model {0:Poisson, 1:NaSch,       2:NaSch-(muSTEP),
+                                     3:Gipps(*),4:Gipps-(muSTEP),
+                                     4:VDR,     6:VDR-(muSTEP),
+                                     7:Tsquare, 8:Tsquare-(muSTEP),
+                                     9:Fukui,  10:Fukui-(muSTEP),
+                                     11:TOCA}
+    -R: [realistic models] vehicles'density [vehs/km]
+    -l: [Poisson] vehicles'arrival rate
+    -v: [Poisson] speed pdf {unif|cost|exp}
+    -n: [Poisson] new cars arrival period after the accident(min)
+    -s: [Poisson] time between consecutive broadcast cycles (min)
+
+----[channel model options]---------------------------------------
+    -c: channel model {0:ErrorFree, 1:Bernoulli, 2:Transitional, 3:Gilbert}
+    -x: parameter "x" meaning depend from the channel_model:
+              CHANNEL_BERNOULLI: parameter "x" = loss probability
+              CHANNEL_TRANSITIONAL: parameter "x" = channel.transition
+
+----[algorithmic options]-----------------------------------------
+    -a: algorithm (none|optimum|pflood|d2flood|help|hybrid|d3flood)
+    -r: vehicles transmission range (m)
+    -P: [pflood]  flooding probability
+    -k: [d2flood] k power
+    -2: [d2flood] d2flood rule number
+    -h: [d3flood] h power
+    -3: [d2flood] d3flood rule number
+    -B: [help]    Average Beacon Transmission Interval (sec)
+    -e: [help]    "epsilon" fixed error margin (m)
+    -E: [help]    rule number for adaptive margin
+    -y: parameter "y" meaning depend from the algorithmic context:
+        ALGO HYBRID: hybridation type (see help.c)
+    -H: [hybrid]  Hybridity degree in [0,1], with 0="help
+             use -y to tune behavior (see help.c)
+
+
+note:
+        at least one arg should be specified; for all the others,
+        their default value will be selected
+IMPORTANT:
+        directory debug must exist (even in non-debug mode)
+        otherwise SEGV will be raised
+</pre>
+
+<h3 id="references">References</h3>
+
+<ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="WILEY-10"></a>[WILEY-10]</strong></abbr>
+	Rossi, D. and Fracchia, R. and Meo, M., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi10scnj.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi10scnj.pdf"> <emph> On the quality of broadcast services in vehicular ad hoc networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In Wiley Security and Communication Networks Journal, Special Issue on QoS Assured Wireless and Mobile Networks, 	   
+		   
+		   
+		   
+
+
+</emph>
+
+		   
+
+	 . 	   
+	 2010, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-WILEY-10">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-WILEY-10" class="collapse well">   </div>
+<div id="BibTeX-WILEY-10" class="collapse"> <pre>@article{DR:WILEY-10,
+  author = {Rossi, D. and Fracchia, R. and Meo, M.},
+  title = {{On the quality of broadcast services in vehicular ad hoc networks}},
+  journal = {Wiley Security and Communication Networks Journal, Special Issue on QoS Assured Wireless and Mobile Networks},
+  year = {2010},
+  month = {},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi10scnj.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ICC-08"></a>[ICC-08]</strong></abbr>
+	Rossi, D. and Fracchia, R. and Meo, M., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi08icc.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi08icc.pdf"> <emph> VANETs: Why Beaconing at All </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE International Conference on Communications (ICC’08) 	   
+
+
+</emph>
+
+		   
+
+	 may. 	   
+	 2008, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-08">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ICC-08" class="collapse well">   </div>
+<div id="BibTeX-ICC-08" class="collapse"> <pre>@inproceedings{DR:ICC-08,
+  author = {Rossi, D. and Fracchia, R. and Meo, M.},
+  title = {{VANET}s: Why Beaconing at All},
+  booktitle = {IEEE International Conference on Communications (ICC'08)},
+  address = {Beijing, China},
+  year = {2008},
+  month = may,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi08icc.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="SPRINGER-07"></a>[SPRINGER-07]</strong></abbr>
+	Rossi, D. and Casetti, C. and Chiasserini, C.F., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/MISSINGURL.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/MISSINGURL.pdf"> <emph> Some Study on Communication Performance </emph></a> 
+    	
+
+
+
+<emph>
+
+		   
+		   
+		   
+		   
+	
+
+</emph>
+
+		   
+
+		   
+	 2007, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">bookch</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SPRINGER-07">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-SPRINGER-07" class="collapse well">   </div>
+<div id="BibTeX-SPRINGER-07" class="collapse"> <pre>@inbook{DR:SPRINGER-07,
+  author = {Rossi, D. and Casetti, C. and Chiasserini, C.F.},
+  booktitle = {Sensor Network and Configuration},
+  title = {Some Study on Communication Performance},
+  editor = {Ed., N.P. Mahalik},
+  publisher = {Springer-Verlag},
+  address = {Berlin, Germany},
+  year = {2007},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/MISSINGURL.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="AUTONET-06"></a>[AUTONET-06]</strong></abbr>
+	Fracchia, R. and Meo, M. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi06autonet.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi06autonet.pdf"> <emph> VANETs: To Beacon or Not To Beacon </emph></a> 
+    	
+
+
+
+<emph>
+
+	   Autonet’06 Workshop at IEEE Globecom’06 	   
+
+
+</emph>
+
+		   
+
+	 nov. 	   
+	 2006, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-AUTONET-06">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-AUTONET-06" class="collapse well">   </div>
+<div id="BibTeX-AUTONET-06" class="collapse"> <pre>@inproceedings{DR:AUTONET-06,
+  author = {Fracchia, R. and Meo, M. and Rossi, D.},
+  title = {VANETs: To Beacon or Not To Beacon},
+  booktitle = {Autonet'06 Workshop at IEEE Globecom'06},
+  address = {San Francisco, CA, USA},
+  year = {2006},
+  month = nov,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi06autonet.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="MEDHOC-06"></a>[MEDHOC-06]</strong></abbr>
+	Fracchia, R. and Meo, M. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi06medhocnet.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi06medhocnet.pdf"> <emph> On the Impact of Traffic Models on Inter-vehicular Broadcast Communication </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE MedHocNet 2006 	   
+
+
+</emph>
+
+		   
+
+	 jun. 	   
+	 2006, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-MEDHOC-06">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-MEDHOC-06" class="collapse well">   </div>
+<div id="BibTeX-MEDHOC-06" class="collapse"> <pre>@inproceedings{DR:MEDHOC-06,
+  author = {Fracchia, R. and Meo, M. and Rossi, D.},
+  title = {On the Impact of Traffic Models on Inter-vehicular Broadcast Communication},
+  booktitle = {IEEE MedHocNet 2006},
+  address = {Lipari, Italy},
+  year = {2006},
+  month = jun,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi06medhocnet.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ASWN-06"></a>[ASWN-06]</strong></abbr>
+	Fracchia, R. and Meo, M. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi06aswn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi06aswn.pdf"> <emph> Avoiding broadcast storms in inter-vehicular warning delivery services </emph></a> 
+    	
+
+
+
+<emph>
+
+	   6th International Workshop on Applications and Services in Wireless Networks (ASWN’06) 	   
+
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2006, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ASWN-06">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ASWN-06" class="collapse well">   </div>
+<div id="BibTeX-ASWN-06" class="collapse"> <pre>@inproceedings{DR:ASWN-06,
+  author = {Fracchia, R. and Meo, M. and Rossi, D.},
+  title = {Avoiding broadcast storms in inter-vehicular warning delivery services},
+  booktitle = {6th International Workshop on Applications and Services in Wireless Networks (ASWN'06)},
+  address = {Berlin, Germany},
+  year = {2006},
+  month = apr,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi06aswn.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="MP2P-06"></a>[MP2P-06]</strong></abbr>
+	Fracchia, R. and Meo, M. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi06mp2p.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi06mp2p.pdf"> <emph> Knowing Vehicle Location HELPs Avoiding Broadcast Packets Storm </emph></a> 
+    	
+
+
+
+<emph>
+
+	   3rd IEEE International Workshop on Mobile Peer-to-Peer Computing (MP2P’06) at IEEE PerComm’06 	   
+
+
+</emph>
+
+		   
+
+	 mar. 	   
+	 2006, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-MP2P-06">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-MP2P-06" class="collapse well">   </div>
+<div id="BibTeX-MP2P-06" class="collapse"> <pre>@inproceedings{DR:MP2P-06,
+  author = {Fracchia, R. and Meo, M. and Rossi, D.},
+  title = {Knowing Vehicle Location HELPs Avoiding Broadcast Packets Storm},
+  booktitle = {3rd IEEE International Workshop on Mobile Peer-to-Peer Computing (MP2P'06) at IEEE PerComm'06},
+  address = {Pisa, Italy},
+  year = {2006},
+  month = mar,
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi06mp2p.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li></ul>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

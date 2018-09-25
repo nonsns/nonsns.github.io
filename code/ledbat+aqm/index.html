@@ -1,0 +1,1401 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>LEDBAT+AQM Dataset</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/drossi/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://perso.telecom-paristech.fr/drossi/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Bio">Bio</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Achievements">Achievements</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Awards">Awards</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Grants">Projects</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Service">Service</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//cv/#Alumni">Alumni</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="//code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="//publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/date/">By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/type/">By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/project/">By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/award/">Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="//publications/recent/">Recent stuff</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="//seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <h2 id="ledbataqm-code">LEDBAT+AQM code</h2>
+
+<p>Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth – for which the ‘‘bufferbloat’’ term was recently coined. Some point to active queue management (AQM) as the  solution. Others propose end-to-end low-priority congestion control (LPCC) true techniques  . Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC.  In this project, we study the impact that Active Queue Management (AQM) techniques have on LEDBAT (and other LPCCs such as NICE, TCP-LP, etc.).  To promote cross-comparison, we make our   <a href="#code"><i class="fa fa-github"></i> simulation code</a> and  <a href="#dataset"><i class="fa fa-github"></i> experimental code</a> available to the research community.</p>
+
+<h3 id="the-phenomenon">The phenomenon</h3>
+
+<p>While LPCC and AQM both try to solve the buffer inflation problem, however a potentially fateful interaction arise when AQM and LPCC techniques are combined true, namely:</p>
+
+<ul>
+  <li>AQM resets the relative level of priority between best effort and low-priority congestion control protocols;</li>
+  <li>while reprioritization generally equalizes the priority of LPCC  and TCP, we also find that some AQM settings may actually lead best effort TCP to starvation.</li>
+</ul>
+
+<p>The problem is illustrated in the following figure, showing a breakdown of the TCP vs LEDBAT throughput for 10 flows sharing the same bottleneck under FIFO Droptail (left) vs RED (right).</p>
+
+<p><img src="/drossi/assets/images/ledbat+aqm-evolution.png" alt="" title="Time evolution of per-flow throughput for heterogeneous transport protocols on FIFO vs AQM scheduling disciplines" width="500px" /></p>
+
+<hr />
+
+<h3 id="contributions">Contributions</h3>
+
+<p>By an extended set of experiments true  conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for any tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel true.</p>
+
+<p><img src="/drossi/assets/images/lpcc+aqm-generality.png" alt="" title="Parallel coordinate plot confirming that the phenomenon is of fundamental nature and applies for every (LPCC,AQM) combination" width="500px" /></p>
+
+<p>To gather fundamental insights on the problem</p>
+<ul>
+  <li>we resort to a control theoretic modeling to  analyze the system dynamics true (that was shortlisted for, but finally did not win, the best paper award  <i class="fa fa-star"></i>) that we extend in true (a little known but very cool paper!)</li>
+  <li>finally, we propose true  and implement true  a solution able to  reinstate the relative levels of priority between heterogeneous congestion contro, while avoiding the bufferbloat problem  at the same time.</li>
+</ul>
+
+<hr />
+
+<h3 id="experiments">Experiments</h3>
+
+<p><strong><em>Note</em></strong>: PhD-grade skills are required to run the experiments and tweak the experimental settings</p>
+
+<ul>
+  <li><a href="/drossi/data/ledbat+aqm/ledbat+aqm-experiments.tgz"><i class="fa fa-github"></i> scripts</a>  for launching experiments and bare-bone visualization of result described in true, including a  <a href="/drossi/data/ledbat+aqm/README.1st"><i class="fa fa-file-text-o"></i> short howto </a> ]]</li>
+</ul>
+
+<hr />
+
+<h3 id="simulation">Simulation</h3>
+
+<p><strong><em>Note</em></strong>: PhD-grade ns2 skills are required to modify and build the ns2 source tree; modification includes our own implementation of the LEDBAT and TCP-NICE low priority congestion control (LPCC), plus Choke and CoDel (AQM) from the respective authors, packaged here for commodity.</p>
+
+<ul>
+  <li><a href="/drossi/data/ledbat+aqm/ns2.33.tar.gz"><i class="fa fa-cube"></i> tarball</a>  of needed modification to ns2</li>
+  <li><a href="/drossi/data/ledbat+aqm/ledbat+aqm-scripts.tgz"><i class="fa fa-github"></i> scripts</a>  for launching simulations and post-processing results described in true  (including a <a href="/drossi/data/ledbat+aqm/README.txt"><i class="fa fa-file-text-o"></i>  short howto</a>  on the workflow</li>
+  <li><a href="/drossi/data/ledbat+aqm/PoC-Solution.tgz"><i class="fa fa-github"></i> scripts</a> of the proof-of-concept solution to the reprioritization described 
+in true</li>
+  <li>Of historical interest, we also provide a copy of the initial <a href="/drossi/data/ledbat+aqm/ledbat+aqm-presentation.pdf"><i class="fa fa-file-pdf-o"></i> student project slides</a>  (that made their way up to Van Jacobson!) of YiXi on the topic</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="LCN-10"></a>[LCN-10]</strong></abbr>
+	Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi10lcn.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi10lcn.pdf"> <emph> A hands-on Assessment of Transport Protocols with Lower than Best Effort Priority </emph></a> 
+    	
+
+
+
+<emph>
+
+	   35th IEEE Conference on Local Computer Networks (LCN’10) 	   
+
+
+</emph>
+
+		   
+
+	  oc. 	   
+	 2010, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-LCN-10">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-LCN-10" class="collapse well">   </div>
+<div id="BibTeX-LCN-10" class="collapse"> <pre>@inproceedings{DR:LCN-10,
+  title = {A hands-on Assessment of Transport Protocols with Lower than Best Effort Priority},
+  author = {Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C.},
+  booktitle = {35th IEEE Conference on Local Computer Networks (LCN'10)},
+  address = {Denver, CO, USA},
+  month =  oc,
+  year = {2010},
+  annote = {category=inproceedings state=published project=trans},
+  note = {keyword=ledbat,trans,congestion control},
+  url = {http://www.enst.fr/~drossi/paper/rossi10lcn.pdf},
+  howpublished = {http://www.enst.fr/~drossi/paper/rossi10lcn.pdf},
+  www_txt_url = {http://www.enst.fr/~drossi/paper/rossi10lcn.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CONEXT-12"></a>[CONEXT-12]</strong></abbr>
+	, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi12conext.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi12conext.pdf"> <emph> Interaction or Interference: can AQM and Low Priority
+Congestion Control Successfully Collaborate </emph></a> 
+    	
+
+
+
+<emph>
+
+	   ACM CoNEXT’12 Student Workshop 	   
+
+
+</emph>
+
+		   
+
+	 dec. 	   
+	 2012, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="CONEXT-12">Abstract</button>
+<div id="CONEXT-12" class="collapse">
+<p>Heterogeneity in the Internet ecosystem sometimes turns interaction into interference. Over the years, active queue management (AQM) and end-to-end low-priority congestion control (LPCC) have been proposed as alternative solutions to counter the persistently full buffer problem – that recently became popular under the "bufferbloat" term.
+In this work, we point out the existence of a negative interplay among AQM and LPCC techniques. Intuitively, as AQM is designed to penalize the most aggressive flows it mainly hit best effort TCP: it follows that LPCC is not able to maintain its low priority, thus becoming as aggressive as TCP. By an extended set of simulation on various AQM policies and LPCC protocols, including the very recent CoDel AQM and LEDBAT LPCC proposals, we point out that this interference is quite universal and deserves further attention. </p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CONEXT-12">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CONEXT-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CONEXT-12" class="collapse well"> Heterogeneity in the Internet ecosystem sometimes turns interaction into interference. Over the years, active queue management (AQM) and end-to-end low-priority congestion control (LPCC) have been proposed as alternative solutions to counter the persistently full buffer problem – that recently became popular under the "bufferbloat" term.
+In this work, we point out the existence of a negative interplay among AQM and LPCC techniques. Intuitively, as AQM is designed to penalize the most aggressive flows it mainly hit best effort TCP: it follows that LPCC is not able to maintain its low priority, thus becoming as aggressive as TCP. By an extended set of simulation on various AQM policies and LPCC protocols, including the very recent CoDel AQM and LEDBAT LPCC proposals, we point out that this interference is quite universal and deserves further attention.   </div>
+<div id="BibTeX-CONEXT-12" class="collapse"> <pre>@inproceedings{DR:CONEXT-12,
+  title = {Interaction or Interference: can AQM and Low Priority
+  Congestion Control Successfully Collaborate},
+  author = {},
+  year = {2012},
+  booktitle = {ACM CoNEXT'12 Student Workshop},
+  annote = {category=article state=published project=mplane},
+  note = {keyword=bufferbloat,ledbat},
+  month = dec,
+  pages = {25-26},
+  url = {http://www.enst.fr/~drossi/paper/rossi12conext.pdf},
+  howpublished = {http://www.enst.fr/~drossi/paper/rossi12conext.pdf},
+  www_txt_url = {http://www.enst.fr/~drossi/paper/rossi12conext.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TMA-13b"></a>[TMA-13b]</strong></abbr>
+	Gong, Y. and Rossi, D. and Testa, C. and Valenti, S. and Taht, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi13tma-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi13tma-b.pdf"> <emph> Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE INFOCOM Workshop on Traffic Measurement and Analysis (TMA’13) 	   
+
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TMA-13b">Abstract</button>
+<div id="TMA-13b" class="collapse">
+<p>Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth, for which the "bufferbloat" term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely (i) AQM resets the relative level of priority between best effort and low-priority congestion control protocols; (ii) while reprioritization generally equalizes the priority of LPCC and TCP, we also find that some AQM settings may actually lead best effort TCP to starvation. By an extended set of experiments conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for all tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-13b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-13b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TMA-13b" class="collapse well"> Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth, for which the "bufferbloat" term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely (i) AQM resets the relative level of priority between best effort and low-priority congestion control protocols; (ii) while reprioritization generally equalizes the priority of LPCC and TCP, we also find that some AQM settings may actually lead best effort TCP to starvation. By an extended set of experiments conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for all tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.  </div>
+<div id="BibTeX-TMA-13b" class="collapse"> <pre>@inproceedings{DR:TMA-13b,
+  author = {Gong, Y. and Rossi, D. and Testa, C. and Valenti, S. and Taht, D.},
+  title = {Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control},
+  booktitle = {IEEE INFOCOM Workshop on Traffic Measurement and Analysis (TMA'13)},
+  year = {2013},
+  address = {Turin, Italy},
+  month = apr,
+  annote = {category=article state=published project=mplane},
+  url = {http://www.enst.fr/~drossi/paper/rossi13tma-b.pdf},
+  howpublished = {http://www.enst.fr/~drossi/paper/rossi13tma-b.pdf},
+  www_txt_url = {http://www.enst.fr/~drossi/paper/rossi13tma-b.pdf},
+  note = {keyword=ledbat,bufferbloat,mplane}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="ITC-13"></a>[ITC-13]</strong></abbr>
+	Gong, YiXi and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi13itc.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi13itc.pdf"> <emph> Modeling the interdependency of low-priority
+congestion control and active queue management </emph></a> 
+    	
+
+
+
+<emph>
+
+	   The 25th International Teletraffic Congress (ITC25), Runner-up for Best Paper Award 	   
+
+
+</emph>
+
+	 <i class="fa fa fa-star"></i> 	   
+
+	 sep. 	   
+	 2013, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="ITC-13">Abstract</button>
+<div id="ITC-13" class="collapse">
+<p>Recently, a negative interplay has been shown to
+arise when scheduling/AQM techniques and low-priority conges-
+tion control protocols are used together: namely, AQM resets
+the relative level of priority among congestion control protocols.
+This work explores this issue by (i) studying a fluid model that
+describes system dynamics of heterogeneous congestion control
+protocols competing on a bottleneck link governed by AQM and
+(ii) proposing a system level solution able to reinstate priorities
+among protocols. </p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+
+	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC-13">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC-13">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-ITC-13" class="collapse well"> Recently, a negative interplay has been shown to
+arise when scheduling/AQM techniques and low-priority conges-
+tion control protocols are used together: namely, AQM resets
+the relative level of priority among congestion control protocols.
+This work explores this issue by (i) studying a fluid model that
+describes system dynamics of heterogeneous congestion control
+protocols competing on a bottleneck link governed by AQM and
+(ii) proposing a system level solution able to reinstate priorities
+among protocols.   </div>
+<div id="BibTeX-ITC-13" class="collapse"> <pre>@inproceedings{DR:ITC-13,
+  title = {Modeling the interdependency of low-priority
+  congestion control and active queue management},
+  author = {Gong, YiXi and Rossi, Dario and Leonardi, Emilio},
+  booktitle = {The 25th International Teletraffic Congress (ITC25), Runner-up for Best Paper Award},
+  year = {2013},
+  month = sep,
+  annote = {category=article state=published project=mplane},
+  note = {keyword=ledbat,bestpaperrunnerup},
+  howpublished = {http://www.enst.fr/~drossi/paper/rossi13itc.pdf},
+  url = {http://www.enst.fr/~drossi/paper/rossi13itc.pdf},
+  www_txt_url = {http://www.enst.fr/~drossi/paper/rossi13itc.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="COMNET-14b"></a>[COMNET-14b]</strong></abbr>
+	Gong, YiXi and Rossi, Dario and Testa, Claudio and Valenti, Silvio and Taht, Dave, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi14comnet-b.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi14comnet-b.pdf"> <emph> Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control (extended version) </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In Computer Networks, 	   
+	 Vol. 65, 	   
+	 No. 0, 	   
+	 pp.255 – 267, 	   
+
+
+</emph>
+
+		   
+
+		   
+	 2014, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="COMNET-14b">Abstract</button>
+<div id="COMNET-14b" class="collapse">
+<p>Nowadays, due to excessive queuing, delays on the Internet can grow longer than  the round trip time between the Moon and the Earth – for which the “bufferbloa
+t” term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. 
+
+In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely, AQM resets the relative level of priority between best-effort and low-priority congestion control protocols. 
+We validate the generality of our findings by an extended set of experiments with packet-level ns2 simulation, considering 5 AQM techniques and 3 LPCC protocols, and carry on a thorough sensitivity analysis varying several parameters of the networking scenario. We complete the simulation via an experimental campaign conducted on both controlled testbeds and on the Internet, confirming the reprioritization issue to hold in the real world at least under all combination of AQM policies and LPCC protocols available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-14b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-14b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-COMNET-14b" class="collapse well"> Nowadays, due to excessive queuing, delays on the Internet can grow longer than  the round trip time between the Moon and the Earth – for which the “bufferbloa
+t” term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. 
+
+In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely, AQM resets the relative level of priority between best-effort and low-priority congestion control protocols. 
+We validate the generality of our findings by an extended set of experiments with packet-level ns2 simulation, considering 5 AQM techniques and 3 LPCC protocols, and carry on a thorough sensitivity analysis varying several parameters of the networking scenario. We complete the simulation via an experimental campaign conducted on both controlled testbeds and on the Internet, confirming the reprioritization issue to hold in the real world at least under all combination of AQM policies and LPCC protocols available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.  </div>
+<div id="BibTeX-COMNET-14b" class="collapse"> <pre>@article{DR:COMNET-14b,
+  author = {Gong, YiXi and Rossi, Dario and Testa, Claudio and Valenti, Silvio and Taht, Dave},
+  title = {{Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control (extended version)}},
+  note = {keyword=measurement,ledbat,tengineer,mplane},
+  journal = {Computer Networks},
+  volume = {65},
+  number = {0},
+  pages = {255 -- 267},
+  year = {2014},
+  issn = {1389-1286},
+  annote = {category=article state=published project=mplane},
+  url = {http://www.enst.fr/~drossi/paper/rossi14comnet-b.pdf},
+  howpublished = {http://www.enst.fr/~drossi/paper/rossi14comnet-b.pdf},
+  www_txt_url = {http://www.enst.fr/~drossi/paper/rossi14comnet-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TOMPECS-16"></a>[TOMPECS-16]</strong></abbr>
+	De Cicco, Luca and Gong, Yixi and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi16tompecs.pdf"></i> 
+		<a href="https://perso.telecom-paristech.fr/drossi/paper/rossi16tompecs.pdf"> <emph> A control theoretic analysis of low-priority congestion control
+reprioritization under AQM </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In ACM Transactions on Modeling and Performance Evaluation of Computer Systems, 	   
+	 Vol. 1, 	   
+		   
+	 pp.17:1–17:33, 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2016, 	   
+
+
+
+
+
+	   
+	
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TOMPECS-16">Abstract</button>
+<div id="TOMPECS-16" class="collapse">
+<p> Recently, a negative interplay has been shown to arise when scheduling/Active Queue Management (AQM) techniques and low-priority congestion control protocols are used together; namely, AQM resets the relative level of priority among congestion control protocols. This work explores this issue by carrying out a control-theoretic analysis of the dynamical system to prove some fundamental properties that fully characterize the reprioritization phenomenon. In particular, (i) we provide the closed-form solution of the equilibrium in the open loop (i.e., fixing a target loss probability p); (ii) we provide a stability analysis and a characterization of the reprioritization phenomenon when closing the loop with AQM (i.e., that dynamically adjusts the system loss probability). Our results are important as the characterization of the reprioritization phenomenon is not only quantitatively accurate for the specific protocols and AQM considered but also qualitatively accurate for a broader range of congestion control protocol and AQM combinations. Finally, while we find a sufficient condition to avoid the reprioritization phenomenon, we also show, at the same time, such conditions to be likely impractical: Therefore, we propose a simple and practical system-level solution that is able to reinstate priorities among protocols. </p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TOMPECS-16">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TOMPECS-16">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TOMPECS-16" class="collapse well">  Recently, a negative interplay has been shown to arise when scheduling/Active Queue Management (AQM) techniques and low-priority congestion control protocols are used together; namely, AQM resets the relative level of priority among congestion control protocols. This work explores this issue by carrying out a control-theoretic analysis of the dynamical system to prove some fundamental properties that fully characterize the reprioritization phenomenon. In particular, (i) we provide the closed-form solution of the equilibrium in the open loop (i.e., fixing a target loss probability p); (ii) we provide a stability analysis and a characterization of the reprioritization phenomenon when closing the loop with AQM (i.e., that dynamically adjusts the system loss probability). Our results are important as the characterization of the reprioritization phenomenon is not only quantitatively accurate for the specific protocols and AQM considered but also qualitatively accurate for a broader range of congestion control protocol and AQM combinations. Finally, while we find a sufficient condition to avoid the reprioritization phenomenon, we also show, at the same time, such conditions to be likely impractical: Therefore, we propose a simple and practical system-level solution that is able to reinstate priorities among protocols.   </div>
+<div id="BibTeX-TOMPECS-16" class="collapse"> <pre>@article{DR:TOMPECS-16,
+  title = {A control theoretic analysis of low-priority congestion control
+  reprioritization under AQM},
+  author = {De Cicco, Luca and Gong, Yixi and Rossi, Dario and Leonardi, Emilio},
+  year = {2016},
+  month = sep,
+  journal = {ACM Transactions on Modeling and Performance Evaluation of Computer Systems},
+  note = {keyword=newnet,ledbat},
+  volume = {1},
+  issue = {4},
+  pages = {17:1--17:33},
+  url = {http://www.enst.fr/~drossi/paper/rossi16tompecs.pdf},
+  howpublished = {http://www.enst.fr/~drossi/paper/rossi16tompecs.pdf},
+  www_txt_url = {http://www.enst.fr/~drossi/paper/rossi16tompecs.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li></ul>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2018 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
