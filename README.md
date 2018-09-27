@@ -1,6 +1,7 @@
 # Dario Rossi homepage (stripped down github.io version)
 
 This page is intentionally minimalistic. It is a stripped down version of my (not so) old Academic page at Telecom ParisTech. It does neither host code, nor teaching material, nor datasets. It is still a work in progress and is likely not fully working.
+You can (try to) browse it at https://nonsns.github.io
 
 ## Changelog
 
