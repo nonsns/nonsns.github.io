@@ -13,7 +13,7 @@
 /ccnsim
 /dataset/classification/
 /code/
-/cv
+/cv/
 /dataset/
 /publications/date/
 /code/FD.io/
