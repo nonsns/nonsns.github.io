@@ -16,6 +16,7 @@
 /cv/
 /dataset/
 /publications/date/
+/demo/
 /code/FD.io/
 /seminar
 /
