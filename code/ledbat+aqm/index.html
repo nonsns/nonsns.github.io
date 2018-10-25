@@ -585,11 +585,11 @@
     <div class="container">
       <h2 id="ledbataqm-code">LEDBAT+AQM code</h2>
 
-<p>Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth – for which the ‘‘bufferbloat’’ term was recently coined. Some point to active queue management (AQM) as the  solution. Others propose end-to-end low-priority congestion control (LPCC) LCN-10 techniques  . Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC.  In this project, we study the impact that Active Queue Management (AQM) techniques have on LEDBAT (and other LPCCs such as NICE, TCP-LP, etc.).  To promote cross-comparison, we make our   <a href="#code"><i class="fa fa-github"></i> simulation code</a> and  <a href="#dataset"><i class="fa fa-github"></i> experimental code</a> available to the research community.</p>
+<p>Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth – for which the ‘‘bufferbloat’’ term was recently coined. Some point to active queue management (AQM) as the  solution. Others propose end-to-end low-priority congestion control (LPCC) [<a href="#LCN-10"> LCN-10 </a>] techniques  . Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC.  In this project, we study the impact that Active Queue Management (AQM) techniques have on LEDBAT (and other LPCCs such as NICE, TCP-LP, etc.).  To promote cross-comparison, we make our   <a href="#code"><i class="fa fa-github"></i> simulation code</a> and  <a href="#dataset"><i class="fa fa-github"></i> experimental code</a> available to the research community.</p>
 
 <h3 id="the-phenomenon">The phenomenon</h3>
 
-<p>While LPCC and AQM both try to solve the buffer inflation problem, however a potentially fateful interaction arise when AQM and LPCC techniques are combined CONEXT-12, namely:</p>
+<p>While LPCC and AQM both try to solve the buffer inflation problem, however a potentially fateful interaction arise when AQM and LPCC techniques are combined [<a href="#CONEXT-12"> CONEXT-12 </a>], namely:</p>
 
 <ul>
   <li>AQM resets the relative level of priority between best effort and low-priority congestion control protocols;</li>
@@ -604,14 +604,14 @@
 
 <h3 id="contributions">Contributions</h3>
 
-<p>By an extended set of experiments TMA-13b  conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for any tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel COMNET-14b.</p>
+<p>By an extended set of experiments [<a href="#TMA-13b"> TMA-13b </a>]  conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for any tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel [<a href="#COMNET-14b"> COMNET-14b </a>].</p>
 
 <p><img src="/drossi/assets/images/lpcc+aqm-generality.png" alt="" title="Parallel coordinate plot confirming that the phenomenon is of fundamental nature and applies for every (LPCC,AQM) combination" width="500px" /></p>
 
 <p>To gather fundamental insights on the problem</p>
 <ul>
-  <li>we resort to a control theoretic modeling to  analyze the system dynamics ITC-13 (that was shortlisted for, but finally did not win, the best paper award  <i class="fa fa-star"></i>) that we extend in TOMPECS-16 (a little known but very cool paper!)</li>
-  <li>finally, we propose COMENT-14b  and implement TOMPECS-16  a solution able to  reinstate the relative levels of priority between heterogeneous congestion contro, while avoiding the bufferbloat problem  at the same time.</li>
+  <li>we resort to a control theoretic modeling to  analyze the system dynamics [<a href="#ITC-13"> ITC-13 </a>] (that was shortlisted for, but finally did not win, the best paper award  <i class="fa fa-star"></i>) that we extend in [<a href="#TOMPECS-16"> TOMPECS-16 </a>] (a little known but very cool paper!)</li>
+  <li>finally, we propose [<a href="#COMENT-14b"> COMENT-14b </a>]  and implement [<a href="#TOMPECS-16"> TOMPECS-16 </a>]  a solution able to  reinstate the relative levels of priority between heterogeneous congestion contro, while avoiding the bufferbloat problem  at the same time.</li>
 </ul>
 
 <hr />
@@ -621,7 +621,7 @@
 <p><strong><em>Note</em></strong>: PhD-grade skills are required to run the experiments and tweak the experimental settings</p>
 
 <ul>
-  <li><a href="/drossi/data/ledbat+aqm/ledbat+aqm-experiments.tgz"><i class="fa fa-github"></i> scripts</a>  for launching experiments and bare-bone visualization of result described in TMA-13, including a  <a href="/drossi/data/ledbat+aqm/README.1st"><i class="fa fa-file-text-o"></i> short howto </a> ]]</li>
+  <li><a href="/drossi/data/ledbat+aqm/ledbat+aqm-experiments.tgz"><i class="fa fa-github"></i> scripts</a>  for launching experiments and bare-bone visualization of result described in [<a href="#TMA-13"> TMA-13 </a>], including a  <a href="/drossi/data/ledbat+aqm/README.1st"><i class="fa fa-file-text-o"></i> short howto </a> ]]</li>
 </ul>
 
 <hr />
@@ -632,9 +632,9 @@
 
 <ul>
   <li><a href="/drossi/data/ledbat+aqm/ns2.33.tar.gz"><i class="fa fa-cube"></i> tarball</a>  of needed modification to ns2</li>
-  <li><a href="/drossi/data/ledbat+aqm/ledbat+aqm-scripts.tgz"><i class="fa fa-github"></i> scripts</a>  for launching simulations and post-processing results described in COMNET-14b  (including a <a href="/drossi/data/ledbat+aqm/README.txt"><i class="fa fa-file-text-o"></i>  short howto</a>  on the workflow</li>
+  <li><a href="/drossi/data/ledbat+aqm/ledbat+aqm-scripts.tgz"><i class="fa fa-github"></i> scripts</a>  for launching simulations and post-processing results described in [<a href="#COMNET-14b"> COMNET-14b </a>]  (including a <a href="/drossi/data/ledbat+aqm/README.txt"><i class="fa fa-file-text-o"></i>  short howto</a>  on the workflow</li>
   <li><a href="/drossi/data/ledbat+aqm/PoC-Solution.tgz"><i class="fa fa-github"></i> scripts</a> of the proof-of-concept solution to the reprioritization described 
-in TOMPECS-16</li>
+in [<a href="#TOMPECS-16"> TOMPECS-16 </a>]</li>
   <li>Of historical interest, we also provide a copy of the initial <a href="/drossi/data/ledbat+aqm/ledbat+aqm-presentation.pdf"><i class="fa fa-file-pdf-o"></i> student project slides</a>  (that made their way up to Van Jacobson!) of YiXi on the topic</li>
 </ul>
 
