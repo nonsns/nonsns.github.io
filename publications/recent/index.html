@@ -489,18 +489,6 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/">Overview</a>
-                                  
-                                </li>
-                            
-                        
-                            
-                                <li role="separator" class="divider"></li>
-                            
-                        
-                            
-                                <li>
-                                  
                                     <a href="https://nonsns.github.io/publications/date/">By date</a>
                                   
                                 </li>
@@ -595,6 +583,115 @@
 
 <h2 id="-recent-publication--last-20---"><a name="recent"></a> Recent publication <span class="badge"> (last 20 )  </span></h2>
 <ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="INFOCOM-19"></a>[INFOCOM-19]</strong></abbr>
+	Lange, Stanislav and Linguaglossa, Leonardo and Geissler, Stefan and Rossi, Dario and Zinner, Thomas, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19infocom.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi19infocom.pdf"> <emph> Batched packet processing for high-speed software data plane functions </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE INFOCOM 	   
+
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2019, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="INFOCOM-19">Abstract</button>
+<div id="INFOCOM-19" class="collapse">
+<p>Network Functions Virtualization (NFV) is among the latest network revolutions, bringing flexibility and avoiding network ossification. At the same time, all-software NFV implementations on commodity hardware raise performance issues with respect to ASIC solutions. To address these issues, numerous software acceleration frameworks for packet processing have appeared in the last few years. Common among these frameworks is the use of batching techniques. In this context, packets are processed in groups as opposed to individually, which is required at high-speed to minimize the framework overhead, reduce interrupt pressure, and leverage instruction-level cache hits. Whereas several system implementations have been proposed and experimentally benchmarked, the scientific community has so far only to a limited extent attempted to model the system dynamics of modern NFV routers exploiting batching acceleration. In this paper, we fill this gap by proposing a simple generic model for such batching-based mechanisms, which allows a very detailed prediction of highly relevant performance indicators. These include the distribution of the processed batch size as well as queue size, which can be used to identify loss-less operational regimes or quantify the packet loss probability in high-load scenarios. We contrast the model prediction with experimental results gathered in a high-speed testbed including an NFV router, showing that the model not only correctly captures system performance under simple conditions, but also in more realistic scenarios in which traffic is processed by a mixture of functions.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-19">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-19">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-INFOCOM-19" class="collapse well"> Network Functions Virtualization (NFV) is among the latest network revolutions, bringing flexibility and avoiding network ossification. At the same time, all-software NFV implementations on commodity hardware raise performance issues with respect to ASIC solutions. To address these issues, numerous software acceleration frameworks for packet processing have appeared in the last few years. Common among these frameworks is the use of batching techniques. In this context, packets are processed in groups as opposed to individually, which is required at high-speed to minimize the framework overhead, reduce interrupt pressure, and leverage instruction-level cache hits. Whereas several system implementations have been proposed and experimentally benchmarked, the scientific community has so far only to a limited extent attempted to model the system dynamics of modern NFV routers exploiting batching acceleration. In this paper, we fill this gap by proposing a simple generic model for such batching-based mechanisms, which allows a very detailed prediction of highly relevant performance indicators. These include the distribution of the processed batch size as well as queue size, which can be used to identify loss-less operational regimes or quantify the packet loss probability in high-load scenarios. We contrast the model prediction with experimental results gathered in a high-speed testbed including an NFV router, showing that the model not only correctly captures system performance under simple conditions, but also in more realistic scenarios in which traffic is processed by a mixture of functions.  </div>
+<div id="BibTeX-INFOCOM-19" class="collapse"> <pre>@inproceedings{DR:INFOCOM-19,
+  author = {Lange, Stanislav and Linguaglossa, Leonardo and Geissler, Stefan and Rossi, Dario and Zinner, Thomas},
+  title = {Batched packet processing for high-speed software data plane functions},
+  booktitle = {IEEE INFOCOM},
+  month = apr,
+  year = {2019},
+  location = {Paris, France},
+  howpublished = {https://nonsns.github.io/paper/rossi19infocom.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
 	(comments, white spaces, etc.) gets rendered in the final HTML	
@@ -2605,7 +2702,7 @@ usage:
 	 2018, 	   
 
 
-	   
+ DOI 10.1109/JSAC.2018.2844938 	   
 
 
 <!--
@@ -2656,124 +2753,8 @@ usage:
   year = {2018},
   journal = {IEEE Journal on Selected Areas in Communication (JSAC)},
   volume = {to appear},
-  howpublished = {https://nonsns.github.io/paper/rossi18jsac.pdf}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="TGCN-18"></a>[TGCN-18]</strong></abbr>
-	Enguehard, Marcel and Droms, Ralph and Rossi, Dario, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18tgcn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18tgcn.pdf"> <emph> On the cost of geographic forwarding for information-centric things </emph></a> 
-    	
-
-
-
-<emph>
-
-	 In IEEE Transactions on Green Communications and Networking, 	   
-	 Vol. to appear, 	   
-	 No. , 	   
-	 pp.1-1, 	   
-
-
-</emph>
-
-		   
-
-	 . 	   
-	 2018, 	   
-
-
- DOI 10.1109/TGCN.2018.2867267 	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="TGCN-18">Abstract</button>
-<div id="TGCN-18" class="collapse">
-<p>Recent research has identified Information-Centric Networking (ICN) as a good fit for Internet of Things (IoT) deployments. However, most studies have focused on ICN as an application enabler, disregarding the behaviour from a network viewpoint. In this paper, we address this by studying the most important properties of an ICN-IoT deployment and contrast the operational costs between geographic-based forwarding and name-based forwarding schemes. We aim to understand if, and under which IoT deployment characteristics, geographic forwarding constitutes an advantage over name-based schemes, in terms of feasibility (i.e., memory footprint and computational capability of the devices) and performance (which we analyze as the overall energy cost of operating an ICN-IoT network under either forwarding paradigm). To achieve this goal, we employ a mixture of (i) modelling, (ii) simulative and (iii) experimental methodologies, which are useful to respectively (i) state the problem in a principled way, (ii) gather information about topological properties that are instrumental to the model and (iii) gather physical properties of the devices to feed the model with realistic data. In a nutshell, our results show that geographic forwarding (i) halves the memory footprint on our reference deployments and (ii) yields significant energy savings, especially for dynamic topologies.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TGCN-18">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TGCN-18">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-TGCN-18" class="collapse well"> Recent research has identified Information-Centric Networking (ICN) as a good fit for Internet of Things (IoT) deployments. However, most studies have focused on ICN as an application enabler, disregarding the behaviour from a network viewpoint. In this paper, we address this by studying the most important properties of an ICN-IoT deployment and contrast the operational costs between geographic-based forwarding and name-based forwarding schemes. We aim to understand if, and under which IoT deployment characteristics, geographic forwarding constitutes an advantage over name-based schemes, in terms of feasibility (i.e., memory footprint and computational capability of the devices) and performance (which we analyze as the overall energy cost of operating an ICN-IoT network under either forwarding paradigm). To achieve this goal, we employ a mixture of (i) modelling, (ii) simulative and (iii) experimental methodologies, which are useful to respectively (i) state the problem in a principled way, (ii) gather information about topological properties that are instrumental to the model and (iii) gather physical properties of the devices to feed the model with realistic data. In a nutshell, our results show that geographic forwarding (i) halves the memory footprint on our reference deployments and (ii) yields significant energy savings, especially for dynamic topologies.  </div>
-<div id="BibTeX-TGCN-18" class="collapse"> <pre>@article{DR:TGCN-18,
-  author = {Enguehard, Marcel and Droms, Ralph and Rossi, Dario},
-  journal = {IEEE Transactions on Green Communications and Networking},
-  title = {On the cost of geographic forwarding for information-centric things},
-  year = {2018},
-  volume = {to appear},
-  number = {},
-  pages = {1-1},
-  keywords = {Cryptography;Data models;Architecture;Protocols;Internet of Things;Topology},
-  doi = {10.1109/TGCN.2018.2867267},
-  howpublished = {https://nonsns.github.io/paper/rossi18tgcn.pdf},
-  issn = {2473-2400},
-  month = {}
+  howpublished = {https://nonsns.github.io/paper/rossi18jsac.pdf},
+  doi = {10.1109/JSAC.2018.2844938}
 }
 </pre>  </div>
 
