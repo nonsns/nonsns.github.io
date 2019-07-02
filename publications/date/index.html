@@ -619,7 +619,7 @@
 <!-- <button class="btn badge btn-default btn-xs">-->
 <a href="#publications2019">2019</a><span class="caret"></span></p>
 
-<h2 id="2019---5--"><a name="publications2019"></a>2019 <span class="badge">  5 </span> <a href="/publications/date#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="2019---7--"><a name="publications2019"></a>2019 <span class="badge">  7 </span> <a href="/publications/date#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
@@ -1170,6 +1170,235 @@ usage:
   pages = {187--199},
   doi = {https://doi.org/10.1016/j.comnet.2018.11.033},
   howpublished = {https://nonsns.github.io/paper/rossi19comnet.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TNSM-19"></a>[TNSM-19]</strong></abbr>
+	Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19tnsm.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi19tnsm.pdf"> <emph> FloWatcher-DPDK: Lightweight line-rate flow-level monitoring in software </emph></a> 
+    	
+
+
+
+<emph>
+
+		   
+	 Vol. to appear, 	   
+	 No. , 	   
+	 pp., 	   
+
+
+</emph>
+
+		   
+
+	 . 	   
+	 2019, 	   
+
+
+ DOI 10.1109/TNSM.2019.2913710 	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TNSM-19">Abstract</button>
+<div id="TNSM-19" class="collapse">
+<p>In the last few years, several software-based solutions have been proved to be very efficient for high-speed packet processing, traffic generation and monitoring, and can be considered valid alternatives to expensive and non-flexible hardware-based solutions. In our work, we first benchmark heterogeneous design choices for software-based packet monitoring systems in terms of achievable performance and required resources (i.e., the number of CPU cores). Building on this extensive analysis we design FloWatcher-DPDK, a DPDK-based high-speed software traffic monitor we provide to the community as an open source project. In a nutshell, FloWatcher-DPDK provides tunable fine-grained statistics at packet and flow levels. Experimental results demonstrate that FloWatcher-DPDK sustains per-flow statistics with 5-nines precision at high-speed (e.g., 14.88 Mpps) using a limited amount of resources. Finally, we showcase the usage of FloWatcher-DPDK by configuring it to analyze the performance of two open source prototypes for stateful flow-level end-host and in-network packet processing.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-19">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-19">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TNSM-19" class="collapse well"> In the last few years, several software-based solutions have been proved to be very efficient for high-speed packet processing, traffic generation and monitoring, and can be considered valid alternatives to expensive and non-flexible hardware-based solutions. In our work, we first benchmark heterogeneous design choices for software-based packet monitoring systems in terms of achievable performance and required resources (i.e., the number of CPU cores). Building on this extensive analysis we design FloWatcher-DPDK, a DPDK-based high-speed software traffic monitor we provide to the community as an open source project. In a nutshell, FloWatcher-DPDK provides tunable fine-grained statistics at packet and flow levels. Experimental results demonstrate that FloWatcher-DPDK sustains per-flow statistics with 5-nines precision at high-speed (e.g., 14.88 Mpps) using a limited amount of resources. Finally, we showcase the usage of FloWatcher-DPDK by configuring it to analyze the performance of two open source prototypes for stateful flow-level end-host and in-network packet processing.  </div>
+<div id="BibTeX-TNSM-19" class="collapse"> <pre>@article{DR:TNSM-19,
+  author = {Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario},
+  title = {{FloWatcher-DPDK: Lightweight line-rate flow-level monitoring in software}},
+  year = {2019},
+  volume = {to appear},
+  number = {},
+  pages = {},
+  keywords = {Monitoring;Tools;Software;Hardware;Generators;Loss measurement;Benchmark testing;Network traffic monitoring;high-speed packet processing;per-flow packet measurement;Intel DPDK.},
+  doi = {10.1109/TNSM.2019.2913710},
+  issn = {1932-4537},
+  month = {},
+  howpublished = {https://nonsns.github.io/paper/rossi19tnsm.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TON-19"></a>[TON-19]</strong></abbr>
+	Daly, James and Linguaglossa, Leonardo and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome and Torng, Eric and Yourtchenko, Andrew, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19ton.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi19ton.pdf"> <emph> TupleMerge: Fast Software Packet Processing for Online Packet Classification </emph></a> 
+    	
+
+
+
+<emph>
+
+		   
+	 Vol. to appear, 	   
+	 No. , 	   
+	 pp., 	   
+
+
+</emph>
+
+		   
+
+		   
+	 2019, 	   
+
+
+ DOI 10.1109/TNET.2019.2920718 	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TON-19">Abstract</button>
+<div id="TON-19" class="collapse">
+<p>Packet classification is an important part of many networking devices, such as routers and firewalls. Software- Defined Networking (SDN) heavily relies on online packet clas- sification which must efficiently process two different streams: incoming packets to classify and rules to update. This rules out many offline packet classification algorithms that do not support fast updates. We propose a novel online classification algorithm, TupleMerge (TM), derived from Tuple Space Search (TSS), the packet classifier used by Open vSwitch (OVS). TM improves upon TSS by combining hash tables which contain rules with similar characteristics. This greatly reduces classification time preserving similar performance in updates. We validate the effectiveness of TM using both simulation and deployment in an full-fledged software router, specifically within Vector Packet Processor (VPP). In our simulation results, which focus solely on the efficiency of the classification algorithm, we demonstrate that TM outperforms all other state of the art methods including TSS, PartitionSort (PS), and SAX-PAC. For example, TM is 34% faster at classifying packets and 30% faster at updating rules than PS. We then evaluate experimentally TM deployed within the VPP framework comparing TM against lin- ear search and TSS, and also against TSS within the OVS frame- work. This validation of deployed implementations is important as SDN frameworks have several optimizations such as caches that may minimize the influence of a classification algorithm. Our experimental results clearly validate the effectiveness of TM. VPP TM classifies packets nearly two orders of magnitude faster than VPP TSS and at least one order of magnitude faster than OVS TSS.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TON-19">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-19">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TON-19" class="collapse well"> Packet classification is an important part of many networking devices, such as routers and firewalls. Software- Defined Networking (SDN) heavily relies on online packet clas- sification which must efficiently process two different streams: incoming packets to classify and rules to update. This rules out many offline packet classification algorithms that do not support fast updates. We propose a novel online classification algorithm, TupleMerge (TM), derived from Tuple Space Search (TSS), the packet classifier used by Open vSwitch (OVS). TM improves upon TSS by combining hash tables which contain rules with similar characteristics. This greatly reduces classification time preserving similar performance in updates. We validate the effectiveness of TM using both simulation and deployment in an full-fledged software router, specifically within Vector Packet Processor (VPP). In our simulation results, which focus solely on the efficiency of the classification algorithm, we demonstrate that TM outperforms all other state of the art methods including TSS, PartitionSort (PS), and SAX-PAC. For example, TM is 34% faster at classifying packets and 30% faster at updating rules than PS. We then evaluate experimentally TM deployed within the VPP framework comparing TM against lin- ear search and TSS, and also against TSS within the OVS frame- work. This validation of deployed implementations is important as SDN frameworks have several optimizations such as caches that may minimize the influence of a classification algorithm. Our experimental results clearly validate the effectiveness of TM. VPP TM classifies packets nearly two orders of magnitude faster than VPP TSS and at least one order of magnitude faster than OVS TSS.  </div>
+<div id="BibTeX-TON-19" class="collapse"> <pre>@article{DR:TON-19,
+  title = {TupleMerge: Fast Software Packet Processing for Online Packet Classification},
+  doi = {10.1109/TNET.2019.2920718},
+  author = {Daly, James and Linguaglossa, Leonardo and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome and Torng, Eric and Yourtchenko, Andrew},
+  year = {2019},
+  volume = {to appear},
+  number = {},
+  pages = {},
+  howpublished = {https://nonsns.github.io/paper/rossi19ton.pdf}
 }
 </pre>  </div>
 
