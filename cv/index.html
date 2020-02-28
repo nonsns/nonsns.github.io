@@ -193,6 +193,10 @@
   
     
       
+    
+  
+    
+      
       	
       	<li><a href="/pages">Pages</a></li>
       	
@@ -601,8 +605,16 @@ our work and had impact on IETF standards  <a href="https://datatracker.ietf.org
 
 <p><i class="fa fa-search-plus"></i>    More details about myself can be found in this <a href="/assets/cv/DRossi_CV.pdf"><i class="fa fa-file-pdf-o"></i> curriculum vitae </a>  (updated about once per year, also available in this longer <a href="/assets/cv/DRossi_AcademicCV.pdf"><i class="fa fa-file-pdf-o"></i> academic version</a>). Elsewhere in this page,  you’ll find my <a href="/publications/date">publications and patents</a>,   my <a href="/teaching">teaching</a> activities, some open source <a href="/dataset">datasets</a>, demos and <a href="/code">software</a>, and the list of <a href="/seminar/all">weekly seminars</a> I (used to ) organize (during 2008-2018).</p>
 
-<h2 id="-awards--"><a name="Awards"></a> Awards  <a href="#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<!-- notes on includes
+PROBLEM: https://jekyllrb.com/tutorials/orderofinterpretation/
+      When you include a .md file into an HTML file with include, The Markdown is not processed because first the Liquid (include tag) gets processed, inserting mycontent.md into the HTML file. Then the Markdown would get processed.  But because the content is included into an HTML page, the Markdown isn’t rendered. The Markdown filter processes content only in Markdown files. To make the code work, use HTML formatting in includes that are inserted into HTML files.
 
+
+SOLUTION: https://stackoverflow.com/questions/41966638/jekyll-on-github-pages-include-markdown-in-another-markdown-file/41966993
+      The way to go seems to be include_relative. I found this answer by user geraldb on the old Jekyll forums:
+
+
+-->
 <!---  NICE BUT BORKING TO AFDD BY HAND.... A LIQUID SCRIPT TO SET li ?
 <ul class="fa-ul"> 
   <li><i class="fa-li fa fa-star"></i>  
@@ -615,75 +627,34 @@ Alernatively:
 
 -->
 
+<h2 id="-awards--"><a name="Awards"></a> Awards  <a href="#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+
 <div class="image_star"></div>
 
+<!-- DO NOT EDIT -- automatically created by helper-script-cv-to-jekyll -->
 <ul>
-  <li>
-    <p>Proud that Danilo Cicalese won the <a href="https://www.telecom-paris.fr/en/phd/telecom-paris-phd-thesis-awards">2nd prize of Telecom ParisTech thesis awards</a> (2019)</p>
-  </li>
-  <li>
-    <p><a href="http://infocom2019.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2019)</p>
-  </li>
-  <li>
-    <p>Best paper award at the 28th ACM SIGMM Workshop on Network and Operating Systems Support for Digital Audio and Video (NOSSDAV’18)</p>
-  </li>
-  <li>
-    <p>The dataset we released in our <a href="https://newnet.telecom-paristech.fr/index.php/webqoe">Web QoE project</a> was given the <a href="https://pam2018.inet.berlin/program/">Best dataset award at PAM 2018</a></p>
-  </li>
-  <li>
-    <p>Proud receipient of the <a href="http://itc.committees.comsoc.org/awards/">IEEE ComsSoc/ISOC Internet Technical Committee Best Paper Award</a> (2016-2017)</p>
-  </li>
-  <li>
-    <p><a href="http://infocom2017.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2017)</p>
-  </li>
-  <li>
-    <p>Our work was selected as <a href="https://ccronline.sigcomm.org/2016/the-october-2016-issue/">best paper of the ACM SIGCOMM Internet-QoE workshop</a> (2016)  and reprinted in  <a href="https://ccronline.sigcomm.org/2016/measuring-the-quality-of-experience-of-web-users/">ACM SIGCOMM Comput. Commun. Rev.</a>.  You can grab the dataset and code in the <a href="https://newnet.telecom-paristech.fr/index.php/webqoe">Web QoE page</a>.</p>
-  </li>
-  <li>
-    <p>Proud receipient of the <a href="https://irtf.org/anrp#winners">IETF Applied Network Research Prize (2016)</a></p>
-  </li>
-  <li>
-    <p>Finalist at the IEEE INFOCOM Innovation Challenge (2016)</p>
-  </li>
-  <li>
-    <p><a href="http://tma.ifip.org/2016/phdSchool/posters/BPA.pdf">Best poster award</a> at IFIP  Traffic Monitoring and Analysis workshop (TMA 2016)</p>
-  </li>
-  <li>
-    <p>Danilo Cicalese MSc thesis has won the 2nd prize of IEEE ComSoc (2016)</p>
-  </li>
-  <li>
-    <p><a href="http://infocom2016.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2016)</p>
-  </li>
-  <li>
-    <p>Danilo’s <a href="https://github.com/CAIDA/bgp-hackathon/wiki/Results-of-the-Hackathon">HIJACK-2 team</a> won the <a href="https://www.caida.org/workshops/bgp-hackathon/1602">CAIDA BGP hackaton</a> (2016)</p>
-  </li>
-  <li>
-    <p>Proud receipient of the <a href="http://services.google.com/fh/files/blogs/googlefras_august15_final.pdf">Google Faculty Research Award </a> (2015)</p>
-  </li>
-  <li>
-    <p><a href="http://awards.acm.org/senior/all.cfm">ACM Senior member</a>  (2015)</p>
-  </li>
-  <li>
-    <p><a href="http://infocom2015.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2015)</p>
-  </li>
-  <li>
-    <p>The research stage of François Espinent (X2011) at LINCS was awarded  honourable distinction with unanimous congratulations from the jury</p>
-  </li>
-  <li>
-    <p>Best paper award at the  6th International Workshop on TRaffic Analysis and Characterization(TRAC 2015)</p>
-  </li>
-  <li>
-    <p>Best paper award at the 5th International Workshop on TRaffic Analysis and Characterization(TRAC 2014)</p>
-  </li>
-  <li>
-    <p>Runner up for best paper award at the 25th International Teletraffic Congress (ITC 2013)</p>
-  </li>
-  <li>
-    <p>IEEE Senior member (2013)</p>
-  </li>
-  <li>
-    <p>Best paper award at the 5th IFIP International Conference on New Technologies, Mobility and Security (NTMS 2012)</p>
-  </li>
+  <li>Proud that Danilo Cicalese won the <a href="https://www.telecom-paris.fr/en/phd/telecom-paris-phd-thesis-awards">2nd prize of Telecom ParisTech thesis awards</a> (2019)</li>
+  <li><a href="http://infocom2019.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2019)</li>
+  <li>Winner of the <a href="http://www.mmsys2018.org/program/detailed-program/">Best paper award</a> at NOSSDAV’18, 
+ the 28th ACM SIGMM Workshop on Network and Operating Systems Support for Digital Audio and Video (2018)</li>
+  <li>Winner of the <a href="https://pam2018.inet.berlin/program/">Best dataset award</a> at the Passive and Active Measurement (PAM) conference  (2018)</li>
+  <li>Proud receipient of the <a href="http://itc.committees.comsoc.org/awards/">IEEE ComsSoc/ISOC Internet Technical Committee Best Paper Award</a> (2016-2017)</li>
+  <li><a href="http://infocom2017.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2017)</li>
+  <li>Proud that Enrico Bocchi, co advised with Marco Mellia from Politecnico di Torino, has received the  <a href="http://www.gtti.it/awards">GTTI PhD thesis award</a> (2017)</li>
+  <li>Our work was selected as the <a href="https://ccronline.sigcomm.org/2016/the-october-2016-issue/">Best paper of the ACM SIGCOMM Internet-QoE workshop</a> (2016)  and reprinted in  <a href="https://ccronline.sigcomm.org/2016/measuring-the-quality-of-experience-of-web-users/">ACM SIGCOMM Comput. Commun. Rev.</a>.</li>
+  <li><a href="https://irtf.org/anrp">IETF Applied Network Research Prize</a> (2016)</li>
+  <li><a href="http://tma.ifip.org/2016/phdSchool/posters/BPA.pdf">Best poster award</a> at IFIP TMA (2016)</li>
+  <li><a href="http://infocom2016.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the IEEE INFOCOM TPC (2016)</li>
+  <li><a href="https://github.com/CAIDA/bgp-hackathon/wiki/Results-of-the-Hackathon">Danilo’s HIJACK-2 team won</a>  the <a href="https://www.caida.org/workshops/bgp-hackathon/1602/">CAIDA BGP hackaton</a> (2016)</li>
+  <li><a href="http://services.google.com/fh/files/blogs/googlefras_august15_final.pdf">Google Faculty Research Award</a>  (2015)</li>
+  <li><a href="http://awards.acm.org/senior/all.cfm">ACM Senior</a> member (2015)</li>
+  <li>Best paper award at the 6th International Workshop on TRaffic Analysis and Characterization (TRAC 2015)</li>
+  <li><a href="http://infocom2015.ieee-infocom.org/committee/tpc-members">Distinguished Member</a> of the 2015 IEEE INFOCOM TPC</li>
+  <li>The research stage of Francois Espinent (X2011) at LINCS was awarded honourable distinction with unanimous congratulations from the jury</li>
+  <li>Best paper award at the 5th International Workshop on TRaffic Analysis and Characterization (TRAC 2014)</li>
+  <li>Runner up for best paper award at the 25th International Teletraffic Congress (ITC 2013)</li>
+  <li>IEEE Senior member (2013)</li>
+  <li>Best paper award at the 5th IFIP International Conference on New Technologies, Mobility and Security (NTMS 2012)</li>
 </ul>
 
 <h2 id="-grants-and-projects--"><a name="Grants"></a> Grants and projects  <a href="#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
