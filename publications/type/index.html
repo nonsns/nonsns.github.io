@@ -193,10 +193,6 @@
   
     
       
-    
-  
-    
-      
       	
       	<li><a href="/pages">Pages</a></li>
       	
@@ -610,8 +606,122 @@
 	
 -->
 
-<h2 id="journals---47--"><a name="journal"></a>Journals <span class="badge">  47 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="journals---48--"><a name="journal"></a>Journals <span class="badge">  48 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TNSM-20"></a>[TNSM-20]</strong></abbr>
+	Salutari, F. and Da Hora, D. and Dubuc, G. and Rossi, D., 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20tnsm.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20tnsm.pdf"> <emph> Analyzing Wikipedia Users’ Perceived Quality Of Experience: A Large-Scale Study </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Transactions on Network and Service Management, 	   
+	 Vol. toappear, 	   
+	 No. , 	   
+	 pp.–, 	   
+
+
+</emph>
+
+		   
+
+		   
+	 2020, 	   
+
+
+ DOI 10.1109/TNSM.2020.2978685 	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TNSM-20">Abstract</button>
+<div id="TNSM-20" class="collapse">
+<p>The Web is one of the most successful Internet applications. Yet, the quality of Web users’ experience is still largely impenetrable. Whereas Web performance is typically studied with controlled experiments, in this work we perform a large-scale study of a real site, Wikipedia, explicitly asking (a small fraction of its) users for feedback on the browsing experience. The analysis of the collected feedback reveals that 85% of users are satisfied, along with both expected (e.g., the impact of browser and network connectivity) and surprising findings (e.g., absence of day/night, weekday/weekend seasonality) that we detail in this paper. Also, we leverage user responses to build supervised data-driven models to predict user satisfaction which, despite including state-of-the art quality of experience metrics, are still far from achieving accurate results (0.62 recall of negative answers). Finally, we make our dataset publicly available, hopefully contributing in enriching and refining the scientific community knowledge on Web users’ QoE.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-20">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-20">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TNSM-20" class="collapse well"> The Web is one of the most successful Internet applications. Yet, the quality of Web users’ experience is still largely impenetrable. Whereas Web performance is typically studied with controlled experiments, in this work we perform a large-scale study of a real site, Wikipedia, explicitly asking (a small fraction of its) users for feedback on the browsing experience. The analysis of the collected feedback reveals that 85% of users are satisfied, along with both expected (e.g., the impact of browser and network connectivity) and surprising findings (e.g., absence of day/night, weekday/weekend seasonality) that we detail in this paper. Also, we leverage user responses to build supervised data-driven models to predict user satisfaction which, despite including state-of-the art quality of experience metrics, are still far from achieving accurate results (0.62 recall of negative answers). Finally, we make our dataset publicly available, hopefully contributing in enriching and refining the scientific community knowledge on Web users’ QoE.  </div>
+<div id="BibTeX-TNSM-20" class="collapse"> <pre>@article{DR:TNSM-20,
+  author = {{Salutari}, F. and {Da Hora}, D. and {Dubuc}, G. and {Rossi}, D.},
+  journal = {IEEE Transactions on Network and Service Management},
+  title = {Analyzing Wikipedia Users’ Perceived Quality Of Experience: A Large-Scale Study},
+  year = {2020},
+  volume = {toappear},
+  number = {},
+  pages = {--},
+  doi = {10.1109/TNSM.2020.2978685},
+  howpublished = {https://nonsns.github.io/paper/rossi20tnsm.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
 	(comments, white spaces, etc.) gets rendered in the final HTML	
@@ -766,7 +876,7 @@ usage:
 
 <emph>
 
-		   
+	 In Elsevier Computer Networks, 	   
 	 Vol. 149, 	   
 		   
 	 pp.187–199, 	   
@@ -828,7 +938,7 @@ usage:
 <div id="BibTeX-COMNET-19" class="collapse"> <pre>@article{DR:COMNET-19,
   author = {},
   title = {High-Speed Data Plane and Network Functions Virtualization by Vectorizing Packet Processing},
-  booktitle = {Elsevier Computer Networks},
+  journal = {Elsevier Computer Networks},
   month = feb,
   year = {2019},
   volume = {149},
@@ -880,7 +990,7 @@ usage:
 
 <emph>
 
-		   
+	 In IEEE Transactions on Network Service and Management, 	   
 	 Vol. , 	   
 	 No. , 	   
 	 pp., 	   
@@ -942,6 +1052,7 @@ usage:
 <div id="BibTeX-TNSM-19" class="collapse"> <pre>@article{DR:TNSM-19,
   author = {Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario},
   title = {{FloWatcher-DPDK: Lightweight line-rate flow-level monitoring in software}},
+  journal = {IEEE Transactions on Network Service and Management},
   year = {2019},
   volume = {},
   number = {},
@@ -996,7 +1107,7 @@ usage:
 
 <emph>
 
-		   
+	 In IEEE Transactions on Networking, 	   
 	 Vol. , 	   
 	 No. , 	   
 	 pp., 	   
@@ -1058,6 +1169,7 @@ usage:
 <div id="BibTeX-TON-19" class="collapse"> <pre>@article{DR:TON-19,
   title = {TupleMerge: Fast Software Packet Processing for Online Packet Classification},
   doi = {10.1109/TNET.2019.2920718},
+  journal = {IEEE Transactions on Networking},
   author = {Daly, James and Bruschi, Valerio and Linguaglossa, Leonardo and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome and Torng, Eric and Yourtchenko, Andrew},
   year = {2019},
   volume = {},
@@ -5805,8 +5917,447 @@ usage:
 
 </li></ul>
 
-<h2 id="conferences---129--"><a name="conference"></a>Conferences <span class="badge">  129 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="conferences---133--"><a name="conference"></a>Conferences <span class="badge">  133 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="INFOCOM-20b"></a>[INFOCOM-20b]</strong></abbr>
+	Beliard, Cedric and Finamore, Alessandro and ROSSI, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20infocom-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20infocom-b.pdf"> <emph> Opening the Deep Pandora Box: Explainable Traffic Classification </emph></a> 
+    	
+
+
+
+<emph>
+
+	   INFOCOM Demo 	   
+
+
+</emph>
+
+		   
+
+	 jul. 	   
+	 2020, 	   
+
+
+ DOI  	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="INFOCOM-20b">Abstract</button>
+<div id="INFOCOM-20b" class="collapse">
+<p></p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-20b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-20b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-INFOCOM-20b" class="collapse well">   </div>
+<div id="BibTeX-INFOCOM-20b" class="collapse"> <pre>@inproceedings{DR:INFOCOM-20b,
+  author = {Beliard, Cedric and Finamore, Alessandro and ROSSI, Dario},
+  title = {Opening the Deep Pandora Box: Explainable Traffic Classification},
+  booktitle = {INFOCOM Demo},
+  month = jul,
+  year = {2020},
+  volume = {},
+  pages = {},
+  doi = {},
+  howpublished = {https://nonsns.github.io/paper/rossi20infocom-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="INFOCOM-20c"></a>[INFOCOM-20c]</strong></abbr>
+	Sviridov, German and Beliard, Cedric and Simon, Gwendal and Bianco, Andrea and Giaccone, Paolo and ROSSI, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20infocom-c.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20infocom-c.pdf"> <emph> Leveraging AI players for QoE estimation in cloud gaming </emph></a> 
+    	
+
+
+
+<emph>
+
+	   INFOCOM Demo 	   
+
+
+</emph>
+
+		   
+
+	 jul. 	   
+	 2020, 	   
+
+
+ DOI  	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="INFOCOM-20c">Abstract</button>
+<div id="INFOCOM-20c" class="collapse">
+<p></p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-20c">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-20c">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-INFOCOM-20c" class="collapse well">   </div>
+<div id="BibTeX-INFOCOM-20c" class="collapse"> <pre>@inproceedings{DR:INFOCOM-20c,
+  author = {Sviridov, German and Beliard, Cedric and Simon, Gwendal and Bianco, Andrea and Giaccone, Paolo and ROSSI, Dario},
+  title = {Leveraging AI players for QoE estimation in cloud gaming},
+  booktitle = {INFOCOM Demo},
+  month = jul,
+  year = {2020},
+  volume = {},
+  pages = {},
+  doi = {},
+  howpublished = {https://nonsns.github.io/paper/rossi20infocom-c.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="INFOCOM-20d"></a>[INFOCOM-20d]</strong></abbr>
+	, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20infocom-d.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20infocom-d.pdf"> <emph> Removing human players from the loop: AI-assisted assessment of Gaming QoE </emph></a> 
+    	
+
+
+
+<emph>
+
+	   INFOCOM Workshop on Network Intelligence 	   
+
+
+</emph>
+
+		   
+
+	 jul. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="INFOCOM-20d">Abstract</button>
+<div id="INFOCOM-20d" class="collapse">
+<p>Quality of Experience (QoE) assessment for video games is known for being a heavy-weight process, typically requiring the active involvement of several human players and bringing limited transferability across games. Clearly, to some extent, QoE is correlated with the achieved in-game score, as player frustration will arise whenever realized performance is far from what is expected due to conditions beyond player control such as network congestion in the increasingly prevalent case of networked games. To disrupt the status quo, we propose to remove human players from the loop and instead exploit Deep Reinforcement Learning (DRL) agents to play games under varying network conditions. We apply our framework to a set of Atari games with different types of interaction, showing that the score degradation observed with DRL agents can be exploited in networking devices (e.g., by prioritizing scheduling decisions), reinforcing fairness across games, and thus enhancing the overall quality of gaming experience</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-20d">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-20d">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-INFOCOM-20d" class="collapse well"> Quality of Experience (QoE) assessment for video games is known for being a heavy-weight process, typically requiring the active involvement of several human players and bringing limited transferability across games. Clearly, to some extent, QoE is correlated with the achieved in-game score, as player frustration will arise whenever realized performance is far from what is expected due to conditions beyond player control such as network congestion in the increasingly prevalent case of networked games. To disrupt the status quo, we propose to remove human players from the loop and instead exploit Deep Reinforcement Learning (DRL) agents to play games under varying network conditions. We apply our framework to a set of Atari games with different types of interaction, showing that the score degradation observed with DRL agents can be exploited in networking devices (e.g., by prioritizing scheduling decisions), reinforcing fairness across games, and thus enhancing the overall quality of gaming experience  </div>
+<div id="BibTeX-INFOCOM-20d" class="collapse"> <pre>@inproceedings{DR:INFOCOM-20d,
+  title = {Removing human players from the loop: AI-assisted assessment of Gaming QoE},
+  author = {},
+  booktitle = {INFOCOM Workshop on Network Intelligence},
+  month = jul,
+  year = {2020},
+  howpublished = {https://nonsns.github.io/paper/rossi20infocom-d.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="NETWORKING-20"></a>[NETWORKING-20]</strong></abbr>
+	, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20networking.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20networking.pdf"> <emph> Revealing QoE of Web Users from Encrypted Network Traffic </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IFIP Networking 2020 	   
+
+
+</emph>
+
+		   
+
+	 jun. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="NETWORKING-20">Abstract</button>
+<div id="NETWORKING-20" class="collapse">
+<p>Internet Service Providers (ISPs) have a lot to gain from estimating the Web browsing quality of their customers. However, unlike Content Providers (CPs) who can easily access in-browser computed application-level metrics to estimate Web browsing quality, ISPs come short mainly because of traffic encryption. In this paper, we use exact methods and machine learning to estimate well-known application-level Web browsing QoS metrics (such as SpeedIndex and Page Load Time) from raw encrypted streams of network traffic. Particularly, we present and open-source a unique dataset targeting a large set of popular pages (Alexa top-500), from probes from several ISPs networks, browsers software (Chrome, Firefox) and viewport combinations, for over 200,000 experiments. Our results show our models to be accurate, and we particularly focus on their ability to generalize to previously unseen conditions, giving guidance concerning their retraining</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-20">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-20">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-NETWORKING-20" class="collapse well"> Internet Service Providers (ISPs) have a lot to gain from estimating the Web browsing quality of their customers. However, unlike Content Providers (CPs) who can easily access in-browser computed application-level metrics to estimate Web browsing quality, ISPs come short mainly because of traffic encryption. In this paper, we use exact methods and machine learning to estimate well-known application-level Web browsing QoS metrics (such as SpeedIndex and Page Load Time) from raw encrypted streams of network traffic. Particularly, we present and open-source a unique dataset targeting a large set of popular pages (Alexa top-500), from probes from several ISPs networks, browsers software (Chrome, Firefox) and viewport combinations, for over 200,000 experiments. Our results show our models to be accurate, and we particularly focus on their ability to generalize to previously unseen conditions, giving guidance concerning their retraining  </div>
+<div id="BibTeX-NETWORKING-20" class="collapse"> <pre>@inproceedings{DR:NETWORKING-20,
+  title = {Revealing QoE of Web Users from Encrypted Network Traffic},
+  author = {},
+  year = {2020},
+  booktitle = {IFIP Networking 2020},
+  venue = {Paris},
+  month = jun,
+  howpublished = {https://nonsns.github.io/paper/rossi20networking.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
 	(comments, white spaces, etc.) gets rendered in the final HTML	

@@ -14,7 +14,6 @@
 /dataset/classification/
 /code/
 /cv/
-/cv/
 /dataset/
 /publications/date/
 /demo/
