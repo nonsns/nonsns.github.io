@@ -606,7 +606,7 @@
 <!-- <button class="btn badge btn-default btn-xs">-->
 <a href="#other">other</a><span class="caret"></span></p>
 
-<h2 id="newnetparis-chair---34--"><a name="newnet"></a>NewNet@Paris Chair <span class="badge">  34 </span> <a href="/drossi/publications/project/#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="newnetparis-chair---35--"><a name="newnet"></a>NewNet@Paris Chair <span class="badge">  35 </span> <a href="/drossi/publications/project/#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
@@ -1272,6 +1272,120 @@ usage:
   year = {2018},
   location = {Budapest, Hungary},
   howpublished = {https://nonsns.github.io/paper/rossi18bigdama.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="JSAC-18"></a>[JSAC-18]</strong></abbr>
+	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18jsac.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi18jsac.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Journal on Selected Areas in Communication (JSAC), 	   
+	 Vol. 36, 	   
+		   
+	 pp.1871–1886, 	   
+
+
+</emph>
+
+		   
+
+	 aug. 	   
+	 2018, 	   
+
+
+ DOI 10.1109/JSAC.2018.2844938 	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="JSAC-18">Abstract</button>
+<div id="JSAC-18" class="collapse">
+<p>In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-JSAC-18">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-JSAC-18">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-JSAC-18" class="collapse well"> In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.  </div>
+<div id="BibTeX-JSAC-18" class="collapse"> <pre>@article{DR:JSAC-18,
+  title = {Parallel Simulation of Very Large-Scale General Cache Networks},
+  author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
+  year = {2018},
+  journal = {IEEE Journal on Selected Areas in Communication (JSAC)},
+  volume = {36},
+  month = aug,
+  pages = {1871--1886},
+  howpublished = {https://nonsns.github.io/paper/rossi18jsac.pdf},
+  doi = {10.1109/JSAC.2018.2844938}
 }
 </pre>  </div>
 
