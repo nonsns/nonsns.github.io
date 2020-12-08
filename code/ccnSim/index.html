@@ -835,81 +835,33 @@ We are aware that v5.0 introduced some non-backward-compatible changes. We are u
 <h3 id="--references--"><i class="fa fa-file-text-o"></i> <a name="references"></a> References  <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
 
 <ul class="bibliography"><li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="JSAC-18"></a>[JSAC-18]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
-
-	<abbr><strong><a name="JSAC-18"></a>[JSAC-18]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18jsac.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18jsac.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi18jsac.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a>
     	
-
-
+	
 
 <emph>
-
 	 In IEEE Journal on Selected Areas in Communication (JSAC), 	   
 	 Vol. 36, 	   
 		   
 	 pp.1871–1886, 	   
 
-
 </emph>
 
-		   
-
-	 aug. 	   
-	 2018, 	   
-
-
+	  
+ aug. 	   
+ 2018, 	   
  DOI 10.1109/JSAC.2018.2844938 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="JSAC-18">Abstract</button>
-<div id="JSAC-18" class="collapse">
-<p>In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
@@ -919,14 +871,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-JSAC-18">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-JSAC-18">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -943,87 +892,35 @@ usage:
   doi = {10.1109/JSAC.2018.2844938}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="TON-18"></a>[TON-18]</strong></abbr>
+Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
 
-
-	<abbr><strong><a name="TON-18"></a>[TON-18]</strong></abbr>
-	Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18ton.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18ton.pdf"> <emph> Caching Encrypted Content via Stochastic Cache Partitioning </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi18ton.pdf"> <emph> Caching Encrypted Content via Stochastic Cache Partitioning </emph></a>
     	
-
-
+	
 
 <emph>
-
 	 In IEEE/ACM Transactions on Networking, 	   
 	 Vol. 26, 	   
 		   
 		   
 
-
 </emph>
 
-		   
-
-		   
-	 2018, 	   
-
-
+	  
+	   
+ 2018, 	   
  DOI 10.1109/TNET.2018.2793892 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="TON-18">Abstract</button>
-<div id="TON-18" class="collapse">
-<p>In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
@@ -1033,14 +930,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TON-18">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-18">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1056,79 +950,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi18ton.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="PARALLEL-CACHE-17"></a>[PARALLEL-CACHE-17]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
-
-	<abbr><strong><a name="PARALLEL-CACHE-17"></a>[PARALLEL-CACHE-17]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a> 
+		<a href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a>
     	
-
-
-
-<emph>
-
-	     Telecom ParisTech 	   
 	
 
+<emph>
+	     Telecom ParisTech 	   
+	
 </emph>
 
-		   
-
-	 nov. 	   
-	 2017, 	   
-
-
+	  
+ nov. 	   
+ 2017, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
 
 	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
@@ -1140,10 +987,7 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PARALLEL-CACHE-17">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1157,87 +1001,35 @@ usage:
   howpublished = {https://nonsns.github.io/paper/drossi17parallel-cache.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="TMM-17"></a>[TMM-17]</strong></abbr>
+Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Michele and Sardara, Mauro and Tortelli, Michele and Rossi, Dario, 
 
-
-	<abbr><strong><a name="TMM-17"></a>[TMM-17]</strong></abbr>
-	Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Michele and Sardara, Mauro and Tortelli, Michele and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17tmm.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi17tmm.pdf"> <emph> Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi17tmm.pdf"> <emph> Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP </emph></a>
     	
-
-
+	
 
 <emph>
-
 	 In IEEE Transactions on Multimedia, 	   
 	 Vol. 19, 	   
 		   
 	 pp.2166-2181, 	   
 
-
 </emph>
 
-		   
-
-	 oct. 	   
-	 2017, 	   
-
-
+	  
+ oct. 	   
+ 2017, 	   
  DOI 10.1109/TMM.2017.2733340 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="TMM-17">Abstract</button>
-<div id="TMM-17" class="collapse">
-<p>Streaming of video contents over the Internet is experiencing an unprecedented growth. While video permeates every application, it also puts tremendous pressure in the network – to support users having heterogeneous accesses and expecting high quality of experience, in a furthermore cost-effective manner. In this context, Future Internet (FI) paradigms, such as Information Centric Networking (ICN), are particularly well suited to not only enhance video delivery at the client (as in the DASH approach), but to also naturally and seamlessly extend video support deeper in the network functions. In this paper, we contrast ICN and TCP/IP with an experimental approach, where we employ several state-of-the-art DASH controllers (PANDA, AdapTech, and BOLA) on an ICN vs TCP/IP network stack. Our campaign, based on tools which we developed and made available as open-source software, includes multiple clients (homogeneous vs heterogeneous mixture, synchronous vs asynchronous arrivals), videos (up to 4K resolution), channels (e.g., DASH profiles, emulated WiFi and LTE, real 3G/4G traces), and levels of integration with an ICN network (i.e., vanilla NDN, wireless loss detection and recovery at the access point, load balancing). Our results clearly illustrate, as well as quantitatively assess, benefits of ICN-based streaming, warning about potential pitfalls that are however easy to avoid.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
@@ -1247,14 +1039,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMM-17">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMM-17">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1272,87 +1061,35 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi17tmm.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="COMNET-17a"></a>[COMNET-17a]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
-
-	<abbr><strong><a name="COMNET-17a"></a>[COMNET-17a]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"> <emph> A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"> <emph> A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks </emph></a>
     	
-
-
+	
 
 <emph>
-
 	 In Elsevier Computer Networks, 	   
 	 Vol. 125, 	   
 		   
 	 pp.146–159, 	   
 
-
 </emph>
 
-		   
-
-	 sep. 	   
-	 2017, 	   
-
-
+	  
+ sep. 	   
+ 2017, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="COMNET-17a">Abstract</button>
-<div id="COMNET-17a" class="collapse">
-<p>Two concurrent factors challenge the evaluation of large-scale cache networks: complex algorithmic interactions, which are hardly represented by analytical models, and catalog/network size, which limits the scalability of event-driven simulations. To solve these limitations, we propose a new hybrid technique, that we colloquially refer to as ModelGraft, which combines elements of stochastic analysis within a simulative Monte-Carlo approach. In ModelGraft, large scenarios are mapped to a downscaled counterpart built upon Time-To-Live (TTL) caches, to achieve CPU and memory scalability. Additionally, a feedback loop ensures convergence to a consistent state, whose performance accurately represent those of the original system. Finally, the technique also retains simulation simplicity and flexibility, as it can be seamlessly applied to numerous forwarding, meta-caching, and replacement algorithms. We implement and make ModelGraft available as an alternative simulation engine of ccnSim. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. Ultimately, ModelGraft pushes the boundaries of the performance evaluation well beyond the limits achieved in the current state of the art, enabling the study of Internet-scale scenarios with content catalogs comprising hundreds billions objects.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
@@ -1362,14 +1099,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17a">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17a">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1385,87 +1119,35 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi17comnet-a.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="COMNET-17b"></a>[COMNET-17b]</strong></abbr>
+Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D., 
 
-
-	<abbr><strong><a name="COMNET-17b"></a>[COMNET-17b]</strong></abbr>
-	Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D., 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"> <emph> Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"> <emph> Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers </emph></a>
     	
-
-
+	
 
 <emph>
-
 	 In Elsevier Computer Networks, 	   
 	 Vol. 125, 	   
 		   
 	 pp.132–145, 	   
 
-
 </emph>
 
-		   
-
-	 sep. 	   
-	 2017, 	   
-
-
+	  
+ sep. 	   
+ 2017, 	   
  DOI 10.1016/j.comnet.2017.04.041 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="COMNET-17b">Abstract</button>
-<div id="COMNET-17b" class="collapse">
-<p>Information-centric network (ICN) is a novel architecture identifying data as a first class citizen, and caching as a prominent low-level feature. Yet, efficiently using large storage (e.g., 1 TB) at line rate (e.g., 10 Gbps) is not trivial: in our previous work, we proposed an ICN router design equipped with hierarchical caches, that exploits peculiarities of the ICN traffic arrival process. In this paper, we implement such proposal in the NDN Forwarding Daemon (NFD), and carry on a thorough experimental evaluation of its performance with an emulation methodology on common off the shelf hardware. Our study testifies the interest and feasibility of the approach.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
@@ -1475,14 +1157,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17b">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17b">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1499,84 +1178,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi17comnet-b.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ITC28a"></a>[ITC28a]</strong></abbr>
+Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
 
-
-	<abbr><strong><a name="ITC28a"></a>[ITC28a]</strong></abbr>
-	Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"> <emph> Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"> <emph> Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   ITC28, Runner-up for best paper award and receipient of the IEEE ComSoc/ISOC Internet Technical Committee Best paper award 2016-2017 	   
-
 
 </emph>
 
-	 <i class="fa fa fa-star"></i> 	   
-
-	 sep. 	   
-	 2016, 	   
-
-
+ <i class="fa fa fa-star"></i> 	  
+ sep. 	   
+ 2016, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ITC28a">Abstract</button>
-<div id="ITC28a" class="collapse">
-<p>In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, an increasing share of content delivery services adopt encryption through HTTPS, which is not compatible with traditional ISP-managed approaches like transparent and proxy caching. This raises the need for solutions involving both Internet Service Providers (ISP) and Content Providers (CP): by design, the solution should preserve business-critical CP information (e.g., content popularity, user preferences) on the one hand, while allowing for a deeper integration of caches in the ISP architecture (e.g., in 5G femto-cells) on the other hand. In this paper we address this issue by considering a contentoblivious ISP-operated cache. The ISP allocates the cache storage to various content providers so as to maximize the bandwidth savings provided by the cache: the main novelty lies in the fact that, to protect business-critical information, ISPs only need to measure the aggregated miss rates of the individual CPs and does not need to be aware of the objects that are requested, as in classic caching. We propose a cache allocation algorithm based on a perturbed stochastic subgradient method, and prove that the algorithm converges close to the allocation that maximizes the overall cache hit rate. We use extensive simulations to validate the algorithm and to assess its convergence rate under stationary and non-stationary content popularity. Our results (i) testify the feasibility of content-oblivious caches and (ii) show that the proposed algorithm can achieve within 10% from the global optimum in our evaluation.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -1588,14 +1215,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28a">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28a">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1610,84 +1234,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi16itc28-a.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ITC28b"></a>[ITC28b]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
-
-	<abbr><strong><a name="ITC28b"></a>[ITC28b]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"> <emph> ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"> <emph> ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   ITC28 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2016, 	   
-
-
+	  
+ sep. 	   
+ 2016, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ITC28b">Abstract</button>
-<div id="ITC28b" class="collapse">
-<p>Large scale deployments of general cache networks, such as Content Delivery Networks or Information Centric Networking architectures, arise new challenges regarding their performance evaluation for network planning. On the one hand, analytical models can hardly represent in details all the interactions of complex replacement, replication, and routing policies on arbitrary topologies. On the other hand, the sheer size of networks and content catalogs makes event-driven simulation techniques inherently non-scalable. We propose a new technique for the performance evaluation of large-scale caching systems that intelligently integrates elements of stochastic analysis within a MonteCarlo simulative approach, that we colloquially refer to as ModelGraft. Our approach (i) leverages the intuition that complex scenarios can be mapped to a simpler equivalent scenario that builds upon Time-To-Live (TTL) caches; it (ii) significantly downscales the scenario to lower computation and memory complexity, while, at the same time, preserving its properties to limit accuracy loss; finally, it (iii) is simple to use and robust, as it autonomously converges to a consistent state through a feedback-loop control system, regardless of the initial state. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. In addition, we show that ModelGraft extends performance evaluation well beyond the boundaries of classic approaches, by enabling study of Internet-scale scenarios with content catalogs comprising hundreds of billions objects.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -1697,14 +1269,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28b">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28b">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1718,84 +1287,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi16itc28-b.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="NETWORKING-16"></a>[NETWORKING-16]</strong></abbr>
+Araldo, Andrea and Martignon, Fabio and Rossi, Dario, 
 
-
-	<abbr><strong><a name="NETWORKING-16"></a>[NETWORKING-16]</strong></abbr>
-	Araldo, Andrea and Martignon, Fabio and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16networking.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi16networking.pdf"> <emph> Representation Selection Problem: Optimizing Video Delivery through Caching </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi16networking.pdf"> <emph> Representation Selection Problem: Optimizing Video Delivery through Caching </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   IFIP Networking 	   
-
 
 </emph>
 
-		   
-
-	 may. 	   
-	 2016, 	   
-
-
+	  
+ may. 	   
+ 2016, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="NETWORKING-16">Abstract</button>
-<div id="NETWORKING-16" class="collapse">
-<p>To cope with Internet video explosion, recent work proposes to deploy caches to absorb part of the traffic related to popular videos. Nonetheless, caching literature has mainly focused on network-centric metrics, while the quality of users’ video streaming experience should be the key performance index to optimize. Additionally, the general assumption is that each user request can be satisfied by a single object, which does not hold when multiple representations at different quality levels are available for the same video. Our contribution in this paper is to extend the classic object placement problem (which object to cache and where) by further considering the representation selection problem (i.e., which quality representation to cache), employing two methodologies to tackle this challenge. First, we employ a Mixed Integer Linear Programming (MILP) formulation to obtain the centralized optimal solution, as well as bounds to natural policies that are readily obtained as additional constraints of the MILP. Second, from the structure of the optimal solution, we learn guidelines that assist the design of distributed caching strategies: namely, we devise a simple yet effective distributed strategy that incrementally improves the quality of cached objects. Via simulation over large scale scenarios comprising up to hundred nodes and hundred million objects, we show our proposal to be effective in balancing user perceived utility vs bandwidth usage.	</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -1805,14 +1322,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-16">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-16">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1827,79 +1341,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi16networking.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="CCN-TR16"></a>[CCN-TR16]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
-
-	<abbr><strong><a name="CCN-TR16"></a>[CCN-TR16]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/ModelGraft.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/ModelGraft.pdf"> <emph> Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks </emph></a> 
+		<a href="https://nonsns.github.io/paper/ModelGraft.pdf"> <emph> Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   Tech. Rep. 	   
-
 
 </emph>
 
-		   
-
-		   
-	 2016, 	   
-
-
+	  
+	   
+ 2016, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -1911,10 +1378,7 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR16">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -1927,84 +1391,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/ModelGraft.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-15"></a>[ICN-15]</strong></abbr>
+R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Rossi, 
 
-
-	<abbr><strong><a name="ICN-15"></a>[ICN-15]</strong></abbr>
-	R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Rossi, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi15icn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi15icn.pdf"> <emph> Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi15icn.pdf"> <emph> Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   ACM SIGCOMM Conference on Information-Centric Networking (ICN’15) 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2015, 	   
-
-
+	  
+ sep. 	   
+ 2015, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICN-15">Abstract</button>
-<div id="ICN-15" class="collapse">
-<p>Recent work motivates the design of Information-centric rou-ters that make use of hierarchies of memory to jointly scale in the size and speed of content stores. The present paper advances this understanding by (i) instantiating a general purpose two-layer packet-level caching system, (ii) investigating the solution design space via emulation, and (iii) introducing a proof-of-concept prototype. The emulation-based study reveals insights about the broad design space, the expected impact of workload, and gains due to multi-threaded execution. The full-blown system prototype experimentally confirms that, by exploiting both DRAM and SSD memory technologies, ICN routers can sustain cache operations in excess of 10Gbps running on off-the-shelf hardware.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2014,14 +1426,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-15">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-15">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2037,84 +1446,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi15icn.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="GLOBECOM-14"></a>[GLOBECOM-14]</strong></abbr>
+, 
 
-
-	<abbr><strong><a name="GLOBECOM-14"></a>[GLOBECOM-14]</strong></abbr>
-	, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14globecom.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14globecom.pdf"> <emph> Cost-aware caching: optimizing cache provisioning and object placement in ICN </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14globecom.pdf"> <emph> Cost-aware caching: optimizing cache provisioning and object placement in ICN </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   IEEE Globecom 	   
-
 
 </emph>
 
-		   
-
-	 dec. 	   
-	 2014, 	   
-
-
+	  
+ dec. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="GLOBECOM-14">Abstract</button>
-<div id="GLOBECOM-14" class="collapse">
-<p>Caching is frequently used by Internet Service Providers as a viable technique to reduce the latency perceived by end users, while jointly offloading network traffic. While the cache hit-ratio is generally considered in the literature as the dominant performance metric for such type of systems, in this paper we argue that a critical missing piece has so far been neglected. Adopting a radically different perspective, in this paper we explicitly account for the cost of content retrieval, i.e. the cost associated to the external bandwidth needed by an ISP to retrieve the contents requested by its customers. Interestingly, we discover that classical cache provisioning techniques that maximize cache efficiency (i.e., the hit-ratio), lead to suboptimal solutions with higher overall cost. To show this mismatch, we propose two optimization models that either minimize the overall costs or maximize the hit-ratio, jointly providing cache sizing, object placement and path selection. We formulate a polynomial- time greedy algorithm to solve the two problems and analytically prove its optimality. We provide numerical results and show that significant cost savings are attainable via a cost-aware design.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2124,14 +1481,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-14">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-14">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2147,84 +1501,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14globecom.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-14a"></a>[ICN-14a]</strong></abbr>
+Araldo, Andrea and Rossi, Dario and Martignon, Fabio, 
 
-
-	<abbr><strong><a name="ICN-14a"></a>[ICN-14a]</strong></abbr>
-	Araldo, Andrea and Rossi, Dario and Martignon, Fabio, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-a.pdf"> <emph> Design and Evaluation of Cost-aware Information Centric Routers </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14icn-a.pdf"> <emph> Design and Evaluation of Cost-aware Information Centric Routers </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2014, 	   
-
-
+	  
+ sep. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICN-14a">Abstract</button>
-<div id="ICN-14a" class="collapse">
-<p>Albeit an important goal of Information Centric Networking (ICNs) is traffic reduction, a perhaps even more important aspect follows from the above achievement: the reduction of ISP operational costs that comes as consequence of the reduced load on transit and provider links. Surprisingly, to date this crucial aspect has not been properly taken into account, neither in the architectural design, nor in the op- eration and management of ICN proposals. In this work, we instead design a distributed cost-aware scheme that explicitly considers the cost heterogeneity among different links. We contrast our scheme with both traditional cost-blind schemes and optimal results. We further propose an architectural design to let multiple schemes be interoper- able, and finally assess whether overlooking implementation details could hamper the practical relevance of our design. Numerical results show that our cost-aware scheme can yield significant cost savings, that are furthermore consistent over a wide range of scenarios.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2234,14 +1536,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14a">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14a">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2257,84 +1556,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14icn-a.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-14b"></a>[ICN-14b]</strong></abbr>
+Rossini, Giuseppe and Rossi, Dario, 
 
-
-	<abbr><strong><a name="ICN-14b"></a>[ICN-14b]</strong></abbr>
-	Rossini, Giuseppe and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-b.pdf"> <emph> Coupling caching and forwarding: Benefits, analysis, and implementation </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14icn-b.pdf"> <emph> Coupling caching and forwarding: Benefits, analysis, and implementation </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2014, 	   
-
-
+	  
+ sep. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICN-14b">Abstract</button>
-<div id="ICN-14b" class="collapse">
-<p>A recent debate revolves around the usefulness of pervasive caching, i.e., adding caching capabilities to possibly every router of the future Internet. Recent research argues against it, on the ground that it provides only very limited gain with respect to the current CDN scenario, where caching only happens at the network edge. In this paper, we instead show that advantages of ubiquitous caching appear only when meta-caching (i.e., whether or not cache the incoming object) and forwarding (i.e., where to direct requests in case of cache miss) decisions are tightly coupled. Summarizing our contributions, we (i) show that gains can be obtained provided that ideal Nearest Replica Routing (iNRR) forwarding and Leave a Copy Down (LCD) meta-caching are jointly in use, (ii) model the iNRR forwarding policy, (iii) provide two alternative implementations that arbitrarily closely approximate iNRR behavior, and (iv) promote cross-comparison by making our code available to the community.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2344,14 +1591,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14b">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14b">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2367,84 +1611,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14icn-b.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-14c"></a>[ICN-14c]</strong></abbr>
+Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
 
-
-	<abbr><strong><a name="ICN-14c"></a>[ICN-14c]</strong></abbr>
-	Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-c.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-c.pdf"> <emph> Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14icn-c.pdf"> <emph> Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2014, 	   
-
-
+	  
+ sep. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICN-14c">Abstract</button>
-<div id="ICN-14c" class="collapse">
-<p>Web content coming from outside the ISP is today skyrocketing, causing significant additional infrastructure costs to network operators. The reduced marginal revenues left to ISPs, whose business is almost entirely based on declining flat rate subscriptions, call for significant innovation within the network infrastructure, to support new service delivery. In this paper, we suggest the use of micro CDNs in ISP access and back-haul networks to reduce redundant web traffic within the ISP infrastructure while improving user’s QoS. With micro CDN we refer to a content delivery system composed of (i) a high speed caching substrate, (ii) a content based routing protocol and (iii) a set of data transfer mechanisms made available by content-centric networking. The contribution of this paper is twofold. First, we extensively analyze more than one month of web traffic via continuous monitoring between the access and back-haul network of Orange in France. Second, we characterize key properties of monitored traffic, such as content popularity and request cacheability, to infer potential traffic reduction enabled by the introduction of micro CDNs. Based on these findings, we then perform micro CDN dimensioning in terms of memory requirements and provide guidelines on design choices</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2454,14 +1646,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14c">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14c">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2477,84 +1666,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14icn-c.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-14d"></a>[ICN-14d]</strong></abbr>
+Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
 
-
-	<abbr><strong><a name="ICN-14d"></a>[ICN-14d]</strong></abbr>
-	Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-d.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-d.pdf"> <emph> Analyzing Cacheability in the Access Network with HACkSAw </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14icn-d.pdf"> <emph> Analyzing Cacheability in the Access Network with HACkSAw </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2014, 	   
-
-
+	  
+ sep. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICN-14d">Abstract</button>
-<div id="ICN-14d" class="collapse">
-<p>Web traffic is growing, and the need for accurate traces of HTTP traffic is therefore also rising, both for operators and researchers, as accurate HTTP traffic traces allow to analyse and characterize the traffic and the clients, and to analyse the performance of the network and the perceived quality of service for the final users. Since most ICN proposals also advocate for pervasive caching, it is imperative to measure the cacheability of traffic to assess the impact and/or the potential benefits of such solutions. This demonstration will show a both a tool to collect HTTP traces that is both fast and accurate and that overcomes the limitations of existing tools, and a set of important statistics that can be computed in post processing, like aggregate/demultiplexed cacheability figures.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2564,14 +1701,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14d">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14d">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2587,79 +1721,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14icn-d.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-14e"></a>[ICN-14e]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
 
-
-	<abbr><strong><a name="ICN-14e"></a>[ICN-14e]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-e.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-e.pdf"> <emph> CCN Simulators: Analysis and Cross-Comparison </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14icn-e.pdf"> <emph> CCN Simulators: Analysis and Cross-Comparison </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2014, 	   
-
-
+	  
+ sep. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2671,10 +1758,7 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14e">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2690,84 +1774,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14icn-e.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="QICN-14"></a>[QICN-14]</strong></abbr>
+Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
 
-
-	<abbr><strong><a name="QICN-14"></a>[QICN-14]</strong></abbr>
-	Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14qicn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14qicn.pdf"> <emph> Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi14qicn.pdf"> <emph> Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   International Workshop on Quality, Reliability, and Security in Information-Centric Networking (Q-ICN) 	   
-
 
 </emph>
 
-		   
-
-	 aug. 	   
-	 2014, 	   
-
-
+	  
+ aug. 	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="QICN-14">Abstract</button>
-<div id="QICN-14" class="collapse">
-<p>While numerous Information Centric Networking (ICN) architectures have been proposed over the last years, the community has so far only timidly attempted at a quantitative assessment of the relative quality of service level that users are expected to enjoy in each of them. This paper starts a journey toward the cross comparison of ICN alternatives, making several contributions along this road. Specifically, a census of 20 ICN software tools reveals that about 10 are dedicated to a specific architecture, about half of which are simulators. Second, we survey ICN research papers using simulation to gather information concerning the used simulator, finding that a large fraction either uses custom proprietary and unavailable software, or even plainly fails to mention any information on this regard, which is deceiving. Third, we cross-compare some of the available simulators, finding that they achieve consistent results, which is instead encouraging. Fourth, we propose a methodology to increase and promote cross- comparison, which is within reach but requires community-wide agreement, promotion and enforcement.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -2777,14 +1809,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-QICN-14">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-QICN-14">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -2799,82 +1828,31 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi14qicn.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
 
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
+<abbr><strong><a name="PATENT-08"></a>[PATENT-08]</strong></abbr>
+Rossi, D. and Rossini, G., 
 
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+
+	<!-- for patents, howpublished is not a URL  -->
+	Method for managing packets in a network of Information Centric Networking (ICN) nodes, <emph>Patent EPO14305866.7, US10530893B2</emph>
 	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
 
-  -->
+<emph></emph>
 
-
-
-
-	<abbr><strong><a name="PATENT-08"></a>[PATENT-08]</strong></abbr>
-	Rossi, D. and Rossini, G., 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO14305866.7, US10530893B2"></i> 
-		<a href="Patent EPO14305866.7, US10530893B2"> <emph> Method for managing packets in a network of Information Centric Networking (ICN) nodes </emph></a> 
-    	
-
-
-
-<emph>
-
-</emph>
-
-		   
-
-		   
-	 2014, 	   
-
-
+	  
+	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
  
 
 	   
-
-
 
 
 
@@ -2883,85 +1861,35 @@ usage:
 
 
 
-
 <div id="Abstract-PATENT-08" class="collapse well">   </div>
-<div id="BibTeX-PATENT-08" class="collapse"> <pre>@misc{DR:PATENT-08,
+<div id="BibTeX-PATENT-08" class="collapse"> <pre>@patent{DR:PATENT-08,
   author = {Rossi, D. and Rossini, G.},
   howpublished = {Patent EPO14305866.7, US10530893B2},
   title = {Method for managing packets in a network of Information Centric Networking (ICN) nodes},
   year = {2014}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
 
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
+<abbr><strong><a name="PATENT-07"></a>[PATENT-07]</strong></abbr>
+Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio, 
 
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+
+	<!-- for patents, howpublished is not a URL  -->
+	Information Centric Networking (ICN) router, <emph>Patent EPO14305639.8, WO EP US JP EP2940950B1</emph>
 	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
 
-  -->
+<emph></emph>
 
-
-
-
-	<abbr><strong><a name="PATENT-07"></a>[PATENT-07]</strong></abbr>
-	Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO14305639.8, WO EP US JP EP2940950B1"></i> 
-		<a href="Patent EPO14305639.8, WO EP US JP EP2940950B1"> <emph> Information Centric Networking (ICN) router </emph></a> 
-    	
-
-
-
-<emph>
-
-</emph>
-
-		   
-
-		   
-	 2014, 	   
-
-
+	  
+	   
+ 2014, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
  
 
@@ -2970,99 +1898,44 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-07">Bibtex<span class="caret"></span></button>
 
 
 
-
 <div id="Abstract-PATENT-07" class="collapse well">   </div>
-<div id="BibTeX-PATENT-07" class="collapse"> <pre>@misc{DR:PATENT-07,
+<div id="BibTeX-PATENT-07" class="collapse"> <pre>@patent{DR:PATENT-07,
   author = {Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio},
   howpublished = {Patent EPO14305639.8, WO EP US JP EP2940950B1},
   title = {Information Centric Networking (ICN) router},
   year = {2014}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICC-13"></a>[ICC-13]</strong></abbr>
+Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe, 
 
-
-	<abbr><strong><a name="ICC-13"></a>[ICC-13]</strong></abbr>
-	Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13icc.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi13icc.pdf"> <emph> ccnSim: an Highly Scalable CCN Simulator </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi13icc.pdf"> <emph> ccnSim: an Highly Scalable CCN Simulator </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   IEEE International Conference on Communications (ICC) 	   
-
 
 </emph>
 
-		   
-
-	 jun. 	   
-	 2013, 	   
-
-
+	  
+ jun. 	   
+ 2013, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICC-13">Abstract</button>
-<div id="ICC-13" class="collapse">
-<p>Research interest about Information Centric Networking (ICN) has grown at a very fast pace over the last few years, especially after the 2009 seminal paper of Van Jacobson et al. describing a Content Centric Network (CCN) architecture. While significant research effort has been produced in terms of architectures, algorithms, and models, the scientific community currently lacks common tools and scenarios to allow a fair cross- comparison among the different proposals. The situation is particularly complex as the commonly used general-purpose simulators cannot cope with the expected system scale: thus, many proposals are currently evaluated over small and unrealistic scale, especially in terms of dominant factors like catalog and cache sizes. As such, there is need of a scalable tool under which different algorithms can be tested and compared. Over the last years, we have developed and optimized ccnSim, an highly scalable chunk-level simulator especially suitable for the analysis of caching performance of CCN network. In this paper, we briefly describe the tool, and present an extensive benchmark of its performance. To give an idea of ccnSim scalability, a common off-the-shelf PC equipped with 8GB of RAM memory is able to simulate 2-hours of a 50-nodes CCN network, where each nodes is equipped with 10 GB caches, serving a 1 PB catalog in about 20 min CPU time.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3072,14 +1945,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICC-13">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-13">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3093,84 +1963,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi13icc.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-13"></a>[ICN-13]</strong></abbr>
+, 
 
-
-	<abbr><strong><a name="ICN-13"></a>[ICN-13]</strong></abbr>
-	, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13icn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi13icn.pdf"> <emph> INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi13icn.pdf"> <emph> INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   ACM SIGCOMM Worskhop on Information-Centric Networking (ICN) 	   
-
 
 </emph>
 
-		   
-
-		   
-	 2013, 	   
-
-
+	  
+	   
+ 2013, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ICN-13">Abstract</button>
-<div id="ICN-13" class="collapse">
-<p>Information Centric Networking is a new communication paradigm where network primitives are based on named-data rather than host identifiers. In ICN, data retrieval is triggered by user requests which are forwarded towards a copy of the desired content item. Data can be retrieved either from a server that permanently provides a content item, or from a temporary item copy opportunistically cached by an in-network node. As the availability of cached items dynamically varies over time, the request forwarding scheme should be adapted accordingly. In this paper we focus on dynamic request forwarding in ICN, and develop an approach, inspired by Q-routing framework, that we show to outperform algorithms currently available in the state of the art.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3180,14 +1998,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-13">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-13">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3201,76 +2016,27 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi13icn.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
 
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
+<abbr><strong><a name="PATENT-06"></a>[PATENT-06]</strong></abbr>
+Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G., 
 
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+
+	<!-- for patents, howpublished is not a URL  -->
+	Dynamic Interest Forwarding Mechanism for Information Centric Networking, <emph>Patent EPO13306124.2, EP2835942B1</emph>
 	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
 
-  -->
+<emph></emph>
 
-
-
-
-	<abbr><strong><a name="PATENT-06"></a>[PATENT-06]</strong></abbr>
-	Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G., 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO13306124.2, EP2835942B1"></i> 
-		<a href="Patent EPO13306124.2, EP2835942B1"> <emph> Dynamic Interest Forwarding Mechanism for Information Centric Networking </emph></a> 
-    	
-
-
-
-<emph>
-
-</emph>
-
-		   
-
-	 . 	   
-	 2013, 	   
-
-
+	  
+ . 	   
+ 2013, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
  
 
@@ -3279,15 +2045,12 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-06">Bibtex<span class="caret"></span></button>
 
 
 
-
 <div id="Abstract-PATENT-06" class="collapse well">   </div>
-<div id="BibTeX-PATENT-06" class="collapse"> <pre>@misc{DR:PATENT-06,
+<div id="BibTeX-PATENT-06" class="collapse"> <pre>@patent{DR:PATENT-06,
   author = {Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G.},
   title = {Dynamic Interest Forwarding Mechanism for Information Centric Networking},
   howpublished = {Patent EPO13306124.2, EP2835942B1},
@@ -3300,76 +2063,27 @@ usage:
   annote = {}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
 
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
+<abbr><strong><a name="PATENT-05"></a>[PATENT-05]</strong></abbr>
+Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G., 
 
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+
+	<!-- for patents, howpublished is not a URL  -->
+	Device and method for organizing forwarding information in nodes of a content centric networking, <emph>Patent EPO13161714.4, EP2785014A1</emph>
 	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
 
-  -->
+<emph></emph>
 
-
-
-
-	<abbr><strong><a name="PATENT-05"></a>[PATENT-05]</strong></abbr>
-	Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G., 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent EPO13161714.4, EP2785014A1"></i> 
-		<a href="Patent EPO13161714.4, EP2785014A1"> <emph> Device and method for organizing forwarding information in nodes of a content centric networking </emph></a> 
-    	
-
-
-
-<emph>
-
-</emph>
-
-		   
-
-	 . 	   
-	 2013, 	   
-
-
+	  
+ . 	   
+ 2013, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
  
 
@@ -3378,15 +2092,12 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-05">Bibtex<span class="caret"></span></button>
 
 
 
-
 <div id="Abstract-PATENT-05" class="collapse well">   </div>
-<div id="BibTeX-PATENT-05" class="collapse"> <pre>@misc{DR:PATENT-05,
+<div id="BibTeX-PATENT-05" class="collapse"> <pre>@patent{DR:PATENT-05,
   author = {Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G.},
   title = {Device and method for organizing forwarding information in nodes of a content centric networking},
   howpublished = {Patent EPO13161714.4, EP2785014A1},
@@ -3399,84 +2110,32 @@ usage:
   annote = {}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="CAMAD-12"></a>[CAMAD-12]</strong></abbr>
+G. Rossini, D. Rossi, 
 
-
-	<abbr><strong><a name="CAMAD-12"></a>[CAMAD-12]</strong></abbr>
-	G. Rossini, D. Rossi, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12camad.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12camad.pdf"> <emph> A dive into the caching performance of Content Centric Networking </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi12camad.pdf"> <emph> A dive into the caching performance of Content Centric Networking </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   IEEE 17th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD’12) 	   
-
 
 </emph>
 
-		   
-
-	 sep. 	   
-	 2012, 	   
-
-
+	  
+ sep. 	   
+ 2012, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="CAMAD-12">Abstract</button>
-<div id="CAMAD-12" class="collapse">
-<p>Content Centric Networking (CCN) is a promising architecture for the diffusion of popular content over the Internet. While CCN system design is sound, gathering a reliable estimate of its performance in the current Internet is challenging, due to the large scale and to the lack of agreement in some critical elements of the evaluation scenario. In this work, we add a number of important pieces to the CCN puzzle by means of a chunk-level simulator that we make available to the scientific community as open source software. First, we pay special attention to the locality of the user request process, as it may be determined by user interest or language barrier. Second, we consider the existence of possibly multiple repositories for the same content, as in the current Internet, along with different CCN interest forwarding policies, exploiting either a single or multiple repositories in parallel. To widen the relevance of our findings, we consider multi- ple topologies, content popularity settings, caching replacement policies and CCN forwarding strategies. Summarizing our main result, though the use of multiple content repositories can be beneficial from the user point of view, it may however counter part of the benefits if the CCN strategy layer implements naive interest forwarding policies.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3486,14 +2145,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CAMAD-12">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CAMAD-12">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3508,84 +2164,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi12camad.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ALGOTEL-12"></a>[ALGOTEL-12]</strong></abbr>
+Rossini, G. and Rossi, D., 
 
-
-	<abbr><strong><a name="ALGOTEL-12"></a>[ALGOTEL-12]</strong></abbr>
-	Rossini, G. and Rossi, D., 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12algotel.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12algotel.pdf"> <emph> Large scale simulation of CCN networks </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi12algotel.pdf"> <emph> Large scale simulation of CCN networks </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   Algotel 2012 	   
-
 
 </emph>
 
-		   
-
-	 may. 	   
-	 2012, 	   
-
-
+	  
+ may. 	   
+ 2012, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="ALGOTEL-12">Abstract</button>
-<div id="ALGOTEL-12" class="collapse">
-<p>This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a very thorough simulation study of the main system performance, consider several ingredients such as network topology, multi-path routing, content popularity, caching decisions and replacement policies. Summarizing our main results, we gather that (i) the impact of the topology is limited, (ii) multi-path routing may play against CCN efficiency, (iii) simple randomized policies perform almost as well as more complex ones, (iv) catalog and popularity settings play by far the most crucial role above all. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3595,14 +2199,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ALGOTEL-12">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ALGOTEL-12">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3617,84 +2218,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi12algotel.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="NOMEN-12"></a>[NOMEN-12]</strong></abbr>
+Rossi, D. and Rossini, G., 
 
-
-	<abbr><strong><a name="NOMEN-12"></a>[NOMEN-12]</strong></abbr>
-	Rossi, D. and Rossini, G., 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12nomen.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12nomen.pdf"> <emph> On sizing CCN content stores by exploiting topological information </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi12nomen.pdf"> <emph> On sizing CCN content stores by exploiting topological information </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   IEEE INFOCOM, NOMEN Worshop, 	   
-
 
 </emph>
 
-		   
-
-	 mar. 	   
-	 2012, 	   
-
-
+	  
+ mar. 	   
+ 2012, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="NOMEN-12">Abstract</button>
-<div id="NOMEN-12" class="collapse">
-<p>In this work, we study the caching performance of Content Centric Networking (CCN), with special emphasis on the size of individual CCN router caches. Specifically, we consider several graph-related centrality metrics (e.g., betweenness, closeness, stress, graph, eccentricity and degree centralities) to allocate content store space heterogeneously across the CCN network, and contrast the performance to that of an homogeneous allocation. To gather relevant results, we study CCN caching performance under large cache sizes (individual content stores of 10 GB), realistic topologies (up to 60 nodes), a YouTube-like Internet catalog (108 files for 1PB video data). A thorough simulation campaign allow us to conclude that (i) , the gain brought by content store size heterogeneity is very limited, and that (ii) the simplest metric, namely degree centrality, already proves to be a “sufficiently good” allocation criterion. On the one hand, this implies rather simple rules of thumb for the content store sizing (e.g., “if you add a line card to a CCN router, add some content store space as well”). On the other hand, we point out that technological constraints, such as line- speed operation requirement, may however limit the applicability of degree-based content store allocation.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3704,14 +2253,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NOMEN-12">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NOMEN-12">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3727,79 +2273,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi12nomen.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="IETF83-a"></a>[IETF83-a]</strong></abbr>
+Rossi, Dario, 
 
-
-	<abbr><strong><a name="IETF83-a"></a>[IETF83-a]</strong></abbr>
-	Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"> <emph> A dive into CCN^⋆caching performance </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"> <emph> A dive into CCN^⋆caching performance </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   Talk at IETF83, ICNRG meeting 	   
-
 
 </emph>
 
-		   
-
-	 mar. 	   
-	 2012, 	   
-
-
+	  
+ mar. 	   
+ 2012, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3811,10 +2310,7 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-IETF83-a">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3828,79 +2324,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="ICN-12"></a>[ICN-12]</strong></abbr>
+Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Giovanna and Diego Perino, 
 
-
-	<abbr><strong><a name="ICN-12"></a>[ICN-12]</strong></abbr>
-	Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Giovanna and Diego Perino, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12icn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12icn.pdf"> <emph> Exploit the known or explore the unknown: Hamlet-like doubts in ICN </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi12icn.pdf"> <emph> Exploit the known or explore the unknown: Hamlet-like doubts in ICN </emph></a>
     	
-
-
+	
 
 <emph>
-
 	   ACM SIGCOMM, ICN Workshop, 	   
-
 
 </emph>
 
-		   
-
-		   
-	 2012, 	   
-
-
+	  
+	   
+ 2012, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
 
 	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
@@ -3912,10 +2361,7 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-12">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -3928,79 +2374,32 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi12icn.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="CCN-TR11a"></a>[CCN-TR11a]</strong></abbr>
+D. Rossi, G. Rossini, 
 
-
-	<abbr><strong><a name="CCN-TR11a"></a>[CCN-TR11a]</strong></abbr>
-	D. Rossi, G. Rossini, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"> <emph> Caching performance of content centric networks under multi-path routing (and more) </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"> <emph> Caching performance of content centric networks under multi-path routing (and more) </emph></a>
     	
-
-
-
-<emph>
-
-	     Telecom ParisTech 	   
 	
 
+<emph>
+	     Telecom ParisTech 	   
+	
 </emph>
 
-		   
-
-		   
-	 2011, 	   
-
-
+	  
+	   
+ 2011, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
--->
 
 
 	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
@@ -4012,10 +2411,7 @@ usage:
 
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR11a">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -4028,87 +2424,35 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li>
 <li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
 
 
+<abbr><strong><a name="COMCOM-13"></a>[COMCOM-13]</strong></abbr>
+Rossini, Giuseppe and Rossi, Dario, 
 
-
-	<abbr><strong><a name="COMCOM-13"></a>[COMCOM-13]</strong></abbr>
-	Rossini, Giuseppe and Rossi, Dario, 
 
 	
 		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13comcom.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi13comcom.pdf"> <emph> Evaluating CCN multi-path interest forwarding strategies </emph></a> 
+		<a href="https://nonsns.github.io/paper/rossi13comcom.pdf"> <emph> Evaluating CCN multi-path interest forwarding strategies </emph></a>
     	
-
-
+	
 
 <emph>
-
 	 In Elsevier Computer Communication, SI on Information Centric Networking,, 	   
 	 Vol. 36, 	   
 		   
 	 pp.771-778, 	   
 
-
 </emph>
 
-		   
-
-	 Avril. 	   
-	 2013, 	   
-
-
+	  
+ Avril. 	   
+ 2013, 	   
 	   
 
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="COMCOM-13">Abstract</button>
-<div id="COMCOM-13" class="collapse">
-<p>This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a thorough simulation study of the main system performance, with a special focus on multi-path interest forwarding strategies but thoroughly analyzing the impact of several other ingredients – such as network topology, content popularity, caching decisions and replacement policies. Summarizing our main results, (i) catalog and popularity settings play by far the most crucial role (ii) the impact of the strategy layer comes next, with naive forwarding strategies playing against CCN efficiency, (iii) simple randomized caching policies perform almost as well as more complex ones, (iv) the impact of the topology is limited. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.</p> 
-</div>
-
--->
 
 
 	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
@@ -4118,14 +2462,11 @@ usage:
 	   
 
 
-
-
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMCOM-13">Abstract<span class="caret"></span></button>
 
 
 
 <button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMCOM-13">Bibtex<span class="caret"></span></button>
-
 
 
 
@@ -4142,10 +2483,6 @@ usage:
   howpublished = {https://nonsns.github.io/paper/rossi13comcom.pdf}
 }
 </pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
 </li></ul>
 
 <!-- Begin Shinystat code 
