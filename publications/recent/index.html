@@ -612,8 +612,8 @@ usage:
 	Putina, Andrian and Sozio, Mauro and Navarro, Jose M. and Rossi, Dario, 
 
 	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="/lab/docs/2020icdm.pdf"></i> 
-		<a href="/lab/docs/2020icdm.pdf"> <emph> Random Histogram Forest for Unsupervised Anomaly Detection </emph></a> 
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20icdm.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20icdm.pdf"> <emph> Random Histogram Forest for Unsupervised Anomaly Detection </emph></a> 
     	
 
 
@@ -685,7 +685,310 @@ usage:
   volume = {},
   pages = {},
   doi = {},
-  howpublished = {/lab/docs/2020icdm.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi20icdm.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TNSM-20b"></a>[TNSM-20b]</strong></abbr>
+	Putina, Andrian and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20tnsm-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20tnsm-b.pdf"> <emph> Online anomaly detection leveraging stream-based clustering and real-time telemetry </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Transactions on Network and Service Management, 	   
+	 Vol. –, 	   
+	 No. –, 	   
+	 pp.–, 	   
+
+
+</emph>
+
+		   
+
+	 nov. 	   
+	 2020, 	   
+
+
+ DOI 110.1109/TNSM.2020.3037019 	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TNSM-20b">Abstract</button>
+<div id="TNSM-20b" class="collapse">
+<p>Recent technology evolution allows network equipment to continuously stream a wealth of “telemetry” information, which pertains to multiple protocols and layers of the stack, at a very fine spatial-grain and high-frequency. This deluge of telemetry data clearly offers new opportunities for network control and troubleshooting, but also poses a serious challenge for what concerns its real-time processing. We tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to features collected from a large-scale testbed comprising tens of routers traversed up to 3 Terabit/s worth of real application traffic. We contrast DenStream with offline algorithms such as DBScan and Local Outlier Factor (LOF), as well as online algorithms such as the windowed version of DBScan, ExactSTORM, Continuous Outlier Detection (COD) and Robust Random Cut Forest (RRCF). Our experimental campaign compares these seven algorithms under both accuracy and computational complexity viewpoints: results testify that DenStream (i) achieves detection results on par with RRCF, the best performing algorithm and (ii) is significantly faster than other approaches, notably over two orders of magnitude faster than RRCF. In spirit with the recent trend toward reproducibility of results, we make our code available as open source to the scientific community.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-20b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-20b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TNSM-20b" class="collapse well"> Recent technology evolution allows network equipment to continuously stream a wealth of “telemetry” information, which pertains to multiple protocols and layers of the stack, at a very fine spatial-grain and high-frequency. This deluge of telemetry data clearly offers new opportunities for network control and troubleshooting, but also poses a serious challenge for what concerns its real-time processing. We tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to features collected from a large-scale testbed comprising tens of routers traversed up to 3 Terabit/s worth of real application traffic. We contrast DenStream with offline algorithms such as DBScan and Local Outlier Factor (LOF), as well as online algorithms such as the windowed version of DBScan, ExactSTORM, Continuous Outlier Detection (COD) and Robust Random Cut Forest (RRCF). Our experimental campaign compares these seven algorithms under both accuracy and computational complexity viewpoints: results testify that DenStream (i) achieves detection results on par with RRCF, the best performing algorithm and (ii) is significantly faster than other approaches, notably over two orders of magnitude faster than RRCF. In spirit with the recent trend toward reproducibility of results, we make our code available as open source to the scientific community.  </div>
+<div id="BibTeX-TNSM-20b" class="collapse"> <pre>@article{DR:TNSM-20b,
+  author = {Putina, Andrian and Rossi, Dario},
+  journal = {IEEE Transactions on Network and Service Management},
+  title = {Online anomaly detection leveraging stream-based clustering and real-time telemetry},
+  year = {2020},
+  month = nov,
+  volume = {--},
+  number = {--},
+  pages = {--},
+  doi = {110.1109/TNSM.2020.3037019},
+  howpublished = {https://nonsns.github.io/paper/rossi20tnsm-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PCT/EP2020/080037"></a>[PCT/EP2020/080037]</strong></abbr>
+	Roberts, James and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent PCT/EP2020/080037"></i> 
+		<a href="Patent PCT/EP2020/080037"> <emph> Method Of Managing Data Transmission For Ensuring Per-Flow Fair Bandwidth Sharing </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 oct. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PCT/EP2020/080037">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PCT/EP2020/080037" class="collapse well">   </div>
+<div id="PCT/EP2020/080037" class="collapse"> <pre>@misc{PCT/EP2020/080037,
+  author = {Roberts, James and Rossi, Dario},
+  title = {Method Of Managing Data Transmission For Ensuring Per-Flow Fair Bandwidth Sharing},
+  howpublished = {Patent PCT/EP2020/080037},
+  month = oct,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-12"></a>[PATENT-12]</strong></abbr>
+	Alexis Huet, Dario Rossi, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent PCT/EP2020/077766"></i> 
+		<a href="Patent PCT/EP2020/077766"> <emph> Detecting A Network-Induced Contribution To A Quality Of Experience Degradation </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 oct. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-12" class="collapse well">   </div>
+<div id="PATENT-12" class="collapse"> <pre>@misc{PATENT-12,
+  author = {Alexis Huet, Dario Rossi},
+  title = {Detecting A Network-Induced Contribution To A Quality Of Experience Degradation},
+  howpublished = {Patent PCT/EP2020/077766},
+  month = oct,
+  year = {2020}
 }
 </pre>  </div>
 
@@ -723,8 +1026,8 @@ usage:
 	Navarro, Jose M. and Rossi, Dario, 
 
 	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20itc.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi20itc.pdf"> <emph> HURRA! Human readable router anomaly detection </emph></a> 
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20itc.pdf, project=huawei"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20itc.pdf, project=huawei"> <emph> HURRA! Human readable router anomaly detection </emph></a> 
     	
 
 
@@ -733,7 +1036,7 @@ usage:
 
 </emph>
 
-		   
+	 <i class="fa fa fa-star"></i> 	   
 
 	 sep. 	   
 	 2020, 	   
@@ -766,6 +1069,8 @@ usage:
 
  
 
+
+	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
 	   
 
 
@@ -784,13 +1089,14 @@ usage:
 <div id="BibTeX-ITC-20" class="collapse"> <pre>@inproceeding{DR:ITC-20,
   author = {Navarro, Jose M. and Rossi, Dario},
   title = {HURRA! Human readable router anomaly detection},
-  booktitle = {ACM SIGCOMM, Demo session},
+  booktitle = {International Teletraffic Congress (ITC32)},
   month = sep,
   year = {2020},
   volume = {},
   pages = {},
   doi = {},
-  howpublished = {https://nonsns.github.io/paper/rossi20itc.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi20itc.pdf, project=huawei},
+  note = {bestpaperaward}
 }
 </pre>  </div>
 
@@ -1711,6 +2017,288 @@ usage:
 
 
 
+	<abbr><strong><a name="PATENT-11"></a>[PATENT-11]</strong></abbr>
+	Yang, Lixuan and Beliard, Cedric and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86622847"></i> 
+		<a href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86622847"> <emph> Devices, Methods, And System For Heterogeneous Data- Adaptive Federated Learning </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-11">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-11" class="collapse well">   </div>
+<div id="PATENT-11" class="collapse"> <pre>@misc{PATENT-11,
+  author = {Yang, Lixuan and Beliard, Cedric and Rossi, Dario},
+  title = {Devices, Methods, And System For Heterogeneous Data- Adaptive Federated Learning},
+  howpublished = {http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86622847},
+  month = apr,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-10"></a>[PATENT-10]</strong></abbr>
+	Navarro, Jose Manuel and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86514140"></i> 
+		<a href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86514140"> <emph> Device For Monitoring A Computer Network System </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 jan. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-10">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-10" class="collapse well">   </div>
+<div id="PATENT-10" class="collapse"> <pre>@misc{PATENT-10,
+  author = {Navarro, Jose Manuel and Rossi, Dario},
+  title = {Device For Monitoring A Computer Network System},
+  howpublished = {http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86514140},
+  month = jan,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-09"></a>[PATENT-09]</strong></abbr>
+	Huet, Alexis and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86533948"></i> 
+		<a href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86533948"> <emph> Devices And Methods For Web Quality Evaluation </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 jan. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-09">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-09" class="collapse well">   </div>
+<div id="PATENT-09" class="collapse"> <pre>@misc{PATENT-09,
+  author = {Huet, Alexis and Rossi, Dario},
+  title = {Devices And Methods For Web Quality Evaluation},
+  howpublished = {http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86533948},
+  month = jan,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
 	<abbr><strong><a name="WWW-19"></a>[WWW-19]</strong></abbr>
 	Salutari, Flavia and Hora, Diego Da and Dubuc, Gilles and Rossi, Dario, 
 
@@ -2123,694 +2711,6 @@ usage:
   year = {2019},
   location = {Paris, France},
   howpublished = {https://nonsns.github.io/paper/rossi19infocom-a.pdf}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="COMNET-19"></a>[COMNET-19]</strong></abbr>
-	, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19comnet.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi19comnet.pdf"> <emph> High-Speed Data Plane and Network Functions Virtualization by Vectorizing Packet Processing </emph></a> 
-    	
-
-
-
-<emph>
-
-	 In Elsevier Computer Networks, 	   
-	 Vol. 149, 	   
-		   
-	 pp.187–199, 	   
-
-
-</emph>
-
-		   
-
-	 feb. 	   
-	 2019, 	   
-
-
- DOI https://doi.org/10.1016/j.comnet.2018.11.033 	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="COMNET-19">Abstract</button>
-<div id="COMNET-19" class="collapse">
-<p>In the last decade, a number of frameworks started to appear that implement, directly in user-space with kernel-bypass mode, high-speed software data plane functionalities on commodity hardware. Vector Packet Processor (VPP) is one of such frameworks, representing an interesting point in the design space in that it offers: (i) in user-space networking, (ii) the flexibility of a modular router (Click and variants) with (iii) the benefits brought by techniques such as batch processing that have become commonplace in high-speed networking stacks (such as netmap or DPDK). Similarly to Click, VPP lets users arrange functions as a processing graph, providing a full-blown stack of network functions. However, unlike Click where the whole tree is traversed for each packet, in VPP each traversed node processes all packets in the batch (called vector ) before moving to the next node. This design choice enables several code optimizations that greatly improve the achievable processing throughput. This paper introduces the main VPP concepts and architecture, and experimentally evaluates the impact of design choices (such as batch packet processing) on its performance.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-19">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-19">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-COMNET-19" class="collapse well"> In the last decade, a number of frameworks started to appear that implement, directly in user-space with kernel-bypass mode, high-speed software data plane functionalities on commodity hardware. Vector Packet Processor (VPP) is one of such frameworks, representing an interesting point in the design space in that it offers: (i) in user-space networking, (ii) the flexibility of a modular router (Click and variants) with (iii) the benefits brought by techniques such as batch processing that have become commonplace in high-speed networking stacks (such as netmap or DPDK). Similarly to Click, VPP lets users arrange functions as a processing graph, providing a full-blown stack of network functions. However, unlike Click where the whole tree is traversed for each packet, in VPP each traversed node processes all packets in the batch (called vector ) before moving to the next node. This design choice enables several code optimizations that greatly improve the achievable processing throughput. This paper introduces the main VPP concepts and architecture, and experimentally evaluates the impact of design choices (such as batch packet processing) on its performance.  </div>
-<div id="BibTeX-COMNET-19" class="collapse"> <pre>@article{DR:COMNET-19,
-  author = {},
-  title = {High-Speed Data Plane and Network Functions Virtualization by Vectorizing Packet Processing},
-  journal = {Elsevier Computer Networks},
-  month = feb,
-  year = {2019},
-  volume = {149},
-  pages = {187--199},
-  doi = {https://doi.org/10.1016/j.comnet.2018.11.033},
-  howpublished = {https://nonsns.github.io/paper/rossi19comnet.pdf}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="TNSM-19"></a>[TNSM-19]</strong></abbr>
-	Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19tnsm.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi19tnsm.pdf"> <emph> FloWatcher-DPDK: Lightweight line-rate flow-level monitoring in software </emph></a> 
-    	
-
-
-
-<emph>
-
-	 In IEEE Transactions on Networks and Service Management, 	   
-	 Vol. , 	   
-	 No. , 	   
-	 pp., 	   
-
-
-</emph>
-
-		   
-
-	 . 	   
-	 2019, 	   
-
-
- DOI 10.1109/TNSM.2019.2913710 	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="TNSM-19">Abstract</button>
-<div id="TNSM-19" class="collapse">
-<p>In the last few years, several software-based solutions have been proved to be very efficient for high-speed packet processing, traffic generation and monitoring, and can be considered valid alternatives to expensive and non-flexible hardware-based solutions. In our work, we first benchmark heterogeneous design choices for software-based packet monitoring systems in terms of achievable performance and required resources (i.e., the number of CPU cores). Building on this extensive analysis we design FloWatcher-DPDK, a DPDK-based high-speed software traffic monitor we provide to the community as an open source project. In a nutshell, FloWatcher-DPDK provides tunable fine-grained statistics at packet and flow levels. Experimental results demonstrate that FloWatcher-DPDK sustains per-flow statistics with 5-nines precision at high-speed (e.g., 14.88 Mpps) using a limited amount of resources. Finally, we showcase the usage of FloWatcher-DPDK by configuring it to analyze the performance of two open source prototypes for stateful flow-level end-host and in-network packet processing.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-19">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-19">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-TNSM-19" class="collapse well"> In the last few years, several software-based solutions have been proved to be very efficient for high-speed packet processing, traffic generation and monitoring, and can be considered valid alternatives to expensive and non-flexible hardware-based solutions. In our work, we first benchmark heterogeneous design choices for software-based packet monitoring systems in terms of achievable performance and required resources (i.e., the number of CPU cores). Building on this extensive analysis we design FloWatcher-DPDK, a DPDK-based high-speed software traffic monitor we provide to the community as an open source project. In a nutshell, FloWatcher-DPDK provides tunable fine-grained statistics at packet and flow levels. Experimental results demonstrate that FloWatcher-DPDK sustains per-flow statistics with 5-nines precision at high-speed (e.g., 14.88 Mpps) using a limited amount of resources. Finally, we showcase the usage of FloWatcher-DPDK by configuring it to analyze the performance of two open source prototypes for stateful flow-level end-host and in-network packet processing.  </div>
-<div id="BibTeX-TNSM-19" class="collapse"> <pre>@article{DR:TNSM-19,
-  author = {Zhang, Tianzhu and Linguaglossa, Leonardo and Gallo, Massimo and Giaccone, Paolo and Rossi, Dario},
-  title = {{FloWatcher-DPDK: Lightweight line-rate flow-level monitoring in software}},
-  journal = {IEEE Transactions on Networks and Service Management},
-  year = {2019},
-  volume = {},
-  number = {},
-  pages = {},
-  keywords = {Monitoring;Tools;Software;Hardware;Generators;Loss measurement;Benchmark testing;Network traffic monitoring;high-speed packet processing;per-flow packet measurement;Intel DPDK.},
-  doi = {10.1109/TNSM.2019.2913710},
-  issn = {1932-4537},
-  month = {},
-  howpublished = {https://nonsns.github.io/paper/rossi19tnsm.pdf}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="TON-19"></a>[TON-19]</strong></abbr>
-	Daly, James and Bruschi, Valerio and Linguaglossa, Leonardo and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome and Torng, Eric and Yourtchenko, Andrew, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19ton.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi19ton.pdf"> <emph> TupleMerge: Fast Software Packet Processing for Online Packet Classification </emph></a> 
-    	
-
-
-
-<emph>
-
-	 In IEEE Transactions on Networking, 	   
-	 Vol. , 	   
-	 No. , 	   
-	 pp., 	   
-
-
-</emph>
-
-		   
-
-		   
-	 2019, 	   
-
-
- DOI 10.1109/TNET.2019.2920718 	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="TON-19">Abstract</button>
-<div id="TON-19" class="collapse">
-<p>Packet classification is an important part of many networking devices, such as routers and firewalls. Software Defined Networking (SDN) heavily relies on online packet classification which must efficiently process two different streams: incoming packets to classify and rules to update. This rules out many offline packet classification algorithms that do not support fast updates. We propose a novel online classification algorithm, TupleMerge (TM), derived from Tuple Space Search (TSS), the packet classifier used by Open vSwitch (OVS). TM improves upon TSS by combining hash tables which contain rules with similar characteristics. This greatly reduces classification time preserving similar performance in updates. We validate the effectiveness of TM using both simulation and deployment in an full-fledged software router, specifically within Vector Packet Processor (VPP). In our simulation results, which focus solely on the efficiency of the classification algorithm, we demonstrate that TM outperforms all other state of the art methods including TSS, PartitionSort (PS), and SAX-PAC. For example, TM is 34% faster at classifying packets and 30% faster at updating rules than PS. We then evaluate experimentally TM deployed within the VPP framework comparing TM against linear search and TSS, and also against TSS within the OVS framework. This validation of deployed implementations is important as SDN frameworks have several optimizations such as caches that may minimize the influence of a classification algorithm. Our experimental results clearly validate the effectiveness of TM. VPP TM classifies packets nearly two orders of magnitude faster than VPP TSS and at least one order of magnitude faster than OVS TSS.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TON-19">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-19">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-TON-19" class="collapse well"> Packet classification is an important part of many networking devices, such as routers and firewalls. Software Defined Networking (SDN) heavily relies on online packet classification which must efficiently process two different streams: incoming packets to classify and rules to update. This rules out many offline packet classification algorithms that do not support fast updates. We propose a novel online classification algorithm, TupleMerge (TM), derived from Tuple Space Search (TSS), the packet classifier used by Open vSwitch (OVS). TM improves upon TSS by combining hash tables which contain rules with similar characteristics. This greatly reduces classification time preserving similar performance in updates. We validate the effectiveness of TM using both simulation and deployment in an full-fledged software router, specifically within Vector Packet Processor (VPP). In our simulation results, which focus solely on the efficiency of the classification algorithm, we demonstrate that TM outperforms all other state of the art methods including TSS, PartitionSort (PS), and SAX-PAC. For example, TM is 34% faster at classifying packets and 30% faster at updating rules than PS. We then evaluate experimentally TM deployed within the VPP framework comparing TM against linear search and TSS, and also against TSS within the OVS framework. This validation of deployed implementations is important as SDN frameworks have several optimizations such as caches that may minimize the influence of a classification algorithm. Our experimental results clearly validate the effectiveness of TM. VPP TM classifies packets nearly two orders of magnitude faster than VPP TSS and at least one order of magnitude faster than OVS TSS.  </div>
-<div id="BibTeX-TON-19" class="collapse"> <pre>@article{DR:TON-19,
-  title = {TupleMerge: Fast Software Packet Processing for Online Packet Classification},
-  doi = {10.1109/TNET.2019.2920718},
-  journal = {IEEE Transactions on Networking},
-  author = {Daly, James and Bruschi, Valerio and Linguaglossa, Leonardo and Pontarelli, Salvatore and Rossi, Dario and Tollet, Jerome and Torng, Eric and Yourtchenko, Andrew},
-  year = {2019},
-  volume = {},
-  number = {},
-  pages = {},
-  howpublished = {https://nonsns.github.io/paper/rossi19ton.pdf}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="SIGCOMM-19"></a>[SIGCOMM-19]</strong></abbr>
-	, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi19sigcomm.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi19sigcomm.pdf"> <emph> Web Quality of Experience from Encrypted Packets </emph></a> 
-    	
-
-
-
-<emph>
-
-	   ACM SIGCOMM, Demo Session 	   
-
-
-</emph>
-
-		   
-
-		   
-	 2019, 	   
-
-
-	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="SIGCOMM-19">Abstract</button>
-<div id="SIGCOMM-19" class="collapse">
-<p>Pervasive encryption makes it hard for ISPs to manage their network. Yet, to avoid user churn at times of shrinking revenues, ISPs must be able to assess the quality of experience they are delivering to their customers. The case of the Web is particularly complex, with a plethora of recently proposed in-browser metrics that aim at capturing the page visual rendering quality (e.g. Above the Fold and SpeedIndex). In this demo, we showcase that such metrics can be estimated quite accurately just from streams of encrypted packets, using classic supervised learning techniques.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-SIGCOMM-19">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SIGCOMM-19">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-SIGCOMM-19" class="collapse well"> Pervasive encryption makes it hard for ISPs to manage their network. Yet, to avoid user churn at times of shrinking revenues, ISPs must be able to assess the quality of experience they are delivering to their customers. The case of the Web is particularly complex, with a plethora of recently proposed in-browser metrics that aim at capturing the page visual rendering quality (e.g. Above the Fold and SpeedIndex). In this demo, we showcase that such metrics can be estimated quite accurately just from streams of encrypted packets, using classic supervised learning techniques.  </div>
-<div id="BibTeX-SIGCOMM-19" class="collapse"> <pre>@inproceedings{DR:SIGCOMM-19,
-  title = {{Web Quality of Experience from Encrypted Packets}},
-  authors = {Alexis Huet and Zied Ben Houidi and Shengming Cai and Hao Shi and Jinchun Xu and Dario Rossi},
-  booktitle = {{ACM SIGCOMM, Demo Session}},
-  year = {2019},
-  howpublished = {https://nonsns.github.io/paper/rossi19sigcomm.pdf},
-  demourl = {https://huawei-webqoe.shinyapps.io/sigcommdemo/},
-  videourl = {https://perso.telecom-paristech.fr/drossi/data/videos/ACM-SIGCOMM-19-webqoe-demo.mp4}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="TGCN-18"></a>[TGCN-18]</strong></abbr>
-	Enguehard, Marcel and Droms, Ralph and Rossi, Dario, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18tgcn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18tgcn.pdf"> <emph> On the cost of geographic forwarding for information-centric things </emph></a> 
-    	
-
-
-
-<emph>
-
-	 In IEEE Transactions on Green Communications and Networking, 	   
-	 Vol. 2, 	   
-		   
-	 pp.1150-1163, 	   
-
-
-</emph>
-
-		   
-
-	 dec. 	   
-	 2018, 	   
-
-
- DOI 10.1109/TGCN.2018.2867267 	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="TGCN-18">Abstract</button>
-<div id="TGCN-18" class="collapse">
-<p>Recent research has identified Information-Centric Networking (ICN) as a good fit for Internet of Things (IoT) deployments. However, most studies have focused on ICN as an application enabler, disregarding the behaviour from a network viewpoint. In this paper, we address this by studying the most important properties of an ICN-IoT deployment and contrast the operational costs between geographic-based forwarding and name-based forwarding schemes. We aim to understand if, and under which IoT deployment characteristics, geographic forwarding constitutes an advantage over name-based schemes, in terms of feasibility (i.e., memory footprint and computational capability of the devices) and performance (which we analyze as the overall energy cost of operating an ICN-IoT network under either forwarding paradigm). To achieve this goal, we employ a mixture of (i) modelling, (ii) simulative and (iii) experimental methodologies, which are useful to respectively (i) state the problem in a principled way, (ii) gather information about topological properties that are instrumental to the model and (iii) gather physical properties of the devices to feed the model with realistic data. In a nutshell, our results show that geographic forwarding (i) halves the memory footprint on our reference deployments and (ii) yields significant energy savings, especially for dynamic topologies.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TGCN-18">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TGCN-18">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-TGCN-18" class="collapse well"> Recent research has identified Information-Centric Networking (ICN) as a good fit for Internet of Things (IoT) deployments. However, most studies have focused on ICN as an application enabler, disregarding the behaviour from a network viewpoint. In this paper, we address this by studying the most important properties of an ICN-IoT deployment and contrast the operational costs between geographic-based forwarding and name-based forwarding schemes. We aim to understand if, and under which IoT deployment characteristics, geographic forwarding constitutes an advantage over name-based schemes, in terms of feasibility (i.e., memory footprint and computational capability of the devices) and performance (which we analyze as the overall energy cost of operating an ICN-IoT network under either forwarding paradigm). To achieve this goal, we employ a mixture of (i) modelling, (ii) simulative and (iii) experimental methodologies, which are useful to respectively (i) state the problem in a principled way, (ii) gather information about topological properties that are instrumental to the model and (iii) gather physical properties of the devices to feed the model with realistic data. In a nutshell, our results show that geographic forwarding (i) halves the memory footprint on our reference deployments and (ii) yields significant energy savings, especially for dynamic topologies.  </div>
-<div id="BibTeX-TGCN-18" class="collapse"> <pre>@article{DR:TGCN-18,
-  author = {Enguehard, Marcel and Droms, Ralph and Rossi, Dario},
-  journal = {IEEE Transactions on Green Communications and Networking},
-  title = {On the cost of geographic forwarding for information-centric things},
-  keywords = {Cryptography;Data models;Architecture;Protocols;Internet of Things;Topology},
-  year = {2018},
-  month = dec,
-  volume = {2},
-  issue = {4},
-  pages = {1150-1163},
-  doi = {10.1109/TGCN.2018.2867267},
-  howpublished = {https://nonsns.github.io/paper/rossi18tgcn.pdf},
-  issn = {2473-2400}
-}
-</pre>  </div>
-
-<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
-
-
-</li>
-<li><!--
-v6 // Tue Feb  6 23:11:08 CET 2018
-	-basically one each day; just dicovered that any garbage here
-	(comments, white spaces, etc.) gets rendered in the final HTML	
-v1 // Wed Jan 31 01:31:03 CET 2018
-
-this bib is for my own publications.
-basically redoing the format by hand.... looks nice though!
-
-usage:
-1) in _config.yml
-	scholar:
-  	[...]
-  		bibliography_template: bib
-
-2) however, from:	
-	https://github.com/inukshuk/jekyll-scholar#bibliography-template
-	
-	""You can also override the default bibliography template, by passing 
-	the --template or -T option parameter to the bibliography tag.""
-
-  -->
-
-
-
-
-	<abbr><strong><a name="COMMAG-18"></a>[COMMAG-18]</strong></abbr>
-	Barach, David and Linguaglossa, Leonardo and Marion, Damjan and Pfister, Pierre and Pontarelli, Salvatore and Rossi, Dario, 
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18commag.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18commag.pdf"> <emph> High-speed Software Data Plane via Vectorized Packet Processing </emph></a> 
-    	
-
-
-
-<emph>
-
-	 In IEEE Communication Magazine, 	   
-	 Vol. 56, 	   
-	 No. 12, 	   
-	 pp.97-103, 	   
-
-
-</emph>
-
-		   
-
-	 dec. 	   
-	 2018, 	   
-
-
- DOI 10.1109/MCOM.2018.1800069 	   
-
-
-<!--
-<span class="badge badge-pill badge-primary">Primary</span>
-<span class="badge badge-pill badge-secondary">Secondary</span>
-<span class="badge badge-pill badge-success">Success</span>
-<span class="badge badge-pill badge-danger">Danger</span>
-<span class="badge badge-pill badge-warning">Warning</span>
-<span class="badge badge-pill badge-info">Info</span>
-<span class="badge badge-pill badge-light">Light</span>
-<span class="badge badge-pill badge-dark">Dark</span>
--->
-
-
-
-<!--
-
-<button data-toggle="collapse" data-target="COMMAG-18">Abstract</button>
-<div id="COMMAG-18" class="collapse">
-<p>In the last decade, a number of frameworks started to appear that implement, directly in user-space with kernel-bypass mode, high-speed software data plane functionalities on commodity hardware. Vector Packet Processor (VPP) is one of such frameworks, representing an interesting point in the design space in that it offers: (i) in user-space networking, (ii) the flexibility of a modular router (Click and variants) with (iii) the benefits brought by techniques such as batch processing that have become commonplace in high-speed networking stacks (such as netmap or DPDK). Similarly to Click, VPP lets users arrange functions as a processing graph, providing a full-blown stack of network functions. However, unlike Click where the whole tree is traversed for each packet, in VPP each traversed node processes all packets in the batch (called \textitvector) before moving to the next node. This design choice enables several code optimizations that greatly improve the achievable processing throughput. This paper introduces the main VPP concepts and architecture, and experimentally evaluates the impact of design choices (such as batch packet processing) on performance.</p> 
-</div>
-
--->
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMMAG-18">Abstract<span class="caret"></span></button>
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMMAG-18">Bibtex<span class="caret"></span></button>
-
-
-
-
-<div id="Abstract-COMMAG-18" class="collapse well"> In the last decade, a number of frameworks started to appear that implement, directly in user-space with kernel-bypass mode, high-speed software data plane functionalities on commodity hardware. Vector Packet Processor (VPP) is one of such frameworks, representing an interesting point in the design space in that it offers: (i) in user-space networking, (ii) the flexibility of a modular router (Click and variants) with (iii) the benefits brought by techniques such as batch processing that have become commonplace in high-speed networking stacks (such as netmap or DPDK). Similarly to Click, VPP lets users arrange functions as a processing graph, providing a full-blown stack of network functions. However, unlike Click where the whole tree is traversed for each packet, in VPP each traversed node processes all packets in the batch (called \textitvector) before moving to the next node. This design choice enables several code optimizations that greatly improve the achievable processing throughput. This paper introduces the main VPP concepts and architecture, and experimentally evaluates the impact of design choices (such as batch packet processing) on performance.  </div>
-<div id="BibTeX-COMMAG-18" class="collapse"> <pre>@article{DR:COMMAG-18,
-  author = {Barach, David and Linguaglossa, Leonardo and Marion, Damjan and Pfister, Pierre and Pontarelli, Salvatore and Rossi, Dario},
-  journal = {IEEE Communication Magazine},
-  title = {High-speed Software Data Plane via Vectorized Packet Processing},
-  year = {2018},
-  volume = {56},
-  number = {12},
-  pages = {97-103},
-  keywords = {Vector Packet Processing; High-speed networking; System design},
-  howpublished = {https://nonsns.github.io/paper/rossi18commag.pdf},
-  doi = {10.1109/MCOM.2018.1800069},
-  issn = {0163-6804},
-  month = dec
 }
 </pre>  </div>
 

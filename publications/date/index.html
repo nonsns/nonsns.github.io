@@ -621,7 +621,7 @@
 <!-- <button class="btn badge btn-default btn-xs">-->
 <a href="#publications2020">2020</a><span class="caret"></span></p>
 
-<h2 id="2020---11--"><a name="publications2020"></a>2020 <span class="badge">  11 </span> <a href="/publications/date#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="2020---18--"><a name="publications2020"></a>2020 <span class="badge">  18 </span> <a href="/publications/date#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
@@ -652,8 +652,8 @@ usage:
 	Putina, Andrian and Sozio, Mauro and Navarro, Jose M. and Rossi, Dario, 
 
 	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="/lab/docs/2020icdm.pdf"></i> 
-		<a href="/lab/docs/2020icdm.pdf"> <emph> Random Histogram Forest for Unsupervised Anomaly Detection </emph></a> 
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20icdm.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20icdm.pdf"> <emph> Random Histogram Forest for Unsupervised Anomaly Detection </emph></a> 
     	
 
 
@@ -725,7 +725,310 @@ usage:
   volume = {},
   pages = {},
   doi = {},
-  howpublished = {/lab/docs/2020icdm.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi20icdm.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="TNSM-20b"></a>[TNSM-20b]</strong></abbr>
+	Putina, Andrian and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20tnsm-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20tnsm-b.pdf"> <emph> Online anomaly detection leveraging stream-based clustering and real-time telemetry </emph></a> 
+    	
+
+
+
+<emph>
+
+	 In IEEE Transactions on Network and Service Management, 	   
+	 Vol. –, 	   
+	 No. –, 	   
+	 pp.–, 	   
+
+
+</emph>
+
+		   
+
+	 nov. 	   
+	 2020, 	   
+
+
+ DOI 110.1109/TNSM.2020.3037019 	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="TNSM-20b">Abstract</button>
+<div id="TNSM-20b" class="collapse">
+<p>Recent technology evolution allows network equipment to continuously stream a wealth of “telemetry” information, which pertains to multiple protocols and layers of the stack, at a very fine spatial-grain and high-frequency. This deluge of telemetry data clearly offers new opportunities for network control and troubleshooting, but also poses a serious challenge for what concerns its real-time processing. We tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to features collected from a large-scale testbed comprising tens of routers traversed up to 3 Terabit/s worth of real application traffic. We contrast DenStream with offline algorithms such as DBScan and Local Outlier Factor (LOF), as well as online algorithms such as the windowed version of DBScan, ExactSTORM, Continuous Outlier Detection (COD) and Robust Random Cut Forest (RRCF). Our experimental campaign compares these seven algorithms under both accuracy and computational complexity viewpoints: results testify that DenStream (i) achieves detection results on par with RRCF, the best performing algorithm and (ii) is significantly faster than other approaches, notably over two orders of magnitude faster than RRCF. In spirit with the recent trend toward reproducibility of results, we make our code available as open source to the scientific community.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-20b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-20b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-TNSM-20b" class="collapse well"> Recent technology evolution allows network equipment to continuously stream a wealth of “telemetry” information, which pertains to multiple protocols and layers of the stack, at a very fine spatial-grain and high-frequency. This deluge of telemetry data clearly offers new opportunities for network control and troubleshooting, but also poses a serious challenge for what concerns its real-time processing. We tackle this challenge by applying streaming machine-learning techniques to the continuous flow of control and data-plane telemetry data, with the purpose of real-time detection of anomalies. In particular, we implement an anomaly detection engine that leverages DenStream, an unsupervised clustering technique, and apply it to features collected from a large-scale testbed comprising tens of routers traversed up to 3 Terabit/s worth of real application traffic. We contrast DenStream with offline algorithms such as DBScan and Local Outlier Factor (LOF), as well as online algorithms such as the windowed version of DBScan, ExactSTORM, Continuous Outlier Detection (COD) and Robust Random Cut Forest (RRCF). Our experimental campaign compares these seven algorithms under both accuracy and computational complexity viewpoints: results testify that DenStream (i) achieves detection results on par with RRCF, the best performing algorithm and (ii) is significantly faster than other approaches, notably over two orders of magnitude faster than RRCF. In spirit with the recent trend toward reproducibility of results, we make our code available as open source to the scientific community.  </div>
+<div id="BibTeX-TNSM-20b" class="collapse"> <pre>@article{DR:TNSM-20b,
+  author = {Putina, Andrian and Rossi, Dario},
+  journal = {IEEE Transactions on Network and Service Management},
+  title = {Online anomaly detection leveraging stream-based clustering and real-time telemetry},
+  year = {2020},
+  month = nov,
+  volume = {--},
+  number = {--},
+  pages = {--},
+  doi = {110.1109/TNSM.2020.3037019},
+  howpublished = {https://nonsns.github.io/paper/rossi20tnsm-b.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PCT/EP2020/080037"></a>[PCT/EP2020/080037]</strong></abbr>
+	Roberts, James and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent PCT/EP2020/080037"></i> 
+		<a href="Patent PCT/EP2020/080037"> <emph> Method Of Managing Data Transmission For Ensuring Per-Flow Fair Bandwidth Sharing </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 oct. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PCT/EP2020/080037">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PCT/EP2020/080037" class="collapse well">   </div>
+<div id="PCT/EP2020/080037" class="collapse"> <pre>@misc{PCT/EP2020/080037,
+  author = {Roberts, James and Rossi, Dario},
+  title = {Method Of Managing Data Transmission For Ensuring Per-Flow Fair Bandwidth Sharing},
+  howpublished = {Patent PCT/EP2020/080037},
+  month = oct,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-12"></a>[PATENT-12]</strong></abbr>
+	Alexis Huet, Dario Rossi, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="Patent PCT/EP2020/077766"></i> 
+		<a href="Patent PCT/EP2020/077766"> <emph> Detecting A Network-Induced Contribution To A Quality Of Experience Degradation </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 oct. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-12">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-12" class="collapse well">   </div>
+<div id="PATENT-12" class="collapse"> <pre>@misc{PATENT-12,
+  author = {Alexis Huet, Dario Rossi},
+  title = {Detecting A Network-Induced Contribution To A Quality Of Experience Degradation},
+  howpublished = {Patent PCT/EP2020/077766},
+  month = oct,
+  year = {2020}
 }
 </pre>  </div>
 
@@ -763,8 +1066,8 @@ usage:
 	Navarro, Jose M. and Rossi, Dario, 
 
 	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20itc.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi20itc.pdf"> <emph> HURRA! Human readable router anomaly detection </emph></a> 
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20itc.pdf, project=huawei"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20itc.pdf, project=huawei"> <emph> HURRA! Human readable router anomaly detection </emph></a> 
     	
 
 
@@ -773,7 +1076,7 @@ usage:
 
 </emph>
 
-		   
+	 <i class="fa fa fa-star"></i> 	   
 
 	 sep. 	   
 	 2020, 	   
@@ -806,6 +1109,8 @@ usage:
 
  
 
+
+	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
 	   
 
 
@@ -824,13 +1129,14 @@ usage:
 <div id="BibTeX-ITC-20" class="collapse"> <pre>@inproceeding{DR:ITC-20,
   author = {Navarro, Jose M. and Rossi, Dario},
   title = {HURRA! Human readable router anomaly detection},
-  booktitle = {ACM SIGCOMM, Demo session},
+  booktitle = {International Teletraffic Congress (ITC32)},
   month = sep,
   year = {2020},
   volume = {},
   pages = {},
   doi = {},
-  howpublished = {https://nonsns.github.io/paper/rossi20itc.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi20itc.pdf, project=huawei},
+  note = {bestpaperaward}
 }
 </pre>  </div>
 
@@ -1751,6 +2057,288 @@ usage:
 
 
 
+	<abbr><strong><a name="PATENT-11"></a>[PATENT-11]</strong></abbr>
+	Yang, Lixuan and Beliard, Cedric and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86622847"></i> 
+		<a href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86622847"> <emph> Devices, Methods, And System For Heterogeneous Data- Adaptive Federated Learning </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 apr. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-11">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-11" class="collapse well">   </div>
+<div id="PATENT-11" class="collapse"> <pre>@misc{PATENT-11,
+  author = {Yang, Lixuan and Beliard, Cedric and Rossi, Dario},
+  title = {Devices, Methods, And System For Heterogeneous Data- Adaptive Federated Learning},
+  howpublished = {http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86622847},
+  month = apr,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-10"></a>[PATENT-10]</strong></abbr>
+	Navarro, Jose Manuel and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86514140"></i> 
+		<a href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86514140"> <emph> Device For Monitoring A Computer Network System </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 jan. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-10">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-10" class="collapse well">   </div>
+<div id="PATENT-10" class="collapse"> <pre>@misc{PATENT-10,
+  author = {Navarro, Jose Manuel and Rossi, Dario},
+  title = {Device For Monitoring A Computer Network System},
+  howpublished = {http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86514140},
+  month = jan,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="PATENT-09"></a>[PATENT-09]</strong></abbr>
+	Huet, Alexis and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86533948"></i> 
+		<a href="http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86533948"> <emph> Devices And Methods For Web Quality Evaluation </emph></a> 
+    	
+
+
+
+<emph>
+
+</emph>
+
+		   
+
+	 jan. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+-->
+
+ 
+
+	   
+
+
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PATENT-09">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="PATENT-09" class="collapse well">   </div>
+<div id="PATENT-09" class="collapse"> <pre>@misc{PATENT-09,
+  author = {Huet, Alexis and Rossi, Dario},
+  title = {Devices And Methods For Web Quality Evaluation},
+  howpublished = {http://ipr.huawei.com/anaqua/Survey/Survey.aspx?SurveyAnswerGroupId=86533948},
+  month = jan,
+  year = {2020}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
 	<abbr><strong><a name="IJCAIFL-20"></a>[IJCAIFL-20]</strong></abbr>
 	Yang, Lixuan and Beliard, Cedric and Rossi, Dario, 
 
@@ -1763,14 +2351,14 @@ usage:
 
 <emph>
 
-	   International Joint Conference on Artificial Intelligence (IJCAI), Federated Learning workshop 	   
+	   International Joint Conference on Artificial Intelligence (IJCAI), Workshop on Federated Learning 	   
 
 
 </emph>
 
 		   
 
-	 –deferred due to Covid19–. 	   
+	 sep. 	   
 	 2020, 	   
 
 
@@ -1822,13 +2410,121 @@ usage:
 <div id="BibTeX-IJCAIFL-20" class="collapse"> <pre>@inproceedings{DR:IJCAIFL-20,
   author = {Yang, Lixuan and Beliard, Cedric and Rossi, Dario},
   title = {Heterogeneous Data-Aware Federated Learning},
-  booktitle = {International Joint Conference on Artificial Intelligence (IJCAI), Federated Learning workshop},
-  month = {--deferred due to Covid19--},
+  booktitle = {International Joint Conference on Artificial Intelligence (IJCAI), Workshop on Federated Learning},
+  month = sep,
   year = {2020},
   volume = {},
   pages = {},
   doi = {},
   howpublished = {https://nonsns.github.io/paper/rossi20ijcai-fl.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="IJCAI-NETAML-20"></a>[IJCAI-NETAML-20]</strong></abbr>
+	Yang, Lixuan and Finamore, Alessandro and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi2020ijcai-netaml.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi2020ijcai-netaml.pdf"> <emph> Deep Learning and Traffic Classification: A critical review with novel </emph></a> 
+    	
+
+
+
+<emph>
+
+	   International Joint Conference on Artificial Intelligence (IJCAI), Workshop on Network Traffic Analytics using Machine Learning 	   
+
+
+</emph>
+
+		   
+
+	 sep. 	   
+	 2020, 	   
+
+
+	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="IJCAI-NETAML-20">Abstract</button>
+<div id="IJCAI-NETAML-20" class="collapse">
+<p>The increased success of Convolutional Neural Networks (CNNs) has recently re-sparked interest towards traffic classification (TC). New literature shows the potential of reaching perfect classification accuracy, yet at the core of those works still reside the same limitations surfaced in the 1st wave of TC techniques, started in early 2000s and culminated with the application of Machine Learning (ML) for "early classification". To better highlight and discuss such issues, in this paper we report on novel insights based on a commercial-grade traffic classification engine. We aim to perform a critical review of the state of the art, introducing the research community to problems arising at a commercial scale (30× the largest number of classes in academic literature), discussing the pitfalls and how to avoid them. Leveraging a dataset comprising millions of flows and thousands of labels, we perform a fair comparison of classic Machine Learning (ML) and novel Deep Learning (DL) architectures based on the same inputs. We additionally put emphasis that comparing techniques on the mere raw performance make no sense unless they are fairly compared in terms of their computational requirements, an often forgotten key aspect affecting deployment.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-IJCAI-NETAML-20">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-IJCAI-NETAML-20">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-IJCAI-NETAML-20" class="collapse well"> The increased success of Convolutional Neural Networks (CNNs) has recently re-sparked interest towards traffic classification (TC). New literature shows the potential of reaching perfect classification accuracy, yet at the core of those works still reside the same limitations surfaced in the 1st wave of TC techniques, started in early 2000s and culminated with the application of Machine Learning (ML) for "early classification". To better highlight and discuss such issues, in this paper we report on novel insights based on a commercial-grade traffic classification engine. We aim to perform a critical review of the state of the art, introducing the research community to problems arising at a commercial scale (30× the largest number of classes in academic literature), discussing the pitfalls and how to avoid them. Leveraging a dataset comprising millions of flows and thousands of labels, we perform a fair comparison of classic Machine Learning (ML) and novel Deep Learning (DL) architectures based on the same inputs. We additionally put emphasis that comparing techniques on the mere raw performance make no sense unless they are fairly compared in terms of their computational requirements, an often forgotten key aspect affecting deployment.  </div>
+<div id="BibTeX-IJCAI-NETAML-20" class="collapse"> <pre>@inproceedings{DR:IJCAI-NETAML-20,
+  author = {Yang, Lixuan and Finamore, Alessandro and Rossi, Dario},
+  title = {Deep Learning and Traffic Classification: A critical review with novel},
+  booktitle = {International Joint Conference on Artificial Intelligence (IJCAI), Workshop on Network Traffic Analytics using Machine Learning},
+  howpublished = {https://nonsns.github.io/paper/rossi2020ijcai-netaml.pdf},
+  month = sep,
+  year = {2020}
 }
 </pre>  </div>
 
@@ -23474,7 +24170,7 @@ usage:
 
 </li></ul>
 
-<h2 id="2005-up-to---8--"><a name="publicationsupto2005"></a>2005 (up to) <span class="badge">  8 </span> <a href="/publications/date#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="2005-up-to---10--"><a name="publicationsupto2005"></a>2005 (up to) <span class="badge">  10 </span> <a href="/publications/date#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
 v6 // Tue Feb  6 23:11:08 CET 2018
 	-basically one each day; just dicovered that any garbage here
@@ -24273,6 +24969,228 @@ usage:
   year = {2001},
   month = nov,
   howpublished = {https://nonsns.github.io/paper/MISSINGURL.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CNSM-20a"></a>[CNSM-20a]</strong></abbr>
+	Wassermann, Sarah and Casas, Pedro and Houidi, Zied Ben and Huet, Alexis and Seufert, Michael and Wehner, Nikolas and Schuler, Joshua and Cai, Sheng-Ming and Shi, Hao and Xu, Jinchun and Hossfeld, Tobias and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20cnsm-a.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20cnsm-a.pdf"> <emph> Are you on Mobile or Desktop? On the Impact of End-User Device on Web QoE Inference from Encrypted Traffic </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE International Conference on Network and Service Management (CNSM) 	   
+
+
+</emph>
+
+		   
+
+	 nov. 	   
+	 , 	   
+
+
+ DOI  	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="CNSM-20a">Abstract</button>
+<div id="CNSM-20a" class="collapse">
+<p>Web browsing is one of the key applications of the Internet, if not the most important one. We address the problem of Web Quality-of-Experience (QoE) monitoring from the ISP perspective, relying on in-network, passive measurements. As a proxy to Web QoE, we focus on the analysis of the well-known SpeedIndex (SI) metric. Given the lack of application-level-data visibility introduced by the wide adoption of end-to-end encryption, we resort to machine-learning models to infer the SI and the QoE level of individual web-page loading sessions, using as input only packet- and flow-level data. In this paper, we study the impact of different end-user device types (e.g., smartphone, desktop, tablet) on the performance of such models. Empirical evaluations on a large, multi-device, heterogeneous corpus of Web-QoE measurements for the most popular websites demonstrate that the proposed solution can infer the SI as well as estimate QoE ranges with high accuracy, using either packet-level or flow-level measurements. In addition, we show that the device type adds a strong bias to the feasibility of these Web-QoE models, putting into question the applicability of previously conceived approaches on single-device measurements. To improve the state of the art, we conceive cross-device generalizable models operating at both packet and flow levels, offering a feasible solution for Web-QoE monitoring in operational, multi-device networks. To the best of our knowledge, this is the first study tackling the analysis of Web QoE from encrypted network traffic in multi-device scenarios.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CNSM-20a">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CNSM-20a">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CNSM-20a" class="collapse well"> Web browsing is one of the key applications of the Internet, if not the most important one. We address the problem of Web Quality-of-Experience (QoE) monitoring from the ISP perspective, relying on in-network, passive measurements. As a proxy to Web QoE, we focus on the analysis of the well-known SpeedIndex (SI) metric. Given the lack of application-level-data visibility introduced by the wide adoption of end-to-end encryption, we resort to machine-learning models to infer the SI and the QoE level of individual web-page loading sessions, using as input only packet- and flow-level data. In this paper, we study the impact of different end-user device types (e.g., smartphone, desktop, tablet) on the performance of such models. Empirical evaluations on a large, multi-device, heterogeneous corpus of Web-QoE measurements for the most popular websites demonstrate that the proposed solution can infer the SI as well as estimate QoE ranges with high accuracy, using either packet-level or flow-level measurements. In addition, we show that the device type adds a strong bias to the feasibility of these Web-QoE models, putting into question the applicability of previously conceived approaches on single-device measurements. To improve the state of the art, we conceive cross-device generalizable models operating at both packet and flow levels, offering a feasible solution for Web-QoE monitoring in operational, multi-device networks. To the best of our knowledge, this is the first study tackling the analysis of Web QoE from encrypted network traffic in multi-device scenarios.  </div>
+<div id="BibTeX-CNSM-20a" class="collapse"> <pre>@inproceedings{DR:CNSM-20a,
+  author = {Wassermann, Sarah and Casas, Pedro and Houidi, Zied Ben and Huet, Alexis and Seufert, Michael and Wehner, Nikolas and Schuler, Joshua and Cai, Sheng-Ming and Shi, Hao and Xu, Jinchun and Hossfeld, Tobias and Rossi, Dario},
+  title = {Are you on Mobile or Desktop? On the Impact of End-User Device on Web QoE Inference from Encrypted Traffic},
+  booktitle = {IEEE International Conference on Network and Service Management (CNSM)},
+  month = nov,
+  year = {},
+  volume = {},
+  pages = {},
+  doi = {},
+  howpublished = {https://nonsns.github.io/paper/rossi20cnsm-a.pdf}
+}
+</pre>  </div>
+
+<!-- works but it's too drastic.... | regex: 'note =.*,', ''  ...filter from bibtex2latex.pl -->
+
+
+</li>
+<li><!--
+v6 // Tue Feb  6 23:11:08 CET 2018
+	-basically one each day; just dicovered that any garbage here
+	(comments, white spaces, etc.) gets rendered in the final HTML	
+v1 // Wed Jan 31 01:31:03 CET 2018
+
+this bib is for my own publications.
+basically redoing the format by hand.... looks nice though!
+
+usage:
+1) in _config.yml
+	scholar:
+  	[...]
+  		bibliography_template: bib
+
+2) however, from:	
+	https://github.com/inukshuk/jekyll-scholar#bibliography-template
+	
+	""You can also override the default bibliography template, by passing 
+	the --template or -T option parameter to the bibliography tag.""
+
+  -->
+
+
+
+
+	<abbr><strong><a name="CNSM-20b"></a>[CNSM-20b]</strong></abbr>
+	Huet, Alexis and Houidi, Zied Ben and Mathieu, Bertrand and Rossi, Dario, 
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi20cnsm-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi20cnsm-b.pdf"> <emph> Detecting Degradation of Web Browsing Quality of Experience (QoE) </emph></a> 
+    	
+
+
+
+<emph>
+
+	   IEEE International Conference on Network and Service Management (CNSM) 	   
+
+
+</emph>
+
+		   
+
+	 nov. 	   
+	 , 	   
+
+
+ DOI  	   
+
+
+<!--
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+-->
+
+
+
+<!--
+
+<button data-toggle="collapse" data-target="CNSM-20b">Abstract</button>
+<div id="CNSM-20b" class="collapse">
+<p>Quality of Experience (QoE) inference, and particularly the detection of its degradation is an important management tool for ISPs. Yet, this task is made difficult due to widespread use of encryption on the data-plane on the one hand so that measuring QoE is hard, and to the ephemeral properties of the web content on the other hand so that changes in QoE indicators may be rooted in changes in properties of the content itself, more than being caused by network-related events. In this paper, we phrase the QoE degradation detection issue as a change point detection problem, that we tackle by leveraging a unique dataset consisting on several hundreds thousands browsing sessions spanning multiple months. Our results, beyond showing feasibility, warn about the exclusive use of QoE indicators that are very close to content, as changes in the content space can lead to false alarms that are not tied to network-related problems.</p> 
+</div>
+
+-->
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CNSM-20b">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CNSM-20b">Bibtex<span class="caret"></span></button>
+
+
+
+
+<div id="Abstract-CNSM-20b" class="collapse well"> Quality of Experience (QoE) inference, and particularly the detection of its degradation is an important management tool for ISPs. Yet, this task is made difficult due to widespread use of encryption on the data-plane on the one hand so that measuring QoE is hard, and to the ephemeral properties of the web content on the other hand so that changes in QoE indicators may be rooted in changes in properties of the content itself, more than being caused by network-related events. In this paper, we phrase the QoE degradation detection issue as a change point detection problem, that we tackle by leveraging a unique dataset consisting on several hundreds thousands browsing sessions spanning multiple months. Our results, beyond showing feasibility, warn about the exclusive use of QoE indicators that are very close to content, as changes in the content space can lead to false alarms that are not tied to network-related problems.  </div>
+<div id="BibTeX-CNSM-20b" class="collapse"> <pre>@inproceedings{DR:CNSM-20b,
+  author = {Huet, Alexis and Houidi, Zied Ben and Mathieu, Bertrand and Rossi, Dario},
+  title = {Detecting Degradation of Web Browsing Quality of Experience (QoE)},
+  booktitle = {IEEE International Conference on Network and Service Management (CNSM)},
+  month = nov,
+  year = {},
+  volume = {},
+  pages = {},
+  doi = {},
+  howpublished = {https://nonsns.github.io/paper/rossi20cnsm-b.pdf}
 }
 </pre>  </div>
 
