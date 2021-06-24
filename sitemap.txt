@@ -26,6 +26,7 @@
 /seminar/next/
 /pages
 /publications/project/
+/publications/project.md.save
 /publications/
 /publications/recent/
 /rss.xml
