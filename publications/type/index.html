@@ -619,23 +619,23 @@ Yang, Lixuan and Finamore, Alessandro and Feng, Jun and Rossi, Dario,
 
 
 	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://arxiv.org/abs/2104.03182"></i> 
-		<a href="https://arxiv.org/abs/2104.03182"> <emph> Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications </emph></a>
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"> <emph> Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset </emph></a>
     	
 	
 
 <emph>
-	 In IEEE Transactions on Network and Service Management, to appear, 	   
-		   
-		   
-	 pp., 	   
+	 In IEEE Transactions on Network and Service Management, 	   
+	 Vol. 18, 	   
+	 No. 4, 	   
+	 pp.4103–4118, 	   
 
 </emph>
 
 	  
- apr. 	   
+ dec. 	   
  2021, 	   
- DOI  	   
+ DOI 10.1109/TNSM.2021.3122940 	   
 
 
 
@@ -654,19 +654,20 @@ Yang, Lixuan and Finamore, Alessandro and Feng, Jun and Rossi, Dario,
 
 
 
-<div id="Abstract-TNSM-21b" class="collapse well"> The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While classification of known traffic is a well investigated subject with supervised classification tools (such as ML and DL models) are known to provide satisfactory performance, detection of unknown (or zero-day) traffic is more challenging and typically handled by unsupervised techniques (such as clustering algorithms). In this paper, we share our experience on a commercial-grade DL traffic classification engine that is able to (i) identify known applications from encrypted traffic, as well as (ii) handle unknown zero-day applications. In particular, our contribution for (i) is to perform a thorough assessment of state of the art traffic classifiers in commercial-grade settings comprising few thousands of very fine grained application labels, as opposite to the few tens of classes generally targeted in academic evaluations. Additionally, we contribute to the problem of (ii) detection of zero-day applications by proposing a novel technique, tailored for DL models, that is significantly more accurate and light-weight than the state of the art. Summarizing our main findings, we gather that (i) while ML and DL models are both equally able to provide satisfactory solution for classification of known traffic, however (ii) the non-linear feature extraction process of the DL backbone provides sizeable advantages for the detection of unknown classes.  </div>
+<div id="Abstract-TNSM-21b" class="collapse well"> The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While supervised techniques provide satisfactory performance when classifying known traffic, the detection of zero-day (i.e., unknown) traffic is a more challenging task. At the same time, zero-day detection, generally tackled with unsupervised techniques such as clustering, received less coverage by the traffic classification literature which focuses more on deriving DL models via supervised techniques. Moreover, the combination of supervised and unsupervised techniques poses challenges not fully covered by the traffic classification literature. In this paper, we share our experience on a commercial-grade DL traffic classification engine that combines supervised and unsupervised techniques to identify known and zero-day traffic. In particular, we rely on a dataset with hundreds of very fine grained application labels, and perform a thorough assessment of two state of the art traffic classifiers in commercial-grade settings. This pushes the boundaries of traffic classifiers evaluation beyond the few tens of classes typically used in the literature. Our main contribution is the design and evaluation of GradBP, a novel technique for zero-day applications detection. Based on gradient backpropagation and tailored for DL models, GradBP yields superior performance with respect to state of the art alternatives, in both accuracy and computational cost. Overall, while ML and DL models are both equally able to provide excellent performance for the classification of known traffic, the non-linear feature extraction process of DL models backbone provides sizable advantages for the detection of unknown classes over classical ML models  </div>
 <div id="BibTeX-TNSM-21b" class="collapse"> <pre>@article{DR:TNSM-21b,
   author = {{Yang}, Lixuan and {Finamore}, Alessandro and {Feng}, Jun and {Rossi}, Dario},
-  title = {Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications},
-  journal = {IEEE Transactions on Network and Service Management, to appear},
+  title = {Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset},
+  journal = {IEEE Transactions on Network and Service Management},
+  volume = {18},
+  number = {4},
+  pages = {4103--4118},
   year = {2021},
-  month = apr,
-  vol = {},
-  issue = {},
-  pages = {},
-  doi = {},
+  month = dec,
+  doi = {10.1109/TNSM.2021.3122940},
   topic = {tc-algo},
-  howpublished = {https://arxiv.org/abs/2104.03182}
+  arxiv = {https://arxiv.org/abs/2104.03182},
+  howpublished = {https://nonsns.github.io/paper/rossi21tnsm-b.pdf}
 }
 </pre>  </div>
 </li>
@@ -3626,8 +3627,271 @@ Rossini, Giuseppe and Rossi, Dario,
 </pre>  </div>
 </li></ul>
 
-<h2 id="conferences---146--"><a name="conference"></a>Conferences <span class="badge">  146 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="conferences---151--"><a name="conference"></a>Conferences <span class="badge">  151 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="INFOCOM-22"></a>[INFOCOM-22]</strong></abbr>
+Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario, 
+
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22infocom.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi22infocom.pdf"> <emph> Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching </emph></a>
+    	
+	
+
+<emph>
+	   IEEE INFOCOM 	   
+
+</emph>
+
+	  
+ may. 	   
+ 2022, 	   
+	   
+
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#INFOCOM-22">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#INFOCOM-22">Bibtex<span class="caret"></span></button>
+
+
+
+<div id="INFOCOM-22" class="collapse well"> While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh. We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching – testifying the practical interest of our proposal.  </div>
+<div id="INFOCOM-22" class="collapse"> <pre>@inproceedings{INFOCOM-22,
+  title = {Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching},
+  author = {Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario},
+  booktitle = {IEEE INFOCOM},
+  year = {2022},
+  month = may,
+  topic = {tc-system},
+  howpublished = {https://nonsns.github.io/paper/rossi22infocom.pdf}
+}
+</pre>  </div>
+</li>
+<li><!--
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="AAAI-22"></a>[AAAI-22]</strong></abbr>
+Boffa, Matteo and Houidi, Zied Ben and Krolikowski, Jonatan and Rossi, Dario, 
+
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22aaai-glcr.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi22aaai-glcr.pdf"> <emph> Neural combinatorial optimization beyond the TSP: Existing architectures under-represent graph structure </emph></a>
+    	
+	
+
+<emph>
+	   AAAI’22 GCLR workshop 	   
+
+</emph>
+
+	  
+	   
+ 2022, 	   
+	   
+
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#AAAI-22">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#AAAI-22">Bibtex<span class="caret"></span></button>
+
+
+
+<div id="AAAI-22" class="collapse well"> Recent years have witnessed the promise that reinforcement learning, coupled with Graph Neural Network (GNN) architectures, could learn to solve hard combinatorial optimization problems: given raw input data and an evaluator to guide the process, the idea is to automatically learn a policy able to return feasible and high-quality outputs. Recent work have shown promising results but the latter were mainly evaluated on the travelling salesman problem (TSP) and similar abstract variants such as Split Delivery Vehicle Routing Problem (SDVRP). This paper assesses how and whether recent neural architectures also transfer to graph problems of practical interest. We thus set out to systematically transfer these architectures to the Power and Channel Allocation Problem (PCAP), which has practical relevance for, e.g., radio resource allocation in wireless networks. Our experimental results suggest that existing architectures (i) are still incapable of capturing graph structural features and (ii) are not suitable for problems where the actions on the graph change the graph attributes. On a positive note, we show that augmenting the structural representation of problems with Distance Encoding is a promising step towards the still-ambitious goal of learning multi-purpose autonomous solvers.  </div>
+<div id="AAAI-22" class="collapse"> <pre>@inproceedings{AAAI-22,
+  title = {Neural combinatorial optimization beyond the TSP: Existing architectures under-represent graph structure},
+  author = {Boffa, Matteo and Houidi, Zied Ben and Krolikowski, Jonatan and Rossi, Dario},
+  year = {2022},
+  booktitle = {AAAI'22 GCLR workshop},
+  howpublished = {https://nonsns.github.io/paper/rossi22aaai-glcr.pdf}
+}
+</pre>  </div>
+</li>
+<li><!--
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="VISION-22"></a>[VISION-22]</strong></abbr>
+Rossi, Dario and Zhang, Liang, 
+
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22ai4net_vision.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi22ai4net_vision.pdf"> <emph> Landing AI on Networks: An equipment vendor viewpoint on Autonomous Driving Networks </emph></a>
+    	
+	
+
+<emph>
+	   arXiv 	   
+
+</emph>
+
+	  
+	   
+ 2022, 	   
+	   
+
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#VISION-22">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#VISION-22">Bibtex<span class="caret"></span></button>
+
+
+
+<div id="VISION-22" class="collapse well"> The tremendous achievements of Artificial Intelligence (AI) in computer vision, natural language processing, games and robotics, has extended the reach of the AI hype to other fields: in telecommunication networks, the long term vision is to let AI fully manage, and autonomously drive, all aspects of network operation. In this industry vision paper, we discuss challenges and opportunities of Autonomous Driving Network (ADN) driven by AI technologies. To understand how AI can be successfully landed in current and future networks, we start by outlining challenges that are specific to the networking domain, putting them in perspective with advances that AI has achieved in other fields. We then present a system view, clarifying how AI can be fitted in the network architecture. We finally discuss current achievements as well as future promises of AI in networks, mentioning roadmap to avoid bumps in the road that leads to true large-scale deployment of AI technologies in network  </div>
+<div id="VISION-22" class="collapse"> <pre>@inproceedings{VISION-22,
+  title = {Landing AI on Networks: An equipment vendor viewpoint on Autonomous Driving Networks},
+  author = {Rossi, Dario and Zhang, Liang},
+  year = {2022},
+  booktitle = {arXiv},
+  howpublished = {https://nonsns.github.io/paper/rossi22ai4net_vision.pdf}
+}
+</pre>  </div>
+</li>
+<li><!--
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="CoNEXT-21-DarkVec"></a>[CoNEXT-21-DarkVec]</strong></abbr>
+Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Houidi, Zied and Rossi, Dario, 
+
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21conext-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi21conext-b.pdf"> <emph> DarkVec: Automatic Analysis of Darknet Traffic with Word Embeddings </emph></a>
+    	
+	
+
+<emph>
+	   ACM CoNEXT 	   
+
+</emph>
+
+	  
+ dec. 	   
+ 2021, 	   
+	   
+
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#CoNEXT-21-DarkVec">Abstract<span class="caret"></span></button>
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#CoNEXT-21-DarkVec">Bibtex<span class="caret"></span></button>
+
+
+
+<div id="CoNEXT-21-DarkVec" class="collapse well"> Darknets are passive probes listening to traffic reaching IP addresses that host no services. Traffic reaching them is unsolicited by nature and often induced by scanners, malicious senders and misconfigured hosts. Its peculiar nature makes it a valuable source of information to learn about malicious activities. However, the massive amount of packets and sources that reach darknets makes it hard to extract meaningful insights. In particular, multiple senders contact the darknet while performing similar and coordinated tasks, which are often commanded by common controllers (botnets, crawlers, etc.). How to automatically identify and group those senders that share similar behaviors remains an open problem. We here introduce DarkVec, a methodology to identify clusters of senders (i.e., IP addresses) engaged in similar activities on darknets. DarkVec leverages word embedding techniques (e.g., Word2Vec) to capture the co-occurrence patterns of sources hitting the darknets. We extensively test DarkVec and explore its design space in a case study using one month of darknet data. We show that with a proper definition of service, the generated embeddings can be easily used to (i) associate unknown senders’ IP addresses to the correct known labels (more than 96% accuracy), and (ii) identify new attack and scan groups of previously unknown senders. We contribute DarkVec source code and datasets to the community also to stimulate the use of word embeddings to automatically learn patterns on generic traffic traces  </div>
+<div id="CoNEXT-21-DarkVec" class="collapse"> <pre>@inproceedings{CoNEXT-21-DarkVec,
+  author = {Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Houidi, Zied and Rossi, Dario},
+  title = {DarkVec: Automatic Analysis of Darknet Traffic with Word Embeddings},
+  booktitle = {ACM CoNEXT},
+  year = {2021},
+  month = dec,
+  partner = {polito-mellia},
+  howpublished = {https://nonsns.github.io/paper/rossi21conext-b.pdf}
+}
+</pre>  </div>
+</li>
+<li><!--
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="CoNEXT-21-DeepMon"></a>[CoNEXT-21-DeepMon]</strong></abbr>
+Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario, 
+
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21conext-b.pdf"></i> 
+		<a href="https://nonsns.github.io/paper/rossi21conext-b.pdf"> <emph> Towards a Generic Deep Learning Pipeline for Traffic Measurements </emph></a>
+    	
+	
+
+<emph>
+	   ACM CoNEXT, Student Workshop 	   
+
+</emph>
+
+	  
+ dec. 	   
+ 2021, 	   
+	   
+
+
+
+	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#CoNEXT-21-DeepMon">Bibtex<span class="caret"></span></button>
+
+
+
+<div id="CoNEXT-21-DeepMon" class="collapse well">   </div>
+<div id="CoNEXT-21-DeepMon" class="collapse"> <pre>@inproceedings{CoNEXT-21-DeepMon,
+  author = {Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario},
+  title = {Towards a Generic Deep Learning Pipeline for Traffic Measurements},
+  booktitle = {ACM CoNEXT, Student Workshop},
+  year = {2021},
+  month = dec,
+  howpublished = {https://nonsns.github.io/paper/rossi21conext-b.pdf}
+}
+</pre>  </div>
+</li>
+<li><!--
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -11427,8 +11691,52 @@ Yang, Lixuan and Finamore, Alessandro and Rossi, Dario,
 </pre>  </div>
 </li></ul>
 
-<h2 id="patents---18--"><a name="patent"></a>Patents <span class="badge">  18 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
+<h2 id="patents---19--"><a name="patent"></a>Patents <span class="badge">  19 </span> <a href="/publications/type#top"><i class="fa fa-arrow-circle-up"></i></a></h2>
 <ul class="bibliography"><li><!--
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="PCT/EP2021/074381"></a>[PCT/EP2021/074381]</strong></abbr>
+Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario, 
+
+
+	
+		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
+		<a href=""> <emph> Root cause analysis of anomalous events in a computer network </emph></a>
+    	
+	
+
+<emph></emph>
+
+	  
+ sep. 	   
+ 2021, 	   
+	   
+
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#PCT/EP2021/074381">Bibtex<span class="caret"></span></button>
+
+
+
+<div id="PCT/EP2021/074381" class="collapse well">   </div>
+<div id="PCT/EP2021/074381" class="collapse"> <pre>@misc{PCT/EP2021/074381,
+  author = {Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario},
+  title = {Root cause analysis of anomalous events in a computer network},
+  month = sep,
+  year = {2021},
+  howpublished = {}
+}
+</pre>  </div>
+</li>
+<li><!--
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -13357,7 +13665,7 @@ D.Rossi,
       <hr>
       <footer>
         <p>
-          &copy; 2021 Dario Rossi
+          &copy; 2022 Dario Rossi
           <span class="pull-right text-muted">
             powered by
             <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
