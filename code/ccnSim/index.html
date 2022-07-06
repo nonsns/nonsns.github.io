@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -493,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -501,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -509,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -517,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -525,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -533,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -839,6 +872,7 @@ We are aware that v5.0 introduced some non-backward-compatible changes. We are u
 <h3 id="--references--"><i class="fa fa-file-text-o"></i> <a name="references"></a> References  <a href="/drossi/code/ccnSim/#top"><i class="fa fa-arrow-circle-up"></i></a></h3>
 
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -847,11 +881,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 MP Enguehard, G Carofiglio, D Rossi, 
 
 
-	<!-- for patents, howpublished is not a URL  -->
-	Popularity-based load-balancing for fog-cloud placement, <emph>Patent US10721295</emph>
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Popularity-based load-balancing for fog-cloud placement" </em>, Patent US10721295  
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
 	   
@@ -859,8 +896,10 @@ MP Enguehard, G Carofiglio, D Rossi,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -869,20 +908,25 @@ MP Enguehard, G Carofiglio, D Rossi,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-US10721295">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-US10721295" class="collapse well">   </div>
-<div id="BibTeX-PATENT-US10721295" class="collapse"> <pre>@patent{DR:PATENT-US10721295,
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
+<div id="BibTeX-PATENT-US10721295" class="collapse"> <pre>@misc{DR:PATENT-US10721295,
   author = {MP Enguehard, G Carofiglio, D Rossi},
   title = {Popularity-based load-balancing for fog-cloud placement},
   howpublished = {Patent US10721295},
   year = {2020}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-US10721295" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -891,19 +935,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18jsac.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18jsac.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18jsac.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi18jsac.pdf"> <em> "Parallel Simulation of Very Large-Scale General Cache Networks" </em></a>
+	    
+
+
+
+<em>
+
 	 In IEEE Journal on Selected Areas in Communication (JSAC), 	   
 	 Vol. 36, 	   
 		   
 	 pp.1871–1886, 	   
 
-</emph>
+</em>
 
 	  
  aug. 	   
@@ -911,23 +959,28 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
  DOI 10.1109/JSAC.2018.2844938 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-JSAC-18">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-JSAC-18">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-JSAC-18">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-JSAC-18">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-JSAC-18" class="collapse well"> In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.  </div>
 <div id="BibTeX-JSAC-18" class="collapse"> <pre>@article{DR:JSAC-18,
   title = {Parallel Simulation of Very Large-Scale General Cache Networks},
   author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
@@ -940,8 +993,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
   doi = {10.1109/JSAC.2018.2844938}
 }
 </pre>  </div>
+<div id="Abstract-JSAC-18" class="collapse well"> In this paper we propose a methodology for the study of general cache networks, which is intrinsically scalable and amenable to parallel execution. We contrast two techniques: one that slices the network, and another that slices the content catalog. In the former, each core simulates requests for the whole catalog on a subgraph of the original topology, whereas in the latter each core simulates requests for a portion of the original catalog on a replica of the whole network. Interestingly, we find out that when the number of cores increases (and so the split ratio of the network topology), the overhead of message passing required to keeping consistency among nodes actually offsets any benefit from the parallelization: this is strictly due to the correlation among neighboring caches, meaning that requests arriving at one cache allocated on one core may depend on the status of one or more caches allocated on different cores. Even more interestingly, we find out that the newly proposed catalog slicing, on the contrary, achieves an ideal speedup in the number of cores. Overall, our system, which we make available as open source software, enables performance assessment of large-scale general cache networks, i.e., comprising hundreds of nodes, trillions contents, and complex routing and caching algorithms, in minutes of CPU time and with exiguous amounts of memory.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -950,19 +1005,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18ton.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi18ton.pdf"> <emph> Caching Encrypted Content via Stochastic Cache Partitioning </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi18ton.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi18ton.pdf"> <em> "Caching Encrypted Content via Stochastic Cache Partitioning" </em></a>
+	    
+
+
+
+<em>
+
 	 In IEEE/ACM Transactions on Networking, 	   
 	 Vol. 26, 	   
 		   
 		   
 
-</emph>
+</em>
 
 	  
 	   
@@ -970,23 +1029,28 @@ Araldo, Andrea and Dan, Gyorgy and Rossi, Dario,
  DOI 10.1109/TNET.2018.2793892 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TON-18">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TON-18">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-18">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TON-18">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TON-18" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.  </div>
 <div id="BibTeX-TON-18" class="collapse"> <pre>@article{DR:TON-18,
   title = {Caching Encrypted Content via Stochastic Cache Partitioning},
   author = {Araldo, Andrea and Dan, Gyorgy and Rossi, Dario},
@@ -998,8 +1062,10 @@ Araldo, Andrea and Dan, Gyorgy and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi18ton.pdf}
 }
 </pre>  </div>
+<div id="Abstract-TON-18" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, in order to protect consumer privacy and their own business, Content Providers (CPs) increasingly deliver encrypted content, thereby preventing Internet Service Providers (ISPs) from employing traditional caching strategies, which require the knowledge of the objects being transmitted. To overcome this emerging tussle between security and effi- ciency, in this paper we propose an architecture in which the ISP partitions the cache space into slices, assigns each slice to a different CP, and lets the CPs remotely manage their slices. This architecture enables transparent caching of encrypted content, and can be deployed in the very edge of the ISP’s network (i.e., base stations, femtocells), while allowing CPs to maintain exclusive control over their content. We propose an algorithm, called SDCP, for partitioning the cache storage into slices so as to maximize the bandwidth savings provided by the cache. A distinctive feature of our algorithm is that ISPs only need to measure the aggregated miss rates of each CP, but they need not know of the individual objects that are requested. We prove that the SDCP algorithm converges to a partitioning that is close to the optimal, and we bound its optimality gap. We use simulations to evaluate SDCP’s convergence rate under stationary and non-stationary content popularity. Finally, we show that SDCP significantly outperforms traditional reactive caching techniques, considering both CPs with perfect and with imperfect knowledge of their content popularity.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1008,16 +1074,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"> <emph> Parallel Simulation of Very Large-Scale General Cache Networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/drossi17parallel-cache.pdf"> <em> "Parallel Simulation of Very Large-Scale General Cache Networks" </em></a>
+	    
+
+
+
+<em>
+
 	     Telecom ParisTech 	   
 	
-</emph>
+</em>
 
 	  
  nov. 	   
@@ -1025,9 +1095,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
 
+	<span class="badge badge-pill btn-primary" style="width: 100px">Tech.Rep.</span>
  
 
 	   
@@ -1035,11 +1106,14 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PARALLEL-CACHE-17">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PARALLEL-CACHE-17" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-PARALLEL-CACHE-17">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-PARALLEL-CACHE-17" class="collapse"> <pre>@techrep{DR:PARALLEL-CACHE-17,
   title = {Parallel Simulation of Very Large-Scale General Cache Networks},
   author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
@@ -1049,8 +1123,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
   howpublished = {https://nonsns.github.io/paper/drossi17parallel-cache.pdf}
 }
 </pre>  </div>
+<div id="Abstract-PARALLEL-CACHE-17" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1059,19 +1135,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Michele and Sardara, Mauro and Tortelli, Michele and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17tmm.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi17tmm.pdf"> <emph> Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17tmm.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi17tmm.pdf"> <em> "Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP" </em></a>
+	    
+
+
+
+<em>
+
 	 In IEEE Transactions on Multimedia, 	   
 	 Vol. 19, 	   
 		   
 	 pp.2166-2181, 	   
 
-</emph>
+</em>
 
 	  
  oct. 	   
@@ -1079,23 +1159,28 @@ Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Mic
  DOI 10.1109/TMM.2017.2733340 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMM-17">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TMM-17">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMM-17">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TMM-17">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TMM-17" class="collapse well"> Streaming of video contents over the Internet is experiencing an unprecedented growth. While video permeates every application, it also puts tremendous pressure in the network – to support users having heterogeneous accesses and expecting high quality of experience, in a furthermore cost-effective manner. In this context, Future Internet (FI) paradigms, such as Information Centric Networking (ICN), are particularly well suited to not only enhance video delivery at the client (as in the DASH approach), but to also naturally and seamlessly extend video support deeper in the network functions. In this paper, we contrast ICN and TCP/IP with an experimental approach, where we employ several state-of-the-art DASH controllers (PANDA, AdapTech, and BOLA) on an ICN vs TCP/IP network stack. Our campaign, based on tools which we developed and made available as open-source software, includes multiple clients (homogeneous vs heterogeneous mixture, synchronous vs asynchronous arrivals), videos (up to 4K resolution), channels (e.g., DASH profiles, emulated WiFi and LTE, real 3G/4G traces), and levels of integration with an ICN network (i.e., vanilla NDN, wireless loss detection and recovery at the access point, load balancing). Our results clearly illustrate, as well as quantitatively assess, benefits of ICN-based streaming, warning about potential pitfalls that are however easy to avoid.  </div>
 <div id="BibTeX-TMM-17" class="collapse"> <pre>@article{DR:TMM-17,
   title = {Dynamic Adaptive Video Streaming: Towards a systematic comparison of ICN and TCP/IP},
   author = {Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Michele and Sardara, Mauro and Tortelli, Michele and Rossi, Dario},
@@ -1109,8 +1194,10 @@ Samain, Jacques and Carofiglio, Giovanna and Muscariello, Luca and Papalini, Mic
   howpublished = {https://nonsns.github.io/paper/rossi17tmm.pdf}
 }
 </pre>  </div>
+<div id="Abstract-TMM-17" class="collapse well"> Streaming of video contents over the Internet is experiencing an unprecedented growth. While video permeates every application, it also puts tremendous pressure in the network – to support users having heterogeneous accesses and expecting high quality of experience, in a furthermore cost-effective manner. In this context, Future Internet (FI) paradigms, such as Information Centric Networking (ICN), are particularly well suited to not only enhance video delivery at the client (as in the DASH approach), but to also naturally and seamlessly extend video support deeper in the network functions. In this paper, we contrast ICN and TCP/IP with an experimental approach, where we employ several state-of-the-art DASH controllers (PANDA, AdapTech, and BOLA) on an ICN vs TCP/IP network stack. Our campaign, based on tools which we developed and made available as open-source software, includes multiple clients (homogeneous vs heterogeneous mixture, synchronous vs asynchronous arrivals), videos (up to 4K resolution), channels (e.g., DASH profiles, emulated WiFi and LTE, real 3G/4G traces), and levels of integration with an ICN network (i.e., vanilla NDN, wireless loss detection and recovery at the access point, load balancing). Our results clearly illustrate, as well as quantitatively assess, benefits of ICN-based streaming, warning about potential pitfalls that are however easy to avoid.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1119,19 +1206,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"> <emph> A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi17comnet-a.pdf"> <em> "A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks" </em></a>
+	    
+
+
+
+<em>
+
 	 In Elsevier Computer Networks, 	   
 	 Vol. 125, 	   
 		   
 	 pp.146–159, 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1139,23 +1230,28 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17a">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-COMNET-17a" class="collapse well"> Two concurrent factors challenge the evaluation of large-scale cache networks: complex algorithmic interactions, which are hardly represented by analytical models, and catalog/network size, which limits the scalability of event-driven simulations. To solve these limitations, we propose a new hybrid technique, that we colloquially refer to as ModelGraft, which combines elements of stochastic analysis within a simulative Monte-Carlo approach. In ModelGraft, large scenarios are mapped to a downscaled counterpart built upon Time-To-Live (TTL) caches, to achieve CPU and memory scalability. Additionally, a feedback loop ensures convergence to a consistent state, whose performance accurately represent those of the original system. Finally, the technique also retains simulation simplicity and flexibility, as it can be seamlessly applied to numerous forwarding, meta-caching, and replacement algorithms. We implement and make ModelGraft available as an alternative simulation engine of ccnSim. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. Ultimately, ModelGraft pushes the boundaries of the performance evaluation well beyond the limits achieved in the current state of the art, enabling the study of Internet-scale scenarios with content catalogs comprising hundreds billions objects.  </div>
 <div id="BibTeX-COMNET-17a" class="collapse"> <pre>@article{DR:COMNET-17a,
   title = {A Hybrid Methodology for the Performance Evaluation of Internet-scale Cache Networks},
   author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
@@ -1167,8 +1263,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
   howpublished = {https://nonsns.github.io/paper/rossi17comnet-a.pdf}
 }
 </pre>  </div>
+<div id="Abstract-COMNET-17a" class="collapse well"> Two concurrent factors challenge the evaluation of large-scale cache networks: complex algorithmic interactions, which are hardly represented by analytical models, and catalog/network size, which limits the scalability of event-driven simulations. To solve these limitations, we propose a new hybrid technique, that we colloquially refer to as ModelGraft, which combines elements of stochastic analysis within a simulative Monte-Carlo approach. In ModelGraft, large scenarios are mapped to a downscaled counterpart built upon Time-To-Live (TTL) caches, to achieve CPU and memory scalability. Additionally, a feedback loop ensures convergence to a consistent state, whose performance accurately represent those of the original system. Finally, the technique also retains simulation simplicity and flexibility, as it can be seamlessly applied to numerous forwarding, meta-caching, and replacement algorithms. We implement and make ModelGraft available as an alternative simulation engine of ccnSim. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. Ultimately, ModelGraft pushes the boundaries of the performance evaluation well beyond the limits achieved in the current state of the art, enabling the study of Internet-scale scenarios with content catalogs comprising hundreds billions objects.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1177,19 +1275,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"> <emph> Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi17comnet-b.pdf"> <em> "Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers" </em></a>
+	    
+
+
+
+<em>
+
 	 In Elsevier Computer Networks, 	   
 	 Vol. 125, 	   
 		   
 	 pp.132–145, 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1197,23 +1299,28 @@ Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D.,
  DOI 10.1016/j.comnet.2017.04.041 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-17b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-17b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-COMNET-17b" class="collapse well"> Information-centric network (ICN) is a novel architecture identifying data as a first class citizen, and caching as a prominent low-level feature. Yet, efficiently using large storage (e.g., 1 TB) at line rate (e.g., 10 Gbps) is not trivial: in our previous work, we proposed an ICN router design equipped with hierarchical caches, that exploits peculiarities of the ICN traffic arrival process. In this paper, we implement such proposal in the NDN Forwarding Daemon (NFD), and carry on a thorough experimental evaluation of its performance with an emulation methodology on common off the shelf hardware. Our study testifies the interest and feasibility of the approach.  </div>
 <div id="BibTeX-COMNET-17b" class="collapse"> <pre>@article{DR:COMNET-17b,
   title = {Exploiting Parallelism in Hierarchical Content Stores for High-speed ICN Routers},
   author = {Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D.},
@@ -1226,8 +1333,10 @@ Mansilha, R. and Barcellos, M. and Leonardi, E. and Rossi, D.,
   howpublished = {https://nonsns.github.io/paper/rossi17comnet-b.pdf}
 }
 </pre>  </div>
+<div id="Abstract-COMNET-17b" class="collapse well"> Information-centric network (ICN) is a novel architecture identifying data as a first class citizen, and caching as a prominent low-level feature. Yet, efficiently using large storage (e.g., 1 TB) at line rate (e.g., 10 Gbps) is not trivial: in our previous work, we proposed an ICN router design equipped with hierarchical caches, that exploits peculiarities of the ICN traffic arrival process. In this paper, we implement such proposal in the NDN Forwarding Daemon (NFD), and carry on a thorough experimental evaluation of its performance with an emulation methodology on common off the shelf hardware. Our study testifies the interest and feasibility of the approach.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1236,16 +1345,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Araldo, Andrea and Dan, Gyorgy and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"> <emph> Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi16itc28-a.pdf"> <em> "Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery" </em></a>
+	    
+
+
+
+<em>
+
 	   ITC28, Runner-up for best paper award and receipient of the IEEE ComSoc/ISOC Internet Technical Committee Best paper award 2016-2017 	   
 
-</emph>
+</em>
 
  <i class="fa fa fa-star"></i> 	  
  sep. 	   
@@ -1253,25 +1366,30 @@ Araldo, Andrea and Dan, Gyorgy and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 
-	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
+	<span class="label badge-pill btn-warning" style="width: 100px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28a">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ITC28a" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, an increasing share of content delivery services adopt encryption through HTTPS, which is not compatible with traditional ISP-managed approaches like transparent and proxy caching. This raises the need for solutions involving both Internet Service Providers (ISP) and Content Providers (CP): by design, the solution should preserve business-critical CP information (e.g., content popularity, user preferences) on the one hand, while allowing for a deeper integration of caches in the ISP architecture (e.g., in 5G femto-cells) on the other hand. In this paper we address this issue by considering a contentoblivious ISP-operated cache. The ISP allocates the cache storage to various content providers so as to maximize the bandwidth savings provided by the cache: the main novelty lies in the fact that, to protect business-critical information, ISPs only need to measure the aggregated miss rates of the individual CPs and does not need to be aware of the objects that are requested, as in classic caching. We propose a cache allocation algorithm based on a perturbed stochastic subgradient method, and prove that the algorithm converges close to the allocation that maximizes the overall cache hit rate. We use extensive simulations to validate the algorithm and to assess its convergence rate under stationary and non-stationary content popularity. Our results (i) testify the feasibility of content-oblivious caches and (ii) show that the proposed algorithm can achieve within 10% from the global optimum in our evaluation.  </div>
 <div id="BibTeX-ITC28a" class="collapse"> <pre>@inproceedings{DR:ITC28a,
   title = {Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery},
   author = {Araldo, Andrea and Dan, Gyorgy and Rossi, Dario},
@@ -1282,8 +1400,10 @@ Araldo, Andrea and Dan, Gyorgy and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi16itc28-a.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ITC28a" class="collapse well"> In-network caching is an appealing solution to cope with the increasing bandwidth demand of video, audio and data transfer over the Internet. Nonetheless, an increasing share of content delivery services adopt encryption through HTTPS, which is not compatible with traditional ISP-managed approaches like transparent and proxy caching. This raises the need for solutions involving both Internet Service Providers (ISP) and Content Providers (CP): by design, the solution should preserve business-critical CP information (e.g., content popularity, user preferences) on the one hand, while allowing for a deeper integration of caches in the ISP architecture (e.g., in 5G femto-cells) on the other hand. In this paper we address this issue by considering a contentoblivious ISP-operated cache. The ISP allocates the cache storage to various content providers so as to maximize the bandwidth savings provided by the cache: the main novelty lies in the fact that, to protect business-critical information, ISPs only need to measure the aggregated miss rates of the individual CPs and does not need to be aware of the objects that are requested, as in classic caching. We propose a cache allocation algorithm based on a perturbed stochastic subgradient method, and prove that the algorithm converges close to the allocation that maximizes the overall cache hit rate. We use extensive simulations to validate the algorithm and to assess its convergence rate under stationary and non-stationary content popularity. Our results (i) testify the feasibility of content-oblivious caches and (ii) show that the proposed algorithm can achieve within 10% from the global optimum in our evaluation.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1292,16 +1412,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"> <emph> ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi16itc28-b.pdf"> <em> "ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks" </em></a>
+	    
+
+
+
+<em>
+
 	   ITC28 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1309,23 +1433,28 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ITC28b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC28b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ITC28b" class="collapse well"> Large scale deployments of general cache networks, such as Content Delivery Networks or Information Centric Networking architectures, arise new challenges regarding their performance evaluation for network planning. On the one hand, analytical models can hardly represent in details all the interactions of complex replacement, replication, and routing policies on arbitrary topologies. On the other hand, the sheer size of networks and content catalogs makes event-driven simulation techniques inherently non-scalable. We propose a new technique for the performance evaluation of large-scale caching systems that intelligently integrates elements of stochastic analysis within a MonteCarlo simulative approach, that we colloquially refer to as ModelGraft. Our approach (i) leverages the intuition that complex scenarios can be mapped to a simpler equivalent scenario that builds upon Time-To-Live (TTL) caches; it (ii) significantly downscales the scenario to lower computation and memory complexity, while, at the same time, preserving its properties to limit accuracy loss; finally, it (iii) is simple to use and robust, as it autonomously converges to a consistent state through a feedback-loop control system, regardless of the initial state. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. In addition, we show that ModelGraft extends performance evaluation well beyond the boundaries of classic approaches, by enabling study of Internet-scale scenarios with content catalogs comprising hundreds of billions objects.  </div>
 <div id="BibTeX-ITC28b" class="collapse"> <pre>@inproceedings{DR:ITC28b,
   title = {ModelGraft: Accurate, Scalable, and Flexible Performance Evaluation of General Cache Networks},
   author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
@@ -1335,8 +1464,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
   howpublished = {https://nonsns.github.io/paper/rossi16itc28-b.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ITC28b" class="collapse well"> Large scale deployments of general cache networks, such as Content Delivery Networks or Information Centric Networking architectures, arise new challenges regarding their performance evaluation for network planning. On the one hand, analytical models can hardly represent in details all the interactions of complex replacement, replication, and routing policies on arbitrary topologies. On the other hand, the sheer size of networks and content catalogs makes event-driven simulation techniques inherently non-scalable. We propose a new technique for the performance evaluation of large-scale caching systems that intelligently integrates elements of stochastic analysis within a MonteCarlo simulative approach, that we colloquially refer to as ModelGraft. Our approach (i) leverages the intuition that complex scenarios can be mapped to a simpler equivalent scenario that builds upon Time-To-Live (TTL) caches; it (ii) significantly downscales the scenario to lower computation and memory complexity, while, at the same time, preserving its properties to limit accuracy loss; finally, it (iii) is simple to use and robust, as it autonomously converges to a consistent state through a feedback-loop control system, regardless of the initial state. Performance evaluation shows that, with respect to classic event-driven simulation, ModelGraft gains over two orders of magnitude in both CPU time and memory complexity, while limiting accuracy loss below 2%. In addition, we show that ModelGraft extends performance evaluation well beyond the boundaries of classic approaches, by enabling study of Internet-scale scenarios with content catalogs comprising hundreds of billions objects.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1345,16 +1476,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Araldo, Andrea and Martignon, Fabio and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16networking.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi16networking.pdf"> <emph> Representation Selection Problem: Optimizing Video Delivery through Caching </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16networking.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi16networking.pdf"> <em> "Representation Selection Problem: Optimizing Video Delivery through Caching" </em></a>
+	    
+
+
+
+<em>
+
 	   IFIP Networking 	   
 
-</emph>
+</em>
 
 	  
  may. 	   
@@ -1362,23 +1497,28 @@ Araldo, Andrea and Martignon, Fabio and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-16">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-16">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-16">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-16">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-NETWORKING-16" class="collapse well"> To cope with Internet video explosion, recent work proposes to deploy caches to absorb part of the traffic related to popular videos. Nonetheless, caching literature has mainly focused on network-centric metrics, while the quality of users’ video streaming experience should be the key performance index to optimize. Additionally, the general assumption is that each user request can be satisfied by a single object, which does not hold when multiple representations at different quality levels are available for the same video. Our contribution in this paper is to extend the classic object placement problem (which object to cache and where) by further considering the representation selection problem (i.e., which quality representation to cache), employing two methodologies to tackle this challenge. First, we employ a Mixed Integer Linear Programming (MILP) formulation to obtain the centralized optimal solution, as well as bounds to natural policies that are readily obtained as additional constraints of the MILP. Second, from the structure of the optimal solution, we learn guidelines that assist the design of distributed caching strategies: namely, we devise a simple yet effective distributed strategy that incrementally improves the quality of cached objects. Via simulation over large scale scenarios comprising up to hundred nodes and hundred million objects, we show our proposal to be effective in balancing user perceived utility vs bandwidth usage.	  </div>
 <div id="BibTeX-NETWORKING-16" class="collapse"> <pre>@inproceedings{DR:NETWORKING-16,
   title = {Representation Selection Problem: Optimizing Video Delivery through Caching},
   author = {Araldo, Andrea and Martignon, Fabio and Rossi, Dario},
@@ -1389,8 +1529,10 @@ Araldo, Andrea and Martignon, Fabio and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi16networking.pdf}
 }
 </pre>  </div>
+<div id="Abstract-NETWORKING-16" class="collapse well"> To cope with Internet video explosion, recent work proposes to deploy caches to absorb part of the traffic related to popular videos. Nonetheless, caching literature has mainly focused on network-centric metrics, while the quality of users’ video streaming experience should be the key performance index to optimize. Additionally, the general assumption is that each user request can be satisfied by a single object, which does not hold when multiple representations at different quality levels are available for the same video. Our contribution in this paper is to extend the classic object placement problem (which object to cache and where) by further considering the representation selection problem (i.e., which quality representation to cache), employing two methodologies to tackle this challenge. First, we employ a Mixed Integer Linear Programming (MILP) formulation to obtain the centralized optimal solution, as well as bounds to natural policies that are readily obtained as additional constraints of the MILP. Second, from the structure of the optimal solution, we learn guidelines that assist the design of distributed caching strategies: namely, we devise a simple yet effective distributed strategy that incrementally improves the quality of cached objects. Via simulation over large scale scenarios comprising up to hundred nodes and hundred million objects, we show our proposal to be effective in balancing user perceived utility vs bandwidth usage.	  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1399,16 +1541,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/ModelGraft.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/ModelGraft.pdf"> <emph> Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/ModelGraft.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/ModelGraft.pdf"> <em> "Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks" </em></a>
+	    
+
+
+
+<em>
+
 	   Tech. Rep. 	   
 
-</emph>
+</em>
 
 	  
 	   
@@ -1416,8 +1562,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -1426,11 +1574,14 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR16">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-CCN-TR16" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR16">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-CCN-TR16" class="collapse"> <pre>@inproceedings{DR:CCN-TR16,
   title = {Model-Graft: Accurate, Scalable and Flexible Analysis of General Cache Networks},
   author = {Tortelli, Michele and Rossi, Dario and Leonardi, Emilio},
@@ -1439,8 +1590,10 @@ Tortelli, Michele and Rossi, Dario and Leonardi, Emilio,
   howpublished = {https://nonsns.github.io/paper/ModelGraft.pdf}
 }
 </pre>  </div>
+<div id="Abstract-CCN-TR16" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1449,16 +1602,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Rossi, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi15icn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi15icn.pdf"> <emph> Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi15icn.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi15icn.pdf"> <em> "Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation" </em></a>
+	    
+
+
+
+<em>
+
 	   ACM SIGCOMM Conference on Information-Centric Networking (ICN’15) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1466,23 +1623,28 @@ R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Ros
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-15">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-15">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-15">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-15">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICN-15" class="collapse well"> Recent work motivates the design of Information-centric rou-ters that make use of hierarchies of memory to jointly scale in the size and speed of content stores. The present paper advances this understanding by (i) instantiating a general purpose two-layer packet-level caching system, (ii) investigating the solution design space via emulation, and (iii) introducing a proof-of-concept prototype. The emulation-based study reveals insights about the broad design space, the expected impact of workload, and gains due to multi-threaded execution. The full-blown system prototype experimentally confirms that, by exploiting both DRAM and SSD memory technologies, ICN routers can sustain cache operations in excess of 10Gbps running on off-the-shelf hardware.  </div>
 <div id="BibTeX-ICN-15" class="collapse"> <pre>@inproceedings{DR:ICN-15,
   title = {Hierarchical Content Stores in High-speed ICN Routers: Emulation and Prototype Implementation},
   author = {{R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Rossi}},
@@ -1494,8 +1656,10 @@ R. Mansilha, L. Saino, M. Barcellos, M. Gallo, E. Leonardi, D. Perino and D. Ros
   howpublished = {https://nonsns.github.io/paper/rossi15icn.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-15" class="collapse well"> Recent work motivates the design of Information-centric rou-ters that make use of hierarchies of memory to jointly scale in the size and speed of content stores. The present paper advances this understanding by (i) instantiating a general purpose two-layer packet-level caching system, (ii) investigating the solution design space via emulation, and (iii) introducing a proof-of-concept prototype. The emulation-based study reveals insights about the broad design space, the expected impact of workload, and gains due to multi-threaded execution. The full-blown system prototype experimentally confirms that, by exploiting both DRAM and SSD memory technologies, ICN routers can sustain cache operations in excess of 10Gbps running on off-the-shelf hardware.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1504,16 +1668,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 , 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14globecom.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14globecom.pdf"> <emph> Cost-aware caching: optimizing cache provisioning and object placement in ICN </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14globecom.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14globecom.pdf"> <em> "Cost-aware caching: optimizing cache provisioning and object placement in ICN" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE Globecom 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -1521,23 +1689,28 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-14">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-14">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-14">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-14">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-GLOBECOM-14" class="collapse well"> Caching is frequently used by Internet Service Providers as a viable technique to reduce the latency perceived by end users, while jointly offloading network traffic. While the cache hit-ratio is generally considered in the literature as the dominant performance metric for such type of systems, in this paper we argue that a critical missing piece has so far been neglected. Adopting a radically different perspective, in this paper we explicitly account for the cost of content retrieval, i.e. the cost associated to the external bandwidth needed by an ISP to retrieve the contents requested by its customers. Interestingly, we discover that classical cache provisioning techniques that maximize cache efficiency (i.e., the hit-ratio), lead to suboptimal solutions with higher overall cost. To show this mismatch, we propose two optimization models that either minimize the overall costs or maximize the hit-ratio, jointly providing cache sizing, object placement and path selection. We formulate a polynomial- time greedy algorithm to solve the two problems and analytically prove its optimality. We provide numerical results and show that significant cost savings are attainable via a cost-aware design.  </div>
 <div id="BibTeX-GLOBECOM-14" class="collapse"> <pre>@inproceedings{DR:GLOBECOM-14,
   author = {},
   title = {Cost-aware caching: optimizing cache provisioning and object placement in ICN},
@@ -1549,8 +1722,10 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
   howpublished = {https://nonsns.github.io/paper/rossi14globecom.pdf}
 }
 </pre>  </div>
+<div id="Abstract-GLOBECOM-14" class="collapse well"> Caching is frequently used by Internet Service Providers as a viable technique to reduce the latency perceived by end users, while jointly offloading network traffic. While the cache hit-ratio is generally considered in the literature as the dominant performance metric for such type of systems, in this paper we argue that a critical missing piece has so far been neglected. Adopting a radically different perspective, in this paper we explicitly account for the cost of content retrieval, i.e. the cost associated to the external bandwidth needed by an ISP to retrieve the contents requested by its customers. Interestingly, we discover that classical cache provisioning techniques that maximize cache efficiency (i.e., the hit-ratio), lead to suboptimal solutions with higher overall cost. To show this mismatch, we propose two optimization models that either minimize the overall costs or maximize the hit-ratio, jointly providing cache sizing, object placement and path selection. We formulate a polynomial- time greedy algorithm to solve the two problems and analytically prove its optimality. We provide numerical results and show that significant cost savings are attainable via a cost-aware design.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1559,16 +1734,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Araldo, Andrea and Rossi, Dario and Martignon, Fabio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-a.pdf"> <emph> Design and Evaluation of Cost-aware Information Centric Routers </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-a.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14icn-a.pdf"> <em> "Design and Evaluation of Cost-aware Information Centric Routers" </em></a>
+	    
+
+
+
+<em>
+
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1576,23 +1755,28 @@ Araldo, Andrea and Rossi, Dario and Martignon, Fabio,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14a">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICN-14a" class="collapse well"> Albeit an important goal of Information Centric Networking (ICNs) is traffic reduction, a perhaps even more important aspect follows from the above achievement: the reduction of ISP operational costs that comes as consequence of the reduced load on transit and provider links. Surprisingly, to date this crucial aspect has not been properly taken into account, neither in the architectural design, nor in the op- eration and management of ICN proposals. In this work, we instead design a distributed cost-aware scheme that explicitly considers the cost heterogeneity among different links. We contrast our scheme with both traditional cost-blind schemes and optimal results. We further propose an architectural design to let multiple schemes be interoper- able, and finally assess whether overlooking implementation details could hamper the practical relevance of our design. Numerical results show that our cost-aware scheme can yield significant cost savings, that are furthermore consistent over a wide range of scenarios.  </div>
 <div id="BibTeX-ICN-14a" class="collapse"> <pre>@inproceedings{DR:ICN-14a,
   title = {Design and Evaluation of Cost-aware Information Centric Routers},
   author = {Araldo, Andrea and Rossi, Dario and Martignon, Fabio},
@@ -1604,8 +1788,10 @@ Araldo, Andrea and Rossi, Dario and Martignon, Fabio,
   howpublished = {https://nonsns.github.io/paper/rossi14icn-a.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-14a" class="collapse well"> Albeit an important goal of Information Centric Networking (ICNs) is traffic reduction, a perhaps even more important aspect follows from the above achievement: the reduction of ISP operational costs that comes as consequence of the reduced load on transit and provider links. Surprisingly, to date this crucial aspect has not been properly taken into account, neither in the architectural design, nor in the op- eration and management of ICN proposals. In this work, we instead design a distributed cost-aware scheme that explicitly considers the cost heterogeneity among different links. We contrast our scheme with both traditional cost-blind schemes and optimal results. We further propose an architectural design to let multiple schemes be interoper- able, and finally assess whether overlooking implementation details could hamper the practical relevance of our design. Numerical results show that our cost-aware scheme can yield significant cost savings, that are furthermore consistent over a wide range of scenarios.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1614,16 +1800,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossini, Giuseppe and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-b.pdf"> <emph> Coupling caching and forwarding: Benefits, analysis, and implementation </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-b.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14icn-b.pdf"> <em> "Coupling caching and forwarding: Benefits, analysis, and implementation" </em></a>
+	    
+
+
+
+<em>
+
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1631,23 +1821,28 @@ Rossini, Giuseppe and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICN-14b" class="collapse well"> A recent debate revolves around the usefulness of pervasive caching, i.e., adding caching capabilities to possibly every router of the future Internet. Recent research argues against it, on the ground that it provides only very limited gain with respect to the current CDN scenario, where caching only happens at the network edge. In this paper, we instead show that advantages of ubiquitous caching appear only when meta-caching (i.e., whether or not cache the incoming object) and forwarding (i.e., where to direct requests in case of cache miss) decisions are tightly coupled. Summarizing our contributions, we (i) show that gains can be obtained provided that ideal Nearest Replica Routing (iNRR) forwarding and Leave a Copy Down (LCD) meta-caching are jointly in use, (ii) model the iNRR forwarding policy, (iii) provide two alternative implementations that arbitrarily closely approximate iNRR behavior, and (iv) promote cross-comparison by making our code available to the community.  </div>
 <div id="BibTeX-ICN-14b" class="collapse"> <pre>@inproceedings{DR:ICN-14b,
   title = {Coupling caching and forwarding: Benefits, analysis, and implementation},
   author = {Rossini, Giuseppe and Rossi, Dario},
@@ -1659,8 +1854,10 @@ Rossini, Giuseppe and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi14icn-b.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-14b" class="collapse well"> A recent debate revolves around the usefulness of pervasive caching, i.e., adding caching capabilities to possibly every router of the future Internet. Recent research argues against it, on the ground that it provides only very limited gain with respect to the current CDN scenario, where caching only happens at the network edge. In this paper, we instead show that advantages of ubiquitous caching appear only when meta-caching (i.e., whether or not cache the incoming object) and forwarding (i.e., where to direct requests in case of cache miss) decisions are tightly coupled. Summarizing our contributions, we (i) show that gains can be obtained provided that ideal Nearest Replica Routing (iNRR) forwarding and Leave a Copy Down (LCD) meta-caching are jointly in use, (ii) model the iNRR forwarding policy, (iii) provide two alternative implementations that arbitrarily closely approximate iNRR behavior, and (iv) promote cross-comparison by making our code available to the community.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1669,16 +1866,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-c.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-c.pdf"> <emph> Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-c.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14icn-c.pdf"> <em> "Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking" </em></a>
+	    
+
+
+
+<em>
+
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1686,23 +1887,28 @@ Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14c">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14c">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14c">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14c">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICN-14c" class="collapse well"> Web content coming from outside the ISP is today skyrocketing, causing significant additional infrastructure costs to network operators. The reduced marginal revenues left to ISPs, whose business is almost entirely based on declining flat rate subscriptions, call for significant innovation within the network infrastructure, to support new service delivery. In this paper, we suggest the use of micro CDNs in ISP access and back-haul networks to reduce redundant web traffic within the ISP infrastructure while improving user’s QoS. With micro CDN we refer to a content delivery system composed of (i) a high speed caching substrate, (ii) a content based routing protocol and (iii) a set of data transfer mechanisms made available by content-centric networking. The contribution of this paper is twofold. First, we extensively analyze more than one month of web traffic via continuous monitoring between the access and back-haul network of Orange in France. Second, we characterize key properties of monitored traffic, such as content popularity and request cacheability, to infer potential traffic reduction enabled by the introduction of micro CDNs. Based on these findings, we then perform micro CDN dimensioning in terms of memory requirements and provide guidelines on design choices  </div>
 <div id="BibTeX-ICN-14c" class="collapse"> <pre>@inproceedings{DR:ICN-14c,
   title = {Analyzing Cacheable Traffic in ISP Access Networks for Micro CDN applications via Content-Centric Networking},
   author = {Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario},
@@ -1714,8 +1920,10 @@ Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi14icn-c.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-14c" class="collapse well"> Web content coming from outside the ISP is today skyrocketing, causing significant additional infrastructure costs to network operators. The reduced marginal revenues left to ISPs, whose business is almost entirely based on declining flat rate subscriptions, call for significant innovation within the network infrastructure, to support new service delivery. In this paper, we suggest the use of micro CDNs in ISP access and back-haul networks to reduce redundant web traffic within the ISP infrastructure while improving user’s QoS. With micro CDN we refer to a content delivery system composed of (i) a high speed caching substrate, (ii) a content based routing protocol and (iii) a set of data transfer mechanisms made available by content-centric networking. The contribution of this paper is twofold. First, we extensively analyze more than one month of web traffic via continuous monitoring between the access and back-haul network of Orange in France. Second, we characterize key properties of monitored traffic, such as content popularity and request cacheability, to infer potential traffic reduction enabled by the introduction of micro CDNs. Based on these findings, we then perform micro CDN dimensioning in terms of memory requirements and provide guidelines on design choices  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1724,16 +1932,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-d.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-d.pdf"> <emph> Analyzing Cacheability in the Access Network with HACkSAw </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-d.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14icn-d.pdf"> <em> "Analyzing Cacheability in the Access Network with HACkSAw" </em></a>
+	    
+
+
+
+<em>
+
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1741,23 +1953,28 @@ Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14d">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-14d">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14d">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14d">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICN-14d" class="collapse well"> Web traffic is growing, and the need for accurate traces of HTTP traffic is therefore also rising, both for operators and researchers, as accurate HTTP traffic traces allow to analyse and characterize the traffic and the clients, and to analyse the performance of the network and the perceived quality of service for the final users. Since most ICN proposals also advocate for pervasive caching, it is imperative to measure the cacheability of traffic to assess the impact and/or the potential benefits of such solutions. This demonstration will show a both a tool to collect HTTP traces that is both fast and accurate and that overcomes the limitations of existing tools, and a set of important statistics that can be computed in post processing, like aggregate/demultiplexed cacheability figures.  </div>
 <div id="BibTeX-ICN-14d" class="collapse"> <pre>@inproceedings{DR:ICN-14d,
   title = {Analyzing Cacheability in the Access Network with HACkSAw},
   author = {Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario},
@@ -1769,8 +1986,10 @@ Imbrenda, Claudio and Muscariello, Luca and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi14icn-d.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-14d" class="collapse well"> Web traffic is growing, and the need for accurate traces of HTTP traffic is therefore also rising, both for operators and researchers, as accurate HTTP traffic traces allow to analyse and characterize the traffic and the clients, and to analyse the performance of the network and the perceived quality of service for the final users. Since most ICN proposals also advocate for pervasive caching, it is imperative to measure the cacheability of traffic to assess the impact and/or the potential benefits of such solutions. This demonstration will show a both a tool to collect HTTP traces that is both fast and accurate and that overcomes the limitations of existing tools, and a set of important statistics that can be computed in post processing, like aggregate/demultiplexed cacheability figures.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1779,16 +1998,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-e.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14icn-e.pdf"> <emph> CCN Simulators: Analysis and Cross-Comparison </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14icn-e.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14icn-e.pdf"> <em> "CCN Simulators: Analysis and Cross-Comparison" </em></a>
+	    
+
+
+
+<em>
+
 	   1st ACM SIGCOMM Conference on Information-Centric Networking (ICN-2014), Demo Session 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1796,8 +2019,10 @@ Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -1806,11 +2031,14 @@ Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14e">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-ICN-14e" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-14e">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-ICN-14e" class="collapse"> <pre>@inproceedings{DR:ICN-14e,
   title = {CCN Simulators: Analysis and Cross-Comparison},
   author = {Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo},
@@ -1822,8 +2050,10 @@ Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo
   howpublished = {https://nonsns.github.io/paper/rossi14icn-e.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-14e" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1832,16 +2062,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14qicn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi14qicn.pdf"> <emph> Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14qicn.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14qicn.pdf"> <em> "Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality" </em></a>
+	    
+
+
+
+<em>
+
 	   International Workshop on Quality, Reliability, and Security in Information-Centric Networking (Q-ICN) 	   
 
-</emph>
+</em>
 
 	  
  aug. 	   
@@ -1849,23 +2083,28 @@ Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-QICN-14">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-QICN-14">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-QICN-14">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-QICN-14">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-QICN-14" class="collapse well"> While numerous Information Centric Networking (ICN) architectures have been proposed over the last years, the community has so far only timidly attempted at a quantitative assessment of the relative quality of service level that users are expected to enjoy in each of them. This paper starts a journey toward the cross comparison of ICN alternatives, making several contributions along this road. Specifically, a census of 20 ICN software tools reveals that about 10 are dedicated to a specific architecture, about half of which are simulators. Second, we survey ICN research papers using simulation to gather information concerning the used simulator, finding that a large fraction either uses custom proprietary and unavailable software, or even plainly fails to mention any information on this regard, which is deceiving. Third, we cross-compare some of the available simulators, finding that they achieve consistent results, which is instead encouraging. Fourth, we propose a methodology to increase and promote cross- comparison, which is within reach but requires community-wide agreement, promotion and enforcement.  </div>
 <div id="BibTeX-QICN-14" class="collapse"> <pre>@inproceedings{DR:QICN-14,
   title = {Pedestrian Crossing: The Long and Winding Road toward Fair Cross-comparison of ICN Quality},
   author = {Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo},
@@ -1876,8 +2115,10 @@ Tortelli, Michele and Rossi, Dario and Boggia, Gennaro and Grieco, Luigi Alfredo
   howpublished = {https://nonsns.github.io/paper/rossi14qicn.pdf}
 }
 </pre>  </div>
+<div id="Abstract-QICN-14" class="collapse well"> While numerous Information Centric Networking (ICN) architectures have been proposed over the last years, the community has so far only timidly attempted at a quantitative assessment of the relative quality of service level that users are expected to enjoy in each of them. This paper starts a journey toward the cross comparison of ICN alternatives, making several contributions along this road. Specifically, a census of 20 ICN software tools reveals that about 10 are dedicated to a specific architecture, about half of which are simulators. Second, we survey ICN research papers using simulation to gather information concerning the used simulator, finding that a large fraction either uses custom proprietary and unavailable software, or even plainly fails to mention any information on this regard, which is deceiving. Third, we cross-compare some of the available simulators, finding that they achieve consistent results, which is instead encouraging. Fourth, we propose a methodology to increase and promote cross- comparison, which is within reach but requires community-wide agreement, promotion and enforcement.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1886,11 +2127,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, D. and Rossini, G., 
 
 
-	<!-- for patents, howpublished is not a URL  -->
-	Method for managing packets in a network of Information Centric Networking (ICN) nodes, <emph>Patent EPO14305866.7, US10530893B2</emph>
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Method for managing packets in a network of Information Centric Networking (ICN) nodes" </em>, Patent EPO14305866.7, US10530893B2  
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
 	   
@@ -1898,8 +2142,10 @@ Rossi, D. and Rossini, G.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -1908,20 +2154,25 @@ Rossi, D. and Rossini, G.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-US10530893B2">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-US10530893B2" class="collapse well">   </div>
-<div id="BibTeX-PATENT-US10530893B2" class="collapse"> <pre>@patent{DR:PATENT-US10530893B2,
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
+<div id="BibTeX-PATENT-US10530893B2" class="collapse"> <pre>@misc{DR:PATENT-US10530893B2,
   author = {Rossi, D. and Rossini, G.},
   howpublished = {Patent EPO14305866.7, US10530893B2},
   title = {Method for managing packets in a network of Information Centric Networking (ICN) nodes},
   year = {2014}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-US10530893B2" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1930,11 +2181,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio, 
 
 
-	<!-- for patents, howpublished is not a URL  -->
-	Information Centric Networking (ICN) router, <emph>Patent EPO14305639.8, WO EP US JP EP2940950B1</emph>
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Information Centric Networking (ICN) router" </em>, Patent EPO14305639.8, WO EP US JP EP2940950B1  
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
 	   
@@ -1942,8 +2196,10 @@ Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -1952,20 +2208,25 @@ Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-EP2940950B1">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-EP2940950B1" class="collapse well">   </div>
-<div id="BibTeX-PATENT-EP2940950B1" class="collapse"> <pre>@patent{DR:PATENT-EP2940950B1,
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
+<div id="BibTeX-PATENT-EP2940950B1" class="collapse"> <pre>@misc{DR:PATENT-EP2940950B1,
   author = {Rossini, Giuseppe and Rossi, Dario and Garetto, Michele and Leonardi, Emilio},
   howpublished = {Patent EPO14305639.8, WO EP US JP EP2940950B1},
   title = {Information Centric Networking (ICN) router},
   year = {2014}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-EP2940950B1" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1974,16 +2235,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13icc.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi13icc.pdf"> <emph> ccnSim: an Highly Scalable CCN Simulator </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13icc.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi13icc.pdf"> <em> "ccnSim: an Highly Scalable CCN Simulator" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE International Conference on Communications (ICC) 	   
 
-</emph>
+</em>
 
 	  
  jun. 	   
@@ -1991,23 +2256,28 @@ Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICC-13">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICC-13">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-13">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-13">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICC-13" class="collapse well"> Research interest about Information Centric Networking (ICN) has grown at a very fast pace over the last few years, especially after the 2009 seminal paper of Van Jacobson et al. describing a Content Centric Network (CCN) architecture. While significant research effort has been produced in terms of architectures, algorithms, and models, the scientific community currently lacks common tools and scenarios to allow a fair cross- comparison among the different proposals. The situation is particularly complex as the commonly used general-purpose simulators cannot cope with the expected system scale: thus, many proposals are currently evaluated over small and unrealistic scale, especially in terms of dominant factors like catalog and cache sizes. As such, there is need of a scalable tool under which different algorithms can be tested and compared. Over the last years, we have developed and optimized ccnSim, an highly scalable chunk-level simulator especially suitable for the analysis of caching performance of CCN network. In this paper, we briefly describe the tool, and present an extensive benchmark of its performance. To give an idea of ccnSim scalability, a common off-the-shelf PC equipped with 8GB of RAM memory is able to simulate 2-hours of a 50-nodes CCN network, where each nodes is equipped with 10 GB caches, serving a 1 PB catalog in about 20 min CPU time.  </div>
 <div id="BibTeX-ICC-13" class="collapse"> <pre>@inproceedings{DR:ICC-13,
   title = {{ccnSim}: an Highly Scalable CCN Simulator},
   author = {Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe},
@@ -2017,8 +2287,10 @@ Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe,
   howpublished = {https://nonsns.github.io/paper/rossi13icc.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICC-13" class="collapse well"> Research interest about Information Centric Networking (ICN) has grown at a very fast pace over the last few years, especially after the 2009 seminal paper of Van Jacobson et al. describing a Content Centric Network (CCN) architecture. While significant research effort has been produced in terms of architectures, algorithms, and models, the scientific community currently lacks common tools and scenarios to allow a fair cross- comparison among the different proposals. The situation is particularly complex as the commonly used general-purpose simulators cannot cope with the expected system scale: thus, many proposals are currently evaluated over small and unrealistic scale, especially in terms of dominant factors like catalog and cache sizes. As such, there is need of a scalable tool under which different algorithms can be tested and compared. Over the last years, we have developed and optimized ccnSim, an highly scalable chunk-level simulator especially suitable for the analysis of caching performance of CCN network. In this paper, we briefly describe the tool, and present an extensive benchmark of its performance. To give an idea of ccnSim scalability, a common off-the-shelf PC equipped with 8GB of RAM memory is able to simulate 2-hours of a 50-nodes CCN network, where each nodes is equipped with 10 GB caches, serving a 1 PB catalog in about 20 min CPU time.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2027,16 +2299,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 , 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13icn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi13icn.pdf"> <emph> INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13icn.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi13icn.pdf"> <em> "INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking" </em></a>
+	    
+
+
+
+<em>
+
 	   ACM SIGCOMM Worskhop on Information-Centric Networking (ICN) 	   
 
-</emph>
+</em>
 
 	  
 	   
@@ -2044,23 +2320,28 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-13">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICN-13">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-13">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-13">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICN-13" class="collapse well"> Information Centric Networking is a new communication paradigm where network primitives are based on named-data rather than host identifiers. In ICN, data retrieval is triggered by user requests which are forwarded towards a copy of the desired content item. Data can be retrieved either from a server that permanently provides a content item, or from a temporary item copy opportunistically cached by an in-network node. As the availability of cached items dynamically varies over time, the request forwarding scheme should be adapted accordingly. In this paper we focus on dynamic request forwarding in ICN, and develop an approach, inspired by Q-routing framework, that we show to outperform algorithms currently available in the state of the art.  </div>
 <div id="BibTeX-ICN-13" class="collapse"> <pre>@inproceedings{DR:ICN-13,
   title = {{INFORM: a Dynamic Interest Forwarding Mechanism for Information Centric Networking}},
   author = {},
@@ -2070,8 +2351,10 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
   howpublished = {https://nonsns.github.io/paper/rossi13icn.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-13" class="collapse well"> Information Centric Networking is a new communication paradigm where network primitives are based on named-data rather than host identifiers. In ICN, data retrieval is triggered by user requests which are forwarded towards a copy of the desired content item. Data can be retrieved either from a server that permanently provides a content item, or from a temporary item copy opportunistically cached by an in-network node. As the availability of cached items dynamically varies over time, the request forwarding scheme should be adapted accordingly. In this paper we focus on dynamic request forwarding in ICN, and develop an approach, inspired by Q-routing framework, that we show to outperform algorithms currently available in the state of the art.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2080,11 +2363,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G., 
 
 
-	<!-- for patents, howpublished is not a URL  -->
-	Dynamic Interest Forwarding Mechanism for Information Centric Networking, <emph>Patent EPO13306124.2, EP2835942B1</emph>
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Dynamic Interest Forwarding Mechanism for Information Centric Networking" </em>, Patent EPO13306124.2, EP2835942B1  
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
  . 	   
@@ -2092,8 +2378,10 @@ Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -2102,12 +2390,15 @@ Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-EP2835942B1">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-EP2835942B1" class="collapse well">   </div>
-<div id="BibTeX-PATENT-EP2835942B1" class="collapse"> <pre>@patent{DR:PATENT-EP2835942B1,
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
+<div id="BibTeX-PATENT-EP2835942B1" class="collapse"> <pre>@misc{DR:PATENT-EP2835942B1,
   author = {Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G.},
   title = {Dynamic Interest Forwarding Mechanism for Information Centric Networking},
   howpublished = {Patent EPO13306124.2, EP2835942B1},
@@ -2120,8 +2411,10 @@ Perino, D. and Carofiglio, G. and Rossi, D. and Rossini, G.,
   annote = {}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-EP2835942B1" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2130,11 +2423,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G., 
 
 
-	<!-- for patents, howpublished is not a URL  -->
-	Device and method for organizing forwarding information in nodes of a content centric networking, <emph>Patent EPO13161714.4, EP2785014A1</emph>
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Device and method for organizing forwarding information in nodes of a content centric networking" </em>, Patent EPO13161714.4, EP2785014A1  
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
 	   
@@ -2142,8 +2438,10 @@ Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -2152,20 +2450,25 @@ Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-EP2785014A1">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-EP2785014A1" class="collapse well">   </div>
-<div id="BibTeX-PATENT-EP2785014A1" class="collapse"> <pre>@patent{DR:PATENT-EP2785014A1,
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
+<div id="BibTeX-PATENT-EP2785014A1" class="collapse"> <pre>@misc{DR:PATENT-EP2785014A1,
   author = {Perino, D. and Carofiglio, G. and Chiocchetti, R. and Rossi, D. and Rossini, G.},
   title = {Device and method for organizing forwarding information in nodes of a content centric networking},
   howpublished = {Patent EPO13161714.4, EP2785014A1},
   year = {2013}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-EP2785014A1" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2174,16 +2477,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 G. Rossini, D. Rossi, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12camad.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12camad.pdf"> <emph> A dive into the caching performance of Content Centric Networking </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12camad.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi12camad.pdf"> <em> "A dive into the caching performance of Content Centric Networking" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE 17th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD’12) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -2191,23 +2498,28 @@ G. Rossini, D. Rossi,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CAMAD-12">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-CAMAD-12">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CAMAD-12">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CAMAD-12">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-CAMAD-12" class="collapse well"> Content Centric Networking (CCN) is a promising architecture for the diffusion of popular content over the Internet. While CCN system design is sound, gathering a reliable estimate of its performance in the current Internet is challenging, due to the large scale and to the lack of agreement in some critical elements of the evaluation scenario. In this work, we add a number of important pieces to the CCN puzzle by means of a chunk-level simulator that we make available to the scientific community as open source software. First, we pay special attention to the locality of the user request process, as it may be determined by user interest or language barrier. Second, we consider the existence of possibly multiple repositories for the same content, as in the current Internet, along with different CCN interest forwarding policies, exploiting either a single or multiple repositories in parallel. To widen the relevance of our findings, we consider multi- ple topologies, content popularity settings, caching replacement policies and CCN forwarding strategies. Summarizing our main result, though the use of multiple content repositories can be beneficial from the user point of view, it may however counter part of the benefits if the CCN strategy layer implements naive interest forwarding policies.  </div>
 <div id="BibTeX-CAMAD-12" class="collapse"> <pre>@inproceedings{DR:CAMAD-12,
   title = {A dive into the caching performance of Content Centric Networking},
   author = {G. Rossini, D. Rossi},
@@ -2218,8 +2530,10 @@ G. Rossini, D. Rossi,
   howpublished = {https://nonsns.github.io/paper/rossi12camad.pdf}
 }
 </pre>  </div>
+<div id="Abstract-CAMAD-12" class="collapse well"> Content Centric Networking (CCN) is a promising architecture for the diffusion of popular content over the Internet. While CCN system design is sound, gathering a reliable estimate of its performance in the current Internet is challenging, due to the large scale and to the lack of agreement in some critical elements of the evaluation scenario. In this work, we add a number of important pieces to the CCN puzzle by means of a chunk-level simulator that we make available to the scientific community as open source software. First, we pay special attention to the locality of the user request process, as it may be determined by user interest or language barrier. Second, we consider the existence of possibly multiple repositories for the same content, as in the current Internet, along with different CCN interest forwarding policies, exploiting either a single or multiple repositories in parallel. To widen the relevance of our findings, we consider multi- ple topologies, content popularity settings, caching replacement policies and CCN forwarding strategies. Summarizing our main result, though the use of multiple content repositories can be beneficial from the user point of view, it may however counter part of the benefits if the CCN strategy layer implements naive interest forwarding policies.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2228,16 +2542,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossini, G. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12algotel.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12algotel.pdf"> <emph> Large scale simulation of CCN networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12algotel.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi12algotel.pdf"> <em> "Large scale simulation of CCN networks" </em></a>
+	    
+
+
+
+<em>
+
 	   Algotel 2012 	   
 
-</emph>
+</em>
 
 	  
  may. 	   
@@ -2245,23 +2563,28 @@ Rossini, G. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ALGOTEL-12">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ALGOTEL-12">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ALGOTEL-12">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ALGOTEL-12">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ALGOTEL-12" class="collapse well"> This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a very thorough simulation study of the main system performance, consider several ingredients such as network topology, multi-path routing, content popularity, caching decisions and replacement policies. Summarizing our main results, we gather that (i) the impact of the topology is limited, (ii) multi-path routing may play against CCN efficiency, (iii) simple randomized policies perform almost as well as more complex ones, (iv) catalog and popularity settings play by far the most crucial role above all. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.  </div>
 <div id="BibTeX-ALGOTEL-12" class="collapse"> <pre>@inproceedings{DR:ALGOTEL-12,
   author = {Rossini, G. and Rossi, D.},
   title = {Large scale simulation of CCN networks},
@@ -2272,8 +2595,10 @@ Rossini, G. and Rossi, D.,
   howpublished = {https://nonsns.github.io/paper/rossi12algotel.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ALGOTEL-12" class="collapse well"> This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a very thorough simulation study of the main system performance, consider several ingredients such as network topology, multi-path routing, content popularity, caching decisions and replacement policies. Summarizing our main results, we gather that (i) the impact of the topology is limited, (ii) multi-path routing may play against CCN efficiency, (iii) simple randomized policies perform almost as well as more complex ones, (iv) catalog and popularity settings play by far the most crucial role above all. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2282,16 +2607,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, D. and Rossini, G., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12nomen.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12nomen.pdf"> <emph> On sizing CCN content stores by exploiting topological information </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12nomen.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi12nomen.pdf"> <em> "On sizing CCN content stores by exploiting topological information" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE INFOCOM, NOMEN Worshop, 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -2299,23 +2628,28 @@ Rossi, D. and Rossini, G.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NOMEN-12">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-NOMEN-12">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NOMEN-12">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-NOMEN-12">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-NOMEN-12" class="collapse well"> In this work, we study the caching performance of Content Centric Networking (CCN), with special emphasis on the size of individual CCN router caches. Specifically, we consider several graph-related centrality metrics (e.g., betweenness, closeness, stress, graph, eccentricity and degree centralities) to allocate content store space heterogeneously across the CCN network, and contrast the performance to that of an homogeneous allocation. To gather relevant results, we study CCN caching performance under large cache sizes (individual content stores of 10 GB), realistic topologies (up to 60 nodes), a YouTube-like Internet catalog (108 files for 1PB video data). A thorough simulation campaign allow us to conclude that (i) , the gain brought by content store size heterogeneity is very limited, and that (ii) the simplest metric, namely degree centrality, already proves to be a “sufficiently good” allocation criterion. On the one hand, this implies rather simple rules of thumb for the content store sizing (e.g., “if you add a line card to a CCN router, add some content store space as well”). On the other hand, we point out that technological constraints, such as line- speed operation requirement, may however limit the applicability of degree-based content store allocation.  </div>
 <div id="BibTeX-NOMEN-12" class="collapse"> <pre>@inproceedings{DR:NOMEN-12,
   author = {Rossi, D. and Rossini, G.},
   title = {On sizing CCN content stores by exploiting topological information},
@@ -2327,8 +2661,10 @@ Rossi, D. and Rossini, G.,
   howpublished = {https://nonsns.github.io/paper/rossi12nomen.pdf}
 }
 </pre>  </div>
+<div id="Abstract-NOMEN-12" class="collapse well"> In this work, we study the caching performance of Content Centric Networking (CCN), with special emphasis on the size of individual CCN router caches. Specifically, we consider several graph-related centrality metrics (e.g., betweenness, closeness, stress, graph, eccentricity and degree centralities) to allocate content store space heterogeneously across the CCN network, and contrast the performance to that of an homogeneous allocation. To gather relevant results, we study CCN caching performance under large cache sizes (individual content stores of 10 GB), realistic topologies (up to 60 nodes), a YouTube-like Internet catalog (108 files for 1PB video data). A thorough simulation campaign allow us to conclude that (i) , the gain brought by content store size heterogeneity is very limited, and that (ii) the simplest metric, namely degree centrality, already proves to be a “sufficiently good” allocation criterion. On the one hand, this implies rather simple rules of thumb for the content store sizing (e.g., “if you add a line card to a CCN router, add some content store space as well”). On the other hand, we point out that technological constraints, such as line- speed operation requirement, may however limit the applicability of degree-based content store allocation.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2337,16 +2673,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"> <emph> A dive into CCN^⋆caching performance </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"></i> 
+			<a href="https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx"> <em> "A dive into CCN^⋆caching performance" </em></a>
+	    
+
+
+
+<em>
+
 	   Talk at IETF83, ICNRG meeting 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -2354,8 +2694,10 @@ Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -2364,11 +2706,14 @@ Rossi, Dario,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-IETF83-a">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-IETF83-a" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-IETF83-a">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-IETF83-a" class="collapse"> <pre>@inproceedings{DR:IETF83-a,
   author = {Rossi, Dario},
   title = {A dive into CCN$^\star$ caching performance},
@@ -2378,8 +2723,10 @@ Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi12icnrg-ietf83.pptx}
 }
 </pre>  </div>
+<div id="Abstract-IETF83-a" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2388,16 +2735,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Giovanna and Diego Perino, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12icn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi12icn.pdf"> <emph> Exploit the known or explore the unknown: Hamlet-like doubts in ICN </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi12icn.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi12icn.pdf"> <em> "Exploit the known or explore the unknown: Hamlet-like doubts in ICN" </em></a>
+	    
+
+
+
+<em>
+
 	   ACM SIGCOMM, ICN Workshop, 	   
 
-</emph>
+</em>
 
 	  
 	   
@@ -2405,8 +2756,10 @@ Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Gio
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -2415,11 +2768,14 @@ Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Gio
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-12">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-ICN-12" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICN-12">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-ICN-12" class="collapse"> <pre>@inproceedings{DR:ICN-12,
   author = {Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Giovanna and Diego Perino},
   title = {Exploit the known or explore the unknown: Hamlet-like doubts in ICN},
@@ -2428,8 +2784,10 @@ Chiocchetti, Raffaele and Rossi, Dario and Rossini, Giuseppe and Carofiglio, Gio
   howpublished = {https://nonsns.github.io/paper/rossi12icn.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICN-12" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2438,16 +2796,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 D. Rossi, G. Rossini, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"> <emph> Caching performance of content centric networks under multi-path routing (and more) </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf"> <em> "Caching performance of content centric networks under multi-path routing (and more)" </em></a>
+	    
+
+
+
+<em>
+
 	     Telecom ParisTech 	   
 	
-</emph>
+</em>
 
 	  
 	   
@@ -2455,9 +2817,10 @@ D. Rossi, G. Rossini,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
 
+	<span class="badge badge-pill btn-primary" style="width: 100px">Tech.Rep.</span>
  
 
 	   
@@ -2465,11 +2828,14 @@ D. Rossi, G. Rossini,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR11a">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-CCN-TR11a" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CCN-TR11a">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-CCN-TR11a" class="collapse"> <pre>@techreport{DR:CCN-TR11a,
   title = {Caching performance of content centric networks under multi-path routing (and more)},
   author = {D. Rossi, G. Rossini},
@@ -2478,8 +2844,10 @@ D. Rossi, G. Rossini,
   howpublished = {https://nonsns.github.io/paper/rossi11ccn-techrep1.pdf}
 }
 </pre>  </div>
+<div id="Abstract-CCN-TR11a" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -2488,19 +2856,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossini, Giuseppe and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13comcom.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi13comcom.pdf"> <emph> Evaluating CCN multi-path interest forwarding strategies </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi13comcom.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi13comcom.pdf"> <em> "Evaluating CCN multi-path interest forwarding strategies" </em></a>
+	    
+
+
+
+<em>
+
 	 In Elsevier Computer Communication, SI on Information Centric Networking,, 	   
 	 Vol. 36, 	   
 		   
 	 pp.771-778, 	   
 
-</emph>
+</em>
 
 	  
  Avril. 	   
@@ -2508,23 +2880,28 @@ Rossini, Giuseppe and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMCOM-13">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-COMCOM-13">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMCOM-13">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-COMCOM-13">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-COMCOM-13" class="collapse well"> This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a thorough simulation study of the main system performance, with a special focus on multi-path interest forwarding strategies but thoroughly analyzing the impact of several other ingredients – such as network topology, content popularity, caching decisions and replacement policies. Summarizing our main results, (i) catalog and popularity settings play by far the most crucial role (ii) the impact of the strategy layer comes next, with naive forwarding strategies playing against CCN efficiency, (iii) simple randomized caching policies perform almost as well as more complex ones, (iv) the impact of the topology is limited. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.  </div>
 <div id="BibTeX-COMCOM-13" class="collapse"> <pre>@article{DR:COMCOM-13,
   author = {Rossini, Giuseppe and Rossi, Dario},
   title = {Evaluating CCN multi-path interest forwarding strategies},
@@ -2537,6 +2914,7 @@ Rossini, Giuseppe and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi13comcom.pdf}
 }
 </pre>  </div>
+<div id="Abstract-COMCOM-13" class="collapse well"> This work addresses the performance evaluation of Content Centric Networks (CCN). Focusing on a realistic YouTube-like catalog, we conduct a thorough simulation study of the main system performance, with a special focus on multi-path interest forwarding strategies but thoroughly analyzing the impact of several other ingredients – such as network topology, content popularity, caching decisions and replacement policies. Summarizing our main results, (i) catalog and popularity settings play by far the most crucial role (ii) the impact of the strategy layer comes next, with naive forwarding strategies playing against CCN efficiency, (iii) simple randomized caching policies perform almost as well as more complex ones, (iv) the impact of the topology is limited. Hopefully, our thorough assessment of scenario parameters can assist and promote the cross-comparison in the research community – for which we also provide our CCN simulator as open source software.  </div>
 </li></ul>
 
 <!-- Begin Shinystat code 

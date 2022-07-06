@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -204,8 +229,6 @@
     
   
     
-  
-    
       
     
   
@@ -226,6 +249,10 @@
       	
       	<li><a href="/tags">Tags</a></li>
       	
+      
+    
+  
+    
       
     
   
@@ -491,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -499,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -507,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -515,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -523,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -531,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -631,6 +666,7 @@ Specifically,  we apply the technique on both active BitTorrent [<a href="#TMA-1
 <h3 id="-references"><a name="references"></a> References</h3>
 
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -639,16 +675,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 , 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi12p2p.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi12p2p.pdf"> <emph> Inferring the buffering delay of remote BitTorrent peers under LEDBAT vs TCP </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi12p2p.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi12p2p.pdf"> <em> "Inferring the buffering delay of remote BitTorrent peers under LEDBAT vs TCP" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE P2P’XII 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -656,22 +696,42 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-P2P-12">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-P2P-12">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-12">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-12">Bibtex<span class="caret"></span></button>
+	
 
 
-
+<div id="BibTeX-P2P-12" class="collapse"> <pre>@inproceedings{DR:P2P-12,
+  title = {Inferring the buffering delay of remote {BitTorrent} peers under {LEDBAT} vs {TCP}},
+  author = {},
+  year = {2012},
+  booktitle = {IEEE P2P'XII},
+  annote = {category=article state=published project=misc},
+  note = {keyword=ledbat},
+  month = sep,
+  pages = {77-78},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf}
+}
+</pre>  </div>
 <div id="Abstract-P2P-12" class="collapse well"> Nowadays, due to excessive queuing, Internet delays
 grow sometimes as large as the propagation delay from moon to
 earth – for which the bufferbloat term was recently coined. Some
@@ -687,22 +747,9 @@ By actively taking part into torrent downloads as leechers, our
 software is able to infer (and visualize) the amount of access
 delay suffered by the remote peers.
   </div>
-<div id="BibTeX-P2P-12" class="collapse"> <pre>@inproceedings{DR:P2P-12,
-  title = {Inferring the buffering delay of remote {BitTorrent} peers under {LEDBAT} vs {TCP}},
-  author = {},
-  year = {2012},
-  booktitle = {IEEE P2P'XII},
-  annote = {category=article state=published project=misc},
-  note = {keyword=ledbat},
-  month = sep,
-  pages = {77-78},
-  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf},
-  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf},
-  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi12p2p.pdf}
-}
-</pre>  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -711,16 +758,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13pam.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13pam.pdf"> <emph> Remotely Gauging Upstream Bufferbloat Delays </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13pam.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13pam.pdf"> <em> "Remotely Gauging Upstream Bufferbloat Delays" </em></a>
+	    
+
+
+
+<em>
+
 	   Passive and Active Measurement (PAM), Extended Abstract 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -728,24 +779,28 @@ Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-13">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-13">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-13">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-13">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-PAM-13" class="collapse well"> Bufferbloat is the growth in buffer size that has led Internet delays to occasionally exceed the light propagation delay from the Earth to the Moon.  Manufacturers have built in large buffers to prevent losses on Wi-Fi, cable and ADSL links. But the combination of some links’ limited bandwidth with TCP’s tendency to saturate that bandwidth results in excessive queuing delays. In response, new congestion control protocols such as  BitTorrent’s uTP/LEDBAT aim at explicitly limiting the delay that they add over the bottleneck link. This work
-proposes and validate a methodology to monitor the upstream queuing delay experienced by remote hosts, both those using LEDBAT, through LEDBAT’s native one-way delay measurements, and those using TCP (via the Timestamp Option).    </div>
 <div id="BibTeX-PAM-13" class="collapse"> <pre>@inproceedings{DR:PAM-13,
   author = {Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A.},
   title = {Remotely Gauging Upstream Bufferbloat Delays},
@@ -760,8 +815,11 @@ proposes and validate a methodology to monitor the upstream queuing delay experi
   note = {keyword=ledbat,bufferbloat,mplane}
 }
 </pre>  </div>
+<div id="Abstract-PAM-13" class="collapse well"> Bufferbloat is the growth in buffer size that has led Internet delays to occasionally exceed the light propagation delay from the Earth to the Moon.  Manufacturers have built in large buffers to prevent losses on Wi-Fi, cable and ADSL links. But the combination of some links’ limited bandwidth with TCP’s tendency to saturate that bandwidth results in excessive queuing delays. In response, new congestion control protocols such as  BitTorrent’s uTP/LEDBAT aim at explicitly limiting the delay that they add over the bottleneck link. This work
+proposes and validate a methodology to monitor the upstream queuing delay experienced by remote hosts, both those using LEDBAT, through LEDBAT’s native one-way delay measurements, and those using TCP (via the Timestamp Option).    </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -770,16 +828,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Chirichella, C. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13tma-a.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13tma-a.pdf"> <emph> To the Moon and back: are Internet bufferbloat delays really that large </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13tma-a.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13tma-a.pdf"> <em> "To the Moon and back: are Internet bufferbloat delays really that large" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE INFOCOM Workshop on Traffic Measurement and Analysis (TMA’13) 	   
 
-</emph>
+</em>
 
 	  
  apr. 	   
@@ -787,23 +849,28 @@ Chirichella, C. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-13a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-13a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-13a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-13a">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TMA-13a" class="collapse well"> Recently, the \u201cbufferbloat\u201d term has been coined to describe very large queuing delays (up to several seconds) experienced by Internet users. This problem has pushed protocol designer to deploy alternative (delay-based) models to the standard (lossbased) TCP best effort congestion control. In this work, we exploit timestamp information carried in the LEDBAT header, a protocol proposed by BitTorrent as replacement for TCP data transfer, to infer the queuing delay suffered by remote hosts. We conduct a thorough measurement campaign, that let us conclude that (i) LEDBAT delay-based congestion control is effective in keeping the queuing delay low for the bulk of the peers, (ii) yet about 1% of peers often experience queuing delay in excess of 1s, and (iii) not only the network access type, but also the BitTorrent client and the operating system concurr in determining the bufferbloat magnitude.  </div>
 <div id="BibTeX-TMA-13a" class="collapse"> <pre>@inproceedings{DR:TMA-13a,
   author = {Chirichella, C. and Rossi, D.},
   title = {To the Moon and back: are Internet bufferbloat delays really that large},
@@ -818,8 +885,10 @@ Chirichella, C. and Rossi, D.,
   note = {keyword=ledbat,bufferbloat,mplane}
 }
 </pre>  </div>
+<div id="Abstract-TMA-13a" class="collapse well"> Recently, the \u201cbufferbloat\u201d term has been coined to describe very large queuing delays (up to several seconds) experienced by Internet users. This problem has pushed protocol designer to deploy alternative (delay-based) models to the standard (lossbased) TCP best effort congestion control. In this work, we exploit timestamp information carried in the LEDBAT header, a protocol proposed by BitTorrent as replacement for TCP data transfer, to infer the queuing delay suffered by remote hosts. We conduct a thorough measurement campaign, that let us conclude that (i) LEDBAT delay-based congestion control is effective in keeping the queuing delay low for the bulk of the peers, (ii) yet about 1% of peers often experience queuing delay in excess of 1s, and (iii) not only the network access type, but also the BitTorrent client and the operating system concurr in determining the bufferbloat magnitude.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -828,17 +897,21 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13globecom.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13globecom.pdf"> <emph> Passive bufferbloat measurement exploiting
-transport layer information </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13globecom.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13globecom.pdf"> <em> "Passive bufferbloat measurement exploiting
+transport layer information" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE GLOBECOM 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -846,22 +919,42 @@ transport layer information </emph></a>
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-13">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-GLOBECOM-13">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-13">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-GLOBECOM-13">Bibtex<span class="caret"></span></button>
+	
 
 
-
+<div id="BibTeX-GLOBECOM-13" class="collapse"> <pre>@inproceedings{DR:GLOBECOM-13,
+  title = {Passive bufferbloat measurement exploiting
+  transport layer information},
+  author = {Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A.},
+  year = {2013},
+  booktitle = {IEEE GLOBECOM},
+  annote = {category=article state=published project=mplane},
+  month = dec,
+  note = {keyword=traffic,ledbat},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf}
+}
+</pre>  </div>
 <div id="Abstract-GLOBECOM-13" class="collapse well"> "Bufferbloat" is the growth in buffer size that has
 led Internet delays to occasionally exceed the light propagation
 delay from the Earth to the Moon. Manufacturers have built
@@ -877,22 +970,9 @@ LEDBAT native one-way delay measurements, and those using
 TCP, through the Timestamp Option. We report preliminary
 findings on bufferbloat-related queuing delays on an Internet
 measurement campaign involving a few thousand hosts.  </div>
-<div id="BibTeX-GLOBECOM-13" class="collapse"> <pre>@inproceedings{DR:GLOBECOM-13,
-  title = {Passive bufferbloat measurement exploiting
-  transport layer information},
-  author = {Chirichella, C. and Rossi, D. and Testa, C. and Friedman, T. and Pescape, A.},
-  year = {2013},
-  booktitle = {IEEE GLOBECOM},
-  annote = {category=article state=published project=mplane},
-  month = dec,
-  note = {keyword=traffic,ledbat},
-  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf},
-  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf},
-  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13globecom.pdf}
-}
-</pre>  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -901,16 +981,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Casoria, P. and Rossi, D. and Auge, J. and Buob, Marc-Olivier and Friedman, T. and Pescape, A., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi14pam-b.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi14pam-b.pdf"> <emph>  Distributed active measurement of Internet queuing delays  </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi14pam-b.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi14pam-b.pdf"> <em> " Distributed active measurement of Internet queuing delays " </em></a>
+	    
+
+
+
+<em>
+
 	   Passive and Active Measurement (PAM), Extended Abstract 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -918,31 +1002,28 @@ Casoria, P. and Rossi, D. and Auge, J. and Buob, Marc-Olivier and Friedman, T. a
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-14b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-PAM-14b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-14b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-PAM-14b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-PAM-14b" class="collapse well"> Despite growing link capacities, over-dimensioned buffers are still
-causing, in the Internet of the second decade of the third millenium, hosts to
-suffer from severe queuing delays (or bufferbloat). While maximum bufferbloat
-possibly exceeds few seconds, it is far less clear how often this maximum is hit
-in practice. This paper reports on our ongoing work to build a spatial and temporal map of Internet bufferbloat, describing a system based on distributed agents
-running on PlanetLab that aims at providing a quantitative answer to the above
-question.
-
-  </div>
 <div id="BibTeX-PAM-14b" class="collapse"> <pre>@inproceedings{DR:PAM-14b,
   author = {Casoria, P. and Rossi, D. and Auge, J. and Buob, Marc-Olivier and Friedman, T. and Pescape, A.},
   title = { Distributed active measurement of Internet queuing delays },
@@ -957,6 +1038,15 @@ question.
   note = {keyword=bufferbloat,mplane,measurement}
 }
 </pre>  </div>
+<div id="Abstract-PAM-14b" class="collapse well"> Despite growing link capacities, over-dimensioned buffers are still
+causing, in the Internet of the second decade of the third millenium, hosts to
+suffer from severe queuing delays (or bufferbloat). While maximum bufferbloat
+possibly exceeds few seconds, it is far less clear how often this maximum is hit
+in practice. This paper reports on our ongoing work to build a spatial and temporal map of Internet bufferbloat, describing a system based on distributed agents
+running on PlanetLab that aims at providing a quantitative answer to the above
+question.
+
+  </div>
 </li></ul>
 
 
@@ -964,7 +1054,7 @@ question.
       <hr>
       <footer>
         <p>
-          &copy; 2021 Dario Rossi
+          &copy; 2022 Dario Rossi
           <span class="pull-right text-muted">
             powered by
             <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>

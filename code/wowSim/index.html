@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -493,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -501,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -509,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -517,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -525,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -533,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -662,6 +695,7 @@ IMPORTANT:
 <h3 id="references">References</h3>
 
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -670,19 +704,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, D. and Fracchia, R. and Meo, M., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi10scnj.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi10scnj.pdf"> <emph> On the quality of broadcast services in vehicular ad hoc networks </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi10scnj.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi10scnj.pdf"> <em> "On the quality of broadcast services in vehicular ad hoc networks" </em></a>
+	    
+
+
+
+<em>
+
 	 In Wiley Security and Communication Networks Journal, Special Issue on QoS Assured Wireless and Mobile Networks, 	   
 		   
 		   
 		   
 
-</emph>
+</em>
 
 	  
  . 	   
@@ -690,8 +728,10 @@ Rossi, D. and Fracchia, R. and Meo, M.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
@@ -700,11 +740,14 @@ Rossi, D. and Fracchia, R. and Meo, M.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-WILEY-10">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-WILEY-10" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-WILEY-10">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-WILEY-10" class="collapse"> <pre>@article{DR:WILEY-10,
   author = {Rossi, D. and Fracchia, R. and Meo, M.},
   title = {{On the quality of broadcast services in vehicular ad hoc networks}},
@@ -714,8 +757,10 @@ Rossi, D. and Fracchia, R. and Meo, M.,
   howpublished = {https://nonsns.github.io/paper/rossi10scnj.pdf}
 }
 </pre>  </div>
+<div id="Abstract-WILEY-10" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -724,16 +769,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, D. and Fracchia, R. and Meo, M., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi08icc.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi08icc.pdf"> <emph> VANETs: Why Beaconing at All </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi08icc.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi08icc.pdf"> <em> "VANETs: Why Beaconing at All" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE International Conference on Communications (ICC’08) 	   
 
-</emph>
+</em>
 
 	  
  may. 	   
@@ -741,8 +790,10 @@ Rossi, D. and Fracchia, R. and Meo, M.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -751,11 +802,14 @@ Rossi, D. and Fracchia, R. and Meo, M.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-08">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-ICC-08" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICC-08">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-ICC-08" class="collapse"> <pre>@inproceedings{DR:ICC-08,
   author = {Rossi, D. and Fracchia, R. and Meo, M.},
   title = {{VANET}s: Why Beaconing at All},
@@ -766,8 +820,10 @@ Rossi, D. and Fracchia, R. and Meo, M.,
   howpublished = {https://nonsns.github.io/paper/rossi08icc.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICC-08" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -776,19 +832,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, D. and Casetti, C. and Chiasserini, C.F., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/MISSINGURL.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/MISSINGURL.pdf"> <emph> Some Study on Communication Performance </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/MISSINGURL.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/MISSINGURL.pdf"> <em> "Some Study on Communication Performance" </em></a>
+	    
+
+
+
+<em>
+
 		   
 		   
 		   
 		   
 	
-</emph>
+</em>
 
 	  
 	   
@@ -796,8 +856,10 @@ Rossi, D. and Casetti, C. and Chiasserini, C.F.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">bookch</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Bookch</span>
 
  
 
@@ -806,11 +868,14 @@ Rossi, D. and Casetti, C. and Chiasserini, C.F.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SPRINGER-07">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-SPRINGER-07" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-SPRINGER-07">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-SPRINGER-07" class="collapse"> <pre>@inbook{DR:SPRINGER-07,
   author = {Rossi, D. and Casetti, C. and Chiasserini, C.F.},
   booktitle = {Sensor Network and Configuration},
@@ -822,8 +887,10 @@ Rossi, D. and Casetti, C. and Chiasserini, C.F.,
   howpublished = {https://nonsns.github.io/paper/MISSINGURL.pdf}
 }
 </pre>  </div>
+<div id="Abstract-SPRINGER-07" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -832,16 +899,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Fracchia, R. and Meo, M. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06autonet.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi06autonet.pdf"> <emph> VANETs: To Beacon or Not To Beacon </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06autonet.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi06autonet.pdf"> <em> "VANETs: To Beacon or Not To Beacon" </em></a>
+	    
+
+
+
+<em>
+
 	   Autonet’06 Workshop at IEEE Globecom’06 	   
 
-</emph>
+</em>
 
 	  
  nov. 	   
@@ -849,8 +920,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -859,11 +932,14 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-AUTONET-06">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-AUTONET-06" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-AUTONET-06">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-AUTONET-06" class="collapse"> <pre>@inproceedings{DR:AUTONET-06,
   author = {Fracchia, R. and Meo, M. and Rossi, D.},
   title = {VANETs: To Beacon or Not To Beacon},
@@ -874,8 +950,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
   howpublished = {https://nonsns.github.io/paper/rossi06autonet.pdf}
 }
 </pre>  </div>
+<div id="Abstract-AUTONET-06" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -884,16 +962,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Fracchia, R. and Meo, M. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06medhocnet.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi06medhocnet.pdf"> <emph> On the Impact of Traffic Models on Inter-vehicular Broadcast Communication </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06medhocnet.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi06medhocnet.pdf"> <em> "On the Impact of Traffic Models on Inter-vehicular Broadcast Communication" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE MedHocNet 2006 	   
 
-</emph>
+</em>
 
 	  
  jun. 	   
@@ -901,8 +983,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -911,11 +995,14 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-MEDHOC-06">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-MEDHOC-06" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-MEDHOC-06">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-MEDHOC-06" class="collapse"> <pre>@inproceedings{DR:MEDHOC-06,
   author = {Fracchia, R. and Meo, M. and Rossi, D.},
   title = {On the Impact of Traffic Models on Inter-vehicular Broadcast Communication},
@@ -926,8 +1013,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
   howpublished = {https://nonsns.github.io/paper/rossi06medhocnet.pdf}
 }
 </pre>  </div>
+<div id="Abstract-MEDHOC-06" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -936,16 +1025,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Fracchia, R. and Meo, M. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06aswn.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi06aswn.pdf"> <emph> Avoiding broadcast storms in inter-vehicular warning delivery services </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06aswn.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi06aswn.pdf"> <em> "Avoiding broadcast storms in inter-vehicular warning delivery services" </em></a>
+	    
+
+
+
+<em>
+
 	   6th International Workshop on Applications and Services in Wireless Networks (ASWN’06) 	   
 
-</emph>
+</em>
 
 	  
  apr. 	   
@@ -953,8 +1046,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -963,11 +1058,14 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ASWN-06">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-ASWN-06" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ASWN-06">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-ASWN-06" class="collapse"> <pre>@inproceedings{DR:ASWN-06,
   author = {Fracchia, R. and Meo, M. and Rossi, D.},
   title = {Avoiding broadcast storms in inter-vehicular warning delivery services},
@@ -978,8 +1076,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
   howpublished = {https://nonsns.github.io/paper/rossi06aswn.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ASWN-06" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -988,16 +1088,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Fracchia, R. and Meo, M. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06mp2p.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi06mp2p.pdf"> <emph> Knowing Vehicle Location HELPs Avoiding Broadcast Packets Storm </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi06mp2p.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi06mp2p.pdf"> <em> "Knowing Vehicle Location HELPs Avoiding Broadcast Packets Storm" </em></a>
+	    
+
+
+
+<em>
+
 	   3rd IEEE International Workshop on Mobile Peer-to-Peer Computing (MP2P’06) at IEEE PerComm’06 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -1005,8 +1109,10 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -1015,11 +1121,14 @@ Fracchia, R. and Meo, M. and Rossi, D.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-MP2P-06">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-MP2P-06" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-MP2P-06">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-MP2P-06" class="collapse"> <pre>@inproceedings{DR:MP2P-06,
   author = {Fracchia, R. and Meo, M. and Rossi, D.},
   title = {Knowing Vehicle Location HELPs Avoiding Broadcast Packets Storm},
@@ -1030,6 +1139,7 @@ Fracchia, R. and Meo, M. and Rossi, D.,
   howpublished = {https://nonsns.github.io/paper/rossi06mp2p.pdf}
 }
 </pre>  </div>
+<div id="Abstract-MP2P-06" class="collapse well">   </div>
 </li></ul>
 
 

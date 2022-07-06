@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -204,8 +229,6 @@
     
   
     
-  
-    
       
     
   
@@ -226,6 +249,10 @@
       	
       	<li><a href="/tags">Tags</a></li>
       	
+      
+    
+  
+    
       
     
   
@@ -491,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -499,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -507,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -515,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -523,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -531,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -622,6 +657,7 @@ employing a delay-based low-priority algorithm exhibit shorter completion time. 
 <h2 id="references">References</h2>
 
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -630,16 +666,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Testa, C. and Rossi, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi11p2p.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi11p2p.pdf"> <emph> The impact of uTP on BitTorrent completion time </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi11p2p.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi11p2p.pdf"> <em> "The impact of uTP on BitTorrent completion time" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE Peer to Peer (P2P’11) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -647,8 +687,10 @@ Testa, C. and Rossi, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -657,11 +699,14 @@ Testa, C. and Rossi, D.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-11">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-P2P-11" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-11">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-P2P-11" class="collapse"> <pre>@inproceedings{DR:P2P-11,
   author = {Testa, C. and Rossi, D.},
   title = {The impact of uTP on BitTorrent completion time},
@@ -676,8 +721,10 @@ Testa, C. and Rossi, D.,
   note = {keyword=p2p,ledbat}
 }
 </pre>  </div>
+<div id="Abstract-P2P-11" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -686,16 +733,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Testa, C. and Rossi, D. and Rao, A. and Legout, A., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi12tma.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi12tma.pdf"> <emph> Experimental Assessment of BitTorrent Completion Time in Heterogeneous TCP/uTP swarms </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi12tma.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi12tma.pdf"> <em> "Experimental Assessment of BitTorrent Completion Time in Heterogeneous TCP/uTP swarms" </em></a>
+	    
+
+
+
+<em>
+
 	   Traffic Measurement and Analysis (TMA) Workshop at Passive and Active Measurement (PAM) 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -703,36 +754,28 @@ Testa, C. and Rossi, D. and Rao, A. and Legout, A.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-12">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-12">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-12">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-12">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TMA-12" class="collapse well"> BitTorrent, one of the most widespread used P2P application for file-
-sharing, recently got rid of TCP by introducing an application-level congestion
-control protocol named uTP. The aim of this new protocol is to efficiently use
-the available link capacity, while minimizing its interference with the rest of user
-traffic (e.g., Web, VoIP and gaming) sharing the same access bottleneck.
-In this paper we perform an experimental study of the impact of uTP on the
-torrent completion time, the metric that better captures the user experience. We
-run BitTorrent applications in a flash crowd scenario over a dedicated cluster
-platform, under both homogeneous and heterogeneous swarm population. Exper-
-iments show that an all-uTP swarms have shorter torrent download time with
-respect to all-TCP swarms. Interestingly, at the same time, we observe that even
-shorter completion times can be achieved under mixtures of TCP and uTP traffic,
-as in the default BitTorrent settings.
-    </div>
 <div id="BibTeX-TMA-12" class="collapse"> <pre>@inproceedings{DR:TMA-12,
   author = {Testa, C. and Rossi, D. and Rao, A. and Legout, A.},
   title = {Experimental Assessment of BitTorrent Completion Time in Heterogeneous TCP/uTP swarms},
@@ -748,8 +791,23 @@ as in the default BitTorrent settings.
   note = {keyword=p2p,bittorrent,ledbat}
 }
 </pre>  </div>
+<div id="Abstract-TMA-12" class="collapse well"> BitTorrent, one of the most widespread used P2P application for file-
+sharing, recently got rid of TCP by introducing an application-level congestion
+control protocol named uTP. The aim of this new protocol is to efficiently use
+the available link capacity, while minimizing its interference with the rest of user
+traffic (e.g., Web, VoIP and gaming) sharing the same access bottleneck.
+In this paper we perform an experimental study of the impact of uTP on the
+torrent completion time, the metric that better captures the user experience. We
+run BitTorrent applications in a flash crowd scenario over a dedicated cluster
+platform, under both homogeneous and heterogeneous swarm population. Exper-
+iments show that an all-uTP swarms have shorter torrent download time with
+respect to all-TCP swarms. Interestingly, at the same time, we observe that even
+shorter completion times can be achieved under mixtures of TCP and uTP traffic,
+as in the default BitTorrent settings.
+    </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -758,17 +816,21 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Testa, C. and Rossi, D. and Rao, A. and Legout, A., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13p2p-a.pdf"></i> 
-		<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13p2p-a.pdf"> <emph> Data Plane Throughput vs Control Plane Delay: Experimental Study of
-BitTorrent Performance  </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.telecom-paristech.fr/ drossi/paper/rossi13p2p-a.pdf"></i> 
+			<a href="http://www.telecom-paristech.fr/ drossi/paper/rossi13p2p-a.pdf"> <em> "Data Plane Throughput vs Control Plane Delay: Experimental Study of
+BitTorrent Performance " </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE P2P’XIII 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -776,22 +838,43 @@ BitTorrent Performance  </emph></a>
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-P2P-13a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-P2P-13a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-13a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-P2P-13a">Bibtex<span class="caret"></span></button>
+	
 
 
-
+<div id="BibTeX-P2P-13a" class="collapse"> <pre>@inproceedings{DR:P2P-13a,
+  title = {Data Plane Throughput vs Control Plane Delay: Experimental Study of
+  BitTorrent Performance },
+  author = {Testa, C. and Rossi, D. and Rao, A. and Legout, A.},
+  year = {2013},
+  booktitle = {IEEE P2P'XIII},
+  address = {Trento, Italy},
+  month = sep,
+  annote = {category=article state=published project=mplane},
+  note = {keyword=ledbat,bittorrent},
+  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13p2p-a.pdf},
+  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13p2p-a.pdf},
+  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13p2p-a.pdf}
+}
+</pre>  </div>
 <div id="Abstract-P2P-13a" class="collapse well"> In this paper, we address the trade-off between the data plane
 efficiency and the control plane timeliness for the BitTorrent performance.
 We argue that loss-based congestion control protocols can fill large
@@ -809,28 +892,13 @@ limited impact on the swarm performance. Conversely, when a mix of TCP
 congestion control algorithms coexists, peers employing a delay-based
 low-priority algorithm exhibit shorter completion time.
   </div>
-<div id="BibTeX-P2P-13a" class="collapse"> <pre>@inproceedings{DR:P2P-13a,
-  title = {Data Plane Throughput vs Control Plane Delay: Experimental Study of
-  BitTorrent Performance },
-  author = {Testa, C. and Rossi, D. and Rao, A. and Legout, A.},
-  year = {2013},
-  booktitle = {IEEE P2P'XIII},
-  address = {Trento, Italy},
-  month = sep,
-  annote = {category=article state=published project=mplane},
-  note = {keyword=ledbat,bittorrent},
-  url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13p2p-a.pdf},
-  howpublished = {http://www.telecom-paristech.fr/~drossi/paper/rossi13p2p-a.pdf},
-  www_txt_url = {http://www.telecom-paristech.fr/~drossi/paper/rossi13p2p-a.pdf}
-}
-</pre>  </div>
 </li></ul>
 
 
       <hr>
       <footer>
         <p>
-          &copy; 2021 Dario Rossi
+          &copy; 2022 Dario Rossi
           <span class="pull-right text-muted">
             powered by
             <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>

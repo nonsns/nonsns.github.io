@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -493,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -501,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -509,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -517,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -525,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -533,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -578,15 +611,17 @@
       <div class="alert alert-dismissible alert-warning  outline-warning">
   		<button type="button" class="close" data-dismiss="alert">&times;</button>
   			<h4 class="alert-heading">Information!</h4>
-  			<p class="mb-0"> Note: this page contains a selection of some recent keynotes, panels, invited talks, etc. and is not meant to be complete. </p>
+  			<p class="mb-0"> This page contains a selection of some recent keynotes, panels, invited talks, etc. and is not meant to be complete. </p>
 		</div>
 
-<p><strong>Quick links</strong>: <a href="/publications/type"><i class="fa fa-th-large"></i> By type</a> / 
+<p><strong>Quick links</strong>: 
 		<a href="/publications/date"><i class="fa fa-calendar"></i>  By date</a> / 
+		<a href="/publications/type"><i class="fa fa-th-large"></i> By type</a> /
 		<a href="/publications/project"><i class="fa fa-cogs"></i> By project</a> / 
 		<a href="/publications/topic"><i class="fa fa-folder-open"></i> By topic</a> / 
 		<a href="/publications/award"><i class="fa fa-star "></i> Award winning</a> / 
-		<a href="/publications/recent"><i class="fa fa-clock-o "></i> Recent stuff</a> / 
+		<a href="/publications/recent"><i class="fa fa-clock-o "></i> Recent docs</a> / 
+		<a href="/publications/talks"><i class="fa fa-comment "></i> Recent talks</a> / 
 		<a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&amp;hl=en&amp;oi=ao"><img src="/assets/icon/google-logo.png" alt="" width="64px" href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ" />Scholar</a> / 
 		<a href="http://dblp.uni-trier.de/pers/hd/r/Rossi:Dario"><img src="/assets/icon/dblp-logo.png" alt="" width="32px" />dblp</a> / 
 		<a href="https://orcid.org/0000-0003-3936-8876"><img src="/assets/icon/orcid-logo.png" alt="" width="32px" /></a></p>
@@ -613,7 +648,7 @@
 
 
 <emph>
-	  ITC34, 	
+	 <em> ITC34 </em>, 	
 	 sep, 	   
 	 2022   	   
 </emph>
@@ -623,22 +658,10 @@
  
 
  
-	   
+
+    <span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-users"></i> Panel </span>
 
 	   
-
-
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px"> <i class="fa fa fa-users"></i> Panel </span>
-	   
-
-	   
-
-	   
-
-	   
-
 
 
 
@@ -679,7 +702,7 @@ Laurent Ciavaglia (Rakuten),  Erol Gelenbe (IITiS) and Diego Perino (T+D)
 
 
 <emph>
-	  IEEE NetSoft, 	
+	 <em> IEEE NetSoft </em>, 	
 	 jun, 	   
 	 2022   	   
 </emph>
@@ -689,22 +712,10 @@ Laurent Ciavaglia (Rakuten),  Erol Gelenbe (IITiS) and Diego Perino (T+D)
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-user"></i> Keynote </span>
 
 	   
-
-
-
-	   
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px"> <i class="fa fa fa-user"></i> Keynote </span>
-	   
-
-	   
-
-	   
-
 
 
 
@@ -740,32 +751,20 @@ Laurent Ciavaglia (Rakuten),  Erol Gelenbe (IITiS) and Diego Perino (T+D)
 
 
 <emph>
-	  Vivatech, 	
+	 <em> Vivatech </em>, 	
 	 jun, 	   
 	 2022   	   
 </emph>
  
 
-
-  [<a href="https://www.huawei.com/en/news/2022/6/tech-arena"> <i class="fas fa-newspaper"></i> Press release</a>]  
+ <span class="badge badge-pill btn-light" style="width: 100px"><a href="https://app.vivatechnology.com/onlinesession/7a3363f3-7be1-ec11-b656-a04a5e7d2a9d"><i class="fas fa-video"></i> Video <i class="fa fa-external-link"></i> </a>  </span>                     
+  <span class="badge badge-pill btn-light" style="width: 100px"><a href="https://www.huawei.com/en/news/2022/6/tech-arena"><i class="fas fa-newspaper"></i>  Press <i class="fa fa-external-link"></i> </a> </span>          
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Talk</span>
 
 	   
-
-
-
-	   
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Talk</span>
-	   
-
 
 
 
@@ -800,34 +799,20 @@ Laurent Ciavaglia (Rakuten),  Erol Gelenbe (IITiS) and Diego Perino (T+D)
 
 
 <emph>
-	  ACM SIGCOMM Networking Channel, 	
+	 <em> ACM SIGCOMM Networking Channel </em>, 	
 	 may, 	   
 	 2021   	   
 </emph>
  
-  [<a href="https://networkingchannel.eu/wp-content/uploads/2021/05/Dario-Rossi-NetworkingChannel-Panel-may2021.pdf"> <i class="fa-solid fa-presentation-screen"></i> Slides </a>] 
-
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="https://networkingchannel.eu/wp-content/uploads/2021/05/Dario-Rossi-NetworkingChannel-Panel-may2021.pdf"><i class="fa fa-presentation-screen"></i> Slides  <i class="fa fa-external-link"></i></a> </span> 
+ <span class="badge badge-pill btn-light" style="width: 100px"><a href="https://www.youtube.com/watch?v=QbRHdH8ncgA"><i class="fas fa-video"></i> Video <i class="fa fa-external-link"></i> </a>  </span>                     
  
 
  
-	   
 
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px"> <i class="fa fa fa-users"></i> Panelist </span>
-	   
-
-
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px"> <i class="fa fa fa-users"></i> Panel </span>
-	   
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-users"></i> Panelist </span>
 
 	   
-
-	   
-
-	   
-
 
 
 
@@ -864,7 +849,7 @@ Panel experts  S. Banerjee (Director of Research, VMware, USA)   S. Majumdar  (I
 
 
 <emph>
-	  SLICES RI workshop, 	
+	 <em> SLICES RI workshop </em>, 	
 	 mar, 	   
 	 2021   	   
 </emph>
@@ -874,24 +859,10 @@ Panel experts  S. Banerjee (Director of Research, VMware, USA)   S. Majumdar  (I
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Invited</span>
 
 	   
-
-
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Invited</span>
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Talk</span>
-	   
-
 
 
 
@@ -928,34 +899,20 @@ ICT Infrastructures and the future Internet including 5G and beyond technologies
 
 
 <emph>
-	  FOSDEM, 	
+	 <em> FOSDEM </em>, 	
 	 feb, 	   
 	 2020   	   
 </emph>
  
-
-
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="https://archive.fosdem.org/2020/schedule/event/webperf_qoe_research/attachments/slides/3686/export/events/attachments/webperf_qoe_research/slides/3686/FOSDEM2020_webqoe_drossi.pdf"><i class="fa fa-presentation-screen"></i> Slides  <i class="fa fa-external-link"></i></a> </span> 
+ <span class="badge badge-pill btn-light" style="width: 100px"><a href="https://mirror.cyberbits.eu/fosdem/2020/H.1309/webperf_qoe_research.webm"><i class="fas fa-video"></i> Video <i class="fa fa-external-link"></i> </a>  </span>                     
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Invited</span>
 
 	   
-
-
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Invited</span>
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Talk</span>
-	   
-
 
 
 
@@ -991,7 +948,7 @@ ICT Infrastructures and the future Internet including 5G and beyond technologies
 
 
 <emph>
-	  Huawei Connect Europe (HCE), 	
+	 <em> Huawei Connect Europe (HCE) </em>, 	
 	 oct, 	   
 	 2020   	   
 </emph>
@@ -1001,24 +958,10 @@ ICT Infrastructures and the future Internet including 5G and beyond technologies
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Invited</span>
 
 	   
-
-
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Invited</span>
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Talk</span>
-	   
-
 
 
 
@@ -1051,7 +994,7 @@ ICT Infrastructures and the future Internet including 5G and beyond technologies
 
 
 <emph>
-	  IFIP Networking, 	
+	 <em> IFIP Networking </em>, 	
 	 jun, 	   
 	 2020   	   
 </emph>
@@ -1061,24 +1004,10 @@ ICT Infrastructures and the future Internet including 5G and beyond technologies
  
 
  
-	   
 
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px"> <i class="fa fa fa-users"></i> Panelist </span>
-	   
-
-
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px"> <i class="fa fa fa-users"></i> Panel </span>
-	   
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-users"></i> Panelist </span>
 
 	   
-
-	   
-
-	   
-
 
 
 
@@ -1119,7 +1048,7 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
 
 
 <emph>
-	  IFIP Networking, 	
+	 <em> IFIP Networking </em>, 	
 	 jun, 	   
 	 2020   	   
 </emph>
@@ -1129,22 +1058,10 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-user"></i> Keynote </span>
 
 	   
-
-
-
-	   
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px"> <i class="fa fa fa-user"></i> Keynote </span>
-	   
-
-	   
-
-	   
-
 
 
 
@@ -1178,7 +1095,7 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
 
 
 <emph>
-	  Journees du GDR Reseaux et Systemes Distribues (RSD’20), 	
+	 <em> Journees du GDR Reseaux et Systemes Distribues (RSD’20) </em>, 	
 	 jan, 	   
 	 2020   	   
 </emph>
@@ -1188,22 +1105,10 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-user"></i> Keynote </span>
 
 	   
-
-
-
-	   
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px"> <i class="fa fa fa-user"></i> Keynote </span>
-	   
-
-	   
-
-	   
-
 
 
 
@@ -1237,7 +1142,7 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
 
 
 <emph>
-	  21st MPLS+SDN+NFV World Congress, 	
+	 <em> 21st MPLS+SDN+NFV World Congress </em>, 	
 	 oct, 	   
 	 2019   	   
 </emph>
@@ -1247,24 +1152,10 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Invited</span>
 
 	   
-
-
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Invited</span>
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Talk</span>
-	   
-
 
 
 
@@ -1300,32 +1191,20 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
 
 
 <emph>
-	  IFIP Traffic Monitoring and Analysis (TMA’19), 	
+	 <em> IFIP Traffic Monitoring and Analysis (TMA’19) </em>, 	
 		   
 	 2019   	   
 </emph>
  
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="http://tma.ifip.org/2019/wp-content/uploads/sites/8/2019/06/TMA-keynote-vFINAL.pdf"><i class="fa fa-presentation-screen"></i> Slides  <i class="fa fa-external-link"></i></a> </span> 
 
+ 
 
  
 
- 
-	   
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-user"></i> Keynote </span>
 
 	   
-
-
-
-	   
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px"> <i class="fa fa fa-user"></i> Keynote </span>
-	   
-
-	   
-
-	   
-
 
 
 
@@ -1356,14 +1235,14 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
 		
     		
 			<i class="fa fa-comment-o" aria-hidden="true" href="https://wmnc.dnac.org/2019/keynote.php"></i> 
-			<a href="https://wmnc.dnac.org/2019/keynote.php"> <emph> The rise of hardware-assisted artificial intelligence at the network edg </emph></a> 
+			<a href="https://wmnc.dnac.org/2019/keynote.php"> <emph> The rise of hardware-assisted artificial intelligence at the network edge </emph></a> 
 			
     	
 
 
 
 <emph>
-	  IFIP Wireless and Mobile Networking Conference (WMNC’19), 	
+	 <em> IFIP Wireless and Mobile Networking Conference (WMNC’19) </em>, 	
 	 sep, 	   
 	 2019   	   
 </emph>
@@ -1373,22 +1252,10 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-user"></i> Keynote </span>
 
 	   
-
-
-
-	   
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px"> <i class="fa fa fa-user"></i> Keynote </span>
-	   
-
-	   
-
-	   
-
 
 
 
@@ -1422,7 +1289,7 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
 
 
 <emph>
-	  3rd International Workshop in Quality of Experience Management, in conjuction with ICIN 2019, 	
+	 <em> 3rd International Workshop in Quality of Experience Management, in conjuction with ICIN 2019 </em>, 	
 	 sep, 	   
 	 2019   	   
 </emph>
@@ -1432,22 +1299,10 @@ We expect lively discussions and count on all IFIP Networking 2020 participants 
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-user"></i> Keynote </span>
 
 	   
-
-
-
-	   
-
-
-	<span class="badge badge-pill btn-success" style="width: 80px"> <i class="fa fa fa-user"></i> Keynote </span>
-	   
-
-	   
-
-	   
-
 
 
 
@@ -1484,7 +1339,7 @@ In this keynotes, we discuss these challenges taking an ever-green Internet appl
 
 
 <emph>
-	  Huawei Strategic Technical Workshop (STW’19), 	
+	 <em> Huawei Strategic Technical Workshop (STW’19) </em>, 	
 	 may, 	   
 	 2019   	   
 </emph>
@@ -1494,24 +1349,10 @@ In this keynotes, we discuss these challenges taking an ever-green Internet appl
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Invited</span>
 
 	   
-
-
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Invited</span>
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Talk</span>
-	   
-
 
 
 
@@ -1545,7 +1386,7 @@ In this keynotes, we discuss these challenges taking an ever-green Internet appl
 
 
 <emph>
-	  Dagstuhl Seminar 13472, 	
+	 <em> Dagstuhl Seminar 13472 </em>, 	
 		   
 	 2013   	   
 </emph>
@@ -1555,22 +1396,10 @@ In this keynotes, we discuss these challenges taking an ever-green Internet appl
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"><i class="fa fa fa-user"></i> Invited</span>
 
 	   
-
-
-
-	   
-
-	   
-
-
-	<span class="badge badge-pill btn-primary" style="width: 80px"><i class="fa fa fa-user"></i> Invited</span>
-	   
-
-	   
-
 
 
 
@@ -1604,7 +1433,7 @@ In this keynotes, we discuss these challenges taking an ever-green Internet appl
 
 
 <emph>
-	  IEEE Networks’10, 	
+	 <em> IEEE Networks’10 </em>, 	
 	 sep, 	   
 	 2010   	   
 </emph>
@@ -1614,22 +1443,10 @@ In this keynotes, we discuss these challenges taking an ever-green Internet appl
  
 
  
-	   
+
+	<span class="badge badge-pill btn-primary" style="width: 100px"> <i class="fa fa fa-users"></i> Tutorial </span>
 
 	   
-
-
-	<span class="badge badge-pill btn-secondary" style="width: 80px"> <i class="fa fa fa-users"></i> Tutorial </span>
-
-
-	   
-
-	   
-
-	   
-
-	   
-
 
 
 

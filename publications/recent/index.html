@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -493,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -501,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -509,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -517,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -525,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -533,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -575,18 +608,21 @@
 
 
     <div class="container">
-      <p><strong>Quick links</strong>: <a href="/publications/type"><i class="fa fa-th-large"></i> By type</a> / 
+      <p><strong>Quick links</strong>: 
 		<a href="/publications/date"><i class="fa fa-calendar"></i>  By date</a> / 
+		<a href="/publications/type"><i class="fa fa-th-large"></i> By type</a> /
 		<a href="/publications/project"><i class="fa fa-cogs"></i> By project</a> / 
 		<a href="/publications/topic"><i class="fa fa-folder-open"></i> By topic</a> / 
 		<a href="/publications/award"><i class="fa fa-star "></i> Award winning</a> / 
-		<a href="/publications/recent"><i class="fa fa-clock-o "></i> Recent stuff</a> / 
+		<a href="/publications/recent"><i class="fa fa-clock-o "></i> Recent docs</a> / 
+		<a href="/publications/talks"><i class="fa fa-comment "></i> Recent talks</a> / 
 		<a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&amp;hl=en&amp;oi=ao"><img src="/assets/icon/google-logo.png" alt="" width="64px" href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ" />Scholar</a> / 
 		<a href="http://dblp.uni-trier.de/pers/hd/r/Rossi:Dario"><img src="/assets/icon/dblp-logo.png" alt="" width="32px" />dblp</a> / 
 		<a href="https://orcid.org/0000-0003-3936-8876"><img src="/assets/icon/orcid-logo.png" alt="" width="32px" /></a></p>
 
 <h2 id="-recent-publication--last-20---"><a name="recent"></a> Recent publication <span class="badge"> (last 20 )  </span></h2>
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -595,16 +631,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22infocom.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi22infocom.pdf"> <emph> Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22infocom.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22infocom.pdf"> <em> "Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE INFOCOM 	   
 
-</emph>
+</em>
 
 	  
  may. 	   
@@ -612,23 +652,28 @@ Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-22">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-22">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-22">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-22">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-INFOCOM-22" class="collapse well"> While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh. We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching – testifying the practical interest of our proposal.  </div>
 <div id="BibTeX-INFOCOM-22" class="collapse"> <pre>@inproceedings{DR:INFOCOM-22,
   title = {Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching},
   author = {Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario},
@@ -639,8 +684,10 @@ Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi22infocom.pdf}
 }
 </pre>  </div>
+<div id="Abstract-INFOCOM-22" class="collapse well"> While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh. We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching – testifying the practical interest of our proposal.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -649,13 +696,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 FINAMORE, Alessandro and YANG, Lixuan and ROSSI, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
-		<a href=""> <emph> Method to address extreme class imbalance in AI based classifiers </emph></a>
-    	
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Method to address extreme class imbalance in AI based classifiers" </em>,   
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
  apr. 	   
@@ -663,8 +711,10 @@ FINAMORE, Alessandro and YANG, Lixuan and ROSSI, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -673,11 +723,14 @@ FINAMORE, Alessandro and YANG, Lixuan and ROSSI, Dario,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-PCT/EP2022/059292">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-PCT/EP2022/059292" class="collapse well">   </div>
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
 <div id="BibTeX-PATENT-PCT/EP2022/059292" class="collapse"> <pre>@misc{DR:PATENT-PCT/EP2022/059292,
   author = {FINAMORE, Alessandro and YANG, Lixuan and ROSSI, Dario},
   title = {Method to address extreme class imbalance in AI based classifiers},
@@ -686,8 +739,10 @@ FINAMORE, Alessandro and YANG, Lixuan and ROSSI, Dario,
   howpublished = {}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-PCT/EP2022/059292" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -696,13 +751,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 NAVARRO, Jose Manuel and HUET, Alexis and ROSSI, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
-		<a href=""> <emph> Aggregation of Anomalies in a Network </emph></a>
-    	
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Aggregation of Anomalies in a Network" </em>,   
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
  mar. 	   
@@ -710,8 +766,10 @@ NAVARRO, Jose Manuel and HUET, Alexis and ROSSI, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -720,11 +778,14 @@ NAVARRO, Jose Manuel and HUET, Alexis and ROSSI, Dario,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-PCT/EP2022/057757">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-PCT/EP2022/057757" class="collapse well">   </div>
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
 <div id="BibTeX-PATENT-PCT/EP2022/057757" class="collapse"> <pre>@misc{DR:PATENT-PCT/EP2022/057757,
   author = {NAVARRO, Jose Manuel and HUET, Alexis and ROSSI, Dario},
   title = {Aggregation of Anomalies in a Network},
@@ -733,8 +794,10 @@ NAVARRO, Jose Manuel and HUET, Alexis and ROSSI, Dario,
   howpublished = {}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-PCT/EP2022/057757" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -743,13 +806,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 HOUIDI, Zied BEN and KROLIKOWSKI, Jonatan and ROSSI, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
-		<a href=""> <emph> Network resource control based on neighborhood measurements </emph></a>
-    	
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Network resource control based on neighborhood measurements" </em>,   
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
  jan. 	   
@@ -757,8 +821,10 @@ HOUIDI, Zied BEN and KROLIKOWSKI, Jonatan and ROSSI, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -767,11 +833,14 @@ HOUIDI, Zied BEN and KROLIKOWSKI, Jonatan and ROSSI, Dario,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-PCT/EP2022/051624">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-PCT/EP2022/051624" class="collapse well">   </div>
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
 <div id="BibTeX-PATENT-PCT/EP2022/051624" class="collapse"> <pre>@misc{DR:PATENT-PCT/EP2022/051624,
   author = {HOUIDI, Zied BEN and KROLIKOWSKI, Jonatan and ROSSI, Dario},
   title = {Network resource control based on neighborhood measurements},
@@ -780,8 +849,10 @@ HOUIDI, Zied BEN and KROLIKOWSKI, Jonatan and ROSSI, Dario,
   howpublished = {}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-PCT/EP2022/051624" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -790,16 +861,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Boffa, Matteo and Houidi, Zied Ben and Krolikowski, Jonatan and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22aaai-glcr.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi22aaai-glcr.pdf"> <emph> Neural combinatorial optimization beyond the TSP: Existing architectures under-represent graph structure </emph></a>
-    	
-	
+ 
 
-<emph>
-	   AAAI’22 GCLR workshop 	   
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22aaai-glcr.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22aaai-glcr.pdf"> <em> "Neural combinatorial optimization beyond the TSP: Existing architectures under-represent graph structure" </em></a>
+	    
 
-</emph>
+
+
+<em>
+
+	   AAAI workshop on Graphs and more complex structures for learning and reasoning (GLCR’22) 	   
+
+</em>
 
 	  
 	   
@@ -807,33 +882,40 @@ Boffa, Matteo and Houidi, Zied Ben and Krolikowski, Jonatan and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-AAAI-22">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-AAAI-22">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-AAAI-22">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-AAAI-22">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-AAAI-22" class="collapse well"> Recent years have witnessed the promise that reinforcement learning, coupled with Graph Neural Network (GNN) architectures, could learn to solve hard combinatorial optimization problems: given raw input data and an evaluator to guide the process, the idea is to automatically learn a policy able to return feasible and high-quality outputs. Recent work have shown promising results but the latter were mainly evaluated on the travelling salesman problem (TSP) and similar abstract variants such as Split Delivery Vehicle Routing Problem (SDVRP). This paper assesses how and whether recent neural architectures also transfer to graph problems of practical interest. We thus set out to systematically transfer these architectures to the Power and Channel Allocation Problem (PCAP), which has practical relevance for, e.g., radio resource allocation in wireless networks. Our experimental results suggest that existing architectures (i) are still incapable of capturing graph structural features and (ii) are not suitable for problems where the actions on the graph change the graph attributes. On a positive note, we show that augmenting the structural representation of problems with Distance Encoding is a promising step towards the still-ambitious goal of learning multi-purpose autonomous solvers.  </div>
 <div id="BibTeX-AAAI-22" class="collapse"> <pre>@inproceedings{DR:AAAI-22,
   title = {Neural combinatorial optimization beyond the TSP: Existing architectures under-represent graph structure},
   author = {Boffa, Matteo and Houidi, Zied Ben and Krolikowski, Jonatan and Rossi, Dario},
   year = {2022},
-  booktitle = {AAAI'22 GCLR workshop},
+  booktitle = {AAAI workshop on Graphs and more complex structures for learning and reasoning (GLCR'22)},
   howpublished = {https://nonsns.github.io/paper/rossi22aaai-glcr.pdf}
 }
 </pre>  </div>
+<div id="Abstract-AAAI-22" class="collapse well"> Recent years have witnessed the promise that reinforcement learning, coupled with Graph Neural Network (GNN) architectures, could learn to solve hard combinatorial optimization problems: given raw input data and an evaluator to guide the process, the idea is to automatically learn a policy able to return feasible and high-quality outputs. Recent work have shown promising results but the latter were mainly evaluated on the travelling salesman problem (TSP) and similar abstract variants such as Split Delivery Vehicle Routing Problem (SDVRP). This paper assesses how and whether recent neural architectures also transfer to graph problems of practical interest. We thus set out to systematically transfer these architectures to the Power and Channel Allocation Problem (PCAP), which has practical relevance for, e.g., radio resource allocation in wireless networks. Our experimental results suggest that existing architectures (i) are still incapable of capturing graph structural features and (ii) are not suitable for problems where the actions on the graph change the graph attributes. On a positive note, we show that augmenting the structural representation of problems with Distance Encoding is a promising step towards the still-ambitious goal of learning multi-purpose autonomous solvers.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -842,19 +924,87 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Rossi, Dario and Zhang, Liang, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22tnsm.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi22tnsm.pdf"> <emph> Landing AI on Networks: An equipment vendor viewpoint on Autonomous Driving Networks </emph></a>
-    	
+ 
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22tnsm.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22tnsm.pdf"> <em> "Landing AI on Networks: An equipment vendor viewpoint on Autonomous Driving Networks" </em></a>
+	    
+
+
+
+<em>
+
+	 In IEEE Transactions on Network and Service Management (TNSM), 	   
+		   
+		   
+		   
+
+</em>
+
+	  
+	   
+ 2022, 	   
+ DOI 10.1109/TNSM.2022.3169988 	   
+
+
 	
 
-<emph>
-	 In IEEE Transactions on Network and Service Management, 	   
-		   
-		   
-		   
 
-</emph>
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-22">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-22">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-TNSM-22" class="collapse"> <pre>@article{DR:TNSM-22,
+  title = {Landing AI on Networks: An equipment vendor viewpoint on Autonomous Driving Networks},
+  author = {Rossi, Dario and Zhang, Liang},
+  year = {2022},
+  journal = {IEEE Transactions on Network and Service Management (TNSM)},
+  doi = {10.1109/TNSM.2022.3169988},
+  howpublished = {https://nonsns.github.io/paper/rossi22tnsm.pdf}
+}
+</pre>  </div>
+<div id="Abstract-TNSM-22" class="collapse well"> The tremendous achievements of Artificial Intelligence (AI) in computer vision, natural language processing, games and robotics, has extended the reach of the AI hype to other fields: in telecommunication networks, the long term vision is to let AI fully manage, and autonomously drive, all aspects of network operation. In this industry vision paper, we discuss challenges and opportunities of Autonomous Driving Network (ADN) driven by AI technologies. To understand how AI can be successfully landed in current and future networks, we start by outlining challenges that are specific to the networking domain, putting them in perspective with advances that AI has achieved in other fields. We then present a system view, clarifying how AI can be fitted in the network architecture. We finally discuss current achievements as well as future promises of AI in networks, mentioning roadmap to avoid bumps in the road that leads to true large-scale deployment of AI technologies in network  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="KDD-22"></a>[KDD-22]</strong></abbr>
+Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario, 
+
+
+ 
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22kdd.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22kdd.pdf"> <em> "Local Evaluation of Time Series Anomaly Detection Algorithms" </em></a>
+	    
+
+
+
+<em>
+
+	   ACM SIGKDD Conference on Knowledge Discovery and Data mining (KDD) 	   
+
+</em>
 
 	  
 	   
@@ -862,33 +1012,109 @@ Rossi, Dario and Zhang, Liang,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-22">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-KDD-22">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-22">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-KDD-22">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TNSM-22" class="collapse well"> The tremendous achievements of Artificial Intelligence (AI) in computer vision, natural language processing, games and robotics, has extended the reach of the AI hype to other fields: in telecommunication networks, the long term vision is to let AI fully manage, and autonomously drive, all aspects of network operation. In this industry vision paper, we discuss challenges and opportunities of Autonomous Driving Network (ADN) driven by AI technologies. To understand how AI can be successfully landed in current and future networks, we start by outlining challenges that are specific to the networking domain, putting them in perspective with advances that AI has achieved in other fields. We then present a system view, clarifying how AI can be fitted in the network architecture. We finally discuss current achievements as well as future promises of AI in networks, mentioning roadmap to avoid bumps in the road that leads to true large-scale deployment of AI technologies in network  </div>
-<div id="BibTeX-TNSM-22" class="collapse"> <pre>@article{DR:TNSM-22,
-  title = {Landing AI on Networks: An equipment vendor viewpoint on Autonomous Driving Networks},
-  author = {Rossi, Dario and Zhang, Liang},
+<div id="BibTeX-KDD-22" class="collapse"> <pre>@inproceedings{DR:KDD-22,
+  title = {Local Evaluation of Time Series Anomaly Detection Algorithms},
+  author = {Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario},
   year = {2022},
-  journal = {IEEE Transactions on Network and Service Management},
-  howpublished = {https://nonsns.github.io/paper/rossi22tnsm.pdf}
+  booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data mining (KDD)},
+  howpublished = {https://nonsns.github.io/paper/rossi22kdd.pdf},
+  topic = {ad-algo}
 }
 </pre>  </div>
+<div id="Abstract-KDD-22" class="collapse well"> In recent years, specific evaluation metrics for time series anomaly detection algorithms have been developed to handle the limitations of the classical precision and recall. However, such metrics are heuristically built as an aggregate of multiple desirable aspects, introduce parameters and wipe out the interpretability of the output. In this article, we first highlight the limitations of the classical precision/recall, as well as the main issues of the recent event-based metrics – for instance, we show that an adversary algorithm can reach high precision and recall on almost any dataset under weak assumption. To cope with the above problems, we propose a theoretically grounded, robust, parameter-free and interpretable extension to precision/recall metrics, based on the concept of “affiliation” between the ground truth and the prediction sets. Our metrics leverage measures of duration between ground truth and predictions, and have thus an intuitive interpretation. By further comparison against random sampling, we obtain a normalized precision/recall, quantifying how much a given set of results is better than a random baseline prediction. By construction, our approach keeps the evaluation local regarding ground truth events, enabling fine-grained visualization and interpretation of algorithmic results. We compare our proposal against various public time series anomaly detection datasets, algorithms and metrics. We further derive theoretical properties of the affiliation metrics that give explicit expectations about their behavior and ensure robustness against adversary strategies.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="ComCom-22"></a>[ComCom-22]</strong></abbr>
+Houidi, Zied Ben and Rossi, Dario, 
+
+
+ 
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22comcom.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22comcom.pdf"> <em> "Neural language models for network configuration: Opportunities and reality check" </em></a>
+	    
+
+
+
+<em>
+
+	 In Elsevier Computer Communication, 	   
+	 Vol. (to appear), 	   
+		   
+		   
+
+</em>
+
+	  
+	   
+ 2022, 	   
+	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ComCom-22">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ComCom-22">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-ComCom-22" class="collapse"> <pre>@article{DR:ComCom-22,
+  title = {Neural language models for network configuration: Opportunities and reality check},
+  author = {Houidi, Zied Ben and Rossi, Dario},
+  year = {2022},
+  journal = {Elsevier Computer Communication},
+  volume = {(to appear)},
+  howpublished = {https://nonsns.github.io/paper/rossi22comcom.pdf},
+  topic = {ai-native}
+}
+</pre>  </div>
+<div id="Abstract-ComCom-22" class="collapse well"> Boosted by deep learning, natural language processing (NLP) techniques have recently seen spectacular progress, mainly fueled by breakthroughs both in representation learning with word embeddings (e.g. word2vec) as well as novel architectures (e.g. transformers).This success quickly invited researchers to explore the use of NLP techniques to other field, such as computer programming languages, with the promise to automate tasks in software programming (bug detection, code synthesis, code repair, cross language translation etc.). By extension, NLP has potential for application to network configuration languages as well, for instance considering tasks such as network configuration verification, synthesis, and cross-vendor translation. In this paper, we survey recent advances in deep learning applied to programming languages, for the purpose of code verification, synthesis and translation: in particularly, we review their training requirements and expected performance, and qualitatively assess whether similar techniques can benefit corresponding use-cases in networking.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -897,16 +1123,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Houidi, Zied and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21conext-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21conext-b.pdf"> <emph> DarkVec: Automatic Analysis of Darknet Traffic with Word Embeddings </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21conext-a.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21conext-a.pdf"> <em> "DarkVec: Automatic Analysis of Darknet Traffic with Word Embeddings" </em></a>
+	    
+
+
+
+<em>
+
 	   ACM CoNEXT 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -914,23 +1144,28 @@ Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Ho
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CoNEXT-21a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-CoNEXT-21a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CoNEXT-21a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CoNEXT-21a">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-CoNEXT-21a" class="collapse well"> Darknets are passive probes listening to traffic reaching IP addresses that host no services. Traffic reaching them is unsolicited by nature and often induced by scanners, malicious senders and misconfigured hosts. Its peculiar nature makes it a valuable source of information to learn about malicious activities. However, the massive amount of packets and sources that reach darknets makes it hard to extract meaningful insights. In particular, multiple senders contact the darknet while performing similar and coordinated tasks, which are often commanded by common controllers (botnets, crawlers, etc.). How to automatically identify and group those senders that share similar behaviors remains an open problem. We here introduce DarkVec, a methodology to identify clusters of senders (i.e., IP addresses) engaged in similar activities on darknets. DarkVec leverages word embedding techniques (e.g., Word2Vec) to capture the co-occurrence patterns of sources hitting the darknets. We extensively test DarkVec and explore its design space in a case study using one month of darknet data. We show that with a proper definition of service, the generated embeddings can be easily used to (i) associate unknown senders’ IP addresses to the correct known labels (more than 96% accuracy), and (ii) identify new attack and scan groups of previously unknown senders. We contribute DarkVec source code and datasets to the community also to stimulate the use of word embeddings to automatically learn patterns on generic traffic traces  </div>
 <div id="BibTeX-CoNEXT-21a" class="collapse"> <pre>@inproceedings{DR:CoNEXT-21a,
   author = {Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Houidi, Zied and Rossi, Dario},
   title = {DarkVec: Automatic Analysis of Darknet Traffic with Word Embeddings},
@@ -938,11 +1173,13 @@ Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Ho
   year = {2021},
   month = dec,
   partner = {polito-mellia},
-  howpublished = {https://nonsns.github.io/paper/rossi21conext-b.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi21conext-a.pdf}
 }
 </pre>  </div>
+<div id="Abstract-CoNEXT-21a" class="collapse well"> Darknets are passive probes listening to traffic reaching IP addresses that host no services. Traffic reaching them is unsolicited by nature and often induced by scanners, malicious senders and misconfigured hosts. Its peculiar nature makes it a valuable source of information to learn about malicious activities. However, the massive amount of packets and sources that reach darknets makes it hard to extract meaningful insights. In particular, multiple senders contact the darknet while performing similar and coordinated tasks, which are often commanded by common controllers (botnets, crawlers, etc.). How to automatically identify and group those senders that share similar behaviors remains an open problem. We here introduce DarkVec, a methodology to identify clusters of senders (i.e., IP addresses) engaged in similar activities on darknets. DarkVec leverages word embedding techniques (e.g., Word2Vec) to capture the co-occurrence patterns of sources hitting the darknets. We extensively test DarkVec and explore its design space in a case study using one month of darknet data. We show that with a proper definition of service, the generated embeddings can be easily used to (i) associate unknown senders’ IP addresses to the correct known labels (more than 96% accuracy), and (ii) identify new attack and scan groups of previously unknown senders. We contribute DarkVec source code and datasets to the community also to stimulate the use of word embeddings to automatically learn patterns on generic traffic traces  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -951,16 +1188,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21conext-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21conext-b.pdf"> <emph> Towards a Generic Deep Learning Pipeline for Traffic Measurements </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21conext-b.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21conext-b.pdf"> <em> "Towards a Generic Deep Learning Pipeline for Traffic Measurements" </em></a>
+	    
+
+
+
+<em>
+
 	   ACM CoNEXT, Student Workshop 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -968,8 +1209,10 @@ Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Mauri
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -978,11 +1221,14 @@ Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Mauri
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CoNEXT-21b">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-CoNEXT-21b" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CoNEXT-21b">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-CoNEXT-21b" class="collapse"> <pre>@inproceedings{DR:CoNEXT-21b,
   author = {Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Maurizio and Michiardi, Pietro and Rossi, Dario},
   title = {Towards a Generic Deep Learning Pipeline for Traffic Measurements},
@@ -992,8 +1238,10 @@ Azorin, Raphael and Gallo, Massimo and Finamore, Alessandro and Filippone, Mauri
   howpublished = {https://nonsns.github.io/paper/rossi21conext-b.pdf}
 }
 </pre>  </div>
+<div id="Abstract-CoNEXT-21b" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1002,16 +1250,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21sec.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21sec.pdf"> <emph> FENXI: Fast In-Network Analytics </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21sec.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21sec.pdf"> <em> "FENXI: Fast In-Network Analytics" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE/ACM Symposium on Edge Computing (SEC) 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -1019,23 +1271,28 @@ Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario,
 	   
 
 
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="http://arxiv.org/abs/2105.11738"> arXiv <i class="fa fa-external-link"></i></a> </span>  	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-SEC-21">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-SEC-21">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-SEC-21">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-SEC-21">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-SEC-21" class="collapse well"> Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototype FENXI on a general-purpose server and evaluate its performance in both adversarial and realistic network conditions. Our evaluation shows that FENXI is able to offer DL processing to 100 Gbps linecards with a limited number of resources, while also dynamically adapting to network conditions.  </div>
 <div id="BibTeX-SEC-21" class="collapse"> <pre>@inproceedings{DR:SEC-21,
   author = {Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario},
   title = {{FENXI}: Fast In-Network Analytics},
@@ -1047,8 +1304,10 @@ Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario,
   arxiv = {http://arxiv.org/abs/2105.11738}
 }
 </pre>  </div>
+<div id="Abstract-SEC-21" class="collapse well"> Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototype FENXI on a general-purpose server and evaluate its performance in both adversarial and realistic network conditions. Our evaluation shows that FENXI is able to offer DL processing to 100 Gbps linecards with a limited number of resources, while also dynamically adapting to network conditions.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1057,19 +1316,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Yang, Lixuan and Finamore, Alessandro and Feng, Jun and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"> <emph> Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"> <em> "Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset" </em></a>
+	    
+
+
+
+<em>
+
 	 In IEEE Transactions on Network and Service Management, 	   
 	 Vol. 18, 	   
 	 No. 4, 	   
 	 pp.4103–4118, 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -1077,23 +1340,28 @@ Yang, Lixuan and Finamore, Alessandro and Feng, Jun and Rossi, Dario,
  DOI 10.1109/TNSM.2021.3122940 	   
 
 
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="https://arxiv.org/abs/2104.03182"> arXiv <i class="fa fa-external-link"></i></a> </span>  	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-21b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-21b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-21b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-21b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TNSM-21b" class="collapse well"> The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While supervised techniques provide satisfactory performance when classifying known traffic, the detection of zero-day (i.e., unknown) traffic is a more challenging task. At the same time, zero-day detection, generally tackled with unsupervised techniques such as clustering, received less coverage by the traffic classification literature which focuses more on deriving DL models via supervised techniques. Moreover, the combination of supervised and unsupervised techniques poses challenges not fully covered by the traffic classification literature. In this paper, we share our experience on a commercial-grade DL traffic classification engine that combines supervised and unsupervised techniques to identify known and zero-day traffic. In particular, we rely on a dataset with hundreds of very fine grained application labels, and perform a thorough assessment of two state of the art traffic classifiers in commercial-grade settings. This pushes the boundaries of traffic classifiers evaluation beyond the few tens of classes typically used in the literature. Our main contribution is the design and evaluation of GradBP, a novel technique for zero-day applications detection. Based on gradient backpropagation and tailored for DL models, GradBP yields superior performance with respect to state of the art alternatives, in both accuracy and computational cost. Overall, while ML and DL models are both equally able to provide excellent performance for the classification of known traffic, the non-linear feature extraction process of DL models backbone provides sizable advantages for the detection of unknown classes over classical ML models  </div>
 <div id="BibTeX-TNSM-21b" class="collapse"> <pre>@article{DR:TNSM-21b,
   author = {{Yang}, Lixuan and {Finamore}, Alessandro and {Feng}, Jun and {Rossi}, Dario},
   title = {Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset},
@@ -1109,8 +1377,10 @@ Yang, Lixuan and Finamore, Alessandro and Feng, Jun and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi21tnsm-b.pdf}
 }
 </pre>  </div>
+<div id="Abstract-TNSM-21b" class="collapse well"> The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While supervised techniques provide satisfactory performance when classifying known traffic, the detection of zero-day (i.e., unknown) traffic is a more challenging task. At the same time, zero-day detection, generally tackled with unsupervised techniques such as clustering, received less coverage by the traffic classification literature which focuses more on deriving DL models via supervised techniques. Moreover, the combination of supervised and unsupervised techniques poses challenges not fully covered by the traffic classification literature. In this paper, we share our experience on a commercial-grade DL traffic classification engine that combines supervised and unsupervised techniques to identify known and zero-day traffic. In particular, we rely on a dataset with hundreds of very fine grained application labels, and perform a thorough assessment of two state of the art traffic classifiers in commercial-grade settings. This pushes the boundaries of traffic classifiers evaluation beyond the few tens of classes typically used in the literature. Our main contribution is the design and evaluation of GradBP, a novel technique for zero-day applications detection. Based on gradient backpropagation and tailored for DL models, GradBP yields superior performance with respect to state of the art alternatives, in both accuracy and computational cost. Overall, while ML and DL models are both equally able to provide excellent performance for the classification of known traffic, the non-linear feature extraction process of DL models backbone provides sizable advantages for the detection of unknown classes over classical ML models  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1119,16 +1389,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Bovenzi, Giampaolo and Yang, Lixuan and Finamore, Alessandro and Aceto, Giuseppe and Ciuonzo, Domenico and Pescape, Antonio and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tma.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21tma.pdf"> <emph> A First Look at Class Incremental Learning in Deep Learning Mobile Traffic </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tma.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21tma.pdf"> <em> "A First Look at Class Incremental Learning in Deep Learning Mobile Traffic" </em></a>
+	    
+
+
+
+<em>
+
 	   IFIP Traffic Monitoring and Analysis (TMA) 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -1136,23 +1410,28 @@ Bovenzi, Giampaolo and Yang, Lixuan and Finamore, Alessandro and Aceto, Giuseppe
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#TMA-21">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#TMA-21">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#TMA-21">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#TMA-21">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="TMA-21" class="collapse well"> The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications’ traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model’s updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand if there is a case for incremental learning in traffic classification. By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl+. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.  </div>
 <div id="TMA-21" class="collapse"> <pre>@inproceedings{TMA-21,
   author = {Bovenzi, Giampaolo and Yang, Lixuan and Finamore, Alessandro and Aceto, Giuseppe and Ciuonzo, Domenico and Pescape, Antonio and Rossi, Dario},
   title = {A First Look at Class Incremental Learning in Deep Learning Mobile Traffic},
@@ -1162,8 +1441,10 @@ Bovenzi, Giampaolo and Yang, Lixuan and Finamore, Alessandro and Aceto, Giuseppe
   howpublished = {https://nonsns.github.io/paper/rossi21tma.pdf}
 }
 </pre>  </div>
+<div id="TMA-21" class="collapse well"> The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications’ traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model’s updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand if there is a case for incremental learning in traffic classification. By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl+. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1172,13 +1453,14 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
-		<a href=""> <emph> Root cause analysis of anomalous events in a computer network </emph></a>
-    	
-	
+ 
+ 
+		<i class="fa fa-certificate"></i> <em> "Root cause analysis of anomalous events in a computer network" </em>,   
 
-<emph></emph>
+
+
+<em>
+</em>
 
 	  
  sep. 	   
@@ -1186,8 +1468,10 @@ Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
+
+	<span class="badge badge-pill btn-danger" style="width: 100px">Patent</span>
 
  
 
@@ -1196,11 +1480,14 @@ Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-PCT/EP2021/074381">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-PATENT-PCT/EP2021/074381" class="collapse well">   </div>
+	 
+		<!-- nobody would cite my patents from here, anyway -->
+	
+
+
 <div id="BibTeX-PATENT-PCT/EP2021/074381" class="collapse"> <pre>@misc{DR:PATENT-PCT/EP2021/074381,
   author = {Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario},
   title = {Root cause analysis of anomalous events in a computer network},
@@ -1209,8 +1496,10 @@ Huet, Alexis and Navarro, Jose Manuel and Rossi, Dario,
   howpublished = {}
 }
 </pre>  </div>
+<div id="Abstract-PATENT-PCT/EP2021/074381" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1219,16 +1508,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Navarro, Jose Manuel and Huet, Alexis and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://arxiv.org/abs/2108.11807"></i> 
-		<a href="https://arxiv.org/abs/2108.11807"> <emph> Human readable network troubleshooting based on anomaly detection and feature scoring </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://arxiv.org/abs/2108.11807"></i> 
+			<a href="https://arxiv.org/abs/2108.11807"> <em> "Human readable network troubleshooting based on anomaly detection and feature scoring" </em></a>
+	    
+
+
+
+<em>
+
 		   
 	
-</emph>
+</em>
 
 	  
  aug. 	   
@@ -1236,23 +1529,27 @@ Navarro, Jose Manuel and Huet, Alexis and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
 
+	<span class="badge badge-pill btn-primary" style="width: 100px">Tech.Rep.</span>
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TECHREP-21-AD">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TECHREP-21-AD">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TECHREP-21-AD">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TECHREP-21-AD">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TECHREP-21-AD" class="collapse well"> Network troubleshooting is still a heavily human-intensive process. To reduce the time spent by human operators in the diagnosis process, we present a system based on (i) unsupervised learning methods for detecting anomalies in the time domain, (ii) an attention mechanism to rank features in the feature space and finally (iii) an expert knowledge module able to seamlessly incorporate previously collected domain-knowledge. In this paper, we thoroughly evaluate the performance of the full system and of its individual building blocks: particularly, we consider (i) 10 anomaly detection algorithms as well as (ii) 10 attention mechanisms, that comprehensively represent the current state of the art in the respective fields. Leveraging a unique collection of expert-labeled datasets worth several months of real router telemetry data, we perform a thorough performance evaluation contrasting practical results in constrained stream-mode settings, with the results achievable by an ideal oracle in academic settings. Our experimental evaluation shows that (i) the proposed system is effective in achieving high levels of agreement with the expert, and (ii) that even a simple statistical approach is able to extract useful information from expert knowledge gained in past cases, significantly improving troubleshooting performance.  </div>
 <div id="BibTeX-TECHREP-21-AD" class="collapse"> <pre>@techreport{DR:TECHREP-21-AD,
   title = {Human readable network troubleshooting based on anomaly detection and feature scoring},
   author = {Navarro, Jose Manuel and Huet, Alexis and Rossi, Dario},
@@ -1262,8 +1559,10 @@ Navarro, Jose Manuel and Huet, Alexis and Rossi, Dario,
   howpublished = {https://arxiv.org/abs/2108.11807}
 }
 </pre>  </div>
+<div id="Abstract-TECHREP-21-AD" class="collapse well"> Network troubleshooting is still a heavily human-intensive process. To reduce the time spent by human operators in the diagnosis process, we present a system based on (i) unsupervised learning methods for detecting anomalies in the time domain, (ii) an attention mechanism to rank features in the feature space and finally (iii) an expert knowledge module able to seamlessly incorporate previously collected domain-knowledge. In this paper, we thoroughly evaluate the performance of the full system and of its individual building blocks: particularly, we consider (i) 10 anomaly detection algorithms as well as (ii) 10 attention mechanisms, that comprehensively represent the current state of the art in the respective fields. Leveraging a unique collection of expert-labeled datasets worth several months of real router telemetry data, we perform a thorough performance evaluation contrasting practical results in constrained stream-mode settings, with the results achievable by an ideal oracle in academic settings. Our experimental evaluation shows that (i) the proposed system is effective in achieving high levels of agreement with the expert, and (ii) that even a simple statistical approach is able to extract useful information from expert knowledge gained in past cases, significantly improving troubleshooting performance.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1272,16 +1571,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Ben Houidi, Zied and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21networking.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21networking.pdf"> <emph> Real-Time Channel Management in WLANs: Deep Reinforcement Learning Versus Heuristics </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21networking.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21networking.pdf"> <em> "Real-Time Channel Management in WLANs: Deep Reinforcement Learning Versus Heuristics" </em></a>
+	    
+
+
+
+<em>
+
 	   IFIP Networking 	   
 
-</emph>
+</em>
 
 	  
  jun. 	   
@@ -1289,23 +1592,28 @@ Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Ben Houidi, Zied and Rossi, Dari
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-21">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-21">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-21">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-21">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-NETWORKING-21" class="collapse well"> Today’s WLANs rely on a centralized Access Controller (AC) entity for managing distributed wireless Access Points (APs) to which user devices connect. The availability of real-time analytics at the AC opens the possibility to automate the allocation of scarce radio resources, continuously adapting to changes in traffic demands. Often, the allocation problem is formulated in terms of weighted graph coloring, which is NP-hard, and custom heuristics are used to find satisfactory solutions. In this paper, we contrast solutions that are based on (and even improve) state of the art heuristics to a data-driven solution that leverages Deep Reinforcement Learning (DRL). Based on both simulation results as well as experiments in a real deployment, we show that our DRL-based scheme not only learns to solve the complex combinatorial problem in bounded time, outperforming heuristics, but it also exhibits appealing generalization properties, e.g. to different network sizes and densities.  </div>
 <div id="BibTeX-NETWORKING-21" class="collapse"> <pre>@inproceedings{DR:NETWORKING-21,
   author = {Iacoboaiea, Ovidiu and Krolikowski, Jonatan and {Ben Houidi}, Zied and Rossi, Dario},
   title = {{Real-Time} Channel Management in {WLANs:} Deep Reinforcement Learning Versus Heuristics},
@@ -1317,8 +1625,10 @@ Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Ben Houidi, Zied and Rossi, Dari
   topic = {wlan-drl}
 }
 </pre>  </div>
+<div id="Abstract-NETWORKING-21" class="collapse well"> Today’s WLANs rely on a centralized Access Controller (AC) entity for managing distributed wireless Access Points (APs) to which user devices connect. The availability of real-time analytics at the AC opens the possibility to automate the allocation of scarce radio resources, continuously adapting to changes in traffic demands. Often, the allocation problem is formulated in terms of weighted graph coloring, which is NP-hard, and custom heuristics are used to find satisfactory solutions. In this paper, we contrast solutions that are based on (and even improve) state of the art heuristics to a data-driven solution that leverages Deep Reinforcement Learning (DRL). Based on both simulation results as well as experiments in a real deployment, we show that our DRL-based scheme not only learns to solve the complex combinatorial problem in bounded time, outperforming heuristics, but it also exhibits appealing generalization properties, e.g. to different network sizes and densities.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1327,16 +1637,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Yang, Lixuan and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21icml-udl.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21icml-udl.pdf"> <emph> Thinkback: Task Specific Out-of-Distribution Detection </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21icml-udl.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21icml-udl.pdf"> <em> "Thinkback: Task Specific Out-of-Distribution Detection" </em></a>
+	    
+
+
+
+<em>
+
 	   International Conference on Machine Learning (ICML) workshop on Uncertainty and Robustness in Deep Learning (UDL) 2021 	   
 
-</emph>
+</em>
 
 	  
  jun. 	   
@@ -1344,23 +1658,28 @@ Yang, Lixuan and Rossi, Dario,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ICML-UDL-21">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ICML-UDL-21">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ICML-UDL-21">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ICML-UDL-21">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ICML-UDL-21" class="collapse well"> The increased success of Deep Learning (DL) has recently sparked large-scale deployment of DL models in many diverse industry segments. Yet, a crucial weakness of supervised model is the inherent difficulty in handling out-of-distribution samples, i.e., samples belonging to classes that were not presented to the model at training time. We propose in this paper a novel way to formulate the out-of-distribution detection problem, tailored for DL models. Our method does not require fine tuning process on training data, yet is significantly more accurate than the state of the art for out-ofdistribution detection.  </div>
 <div id="BibTeX-ICML-UDL-21" class="collapse"> <pre>@inproceedings{DR:ICML-UDL-21,
   author = {{Yang}, Lixuan and {Rossi}, Dario},
   title = {Thinkback: Task Specific Out-of-Distribution Detection},
@@ -1371,8 +1690,10 @@ Yang, Lixuan and Rossi, Dario,
   howpublished = {https://nonsns.github.io/paper/rossi21icml-udl.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ICML-UDL-21" class="collapse well"> The increased success of Deep Learning (DL) has recently sparked large-scale deployment of DL models in many diverse industry segments. Yet, a crucial weakness of supervised model is the inherent difficulty in handling out-of-distribution samples, i.e., samples belonging to classes that were not presented to the model at training time. We propose in this paper a novel way to formulate the out-of-distribution detection problem, tailored for DL models. Our method does not require fine tuning process on training data, yet is significantly more accurate than the state of the art for out-ofdistribution detection.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1381,16 +1702,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Krolikowski, Jonatan and Iacoboaiea, Ovidiu and Houidi, Zied Ben and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21infocom.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21infocom.pdf"> <emph> WiFi Dynoscope: Interpretable Real-Time WLAN Optimization </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21infocom.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21infocom.pdf"> <em> "WiFi Dynoscope: Interpretable Real-Time WLAN Optimization" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE INFOCOM, Demo session 	   
 
-</emph>
+</em>
 
 	  
  may. 	   
@@ -1398,23 +1723,28 @@ Krolikowski, Jonatan and Iacoboaiea, Ovidiu and Houidi, Zied Ben and Rossi, Dari
  DOI  	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-21">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-INFOCOM-21">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-21">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-INFOCOM-21">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-INFOCOM-21" class="collapse well"> Today’s Wireless Local Area Networks (WLANs) rely on a centralized Access Controller (AC) entity for managing a fleet of Access Points (APs). Real-time analytics enable the AC to optimize the radio resource allocation (i.e. channels) on-line in response to sudden traffic shifts. Deep Reinforcement Learning (DRL) relieves the pressure of finding good optimization heuristics by learning a policy through interactions with the environment. However, it is not granted that DRL will behave well in unseen conditions. Tools such as the WiFi Dynoscope introduced here are necessary to gain this trust. In a nutshell, this demo dissects the dynamics of WLAN networks, both simulated and from real large-scale deployments, by (i) comparatively analyzing the performance of different algorithms on the same deployment at high level and (ii) getting low-level details and insights into algorithmic behaviour.  </div>
 <div id="BibTeX-INFOCOM-21" class="collapse"> <pre>@inproceedings{DR:INFOCOM-21,
   author = {Krolikowski, Jonatan and Iacoboaiea, Ovidiu and Houidi, Zied Ben and Rossi, Dario},
   title = {WiFi Dynoscope: Interpretable Real-Time WLAN Optimization},
@@ -1427,8 +1757,10 @@ Krolikowski, Jonatan and Iacoboaiea, Ovidiu and Houidi, Zied Ben and Rossi, Dari
   howpublished = {https://nonsns.github.io/paper/rossi21infocom.pdf}
 }
 </pre>  </div>
+<div id="Abstract-INFOCOM-21" class="collapse well"> Today’s Wireless Local Area Networks (WLANs) rely on a centralized Access Controller (AC) entity for managing a fleet of Access Points (APs). Real-time analytics enable the AC to optimize the radio resource allocation (i.e. channels) on-line in response to sudden traffic shifts. Deep Reinforcement Learning (DRL) relieves the pressure of finding good optimization heuristics by learning a policy through interactions with the environment. However, it is not granted that DRL will behave well in unseen conditions. Tools such as the WiFi Dynoscope introduced here are necessary to gain this trust. In a nutshell, this demo dissects the dynamics of WLAN networks, both simulated and from real large-scale deployments, by (i) comparatively analyzing the performance of different algorithms on the same deployment at high level and (ii) getting low-level details and insights into algorithmic behaviour.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1437,16 +1769,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Houidi, Zied Ben and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf"> <emph> The long and winding road to Deep Autonomous Networks: Lessons from real WLAN deployment </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf"> <em> "The long and winding road to Deep Autonomous Networks: Lessons from real WLAN deployment" </em></a>
+	    
+
+
+
+<em>
+
 		   
 	
-</emph>
+</em>
 
 	  
  apr. 	   
@@ -1454,23 +1790,27 @@ Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Houidi, Zied Ben and Rossi, Dari
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-primary" style="width: 80px">tech.rep.</span>
 
+	<span class="badge badge-pill btn-primary" style="width: 100px">Tech.Rep.</span>
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TECHREP-21-DRL">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TECHREP-21-DRL">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TECHREP-21-DRL">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TECHREP-21-DRL">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TECHREP-21-DRL" class="collapse well"> Deep Reinforcement Learning (DRL) techniques have recently gathered much attention for their ability to learn taking complex decisions in different fields: as such, they are an appealing candidate for network Operation and Management (O&amp;M). In particular, DRL can become a fundamental item in the toolbox of the so called “self-driving networks”, especially for tasks such as dynamic resource allocation, that is generally formulated and solved as complex optimization problems. Yet, training and deployment of DRL agents in real-world scenarios face important challenges, that we illustrate in this article using Wireless LANs as a relevant deployment example.  </div>
 <div id="BibTeX-TECHREP-21-DRL" class="collapse"> <pre>@techreport{DR:TECHREP-21-DRL,
   author = {Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Houidi, Zied Ben and Rossi, Dario},
   title = {The long and winding road to Deep Autonomous Networks: Lessons from real WLAN deployment},
@@ -1480,8 +1820,10 @@ Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Houidi, Zied Ben and Rossi, Dari
   howpublished = {https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf}
 }
 </pre>  </div>
+<div id="Abstract-TECHREP-21-DRL" class="collapse well"> Deep Reinforcement Learning (DRL) techniques have recently gathered much attention for their ability to learn taking complex decisions in different fields: as such, they are an appealing candidate for network Operation and Management (O&amp;M). In particular, DRL can become a fundamental item in the toolbox of the so called “self-driving networks”, especially for tasks such as dynamic resource allocation, that is generally formulated and solved as complex optimization problems. Yet, training and deployment of DRL agents in real-world scenarios face important challenges, that we illustrate in this article using Wireless LANs as a relevant deployment example.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -1490,19 +1832,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Huet, Alexis and Saverimoutou, Antoine and Houidi, Zied Ben and Shi, Hao and Cai, Shengming and Xu, Jinchun and Mathieu, Bertrand and Rossi, Dario, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tnsm-a.pdf"></i> 
-		<a href="https://nonsns.github.io/paper/rossi21tnsm-a.pdf"> <emph> Deployable models for approximating web QoE metrics from encrypted traffic </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tnsm-a.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21tnsm-a.pdf"> <em> "Deployable models for approximating web QoE metrics from encrypted traffic" </em></a>
+	    
+
+
+
+<em>
+
 	 In IEEE Transactions on Network and Service Management, 	   
 		   
 		   
 	 pp.839-854, 	   
 
-</emph>
+</em>
 
 	  
  mar. 	   
@@ -1510,23 +1856,28 @@ Huet, Alexis and Saverimoutou, Antoine and Houidi, Zied Ben and Shi, Hao and Cai
  DOI 10.1109/TNSM.2020.3037019 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-21a">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-21a">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-21a">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-21a">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TNSM-21a" class="collapse well"> Being on endpoints, Content Providers can easily evaluate end users’ web browsing quality of experience (web QoE) by accessing in-browser computed application-level metrics. Because of end-to-end traffic encryption, it is becoming considerably harder for Internet Service Providers (ISPs) to evaluate the web QoE of their customers, which is important for management purposes. In this paper, we propose data-driven machine learning techniques and exact flow-level algorithmic methods to infer well-known application-level web performance metrics (such as SpeedIndex and Page Load Time) from raw encrypted streams of network traffic. We prove the efficiency of our approach taking as input a unique dataset of more than 200,000 experiments, targeting a large set of popular pages (Alexa top-500), from probes from several ISPs networks, with different browsers (Chrome, Firefox) and viewport combinations. Results show that our data-driven models are not only accurate for several web performance metrics, but also feature the ability to generalize to previously unseen conditions. Furthermore, we discuss how our extremely lightweight flow-level method has a provable accuracy on a specific metric, and is thus of particular appeal from a deployment viewpoint  </div>
 <div id="BibTeX-TNSM-21a" class="collapse"> <pre>@article{DR:TNSM-21a,
   title = {Deployable models for approximating web QoE metrics from encrypted traffic},
   author = {Huet, Alexis and Saverimoutou, Antoine and Houidi, Zied Ben and Shi, Hao and Cai, Shengming and Xu, Jinchun and Mathieu, Bertrand and Rossi, Dario},
@@ -1541,99 +1892,7 @@ Huet, Alexis and Saverimoutou, Antoine and Houidi, Zied Ben and Shi, Hao and Cai
   topic = {qoe-web}
 }
 </pre>  </div>
-</li>
-<li><!--
-v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
--->
-
-
-<abbr><strong><a name="PATENT-PCT/EP2021/050902"></a>[PATENT-PCT/EP2021/050902]</strong></abbr>
-Finamore, Alessandro and Gallo, Massimo and Simon, Gwendal and Rossi, Dario, 
-
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
-		<a href=""> <emph> Controller For A Cache And Method For Controlling A Cache </emph></a>
-    	
-	
-
-<emph></emph>
-
-	  
- jan. 	   
- 2021, 	   
-	   
-
-
-
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-PCT/EP2021/050902">Bibtex<span class="caret"></span></button>
-
-
-
-<div id="Abstract-PATENT-PCT/EP2021/050902" class="collapse well">   </div>
-<div id="BibTeX-PATENT-PCT/EP2021/050902" class="collapse"> <pre>@misc{DR:PATENT-PCT/EP2021/050902,
-  author = {Finamore, Alessandro and Gallo, Massimo and Simon, Gwendal and Rossi, Dario},
-  title = {Controller For A Cache And Method For Controlling A Cache},
-  month = jan,
-  year = {2021},
-  howpublished = {}
-}
-</pre>  </div>
-</li>
-<li><!--
-v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
--->
-
-
-<abbr><strong><a name="PATENT-PCT/EP2021/076753"></a>[PATENT-PCT/EP2021/076753]</strong></abbr>
-Houidi, Zied Ben and and Dario Rossi and del Sordo, Lorenzo and Milan, Giulia and Vassio, Luca and Mellia, Marco and Drago, Idilio, 
-
-
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href=""></i> 
-		<a href=""> <emph> Honeypot entity and method of operating the same </emph></a>
-    	
-	
-
-<emph></emph>
-
-	  
-	   
- 2021, 	   
-	   
-
-
-
-	<span class="badge badge-pill btn-danger" style="width: 80px">patent</span>
-
- 
-
-	   
-
-
-
-
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-PATENT-PCT/EP2021/076753">Bibtex<span class="caret"></span></button>
-
-
-
-<div id="Abstract-PATENT-PCT/EP2021/076753" class="collapse well">   </div>
-<div id="BibTeX-PATENT-PCT/EP2021/076753" class="collapse"> <pre>@misc{DR:PATENT-PCT/EP2021/076753,
-  author = {Houidi, Zied Ben and and Dario Rossi and del Sordo, Lorenzo and Milan, Giulia and Vassio, Luca and Mellia, Marco and Drago, Idilio},
-  title = {Honeypot entity and method of operating the same},
-  year = {2021},
-  howpublished = {}
-}
-</pre>  </div>
+<div id="Abstract-TNSM-21a" class="collapse well"> Being on endpoints, Content Providers can easily evaluate end users’ web browsing quality of experience (web QoE) by accessing in-browser computed application-level metrics. Because of end-to-end traffic encryption, it is becoming considerably harder for Internet Service Providers (ISPs) to evaluate the web QoE of their customers, which is important for management purposes. In this paper, we propose data-driven machine learning techniques and exact flow-level algorithmic methods to infer well-known application-level web performance metrics (such as SpeedIndex and Page Load Time) from raw encrypted streams of network traffic. We prove the efficiency of our approach taking as input a unique dataset of more than 200,000 experiments, targeting a large set of popular pages (Alexa top-500), from probes from several ISPs networks, with different browsers (Chrome, Firefox) and viewport combinations. Results show that our data-driven models are not only accurate for several web performance metrics, but also feature the ability to generalize to previously unseen conditions. Furthermore, we discuss how our extremely lightweight flow-level method has a provable accuracy on a specific metric, and is thus of particular appeal from a deployment viewpoint  </div>
 </li></ul>
 
 

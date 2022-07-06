@@ -29,12 +29,37 @@
 
     
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-    
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
 <!--
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
 -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+ 
 
 <style>
     body { padding-top: 70px; }
@@ -204,8 +229,6 @@
     
   
     
-  
-    
       
     
   
@@ -226,6 +249,10 @@
       	
       	<li><a href="/tags">Tags</a></li>
       	
+      
+    
+  
+    
       
     
   
@@ -491,7 +518,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/date/">By date</a>
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
                                   
                                 </li>
                             
@@ -499,7 +526,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/type/">By type</a>
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
                                   
                                 </li>
                             
@@ -507,7 +534,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/project/">By project</a>
+                                    <a href="https://nonsns.github.io/publications/project/"><i class='fa fa-cogs'></i> By project</a>
                                   
                                 </li>
                             
@@ -515,7 +542,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/award/">Award-winning</a>
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
                                   
                                 </li>
                             
@@ -523,7 +550,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/publications/recent/">Recent stuff</a>
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
                                   
                                 </li>
                             
@@ -531,7 +558,15 @@
                             
                                 <li>
                                   
-                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao">Google scholar</a>                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' width=16px> Google scholar</a>                                  
                                   
                                 </li>
                             
@@ -631,6 +666,7 @@ in [<a href="#TOMPECS-16">TOMPECS-16</a>]</li>
 <h2 id="references">References</h2>
 
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -639,16 +675,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi10lcn.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi10lcn.pdf"> <emph> A hands-on Assessment of Transport Protocols with Lower than Best Effort Priority </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi10lcn.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi10lcn.pdf"> <em> "A hands-on Assessment of Transport Protocols with Lower than Best Effort Priority" </em></a>
+	    
+
+
+
+<em>
+
 	   35th IEEE Conference on Local Computer Networks (LCN’10) 	   
 
-</emph>
+</em>
 
 	  
   oc. 	   
@@ -656,8 +696,10 @@ Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
@@ -666,11 +708,14 @@ Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C.,
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-LCN-10">Bibtex<span class="caret"></span></button>
 
 
 
-<div id="Abstract-LCN-10" class="collapse well">   </div>
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-LCN-10">Bibtex<span class="caret"></span></button>
+	
+
+
 <div id="BibTeX-LCN-10" class="collapse"> <pre>@inproceedings{DR:LCN-10,
   title = {A hands-on Assessment of Transport Protocols with Lower than Best Effort Priority},
   author = {Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C.},
@@ -685,8 +730,10 @@ Carofiglio, G. and Muscariello, L. and Rossi, D. and Testa, C.,
   www_txt_url = {http://www.enst.fr/~drossi/paper/rossi10lcn.pdf}
 }
 </pre>  </div>
+<div id="Abstract-LCN-10" class="collapse well">   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -695,17 +742,21 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 , 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi12conext.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi12conext.pdf"> <emph> Interaction or Interference: can AQM and Low Priority
-Congestion Control Successfully Collaborate </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi12conext.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi12conext.pdf"> <em> "Interaction or Interference: can AQM and Low Priority
+Congestion Control Successfully Collaborate" </em></a>
+	    
+
+
+
+<em>
+
 	   ACM CoNEXT’12 Student Workshop 	   
 
-</emph>
+</em>
 
 	  
  dec. 	   
@@ -713,24 +764,28 @@ Congestion Control Successfully Collaborate </emph></a>
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-CONEXT-12">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-CONEXT-12">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-CONEXT-12">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CONEXT-12">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-CONEXT-12" class="collapse well"> Heterogeneity in the Internet ecosystem sometimes turns interaction into interference. Over the years, active queue management (AQM) and end-to-end low-priority congestion control (LPCC) have been proposed as alternative solutions to counter the persistently full buffer problem – that recently became popular under the "bufferbloat" term.
-In this work, we point out the existence of a negative interplay among AQM and LPCC techniques. Intuitively, as AQM is designed to penalize the most aggressive flows it mainly hit best effort TCP: it follows that LPCC is not able to maintain its low priority, thus becoming as aggressive as TCP. By an extended set of simulation on various AQM policies and LPCC protocols, including the very recent CoDel AQM and LEDBAT LPCC proposals, we point out that this interference is quite universal and deserves further attention.   </div>
 <div id="BibTeX-CONEXT-12" class="collapse"> <pre>@inproceedings{DR:CONEXT-12,
   title = {Interaction or Interference: can AQM and Low Priority
   Congestion Control Successfully Collaborate},
@@ -746,8 +801,11 @@ In this work, we point out the existence of a negative interplay among AQM and L
   www_txt_url = {http://www.enst.fr/~drossi/paper/rossi12conext.pdf}
 }
 </pre>  </div>
+<div id="Abstract-CONEXT-12" class="collapse well"> Heterogeneity in the Internet ecosystem sometimes turns interaction into interference. Over the years, active queue management (AQM) and end-to-end low-priority congestion control (LPCC) have been proposed as alternative solutions to counter the persistently full buffer problem – that recently became popular under the "bufferbloat" term.
+In this work, we point out the existence of a negative interplay among AQM and LPCC techniques. Intuitively, as AQM is designed to penalize the most aggressive flows it mainly hit best effort TCP: it follows that LPCC is not able to maintain its low priority, thus becoming as aggressive as TCP. By an extended set of simulation on various AQM policies and LPCC protocols, including the very recent CoDel AQM and LEDBAT LPCC proposals, we point out that this interference is quite universal and deserves further attention.   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -756,16 +814,20 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Gong, Y. and Rossi, D. and Testa, C. and Valenti, S. and Taht, D., 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi13tma-b.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi13tma-b.pdf"> <emph> Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi13tma-b.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi13tma-b.pdf"> <em> "Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control" </em></a>
+	    
+
+
+
+<em>
+
 	   IEEE INFOCOM Workshop on Traffic Measurement and Analysis (TMA’13) 	   
 
-</emph>
+</em>
 
 	  
  apr. 	   
@@ -773,23 +835,28 @@ Gong, Y. and Rossi, D. and Testa, C. and Valenti, S. and Taht, D.,
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-13b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-13b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-13b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-13b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TMA-13b" class="collapse well"> Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth, for which the "bufferbloat" term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely (i) AQM resets the relative level of priority between best effort and low-priority congestion control protocols; (ii) while reprioritization generally equalizes the priority of LPCC and TCP, we also find that some AQM settings may actually lead best effort TCP to starvation. By an extended set of experiments conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for all tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.  </div>
 <div id="BibTeX-TMA-13b" class="collapse"> <pre>@inproceedings{DR:TMA-13b,
   author = {Gong, Y. and Rossi, D. and Testa, C. and Valenti, S. and Taht, D.},
   title = {Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control},
@@ -804,8 +871,10 @@ Gong, Y. and Rossi, D. and Testa, C. and Valenti, S. and Taht, D.,
   note = {keyword=ledbat,bufferbloat,mplane}
 }
 </pre>  </div>
+<div id="Abstract-TMA-13b" class="collapse well"> Nowadays, due to excessive queuing, delays on the Internet can grow longer than several round trips between the Moon and the Earth, for which the "bufferbloat" term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely (i) AQM resets the relative level of priority between best effort and low-priority congestion control protocols; (ii) while reprioritization generally equalizes the priority of LPCC and TCP, we also find that some AQM settings may actually lead best effort TCP to starvation. By an extended set of experiments conducted on both controlled testbeds and on the Internet, we show the problem to hold in the real world for all tested combination of AQM policies and LPCC protocols. To further validate the generality of our findings, we complement our experiments with packet-level simulation, to cover cases of other popular AQM and LPCC that are not available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -814,17 +883,21 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Gong, YiXi and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi13itc.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi13itc.pdf"> <emph> Modeling the interdependency of low-priority
-congestion control and active queue management </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi13itc.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi13itc.pdf"> <em> "Modeling the interdependency of low-priority
+congestion control and active queue management" </em></a>
+	    
+
+
+
+<em>
+
 	   The 25th International Teletraffic Congress (ITC25), Runner-up for Best Paper Award 	   
 
-</emph>
+</em>
 
  <i class="fa fa fa-star"></i> 	  
  sep. 	   
@@ -832,33 +905,30 @@ congestion control and active queue management </emph></a>
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-success" style="width: 80px">conference</span>
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
 
  
 
 
-	<span class="label badge-pill label-warning" style="width: 80px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
+	<span class="label badge-pill btn-warning" style="width: 100px"> <i class="fa fa fa-star"></i>Award<i class="fa fa fa-star"></i> </span>
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-ITC-13">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-ITC-13">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC-13">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-ITC-13">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-ITC-13" class="collapse well"> Recently, a negative interplay has been shown to
-arise when scheduling/AQM techniques and low-priority conges-
-tion control protocols are used together: namely, AQM resets
-the relative level of priority among congestion control protocols.
-This work explores this issue by (i) studying a fluid model that
-describes system dynamics of heterogeneous congestion control
-protocols competing on a bottleneck link governed by AQM and
-(ii) proposing a system level solution able to reinstate priorities
-among protocols.   </div>
 <div id="BibTeX-ITC-13" class="collapse"> <pre>@inproceedings{DR:ITC-13,
   title = {Modeling the interdependency of low-priority
   congestion control and active queue management},
@@ -873,8 +943,18 @@ among protocols.   </div>
   www_txt_url = {http://www.enst.fr/~drossi/paper/rossi13itc.pdf}
 }
 </pre>  </div>
+<div id="Abstract-ITC-13" class="collapse well"> Recently, a negative interplay has been shown to
+arise when scheduling/AQM techniques and low-priority conges-
+tion control protocols are used together: namely, AQM resets
+the relative level of priority among congestion control protocols.
+This work explores this issue by (i) studying a fluid model that
+describes system dynamics of heterogeneous congestion control
+protocols competing on a bottleneck link governed by AQM and
+(ii) proposing a system level solution able to reinstate priorities
+among protocols.   </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -883,19 +963,23 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 Gong, YiXi and Rossi, Dario and Testa, Claudio and Valenti, Silvio and Taht, Dave, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi14comnet-b.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi14comnet-b.pdf"> <emph> Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control (extended version) </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi14comnet-b.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi14comnet-b.pdf"> <em> "Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control (extended version)" </em></a>
+	    
+
+
+
+<em>
+
 	 In Computer Networks, 	   
 	 Vol. 65, 	   
 	 No. 0, 	   
 	 pp.255 – 267, 	   
 
-</emph>
+</em>
 
 	  
 	   
@@ -903,27 +987,28 @@ Gong, YiXi and Rossi, Dario and Testa, Claudio and Valenti, Silvio and Taht, Dav
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-14b">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-COMNET-14b">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-14b">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-COMNET-14b">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-COMNET-14b" class="collapse well"> Nowadays, due to excessive queuing, delays on the Internet can grow longer than  the round trip time between the Moon and the Earth – for which the “bufferbloa
-t” term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. 
-
-In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely, AQM resets the relative level of priority between best-effort and low-priority congestion control protocols. 
-We validate the generality of our findings by an extended set of experiments with packet-level ns2 simulation, considering 5 AQM techniques and 3 LPCC protocols, and carry on a thorough sensitivity analysis varying several parameters of the networking scenario. We complete the simulation via an experimental campaign conducted on both controlled testbeds and on the Internet, confirming the reprioritization issue to hold in the real world at least under all combination of AQM policies and LPCC protocols available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.  </div>
 <div id="BibTeX-COMNET-14b" class="collapse"> <pre>@article{DR:COMNET-14b,
   author = {Gong, YiXi and Rossi, Dario and Testa, Claudio and Valenti, Silvio and Taht, Dave},
   title = {{Fighting the bufferbloat: on the coexistence of AQM and low priority congestion control (extended version)}},
@@ -940,8 +1025,14 @@ We validate the generality of our findings by an extended set of experiments wit
   www_txt_url = {http://www.enst.fr/~drossi/paper/rossi14comnet-b.pdf}
 }
 </pre>  </div>
+<div id="Abstract-COMNET-14b" class="collapse well"> Nowadays, due to excessive queuing, delays on the Internet can grow longer than  the round trip time between the Moon and the Earth – for which the “bufferbloa
+t” term was recently coined. Some point to active queue management (AQM) as the solution. Others propose end-to-end low-priority congestion control techniques (LPCC). Under both approaches, promising advances have been made in recent times: notable examples are CoDel for AQM, and LEDBAT for LPCC. 
+
+In this paper, we warn of a potentially fateful interaction when AQM and LPCC techniques are combined: namely, AQM resets the relative level of priority between best-effort and low-priority congestion control protocols. 
+We validate the generality of our findings by an extended set of experiments with packet-level ns2 simulation, considering 5 AQM techniques and 3 LPCC protocols, and carry on a thorough sensitivity analysis varying several parameters of the networking scenario. We complete the simulation via an experimental campaign conducted on both controlled testbeds and on the Internet, confirming the reprioritization issue to hold in the real world at least under all combination of AQM policies and LPCC protocols available in the Linux kernel. To promote cross-comparison, we make our scripts and dataset available to the research community.  </div>
 </li>
 <li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
@@ -950,20 +1041,24 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 De Cicco, Luca and Gong, Yixi and Rossi, Dario and Leonardi, Emilio, 
 
 
-	
-		<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi16tompecs.pdf"></i> 
-		<a href="http://www.enst.fr/ drossi/paper/rossi16tompecs.pdf"> <emph> A control theoretic analysis of low-priority congestion control
-reprioritization under AQM </emph></a>
-    	
-	
+ 
 
-<emph>
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="http://www.enst.fr/ drossi/paper/rossi16tompecs.pdf"></i> 
+			<a href="http://www.enst.fr/ drossi/paper/rossi16tompecs.pdf"> <em> "A control theoretic analysis of low-priority congestion control
+reprioritization under AQM" </em></a>
+	    
+
+
+
+<em>
+
 	 In ACM Transactions on Modeling and Performance Evaluation of Computer Systems, 	   
 	 Vol. 1, 	   
 		   
 	 pp.17:1–17:33, 	   
 
-</emph>
+</em>
 
 	  
  sep. 	   
@@ -971,23 +1066,28 @@ reprioritization under AQM </emph></a>
 	   
 
 
+	
 
-	<span class="badge badge-pill btn-secondary" style="width: 80px">journal</span>
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
 
  
 
 	   
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#Abstract-TOMPECS-16">Abstract<span class="caret"></span></button>
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TOMPECS-16">Abstract<span class="caret"></span></button>
 
 
 
-<button class="btn badge btn-default disabled btn-xs" data-toggle="collapse" data-target="#BibTeX-TOMPECS-16">Bibtex<span class="caret"></span></button>
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TOMPECS-16">Bibtex<span class="caret"></span></button>
+	
 
 
-
-<div id="Abstract-TOMPECS-16" class="collapse well">  Recently, a negative interplay has been shown to arise when scheduling/Active Queue Management (AQM) techniques and low-priority congestion control protocols are used together; namely, AQM resets the relative level of priority among congestion control protocols. This work explores this issue by carrying out a control-theoretic analysis of the dynamical system to prove some fundamental properties that fully characterize the reprioritization phenomenon. In particular, (i) we provide the closed-form solution of the equilibrium in the open loop (i.e., fixing a target loss probability p); (ii) we provide a stability analysis and a characterization of the reprioritization phenomenon when closing the loop with AQM (i.e., that dynamically adjusts the system loss probability). Our results are important as the characterization of the reprioritization phenomenon is not only quantitatively accurate for the specific protocols and AQM considered but also qualitatively accurate for a broader range of congestion control protocol and AQM combinations. Finally, while we find a sufficient condition to avoid the reprioritization phenomenon, we also show, at the same time, such conditions to be likely impractical: Therefore, we propose a simple and practical system-level solution that is able to reinstate priorities among protocols.   </div>
 <div id="BibTeX-TOMPECS-16" class="collapse"> <pre>@article{DR:TOMPECS-16,
   title = {A control theoretic analysis of low-priority congestion control
   reprioritization under AQM},
@@ -1004,13 +1104,14 @@ reprioritization under AQM </emph></a>
   www_txt_url = {http://www.enst.fr/~drossi/paper/rossi16tompecs.pdf}
 }
 </pre>  </div>
+<div id="Abstract-TOMPECS-16" class="collapse well">  Recently, a negative interplay has been shown to arise when scheduling/Active Queue Management (AQM) techniques and low-priority congestion control protocols are used together; namely, AQM resets the relative level of priority among congestion control protocols. This work explores this issue by carrying out a control-theoretic analysis of the dynamical system to prove some fundamental properties that fully characterize the reprioritization phenomenon. In particular, (i) we provide the closed-form solution of the equilibrium in the open loop (i.e., fixing a target loss probability p); (ii) we provide a stability analysis and a characterization of the reprioritization phenomenon when closing the loop with AQM (i.e., that dynamically adjusts the system loss probability). Our results are important as the characterization of the reprioritization phenomenon is not only quantitatively accurate for the specific protocols and AQM considered but also qualitatively accurate for a broader range of congestion control protocol and AQM combinations. Finally, while we find a sufficient condition to avoid the reprioritization phenomenon, we also show, at the same time, such conditions to be likely impractical: Therefore, we propose a simple and practical system-level solution that is able to reinstate priorities among protocols.   </div>
 </li></ul>
 
 
       <hr>
       <footer>
         <p>
-          &copy; 2021 Dario Rossi
+          &copy; 2022 Dario Rossi
           <span class="pull-right text-muted">
             powered by
             <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
