@@ -226,6 +226,10 @@
   
     
       
+    
+  
+    
+      
       	
       	<li><a href="/pages">Pages</a></li>
       	
@@ -707,7 +711,13 @@
 
 
     <div class="container">
-      <h1 id="anomaly-detection-and-explanation">Anomaly detection and explanation</h1>
+      <div class="alert alert-dismissible alert-warning  outline-warning">
+  		<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			<h4 class="alert-heading">Information!</h4>
+  			<p class="mb-0"> <i class="fa fa-spinner"></i> Updated at best once per year, likely missing cool new stuff ! </p>
+		</div>
+
+<h1 id="anomaly-detection-and-explanation">Anomaly detection and explanation</h1>
 
 <p>This project deals with unsupervised techniques for anomaly detection, attention focus mechanisms and clustering for anomaly explanation, as well as practical matters like streaming aggregation of distributed alarms and correct evaluation metrics for temporal anomaly detection.</p>
 
@@ -729,7 +739,7 @@
   </li>
 </ul>
 
-<p>Additionally, we design <em>bespoke metrics</em> for the task of temporal anomaly detection that overcome limitations of classical metrics and cannot be gamed by trivial predictions [<a href="#submitted-KDD-22">submitted-KDD-22</a>].</p>
+<p>Additionally, we design <em>bespoke metrics</em> for the task of temporal anomaly detection that overcome limitations of classical metrics and cannot be gamed by trivial predictions [<a href="#KDD-22">KDD-22</a>].</p>
 
 <p><img src="/assets/images//prj-ad-algo.png" alt="" /></p>
 
@@ -865,11 +875,9 @@ Navarro, Jose Manuel and Huet, Alexis and Rossi, Dario and Putina, Andrian and S
 
 <p>We design <em>unsupervised</em> techniques to explain anomalies intuitively to the network expert, in the original domain.</p>
 
-<p>We complement these techniques with <em>semi-supervised</em> ones, that are able to learn from simple probabilistic representation</p>
+<p>We complement these techniques with <em>semi-supervised</em> ones, that are able to learn from simple probabilistic representation of previous anomalies, and greatly assist the network troubleshooting task, even when an Oracle is used to perfectly solve  the anomaly detection problem.</p>
 
-<p>of previous anomalies, and greatly assist the network troubleshooting task, even when an Oracle is used to perfectly solve  the anomaly detection problem.</p>
-
-<p>We exploit the results of the unsupervised techniques in order to build knowledge bases we call <em>anomalyDBs</em>, that allow experts to contextualize and classify the anomalous event they’re analyzing [<a href="#submitted-IFIP-22">submitted-IFIP-22</a>]. An interactive dashboard implementing a proof of concept of it <a href="netml01.ai4net:7782">is available</a>.</p>
+<p>We exploit the results of the unsupervised techniques in order to build knowledge bases we call <em>anomalyDBs</em>, that allow experts to contextualize and classify the anomalous event they’re analyzing [<a href="#ITC34">ITC34</a>].</p>
 
 <p>Our techniques:</p>
 
@@ -878,10 +886,10 @@ Navarro, Jose Manuel and Huet, Alexis and Rossi, Dario and Putina, Andrian and S
     <p>are incremental by design, hot swappable, and seamlessly accumulate knowledge without requiring direct human interaction [<a href="#PCT/EP2020/05233">PCT/EP2020/05233</a>][<a href="#ITC32">ITC32</a>]</p>
   </li>
   <li>
-    <p>are able to compensate  for practical performance of weak  unsupervised anomaly detection algorithms [<a href="#TECHREP-21-Troubleshooting">TECHREP-21-Troubleshooting</a>].</p>
+    <p>are able to compensate  for practical performance of weak  unsupervised anomaly detection algorithms [<a href="#ComNet-22">ComNet-22</a>].</p>
   </li>
   <li>
-    <p>can lead to a reduction of more than 75% in median of the time needed by an expert to analyze an anomaly [<a href="#TECHREP-21-Troubleshoting">TECHREP-21-Troubleshoting</a>].</p>
+    <p>can lead to a reduction of more than 75% in median of the time needed by an expert to analyze an anomaly [<a href="#ComNet-22">ComNet-22</a>].</p>
   </li>
 </ul>
 
