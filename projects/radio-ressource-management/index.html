@@ -1,0 +1,997 @@
+
+
+
+
+
+
+
+<!--
+    ____________________________ 
+   /                            \
+  /  default style for          / 
+ /  my jeyll webpage __________/
+ \__________________/.:nonsns:. 
+
+ v0.3   Jan29 (-7)  somewhat working with fixed navbar
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Projects</title>
+    
+    <meta name="author" content="Dario Rossi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+.btn-light {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f1f1f1), to(#f1f1f1)));
+  background-image: linear-gradient(#e0e0e0, #f1f1f1 50%, #f1f1f1));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff1f1f1', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+.btn-light:hover {
+  background-image: -webkit-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), color-stop(50%, #f3f3f3), to(#f3f3f3)));
+  background-image: linear-gradient(#e0e0e0, #f3f3f3 50%, #f3f3f3));
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0e0e0', endColorstr='#ff3f3f3', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #2e2f2f;
+}
+
+</style>
+
+<!--
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> 
+-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+ 
+
+<style>
+    body { padding-top: 70px; }
+</style>
+
+<!--https://gist.github.com/bertobox/3503850-->
+<style>
+.icon_star+ul, .icon_star+ol {list-style-type: "X";}
+.image_star+ul, .image_star+ol {list-style-image: url("/assets/icon/fa-star.png");}
+.upper_roman+ol, .upper_roman+ul {list-style-type: upper-roman;}
+.lower_alpha+ol, .lower_alpha+ul {list-style-type: lower-alpha;}
+.upper_alpha+ol, .upper_alpha+ul {list-style-type: upper-alpha;}
+.lower_greek+ol, .lower_greek+ul {list-style-type: lower-greek;}
+.lower_latin+ol, .lower_latin+ul {list-style-type: lower-latin;}
+.upper_latin+ol, .upper_latin+ul {list-style-type: upper-latin;}
+</style>
+  
+   
+<!--
+    <link href="/assets/css/extra.css" rel="stylesheet"> 
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+-->
+  </head>
+
+  <body>
+
+    <!--
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Dario Rossi</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+<!----------------------------- nonsns -------------------------->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+          
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <a class="navbar-brand"  href="https://nonsns.github.io/">Dario Rossi</a>                                  
+         <!-- <a class="navbar-brand" href="/">Dario Rossi</a> -->
+         <!-- <a class="navbar-brand" href="/"> D.R.<img src="/favicon_32.png"></a>-->
+    </div>  <!-- class="navbar-header" -->  
+ 
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="https://nonsns.github.io/cv/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/cv/#Bio">Bio</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/cv/#Achievements">Achievements</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/cv/#Awards">Awards</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/cv/#Grants">Projects</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/cv/#Service">Service</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/cv/#Alumni">Alumni</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="https://nonsns.github.io/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/projects/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/projects/traffic-classification/">Traffic classification</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/projects/anomaly-detection/">Anomaly detection and explanation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/projects/qoe/">Quality of Experience (QoE)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/projects/radio-ressource-management/">Radio Ressource Management</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/ccnSim/">Information Centric Networks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/projects/high-speed/">High Speed Software</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="https://nonsns.github.io/dataset/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/dataset/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/dataset/IP-ID/">IP-ID census</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://newnet.telecom-paristech.fr/index.php/webqoe/">WebMOS</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/dataset/ledbat+bittorrent/">LEDBAT+BitTorrent</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/dataset/bufferbloat/">Bufferbloat</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="https://nonsns.github.io/code/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Code <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/">Overview</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li role="separator" class="divider"></li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/atf/">ATF-approximation</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://anycast.telecom-paristech.fr">Anycast geolocation</a>                                  
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/ccnSim/">ccnSim</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/ledbat/">LEDBAT (and LPCC)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/ledbat+aqm/">LEDBAT+AQM</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/code/wowSim/">wowSim</a>
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="dropdown ">
+                    <a href="https://nonsns.github.io/publications/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                    <ul class="dropdown-menu" >
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/date/"><i class='fa fa-calendar'></i> By date</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/type/"><i class='fa fa-th-large'></i> By type</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/project"><i class='fa fa-cogs'></i> By project</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/type/#patent"><i class='fa fa-certificate'></i> Patents</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/award/"><i class='fa fa-star'></i> Award-winning</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/recent/"><i class='fa fa-clock-o'></i> Recent docs</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://nonsns.github.io/publications/talks/"><i class='fa fa-comment-o'></i>  Recent talks</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en&oi=ao"><img src='/assets/images/google-brands.svg' style='width: 14px'> Google scholar</a>                                  
+                                  
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="https://nonsns.github.io/teaching">Teaching</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="https://nonsns.github.io/seminar/all/">Seminar</a>
+                </li>
+            
+        
+    </ul>
+        </div>  <!-- class="navbar-collapse" -->  
+        </div>  <!-- class="container" -->
+      </nav>
+
+
+<!-- (another failed) attemp at making dropdown menus on hover-->  
+  <script>
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+  </script>
+
+<!----------------------------- nonsns -------------------------->
+
+
+    <div class="container">
+      <h1 id="dynamic-radio-ressource-management">Dynamic Radio Ressource Management</h1>
+
+<p>In this project we are developing methodologies and techniques for zero-touch  autonomous network configuration.</p>
+
+<p>We design novel algorithms having practical  relevance, that we deploy on real network.</p>
+
+<p><img src="/assets/images//prj-rrm-overview.png" alt="" /></p>
+
+<p><img src="/assets/images//prj-rrm-animation.gif" alt="" /></p>
+
+<h2 id="power-management">Power management</h2>
+
+<p>Leveraging 802.11k data, we optimize AP power settings and contrast it to state of the art Cisco TPCv1  [<a href="#TECHREP-22-WLANpowerControl">TECHREP-22-WLANpowerControl</a>] in real deployment.</p>
+
+<p><img src="/assets/images//prj-rrm-power.png" alt="" /></p>
+
+<h2 id="channel-allocation">Channel allocation</h2>
+
+<p>Leveraging AC data, we optimize AP channel and bondings settings, and contrast it to state of the art Cisco TurboCA in simulation [<a href="#NETWORKING-21">NETWORKING-21</a>] and real deployment [<a href="#TECHREP-21-DRL">TECHREP-21-DRL</a>].</p>
+
+<p><img src="/assets/images//prj-rrm-channel.png" alt="" /></p>
+
+<h2 id="neural-optimization">Neural optimization</h2>
+
+<p>Leveraging progress in neural architectures, we explore transformer based architectures with self-attention mechanism  [<a href="#AAAI-22">AAAI-22</a>] for the purpose of (power and) channel allocation.</p>
+
+<p><img src="/assets/images//prj-rrm-aaai.png" alt="" /></p>
+
+<h2 id="patents-and-documentations">Patents and documentations</h2>
+
+<p>To discover more details, please see the material below:</p>
+
+<ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="NETWORKING-21"></a>[NETWORKING-21]</strong></abbr>
+Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Ben Houidi, Zied and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21networking.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21networking.pdf"> <em> "Real-Time Channel Management in WLANs: Deep Reinforcement Learning
+Versus Heuristics" </em></a>
+	    
+
+
+
+<em>
+
+	   IFIP Networking 	   
+
+</em>
+
+	  
+ jun. 	   
+ 2021, 	   
+	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-NETWORKING-21">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-NETWORKING-21">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-NETWORKING-21" class="collapse"> <pre>@inproceedings{DR:NETWORKING-21,
+  author = {Iacoboaiea, Ovidiu and Krolikowski, Jonatan and {Ben Houidi}, Zied and Rossi, Dario},
+  title = {{Real-Time} Channel Management in {WLANs:} Deep Reinforcement Learning
+  Versus Heuristics},
+  booktitle = {IFIP Networking},
+  address = {Helsinki, Finland},
+  month = jun,
+  year = {2021},
+  howpublished = {https://nonsns.github.io/paper/rossi21networking.pdf},
+  topic = {wlan-drl}
+}
+</pre>  </div>
+<div id="Abstract-NETWORKING-21" class="collapse well"> Today’s WLANs rely on a centralized Access Controller (AC) entity for
+managing distributed wireless Access Points (APs) to which user devices
+connect. The availability of real-time analytics at the AC opens the
+possibility to automate the allocation of scarce radio resources,
+continuously adapting to changes in traffic demands. Often, the allocation
+problem is formulated in terms of weighted graph coloring, which is
+NP-hard, and custom heuristics are used to find satisfactory solutions. In
+this paper, we contrast solutions that are based on (and even improve)
+state of the art heuristics to a data-driven solution that leverages Deep
+Reinforcement Learning (DRL). Based on both simulation results as well as
+experiments in a real deployment, we show that our DRL-based scheme not
+only learns to solve the complex combinatorial problem in bounded time,
+outperforming heuristics, but it also exhibits appealing generalization
+properties, e.g. to different network sizes and densities.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="TECHREP-21-DRL"></a>[TECHREP-21-DRL]</strong></abbr>
+Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Houidi, Zied Ben and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf"> <em> "The long and winding road to Deep Autonomous
+Networks: Lessons from real WLAN deployment" </em></a>
+	    
+
+
+
+<em>
+
+		   
+	
+</em>
+
+	  
+ apr. 	   
+ 2021, 	   
+	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-primary" style="width: 100px">Tech.Rep.</span>
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TECHREP-21-DRL">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TECHREP-21-DRL">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-TECHREP-21-DRL" class="collapse"> <pre>@techreport{DR:TECHREP-21-DRL,
+  author = {Iacoboaiea, Ovidiu and Krolikowski, Jonatan and Houidi, Zied Ben and Rossi, Dario},
+  title = {The long and winding road to Deep Autonomous
+  Networks: Lessons from real WLAN deployment},
+  year = {2021},
+  month = apr,
+  topic = {wlan-algo},
+  howpublished = {https://nonsns.github.io/paper/rossi21techrep_DRL_deploy.pdf}
+}
+</pre>  </div>
+<div id="Abstract-TECHREP-21-DRL" class="collapse well"> 
+Deep Reinforcement Learning (DRL) techniques have recently gathered much attention for their ability to learn taking complex decisions in different fields: as such, they are an appealing candidate for network Operation and Management (O&amp;M). In particular, DRL can become a fundamental item in the toolbox of the so called “self-driving networks”,  especially for  tasks such as dynamic resource allocation, that is generally formulated and solved as complex optimization problems. Yet, training and deployment of DRL agents in real-world scenarios face important challenges, that we illustrate in this article using Wireless LANs as a relevant deployment example.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="CoNEXT-GNN-22"></a>[CoNEXT-GNN-22]</strong></abbr>
+Fernandes, Danilo Marinho and Krolikowski, Jonatan and Houidi, Zied Ben and Chen, Fuxing and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22conext-gnn.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22conext-gnn.pdf"> <em> "Cross-network transferable neural models for WLAN interference estimation" </em></a>
+	    
+
+
+
+<em>
+
+	   ACM CoNext workshop on Graph Neural Networks (GNN) 	   
+
+</em>
+
+	  
+ dec. 	   
+ 2022, 	   
+	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
+
+ 
+
+	   
+
+
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-CoNEXT-GNN-22">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-CoNEXT-GNN-22">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-CoNEXT-GNN-22" class="collapse"> <pre>@inproceedings{DR:CoNEXT-GNN-22,
+  title = {{Cross-network transferable neural models for WLAN interference estimation}},
+  author = {Fernandes, Danilo Marinho and Krolikowski, Jonatan and Houidi, Zied Ben and Chen, Fuxing and Rossi, Dario},
+  year = {2022},
+  month = dec,
+  booktitle = {ACM CoNext workshop on Graph Neural Networks (GNN)},
+  topic = {wlan},
+  howpublished = {https://nonsns.github.io/paper/rossi22conext-gnn.pdf},
+  note = {project=huawei}
+}
+</pre>  </div>
+<div id="Abstract-CoNEXT-GNN-22" class="collapse well"> Airtime interference is a key performance indicator for WLANs,
+measuring, for a given time period, the percentage of time
+during which a node is forced to wait for other transmissions
+before to transmitting or receiving. Being able to accurately
+estimate interference resulting from a given state change
+(e.g., channel, bandwidth, power) would allow a better control of WLAN resources, assessing the impact of a given
+configuration before actually implementing it.
+In this paper, we adopt a principled approach to interference estimation in WLANs. We first use real data to characterize the factors that impact it, and derive a set of relevant
+synthetic workloads for a controlled comparison of various
+deep learning architectures in terms of accuracy, generalization and robustness to outlier data. We find, unsurprisingly,
+that Graph Convolutional Networks (GCNs) yield the best
+performance overall, leveraging the graph structure inherent
+to campus WLANs. We notice that, unlike e.g. LSTMs, they
+struggle to learn the behavior of specific nodes, unless given
+the node indexes in addition. We finally verify GCN model
+generalization capabilities, by applying trained models on
+operational deployments unseen at training time.  </div>
+</li></ul>
+
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2022 Dario Rossi
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
