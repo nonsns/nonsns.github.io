@@ -5464,8 +5464,8 @@ Espinet, Francois and Joumblatt, Diana and Rossi, Dario,
 <!-- assume patents @misc{...PATENT...} -->
 
 		
-			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16comnet-b.pdf"></i> 
-			<a href="https://nonsns.github.io/paper/rossi16comnet-b.pdf"> <em> "Framework, Models and Controlled Experiments of Network Troubleshooting" </em></a>
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi16comnet-a.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi16comnet-a.pdf"> <em> "Framework, Models and Controlled Experiments of Network Troubleshooting" </em></a>
 	    
 
 
@@ -5515,7 +5515,7 @@ Espinet, Francois and Joumblatt, Diana and Rossi, Dario,
   month = jun,
   volume = {107},
   journal = {Elsevier Computer Networks},
-  howpublished = {https://nonsns.github.io/paper/rossi16comnet-b.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi16comnet-a.pdf}
 }
 </pre>  </div>
 <div id="Abstract-COMNET-16a" class="collapse well"> Growing network complexity mandates automated tools and methodologies for troubleshooting. In this paper, we follow a crowd-sourcing trend and argue for the need to deploy measurement probes at the edge of the network, which can be either under the control of the users (e.g., end-user devices) or the ISP (e.g., home gateways), and that raises an interesting tradeoff. Our first contribution consists in the definition of a framework for network troubleshooting, and its implementation as open source software named NetProbes. In data mining terms, depending on the amount of information available to the probes (e.g., ISP topology), we formalize the network troubleshooting task as either a clustering or a classification problem. In networking terms, these algorithms allow respectively end-users to assess the severity of the network performance degradation, and ISPs to precisely identify the faulty link. We solve both problems with an algorithm that achieves perfect classification under the assumption of a strategic selection of probes (e.g., assisted by an ISP), and assess its performance degradation under a naive random selection. Our algorithm is generic, as it is agnostic to the network performance metrics; scalable, as it requires firing only few measurement events and simple processing; flexible, as clustering and classification stages are pipelined, so that the execution naturally adapts to the information available at the vantage point where the probe is deployed; and reliable, as it produces results that match the expectations of simple analytical models. Our second contribution consists in a careful evaluation of the framework. Previous work on network troubleshooting has so far tackled the problem with either more theoretical or more practical approaches: inherently, evaluation methodologies lack either realism or control. In this paper, we counter this problem by conducting controlled experiments with a rigorous and reproducible methodology that contrasts expectations yielded by analytical models to the experimental results gathered running our NetProbes software in the Mininet emulator. As integral part of our methodology, we perform a thorough calibration of the measurement tools employed by NetProbes to measure two example metrics of interest, namely delay and bandwidth: we show this step to be crucial, as otherwise significant biases in the measurements techniques could lead to wrong assessment of algorithmic performance. Albeit our NetProbes software is far from being a carrier-grade solution for network troubleshooting (since it does not consider neither multiple contemporary measurements, nor multiple failures, and given that we experiment with a limited number of metrics), our controlled study allows making several interesting observation that help designing such an automated troubleshooting system. 	  </div>
@@ -6779,8 +6779,8 @@ Trammell, Brian and Casas, Pedro and Rossi, Dario and Bar, Arian and Ben-Houidi,
 <!-- assume patents @misc{...PATENT...} -->
 
 		
-			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/MISSINGURL.pdf"></i> 
-			<a href="https://nonsns.github.io/paper/MISSINGURL.pdf"> <em> "mPlane: an Intelligent Measurement Plane for the Internet" </em></a>
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi14commag.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi14commag.pdf"> <em> "mPlane: an Intelligent Measurement Plane for the Internet" </em></a>
 	    
 
 
@@ -6831,7 +6831,7 @@ Trammell, Brian and Casas, Pedro and Rossi, Dario and Bar, Arian and Ben-Houidi,
   issue = {5},
   month = may,
   year = {2014},
-  howpublished = {https://nonsns.github.io/paper/MISSINGURL.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi14commag.pdf}
 }
 </pre>  </div>
 <div id="Abstract-COMMAG-14" class="collapse well"> The Internet universality is based on its decentralization and diversity. However, its distributed nature leads to operational brittleness and difficulty in identifying the root causes of performance and availability issues, especially when the involved systems span multiple administrative domains. The first step to address this fragmentation is coordinated measurement: we propose to complement the current Internet data and control planes with a measurement plane, or mPlane for short. mPlane distributed measurement infrastructure collects and analyzes traffic measurements at a wide variety of scales to monitor the network status. Its architecture is centered on a flexible control interface, allowing the incorporation of existing measurement tools through lightweight mPlane proxy components, and offering dynamic support for new capabilities. A focus on automated, iterative measurement makes the platform well-suited to troubleshooting support. This is supported by a reasoning system, which applies machine learning algorithms to learn from success and failure in drilling down to the root cause of a problem. This article describes the mPlane architecture and shows its applicability to several distributed measurement problems involving content delivery networks and Internet service roviders. A first case study presents the tracking and iterative analysis of cache selection policies in Akamai, while a second example focuses on the cooperation between Internet service providers and content delivery networks to better orchestrate their traffic engineering decisions and jointly improve their performance.  </div>
