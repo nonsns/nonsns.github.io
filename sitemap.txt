@@ -2,7 +2,9 @@
 /demo/BrainDrain/
 /dataset/IP-ID/
 /dataset/WebMOS/
+/projects/ai-native
 /seminar/all/
+/projects/anomaly-detection
 /archive
 /code/atf/
 /atom.xml
@@ -27,6 +29,8 @@
 /pages
 /publications/project/
 /publications/
+/projects/qoe
+/projects/radio-ressource-management
 /publications/recent/
 /rss.xml
 /sitemap.txt
@@ -34,6 +38,7 @@
 /publications/talks/
 /teaching/
 /publications/topic/
+/projects/traffic-classification
 /publications/type/
 /webmos
 /webqoe
