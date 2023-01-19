@@ -134,6 +134,10 @@
   
     
       
+    
+  
+    
+      
       	
       	<li><a href="/archive">Archive</a></li>
       	
@@ -161,10 +165,6 @@
       	
       	<li><a href="/categories">Categories</a></li>
       	
-      
-    
-  
-    
       
     
   
@@ -428,7 +428,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/traffic-classification/">Traffic classification</a>
+                                    <a href="/projects/traffic-classification/">AI Native (2022-now)</a>
                                   
                                 </li>
                             
@@ -436,7 +436,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/anomaly-detection/">Anomaly detection and explanation</a>
+                                    <a href="/projects/traffic-classification/">Traffic classification (2020-now)</a>
                                   
                                 </li>
                             
@@ -444,7 +444,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/qoe/">Quality of Experience (QoE)</a>
+                                    <a href="/projects/anomaly-detection/">Anomaly detection and explanation (2020-2022)</a>
                                   
                                 </li>
                             
@@ -452,7 +452,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/radio-ressource-management/">Radio Ressource Management</a>
+                                    <a href="/projects/radio-ressource-management/">Radio Ressource Management (2020-2022)</a>
                                   
                                 </li>
                             
@@ -460,7 +460,7 @@
                             
                                 <li>
                                   
-                                    <a href="/code/ccnSim/">Information Centric Networks</a>
+                                    <a href="/projects/qoe/">Quality of Experience (2016-2021)</a>
                                   
                                 </li>
                             
@@ -468,7 +468,15 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/high-speed/">High Speed Software</a>
+                                    <a href="/code/ccnSim/">Information Centric Networks (2011-2018)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="/projects/system">High Speed Software (episodically)</a>
                                   
                                 </li>
                             
@@ -727,10 +735,10 @@
 
 
     <div class="container">
-      <div class="alert alert-dismissible alert-warning  outline-warning">
+      <div class="alert alert-dismissible alert-danger outline-danger">
   		<button type="button" class="close" data-dismiss="alert">&times;</button>
-  			<h4 class="alert-heading">Information!</h4>
-  			<p class="mb-0"> <i class="fa fa-spinner"></i> Updated at best once per year, likely missing cool new stuff ! </p>
+  			<h4 class="alert-heading">Error!</h4>
+  			<p class="mb-0"> <i class="fa fa-bug"></i> First public version dumped, likely some bugs ahead! </p>
 		</div>
 
 <h1 id="traffic-classification">Traffic classification</h1>
@@ -745,10 +753,10 @@
 
 <ul>
   <li>
-    <p>for <em>known traffic classification</em>,  our models outperforms state of the art academic evaluations (usually limited to few tens of classes, with hundreds thousands of weight per class)  in commercial-grade settings (hundreds of classes, and hundreds thousands of weights overall)  [<a href="#DR:ECHREP-21c">DR:ECHREP-21c</a>]</p>
+    <p>for <em>known traffic classification</em>,  our models outperforms state of the art academic evaluations (usually limited to few tens of classes, with hundreds thousands of weight per class)  in commercial-grade settings (hundreds of classes, and hundreds thousands of weights overall)  [<a href="#TSNM-21">TSNM-21</a>]</p>
   </li>
   <li>
-    <p>for <em>zero day detection</em>,  our novel gradient-based technique [<a href="#PCT/EP2021/057212">PCT/EP2021/057212</a>] is significantly more accurate and light-weight than the state of the art [<a href="#TECHREP-21e">TECHREP-21e</a>]</p>
+    <p>for <em>zero day detection</em>,  our novel gradient-based technique [<a href="#PCT/EP2021/057212">PCT/EP2021/057212</a>] is significantly more accurate and light-weight than the state of the art [<a href="#ICML-UDL-21">ICML-UDL-21</a>][<a href="#COMMAG-21">COMMAG-21</a>]</p>
   </li>
 </ul>
 
@@ -757,6 +765,78 @@
 <p>To know more:</p>
 
 <ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="TNSM-21b"></a>[TNSM-21b]</strong></abbr>
+Yang, Lixuan and Finamore, Alessandro and Feng, Jun and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21tnsm-b.pdf"> <em> "Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset" </em></a>
+		
+
+
+
+<em>
+
+	 In IEEE Transactions on Network and Service Management, 	   
+	 Vol. 18, 	   
+	 No. 4, 	   
+	 pp.4103–4118, 	   
+
+</em>
+
+	  
+ dec. 	   
+ 2021, 	   
+ DOI 10.1109/TNSM.2021.3122940 	   
+
+
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="https://arxiv.org/abs/2104.03182"> arXiv <i class="fa fa-external-link"></i></a> </span>  	
+
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TNSM-21b">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TNSM-21b">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-TNSM-21b" class="collapse"> <pre>@article{DR:TNSM-21b,
+  author = {{Yang}, Lixuan and {Finamore}, Alessandro and {Feng}, Jun and {Rossi}, Dario},
+  title = {Deep Learning and Zero-Day Traffic Classification: Lessons learned from a commercial-grade dataset},
+  journal = {IEEE Transactions on Network and Service Management},
+  volume = {18},
+  number = {4},
+  pages = {4103--4118},
+  year = {2021},
+  month = dec,
+  doi = {10.1109/TNSM.2021.3122940},
+  note = {project=huawei},
+  arxiv = {https://arxiv.org/abs/2104.03182},
+  howpublished = {https://nonsns.github.io/paper/rossi21tnsm-b.pdf},
+  topic = {tc-algo}
+}
+</pre>  </div>
+<div id="Abstract-TNSM-21b" class="collapse well">  The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While supervised techniques provide satisfactory performance when classifying known traffic, the detection of zero-day (i.e., unknown) traffic is a more challenging task. At the same time, zero-day detection, generally tackled with unsupervised techniques such as clustering, received less coverage by the traffic classification literature which focuses more on deriving DL models via supervised techniques. Moreover, the combination of supervised and unsupervised techniques poses challenges not fully covered by the traffic classification literature. In this paper, we share our experience on a commercial-grade DL traffic classification engine that combines supervised and unsupervised techniques to identify known and zero-day traffic. In particular, we rely on a dataset with hundreds of very fine grained application labels, and perform a thorough assessment of two state of the art traffic classifiers in commercial-grade settings. This pushes the boundaries of traffic classifiers evaluation beyond the few tens of classes typically used in the literature. Our main contribution is the design and evaluation of GradBP, a novel technique for zero-day applications detection. Based on gradient backpropagation and tailored for DL models, GradBP yields superior performance with respect to state of the art alternatives, in both accuracy and computational cost. Overall, while ML and DL models are both equally able to provide excellent performance for the classification of known traffic, the non-linear feature extraction process of DL models backbone provides sizable advantages for the detection of unknown classes over classical ML models  </div>
+</li>
+<li><!--
 v8 // Tue Jul  5 9:45, remove "disabled" buttons
 v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
@@ -935,6 +1015,156 @@ v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
 -->
 
 
+<abbr><strong><a name="SIGCOMM-20"></a>[SIGCOMM-20]</strong></abbr>
+Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi20sigcomm.pdf"></i> 
+			<a href="https://nonsns.github.io//paper/rossi20sigcomm.pdf"> <em> "Real-time Deep Learning based Traffic Analytics" </em></a>
+		
+
+
+
+<em>
+
+	   ACM SIGCOMM, Demo session 	   
+
+</em>
+
+	  
+ aug. 	   
+ 2020, 	   
+ DOI  	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-SIGCOMM-20">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-SIGCOMM-20">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-SIGCOMM-20" class="collapse"> <pre>@inproceedings{DR:SIGCOMM-20,
+  author = {Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario},
+  title = {Real-time Deep Learning based Traffic Analytics},
+  booktitle = {ACM SIGCOMM, Demo session},
+  month = aug,
+  year = {2020},
+  volume = {},
+  pages = {},
+  doi = {},
+  note = {keyword=deeplearning,system,classification, project=huawei},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi20sigcomm.pdf},
+  topic = {tc-system}
+}
+</pre>  </div>
+<div id="Abstract-SIGCOMM-20" class="collapse well"> The increased interest towards Deep Learning (DL) tech-nologies has led to the development of a new generation of specialized hardware accelerator  such as Graphic Processing Unit (GPU) and Tensor Processing Unit (TPU). The integration of such components in network routers is however not trivial. Indeed, routers typically aim to minimize the overhead of per-packet processing,  and design choices to integrate a new accelerator need to factor in these key requirements. The literature and benchmarks on DL hardware accelerators have overlooked specific router constraints (e.g., strict latency) and focused instead on cloud deployment  and image processing. Likewise,there is limited literature regarding DL application on traffic processing at line-rate. Among all hardware accelerators, we are interested in edge TPUs. Since their design focuses on DL inference, edge TPUs matches the vision of operators, who consider running pre-trained DL models in routers with low power drain. Edge TPUs are expected to limit the amount of computational resources for inference and to yield a higher ratio of operations-per-watt footprint than GPUs.This demo aims to investigate the operational points at which edge TPUs become a viable option, using traffic classification as a use case. We sketch the design of a real-time DL traffic classification system, and compare inference speed (i.e., number of classifications per second) of a state-of-the-art Convolutional Neural Network (CNN) model running on different hardware (CPU, GPU, TPU). To constrast their performance, we run stress tests based on synthetic traffic and under different conditions. We collect the results into a dashboard which enables network operators and system designers to both explore the stress test results with regards to their considered operational points, as well as triggering synthetic live tests on top of Ascend310 TPUs.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="SEC-21"></a>[SEC-21]</strong></abbr>
+Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21sec.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21sec.pdf"> <em> "FENXI: Fast In-Network Analytics" </em></a>
+		
+
+
+
+<em>
+
+	   IEEE/ACM Symposium on Edge Computing (SEC) 	   
+
+</em>
+
+	  
+ dec. 	   
+ 2021, 	   
+	   
+
+
+ <span class="badge badge-pill btn-light" style="width: 100px"> <a href="http://arxiv.org/abs/2105.11738"> arXiv <i class="fa fa-external-link"></i></a> </span>  	
+
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-SEC-21">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-SEC-21">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-SEC-21" class="collapse"> <pre>@inproceedings{DR:SEC-21,
+  author = {Gallo, Massimo and Finamore, Alessandro and Simon, Gwendal and Rossi, Dario},
+  title = {{FENXI}: Fast In-Network Analytics},
+  booktitle = {IEEE/ACM Symposium on Edge Computing (SEC)},
+  year = {2021},
+  month = dec,
+  note = {project=huawei},
+  howpublished = {https://nonsns.github.io/paper/rossi21sec.pdf},
+  arxiv = {http://arxiv.org/abs/2105.11738},
+  topic = {tc-system}
+}
+</pre>  </div>
+<div id="Abstract-SEC-21" class="collapse well"> 
+Live traffic analysis at the first aggregation point in the ISP
+network enables the implementation of complex traffic engineering policies but is limited by the scarce processing
+capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators
+i.e., Tensor Processing Unit (TPU), offers the opportunity to
+enhance processing capabilities of network devices at the
+edge. Yet, to date, no packet processing pipeline is capable
+of offering DL-based analysis capabilities in the data-plane,
+without interfering with network operations.
+In this paper, we present FENXI, a system to run complex
+analytics by leveraging TPU. The design of FENXI decouples
+forwarding operations and traffic analytics which operates
+at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results,
+and design data structures to extract flow level statistics without impacting per-packet processing. We prototype FENXI
+on a general-purpose server and evaluate its performance
+in both adversarial and realistic network conditions. Our
+evaluation shows that FENXI is able to offer DL processing
+to 100 Gbps linecards with a limited number of resources,
+while also dynamically adapting to network conditions.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
 <abbr><strong><a name="INFOCOM-22"></a>[INFOCOM-22]</strong></abbr>
 Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario, 
 
@@ -986,10 +1216,10 @@ Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario,
   booktitle = {IEEE INFOCOM},
   year = {2022},
   month = may,
-  topic = {tc-system},
   arxiv = {https://arxiv.org/abs/2112.06671},
   howpublished = {https://nonsns.github.io/paper/rossi22infocom.pdf},
-  note = {project=huawei}
+  note = {project=huawei},
+  topic = {tc-system}
 }
 </pre>  </div>
 <div id="Abstract-INFOCOM-22" class="collapse well"> While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh.  We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching – testifying the practical interest of our proposal.  </div>
@@ -1006,7 +1236,7 @@ Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario,
     <p>improves over Google FedAvg in terms of convergence speed, futher  reducing the amount of weights to be shared    [<a href="#IJCAIFL-20">IJCAIFL-20</a>], [<a href="#PCT/EP2020/061440">PCT/EP2020/061440</a>]</p>
   </li>
   <li>
-    <p>improve over the state of the art in incremental training  [<a href="#TECHREP-21d">TECHREP-21d</a>]</p>
+    <p>improve over the state of the art in incremental training  [<a href="#TMA-21">TMA-21</a>]</p>
   </li>
 </ul>
 
@@ -1014,7 +1244,227 @@ Finamore, Alessandro and Roberts, James and Gallo, Massimo and Rossi, Dario,
 
 <p>To know more:</p>
 
-<ul class="bibliography"></ul>
+<ul class="bibliography"><li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="IJCAIFL-20"></a>[IJCAIFL-20]</strong></abbr>
+Yang, Lixuan and Beliard, Cedric and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://perso.telecom-paristech.fr/drossi/paper/rossi20ijcai-fl.pdf"></i> 
+			<a href="https://nonsns.github.io//paper/rossi20ijcai-fl.pdf"> <em> "Heterogeneous Data-Aware Federated Learning" </em></a>
+		
+
+
+
+<em>
+
+	   International Joint Conference on Artificial Intelligence (IJCAI), Workshop on Federated Learning 	   
+
+</em>
+
+	  
+ sep. 	   
+ 2020, 	   
+ DOI  	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-IJCAIFL-20">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-IJCAIFL-20">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-IJCAIFL-20" class="collapse"> <pre>@inproceedings{DR:IJCAIFL-20,
+  author = {Yang, Lixuan and Beliard, Cedric and Rossi, Dario},
+  title = {Heterogeneous Data-Aware Federated Learning},
+  booktitle = {International Joint Conference on Artificial Intelligence (IJCAI), Workshop on Federated Learning},
+  month = sep,
+  year = {2020},
+  volume = {},
+  pages = {},
+  doi = {},
+  note = {keyword=deeplearning, project=huawei},
+  howpublished = {https://perso.telecom-paristech.fr/drossi/paper/rossi20ijcai-fl.pdf},
+  topic = {tc-train}
+}
+</pre>  </div>
+<div id="Abstract-IJCAIFL-20" class="collapse well"> Federated learning (FL) is an appealing concept to perform distributed training of Neural Networks (NN)  while keeping data private.  With the industrialization of the FL framework, we identify several problems hampering its successful deployment, such as presence of non i.i.d data, disjoint classes, signal multi-modality across datasets. In this work, we address these problems by proposing a novel method that not only  (1) aggregates generic model parameters (e.g. a common set of task generic NN layers) on server (e.g. in traditional FL), but also (2) keeps a set of  parameters (e.g, a set of task specific NN layer) specific to each client.  We validate our method on the traditionally used public benchmarks (e.g., Femnist) as well as on our proprietary collected dataset (i.e., traffic classification). Results show the benefit of our method, with significant advantage on extreme cases.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="TMA-21"></a>[TMA-21]</strong></abbr>
+Bovenzi, Giampaolo and Yang, Lixuan and Finamore, Alessandro and Aceto, Giuseppe and Ciuonzo, Domenico and Pescape, Antonio and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi21tma.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi21tma.pdf"> <em> " A First Look at Class Incremental Learning in Deep Learning Mobile Traffic" </em></a>
+		
+
+
+
+<em>
+
+	   IFIP Traffic Monitoring and Analysis (TMA) 	   
+
+</em>
+
+	  
+ sep. 	   
+ 2021, 	   
+	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-success" style="width: 100px">Conference</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-TMA-21">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-TMA-21">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-TMA-21" class="collapse"> <pre>@inproceedings{DR:TMA-21,
+  author = {Bovenzi, Giampaolo and Yang, Lixuan and Finamore, Alessandro and Aceto, Giuseppe and Ciuonzo, Domenico and Pescape, Antonio and Rossi, Dario},
+  title = { A First Look at Class Incremental Learning in Deep Learning Mobile Traffic},
+  booktitle = {IFIP Traffic Monitoring and Analysis (TMA)},
+  year = {2021},
+  month = sep,
+  note = {project=huawei},
+  howpublished = {https://nonsns.github.io/paper/rossi21tma.pdf},
+  topic = {tc-train}
+}
+</pre>  </div>
+<div id="Abstract-TMA-21" class="collapse well"> The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications’ traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model’s updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand if there is a case for incremental learning in traffic classification. By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl+. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.  </div>
+</li>
+<li><!--
+v8 // Tue Jul  5 9:45, remove "disabled" buttons
+v7 // Tue Dec  8 21:10:08 CET 2020 ; for patents, howpublished is not a URL
+-->
+
+
+<abbr><strong><a name="SIGCOMM-CCR-22"></a>[SIGCOMM-CCR-22]</strong></abbr>
+Wang, Chao and Finamore, Alessandro and Yang, Lixuan and Fauvel, Kevin and Rossi, Dario, 
+
+
+<!-- assume patents @misc{...PATENT...} -->
+
+		
+			<i class="fa fa-file-pdf-o" aria-hidden="true" href="https://nonsns.github.io/paper/rossi22ccr.pdf"></i> 
+			<a href="https://nonsns.github.io/paper/rossi22ccr.pdf"> <em> "AppClassNet: A commercial-grade dataset for application identification research" </em></a>
+		
+
+
+
+<em>
+
+	 In ACM SIGCOMM Computer Communication Review, 	   
+	 Vol. 52, 	   
+		   
+		   
+
+</em>
+
+	  
+ jul. 	   
+ 2022, 	   
+ DOI https://doi.org/10.1145/3561954.3561958 	   
+
+
+	
+
+
+	<span class="badge badge-pill btn-info" style="width: 100px">Journal</span>
+
+ 
+
+	   
+
+
+<button class="btn badge btn-default btn-xs" data-toggle="collapse" data-target="#Abstract-SIGCOMM-CCR-22">Abstract<span class="caret"></span></button>
+
+
+
+
+	
+		<button class="btn badge btn-default  btn-xs" data-toggle="collapse" data-target="#BibTeX-SIGCOMM-CCR-22">Bibtex<span class="caret"></span></button>
+	
+
+
+<div id="BibTeX-SIGCOMM-CCR-22" class="collapse"> <pre>@article{DR:SIGCOMM-CCR-22,
+  title = {{AppClassNet: A commercial-grade dataset for application identification research}},
+  author = {Wang, Chao and Finamore, Alessandro and Yang, Lixuan and Fauvel, Kevin and Rossi, Dario},
+  year = {2022},
+  journal = {ACM SIGCOMM Computer Communication Review},
+  month = jul,
+  volume = {52},
+  issue = {3},
+  howpublished = {https://nonsns.github.io/paper/rossi22ccr.pdf},
+  doi = {https://doi.org/10.1145/3561954.3561958},
+  note = {project=huawei},
+  topic = {tc-train}
+}
+</pre>  </div>
+<div id="Abstract-SIGCOMM-CCR-22" class="collapse well"> The recent success of Artificial Intelligence (AI) is rooted into several concomitant factors, namely theoretical progress coupled with
+abundance of data and computing power. Large companies can take
+advantage of a deluge of data, typically withhold from the research
+community due to privacy or business sensitivity concerns, and
+this is particularly true for networking data. Therefore, the lack
+of high quality data is often recognized as one of the main factors
+currently limiting networking research from fully leveraging AI
+methodologies potential.
+Following numerous requests we received from the scientific
+community, we release AppClassNet, a commercial-grade dataset
+for benchmarking traffic classification and management methodologies. AppClassNet is significantly larger than the datasets generally
+available to the academic community in terms of both the number
+of samples and classes, and reaches scales similar to the popular
+ImageNet dataset commonly used in computer vision literature. To
+avoid leaking user- and business-sensitive information, we opportunely anonymized the dataset, while empirically showing that it
+still represents a relevant benchmark for algorithmic research. In
+this paper, we describe the public dataset and our anonymization
+process. We hope that AppClassNet can be instrumental for other
+researchers to address more complex commercial-grade problems
+in the broad field of traffic classification and management.
+    </div>
+</li></ul>
 
 
       <hr>

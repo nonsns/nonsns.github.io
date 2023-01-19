@@ -134,6 +134,10 @@
   
     
       
+    
+  
+    
+      
       	
       	<li><a href="/archive">Archive</a></li>
       	
@@ -161,10 +165,6 @@
       	
       	<li><a href="/categories">Categories</a></li>
       	
-      
-    
-  
-    
       
     
   
@@ -428,7 +428,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/traffic-classification/">Traffic classification</a>
+                                    <a href="/projects/traffic-classification/">AI Native (2022-now)</a>
                                   
                                 </li>
                             
@@ -436,7 +436,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/anomaly-detection/">Anomaly detection and explanation</a>
+                                    <a href="/projects/traffic-classification/">Traffic classification (2020-now)</a>
                                   
                                 </li>
                             
@@ -444,7 +444,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/qoe/">Quality of Experience (QoE)</a>
+                                    <a href="/projects/anomaly-detection/">Anomaly detection and explanation (2020-2022)</a>
                                   
                                 </li>
                             
@@ -452,7 +452,7 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/radio-ressource-management/">Radio Ressource Management</a>
+                                    <a href="/projects/radio-ressource-management/">Radio Ressource Management (2020-2022)</a>
                                   
                                 </li>
                             
@@ -460,7 +460,7 @@
                             
                                 <li>
                                   
-                                    <a href="/code/ccnSim/">Information Centric Networks</a>
+                                    <a href="/projects/qoe/">Quality of Experience (2016-2021)</a>
                                   
                                 </li>
                             
@@ -468,7 +468,15 @@
                             
                                 <li>
                                   
-                                    <a href="/projects/high-speed/">High Speed Software</a>
+                                    <a href="/code/ccnSim/">Information Centric Networks (2011-2018)</a>
+                                  
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                  
+                                    <a href="/projects/system">High Speed Software (episodically)</a>
                                   
                                 </li>
                             
@@ -807,7 +815,8 @@ Gioacchini, Luca and Vassio, Luca and Mellia, Marco and Drago, Idilio and Ben Ho
   note = {bestpaperrunnerup},
   month = dec,
   partner = {polito-mellia},
-  howpublished = {https://nonsns.github.io/paper/rossi21conext-a.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi21conext-a.pdf},
+  topic = {network-security}
 }
 </pre>  </div>
 <div id="Abstract-CoNEXT-21a" class="collapse well"> Darknets are passive probes listening to traffic reaching IP addresses that host no services. Traffic reaching them is unsolicited by nature and often induced by scanners, malicious senders and misconfigured hosts. Its peculiar nature makes it a valuable source of information to learn about malicious activities. However, the massive amount of packets and sources that reach darknets makes it hard to extract meaningful insights. In particular, multiple senders contact the darknet while performing similar and coordinated tasks, which are often commanded by common controllers (botnets, crawlers, etc.). How to automatically identify and group those senders that share similar behaviors remains an open problem. We here introduce DarkVec, a methodology to identify clusters of senders (i.e., IP addresses) engaged in similar activities on darknets. DarkVec leverages word embedding techniques (e.g., Word2Vec) to capture the co-occurrence patterns of sources hitting the darknets. We extensively test DarkVec and explore its design space in a case study using one month of darknet data. We show that with a proper definition of service, the generated embeddings can be easily used to (i) associate unknown senders’ IP addresses to the correct known labels (more than 96% accuracy), and (ii) identify new attack and scan groups of previously unknown senders. We contribute DarkVec source code and datasets to the community also to stimulate the use of word embeddings to automatically learn patterns on generic traffic traces  </div>
@@ -869,7 +878,8 @@ Navarro, Jose M. and Rossi, Dario,
   pages = {},
   doi = {},
   note = {bestpaperaward},
-  howpublished = {https://nonsns.github.io/paper/rossi20itc.pdf}
+  howpublished = {https://nonsns.github.io/paper/rossi20itc.pdf},
+  topic = {ad-fs}
 }
 </pre>  </div>
 <div id="Abstract-ITC-20" class="collapse well"> This paper presents HURRA, a system that aims to reduce the time spent by human operators in the process of network troubleshooting. To do so, it comprises two modules that are plugged after any anomaly detection algorithm: (i) a first attention mechanism, that ranks the present features in terms of their relation with the anomaly and (ii) a second module able to incorporates previous expert knowledge seamlessly, without any need of human interaction nor decisions. We show the efficacy of these simple processes on a collection of real router datasets obtained from tens of ISPs which exhibit a rich variety of anomalies and very heterogeneous set of KPIs, on which we gather manually annotated ground truth by the operator solving the troubleshooting ticket. Our experimental evaluation shows that (i) the proposed system is effective in achieving high levels of agreement with the expert, that (ii) even a simple statistical approach is able to extracting useful information from expert knowledge gained in past cases to further improve performance and finally that (iii) the main difficulty in live deployment concerns the automated selection of the anomaly detection algorithm and the tuning of its hyper-parameters.  </div>

@@ -134,6 +134,10 @@
   
     
       
+    
+  
+    
+      
       	
       	<li><a href="/archive">Archive</a></li>
       	
@@ -161,10 +165,6 @@
       	
       	<li><a href="/categories">Categories</a></li>
       	
-      
-    
-  
-    
       
     
   
@@ -729,10 +729,7 @@
     <div class="container">
       <h2 id="open-source-code">Open source code</h2>
 
-<ul>
-  <li>Whenever possible, we are willing to open source not only our <a href="/dataset"><i class="fa fa-cube"></i> datasets</a> but also our <a href="/code"><i class="fa fa-github"></i> code</a> to the community.</li>
-  <li>This page briefly introduce some software projects  you may find interesting – click on any image to visit the dedicated webpage!</li>
-</ul>
+<p>Whenever possible, we share not only our <a href="/publications/date"><i class="fa fa-book"></i> research results</a> and <a href="/dataset"><i class="fa fa-cube"></i> datasets</a> with the scientific community, but also open source code that this page points to.</p>
 
 <!--
 ![](/assets/images/lpcc+aqm-generality.png "Parallel coordinate plot confirming that the phenomenon is of fundamental nature and applies for every (LPCC,AQM) combination"){: width="500px"} 
@@ -745,10 +742,32 @@
 		img: "assets/images/code-ATF.png", 
 		caption: "Mind the fold!"  -->
 
-<div class="panel panel-primary" style="width: 75%">
+<div class="row">
+<div class="col-lg-4">
+ 
+ 
+
+<div class="panel panel-info" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	ATF-approximation
+	<a href="http://anycast.telecom-paristech.fr">iGreedy</a>
+	</strong></h3>
+	<p> <em> 
+	Our award-winning code for IPv4 anycast detection, enumeration and geolocalization.
+	</em></p>
+	</div>
+  	<div class="panel-body">  	
+  	<figure>
+	<a href="http://anycast.telecom-paristech.fr"><img src="/assets/images/anycast-animated-tiny.gif" style="width: 100%" /> </a>
+	<figcaption style="float: center"> Get the code, and run it from <a href="https://atlas.ripe.net/">RIPE Atlas</a> and <a href="https://www.planet-lab.org">PlanetLab!</a> </figcaption> 
+	</figure>
+ 	</div>
+</div>
+
+<div class="panel panel-default" style="width: 100%">
+	<div class="panel-heading">
+	<h3 class="panel-title"> <strong>
+	<a href="https://github.com/TeamRossi/ATF-chrome-plugin"> ATF-approximation </a>
 	</strong></h3>
 	<p> <em>
 	Definition and implementation (as a Chrome plugin) of approximate  Above-the-Fold (ATF)  and SpeedIndex-based metrics for Web performance evaluation.
@@ -765,27 +784,19 @@ Available on <a href="https://github.com/TeamRossi/ATF-chrome-plugin"><i class="
  	</div>
 </div>
 
-<div class="panel panel-info" style="width: 75%">
-	<div class="panel-heading">
-	<h3 class="panel-title"> <strong>
-	iGreedy 
-	</strong></h3>
-	<p> <em> 
-	Our award-winning code for IPv4 anycast detection, enumeration and geolocalization.
-	</em></p>
-	</div>
-  	<div class="panel-body">  	
-  	<figure>
-	<a href="http://anycast.telecom-paristech.fr"><img src="/assets/images/anycast-animated-tiny.gif" style="width: 100%" /> </a>
-	<figcaption style="float: center"> Get the code, and run it from <a href="https://atlas.ripe.net/">RIPE Atlas</a> and <a href="https://www.planet-lab.org">PlanetLab!</a> </figcaption> 
-	</figure>
- 	</div>
-</div>
 
-<div class="panel panel-primary" style="width: 75%">
+
+
+
+</div><!--col-lg-4-->
+<div class="col-lg-4">
+
+
+
+<div class="panel panel-default" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	ccnSim
+	<a href="/code/ccnSim"> ccnSim </a>
 	</strong></h3>
 	<p> <em>
 	An extremely scalable chunk-level simulator of Information and Content Centric Networks (ICN/CCN) written in C++ under the Omnet++ framework.
@@ -793,16 +804,17 @@ Available on <a href="https://github.com/TeamRossi/ATF-chrome-plugin"><i class="
 	</div>
   	<div class="panel-body">  	
   	<figure>
-	<a href="ccnSim"><img src="/assets/images/ccnsim-0.2-logo.png" style="width: 50%" /> </a>
+	<a href="/code/ccnSim"><img src="/assets/images/ccnsim-0.2-logo.png" style="width: 50%" /> </a>
 	<figcaption style="float: center"> Docker-ready, with all scripts to reproduce our work! </figcaption> 
 	</figure>
  	</div>
 </div>
 
-<div class="panel panel-info" style="width: 75%">
+
+<div class="panel panel-info" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	LEDBAT + LPCC
+	<a href="/code/ledbat">LEDBAT + LPCC</a>
 	</strong></h3>
 	<p> <em> 
 	ns2 and kernel module implementation of LEDBAT and other Low Priority Congestion Control (LPCC) schemes
@@ -810,16 +822,21 @@ Available on <a href="https://github.com/TeamRossi/ATF-chrome-plugin"><i class="
 	</div>
   	<div class="panel-body">  	
   	<figure>
-	<a href="ledbat"><img src="/assets/images/ledbat+lpcc.png" style="width: 100%" /> </a>
+	<a href="/code/ledbat"><img src="/assets/images/ledbat+lpcc.png" style="width: 100%" /> </a>
 	<figcaption style="float: center">  </figcaption> 
 	</figure>
  	</div>
 </div>
+  
 
-<div class="panel panel-primary" style="width: 75%">
+</div><!--col-lg-4-->
+<div class="col-lg-4">
+
+
+<div class="panel panel-info" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	LEDBAT + AQM
+	<a href="/code/ledbat+aqm">LEDBAT + AQM</a>
 	</strong></h3>
 	<p> <em>
 		Raising, demonstrating and fixing a negative interplay that arises whenever LEDBAT (or any other Low Priority Congestion Control scheme) interact with any Active Queuing Management (AQM) technique
@@ -827,30 +844,35 @@ Available on <a href="https://github.com/TeamRossi/ATF-chrome-plugin"><i class="
 	</div>
   	<div class="panel-body">  	
   	<figure>
-	<a href="ledbat+aqm"><img src="/assets/images/lpcc+aqm-generality.png" style="width: 100%" /> </a>
+	<a href="/code/ledbat+aqm"><img src="/assets/images/lpcc+aqm-generality.png" style="width: 100%" /> </a>
 	<figcaption style="float: center"> Fixing the negative interplay between LPCC and AQM </figcaption> 
 	</figure>
  	</div>
 </div>
 
-<div class="panel panel-info" style="width: 75%">
+
+
+<div class="panel panel-default" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	wowSim
+	<a href="/code/wowSim">wowSim</a>
 	</strong></h3>
 	<p> <em> 
-	Wireless On Wheels  simulator
+	Wireless On Wheels  simulator 
 	</em></p>
 	</div>
   	<div class="panel-body">  	
   	<figure>
-	<a href="/code/wowSim.html"><img src="/assets/images/wowSim-logo.png" style="width: 100%" /> </a>
+	<a href="/code/wowSim"><img src="/assets/images/wowSim-logo.png" style="width: 100%" /> </a>
 	<figcaption style="float: center">  </figcaption> 
 	V2V simulation with realistic mobility models. (As the picture implies, the webpage is maintained for historical reasons)
 	</figure>
  	</div>
 </div>
+ 
 
+ </div> 
+</div>
 
 
       <hr>
