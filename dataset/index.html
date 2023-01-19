@@ -353,7 +353,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/cv/#Bio">Bio</a>                                  
+                                    <a href="/cv/#Bio"><i class='fa fa-user'></i> Bio</a>
                                   
                                 </li>
                             
@@ -361,7 +361,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/cv/#Achievements">Achievements</a>                                  
+                                    <a href="/cv/#Achievements"><i class='fa fa-certificate'></i> Achievements</a>
                                   
                                 </li>
                             
@@ -369,7 +369,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/cv/#Awards">Awards</a>                                  
+                                    <a href="/cv/#Awards"><i class='fa fa-star'></i> Awards</a>
                                   
                                 </li>
                             
@@ -377,7 +377,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/cv/#Grants">Projects</a>                                  
+                                    <a href="/cv/#Grants"><i class='fa fa-usd'></i> Projects</a>
                                   
                                 </li>
                             
@@ -385,7 +385,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/cv/#Service">Service</a>                                  
+                                    <a href="/cv/#Service"><i class='fa fa-cogs'></i> Service</a>
                                   
                                 </li>
                             
@@ -393,7 +393,7 @@
                             
                                 <li>
                                   
-                                    <a href="https://nonsns.github.io/cv/#Alumni">Alumni</a>                                  
+                                    <a href="/cv/#Alumni"><i class='fa fa-users'></i> Alumni</a>
                                   
                                 </li>
                             
@@ -715,21 +715,35 @@
 
 
     <div class="container">
-      <h2 id="publicly-available-datasets">Publicly available datasets</h2>
+      <!-- last edited 2023/01/20 -->
 
-<ul>
-  <li>Whenever possible, we are willing to open not only our <a href="/code"><i class="fa fa-github"></i> code</a> but also our <a href="/dataset"><i class="fa fa-cube"></i> datasets</a> to the community.</li>
-  <li>This page briefly introduce the currently hosted datasets, click on any image to visit the dedicated webpage!</li>
-</ul>
+<h2 id="publicly-available-datasets">Publicly available datasets</h2>
 
-<!--
-![](/assets/images/lpcc+aqm-generality.png "Parallel coordinate plot confirming that the phenomenon is of fundamental nature and applies for every (LPCC,AQM) combination"){: width="500px"} 
--->
+<p>Whenever possible, we share not only our <a href="/code"><i class="fa fa-github"></i> code</a>, but also the  <a href="/dataset"><i class="fa fa-cube"></i> datasets</a> with the scientific community, that this page points to.</p>
 
-<div class="panel panel-primary" style="width: 75%">
+<div class="row">
+<div class="col-lg-4">
+
+  <div class="panel panel-info" style="width: 100%">
+	<div class="panel-heading">
+	<h3 class="panel-title"> <strong> 
+	<img src="/assets/images/icon-extlink.png" style="width:16px" /><a href="https://figshare.com/articles/dataset/AppClassNet_-_A_commercial-grade_dataset_for_application_identification_research/20375580"> AppClassNet</a> 	</strong></h3>
+	<p> <em>
+		AppClassNet is a carrier-grade dataset for traffic classification and application identification research, containing millions of labeled samples from hundreds of applications -- the networking equivalent of the ImageNet dataset!
+	</em></p>
+	</div>
+	<div class="panel-body">  	
+  	<figure>
+	<a href="IP-ID"><img src="/assets/images/dataset-appclassnet.png" style="width: 100%" /> </a>
+	<figcaption style="float: center"> Size of AppClassNet compared to other public datasets  </figcaption> 
+	</figure>
+   	</div>
+  </div>
+
+  <div class="panel panel-default" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	IP-ID census
+	<a href="IP-ID"> IP-ID census </a>
 	</strong></h3>
 	<p> <em>
 	Maps of IP-ID behaviors that are prevalent in the Internet. Censuses at IP/24 level, along with training set with manual ground truth.
@@ -740,13 +754,15 @@
 	<a href="IP-ID"><img src="/assets/images/ipid.png" style="width: 100%" /> </a>
 	<figcaption style="float: center"> Synoptic of IP-ID host behaviors </figcaption> 
 	</figure>
- 	</div>
-</div>
+   	</div>
+  </div>
+  
+ 
 
-<div class="panel panel-info" style="width: 75%">
+  <div class="panel panel-info" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	Anycast geolocation
+	<img src="/assets/images/icon-extlink.png" style="width:16px" /><a href="http://anycast.telecom-paristech.fr"> Anycast geolocation </a>
 	</strong></h3>
 	<p> <em> 
 	Maps of anycast IPv4 enumeration and geolocalization. Monthly censuses at IP/24 level, lists, Google maps and more! 
@@ -758,46 +774,55 @@
 	<figcaption style="float: center"> Slideshow of anycast resources available on the website </figcaption> 
 	</figure>
  	</div>
-</div>
+  </div>
 
-<div class="panel panel-primary" style="width: 75%">
+
+</div><!--col-lg-4-->
+<div class="col-lg-4">
+
+
+  <div class="panel panel-default" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	WebMOS
+	 <img src="/assets/images/icon-extlink.png" style="width:16px" /><a href="http://webqoe.telecom-paristech.fr"> Web QoE</a> 
 	</strong></h3>
 	<p> <em>
-	Over 9,000 user MOS points for modern Web browsing in the era of HTTP/2.  Automated crawling of Alexa top-100 for the validation of advanced QoE metrics (ObjectIndex, ByteIndex and Above-The-Fold).
+	A collection of award winning datasets including both automated collection, as well as large-scale real users campaign.
 	</em></p>
 	</div>
   	<div class="panel-body">  	
   	<figure>
-	<a href="https://newnet.telecom-paristech.fr/index.php/webqoe/"><img src="/assets/images/webqoe.png" style="width: 100%" /> </a>
-	<figcaption style="float: center"> Grab our award-winning datasets and watch our cool video! soon a meme on YouTube ;) </figcaption> 
+	<a href="https://webqoe.telecom-paristech.fr"><img src="/assets/images/datasets-webqoe.png" style="width: 100%" /> </a>
+	<figcaption style="float: center"> Summary of available datasets  </figcaption> 
 	</figure>
  	</div>
-</div>
+  </div>
 
-<div class="panel panel-info" style="width: 75%">
+ 
+ 
+  <div class="panel panel-info" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	LEDBAT + BitTorrent
+	<a href="bufferbloat"> LEDBAT + BitTorrent </a>
 	</strong></h3>
 	<p> <em> 
-	Over 20GB of controlled experiments with different congestion control algorithms,  showing an interplay of data plane throughput vs control plane dela in the performance of distributed applications.
+	Over 20GB of controlled experiments with different congestion control algorithms,  showing an interplay of data plane throughput vs control plane delay in the performance of distributed applications.
 	</em></p>
 	</div>
   	<div class="panel-body">  	
   	<figure>
 	<a href="ledbat+bittorrent"><img src="/assets/images/ledbat+bittorrent.png" style="width: 100%" /> </a>
-	<figcaption style="float: center"> Download time distribution for difference congestion control protocols.... Moral: be slow to be faster!  </figcaption> 
+	<figcaption style="float: center"> Download time distribution for difference congestion control protocols </figcaption> 
 	</figure>
  	</div>
-</div>
+  </div>
 
-<div class="panel panel-primary" style="width: 75%">
+
+
+  <div class="panel panel-default" style="width: 100%">
 	<div class="panel-heading">
 	<h3 class="panel-title"> <strong>
-	Bufferbloat
+	<a href="bufferbloat"> Bufferbloat</a>
 	</strong></h3>
 	<p> <em>
 	Methodology to infer queuing delay from simple non-intrusive measurement, along with Internet-wide measurement campaign for BitTorrent hosts and other targets
@@ -810,6 +835,12 @@
 	</figure>
  	</div>
 </div>
+
+ 
+</div><!--col-lg-4-->
+</div>
+<!--row-->
+
 
 
       <hr>
