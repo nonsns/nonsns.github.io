@@ -30,6 +30,7 @@
 /projects/overview/
 /pages
 /publications/project/
+/projects/
 /publications/
 /projects/qoe
 /projects/radio-ressource-management/
