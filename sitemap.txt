@@ -1,4 +1,5 @@
 
+/404/
 /demo/BrainDrain/
 /dataset/IP-ID/
 /dataset/WebMOS/
@@ -27,7 +28,6 @@
 /dataset/ledbat+bittorrent/
 /code/ledbat/
 /seminar/next/
-/projects/overview/
 /pages
 /publications/project/
 /projects/
