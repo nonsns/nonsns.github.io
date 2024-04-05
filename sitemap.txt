@@ -4,7 +4,6 @@
 /dataset/IP-ID/
 /dataset/WebMOS/
 /projects/ai-native/
-/seminar/all/
 /projects/anomaly-detection/
 /archive
 /code/atf/
@@ -21,7 +20,7 @@
 /publications/date/
 /demo/
 /code/FD.io/
-/seminar
+/seminar/
 /
 /index.md_2022
 /code/ledbat+aqm/
