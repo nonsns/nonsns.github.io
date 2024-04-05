@@ -20,7 +20,7 @@
 /publications/date/
 /demo/
 /code/FD.io/
-/seminar/
+/seminar/index.html
 /
 /index.md_2022
 /code/ledbat+aqm/
